@@ -47,7 +47,7 @@ edwards:floral_oriental a skos:Concept;
 edwards:oriental_primary a skos:Concept;
     skos:topConceptOf edwards: ;
     dbp:prev edwards:floral_primary;
-    dbp:next edwards:woody_primary;
+    dbp:next edwards:woody;
     skos:prefLabel "Oriental (primary)"@en .
 
 edwards:soft_oriental a skos:Concept;
@@ -133,9 +133,9 @@ edwards:green a skos:Concept;
     dbp:next edwards:water;
     skos:prefLabel "Green"@en .
 
-  edwards:water a skos:Concept;
-      skos:inScheme edwards: ;
-      skos:broader edwards:fresh;
-      dbp:prev edwards:green;
-      dbp:next edwards:floral;
-      skos:prefLabel "Water"@en .
+edwards:water a skos:Concept;
+    skos:inScheme edwards: ;
+    skos:broader edwards:fresh;
+    dbp:prev edwards:green;
+    dbp:next edwards:floral;
+    skos:prefLabel "Water"@en .
