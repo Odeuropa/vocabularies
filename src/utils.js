@@ -29,3 +29,7 @@ export function save(name, outputFolder) {
     console.log(`File written: ${output}`);
   });
 }
+
+export function capitalize(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}

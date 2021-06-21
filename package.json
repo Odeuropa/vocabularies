@@ -2,7 +2,7 @@
   "name": "odeuropa-vocabularies",
   "version": "1.0.0",
   "description": "Vocabulary converter",
-  "repository" : "https://github.com/Odeuropa/vocabularies", 
+  "repository": "https://github.com/Odeuropa/vocabularies",
   "type": "module",
   "main": "converter.js",
   "scripts": {
@@ -12,15 +12,17 @@
   "license": "ISC",
   "dependencies": {
     "argparse": "^2.0.1",
+    "command-line-args": "^5.1.1",
     "csvtojson": "^2.0.10",
-    "fs-extra": "^9.1.0",
-    "rdflib": "^2.1.7",
+    "fs-extra": "^10.0.0",
+    "klaw-sync": "^6.0.0",
+    "rdflib": "^2.2.5",
     "valid-url": "^1.0.9",
-    "yaml": "^1.10.0"
+    "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "eslint": "^7.2.0",
+    "eslint": "^7.29.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.23.4"
   }
 }

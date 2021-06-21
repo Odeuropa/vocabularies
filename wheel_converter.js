@@ -93,11 +93,11 @@ function parseArgs() {
     help: 'Source file name. '
       + 'The software will search for this name in the `raw` folder.',
   });
-  parser.add_argument('--folder', {
+  parser.add_argument('-s', '--src', {
     help: 'Source file folder. ',
     default: './raw',
   });
-  parser.add_argument('-o', '--output', {
+  parser.add_argument('-d', '--dst', {
     help: 'Destination file folder. ',
     default: './vocabularies',
   });
@@ -105,5 +105,5 @@ function parseArgs() {
   return parser.parse_args();
 }
 
-const { name, folder, output } = parseArgs();
-main(name, folder, output);
+const { name, src, dst } = parseArgs();
+main(name, src, dst);
