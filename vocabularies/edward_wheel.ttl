@@ -1,141 +1,161 @@
+@prefix dbp: <http://dbpedia.org/property/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix getty: <http://vocab.getty.edu/aat/> .
-@prefix pav: <http://purl.org/pav/> .
+@prefix edwards: <http://data.odeuropa.eu/vocabulary/edwards/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbr: <http://dbpedia.org/resource/> .
-@prefix dbp: <http://dbpedia.org/property/> .
-@prefix edwards: <http://data.odeuropa.eu/vocabulary/edwards/>.
-@prefix voc: <http://data.odeuropa.eu/vocabulary/>.
 
-<http://data.odeuropa.eu/vocabulary/edwards/> a skos:ConceptScheme;
-    rdfs:label "Michael Edwards' scent wheel"@en;
-    dct:type voc:scent_wheel ;
-    dct:creator <http://dbpedia.org/resource/Michael_Edwards_(fragrance_expert)> ;
-    dct:created "1983"^^xsd:gYear;
-    dct:modified "2010"^^xsd:gYear .
+edwards:aromatic a skos:Concept ;
+    dbp:next edwards:citrus ;
+    dbp:prev edwards:dry_woods ;
+    skos:altLabel "Aromatic Fougère"@en,
+        "Fougère"@en ;
+    skos:broader edwards:woody ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Aromatic"@en .
 
-edwards:floral_primary a skos:Concept;
-    skos:topConceptOf edwards: ;
-    dbp:prev edwards:fresh;
-    dbp:next edwards:oriental_primary;
-    skos:prefLabel "Floral (primary)"@en .
-
-edwards:floral a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:floral_primary;
-    dbp:prev edwards:water;
-    dbp:next edwards:soft_floral;
-    skos:prefLabel "Floral"@en .
-
-edwards:soft_floral a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:floral_primary;
-    dbp:prev edwards:floral;
-    dbp:next edwards:floral_oriental;
-    skos:prefLabel "Soft Floral"@en .
-
-edwards:floral_oriental a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:floral_primary;
-    dbp:prev edwards:soft_floral;
-    dbp:next edwards:soft_oriental;
-    skos:prefLabel "Floral Oriental"@en .
-
-edwards:oriental_primary a skos:Concept;
-    skos:topConceptOf edwards: ;
-    dbp:prev edwards:floral_primary;
-    dbp:next edwards:woody;
-    skos:prefLabel "Oriental (primary)"@en .
-
-edwards:soft_oriental a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:oriental_primary;
-    dbp:prev edwards:floral_oriental;
-    dbp:next edwards:oriental;
-    skos:prefLabel "Soft Oriental"@en .
-
-edwards:oriental a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:oriental_primary;
-    dbp:prev edwards:soft_oriental;
-    dbp:next edwards:woody_oriental;
-    skos:prefLabel "Oriental"@en .
-
-edwards:woody_oriental a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:oriental_primary;
-    dbp:prev edwards:oriental;
-    dbp:next edwards:woods;
-    skos:prefLabel "Woody Oriental"@en .
-
-edwards:woody a skos:Concept;
-    skos:topConceptOf edwards: ;
-    dbp:prev edwards:floral_primary;
-    dbp:next edwards:fresh;
-    skos:prefLabel "Woody"@en .
-
-edwards:woods a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:woody;
-    dbp:prev edwards:woody_oriental;
-    dbp:next edwards:mossy_woods;
-    skos:prefLabel "Woods"@en .
-
-edwards:mossy_woods a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:woody;
-    dbp:prev edwards:woods;
-    dbp:next edwards:dry_woods;
-    skos:prefLabel "Mossy Woods"@en .
-
-edwards:dry_woods a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:woody;
-    dbp:prev edwards:mossy_woods;
-    dbp:next edwards:aromatic;
-    skos:prefLabel "Dry Woods"@en .
-
-edwards:aromatic a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:woody;
-    dbp:prev edwards:dry_woods;
-    dbp:next edwards:citrus;
-    skos:prefLabel "Aromatic"@en;
-    skos:altLabel "Aromatic Fougère"@en, "Fougère"@en .
-
-edwards:fresh a skos:Concept;
-    skos:topConceptOf edwards: ;
-    dbp:prev edwards:woody;
-    dbp:next edwards:floral_primary;
-    skos:prefLabel "Fresh"@en .
-
-edwards:citrus a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:fresh;
-    dbp:prev edwards:aromatic;
-    dbp:next edwards:fruity;
+edwards:citrus a skos:Concept ;
+    dbp:next edwards:fruity ;
+    dbp:prev edwards:aromatic ;
+    skos:broader edwards:fresh ;
+    skos:inScheme voc:edwards ;
     skos:prefLabel "Citrus"@en .
 
-edwards:fruity a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:fresh;
-    dbp:prev edwards:citrus;
-    dbp:next edwards:green;
+edwards:dry_woods a skos:Concept ;
+    dbp:next edwards:aromatic ;
+    dbp:prev edwards:mossy_woods ;
+    skos:broader edwards:woody ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Dry Woods"@en .
+
+edwards:floral a skos:Concept ;
+    dbp:next edwards:soft_floral ;
+    dbp:prev edwards:water ;
+    skos:broader edwards:floral_primary ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Floral"@en .
+
+edwards:floral_oriental a skos:Concept ;
+    dbp:next edwards:soft_oriental ;
+    dbp:prev edwards:soft_floral ;
+    skos:broader edwards:floral_primary ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Floral Oriental"@en .
+
+edwards:fruity a skos:Concept ;
+    dbp:next edwards:green ;
+    dbp:prev edwards:citrus ;
+    skos:broader edwards:fresh ;
+    skos:inScheme voc:edwards ;
     skos:prefLabel "Fruity"@en .
 
-edwards:green a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:fresh;
-    dbp:prev edwards:fruity;
-    dbp:next edwards:water;
+edwards:green a skos:Concept ;
+    dbp:next edwards:water ;
+    dbp:prev edwards:fruity ;
+    skos:broader edwards:fresh ;
+    skos:inScheme voc:edwards ;
     skos:prefLabel "Green"@en .
 
-edwards:water a skos:Concept;
-    skos:inScheme edwards: ;
-    skos:broader edwards:fresh;
-    dbp:prev edwards:green;
-    dbp:next edwards:floral;
+edwards:mossy_woods a skos:Concept ;
+    dbp:next edwards:dry_woods ;
+    dbp:prev edwards:woods ;
+    skos:broader edwards:woody ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Mossy Woods"@en .
+
+edwards:oriental a skos:Concept ;
+    dbp:next edwards:woody_oriental ;
+    dbp:prev edwards:soft_oriental ;
+    skos:broader edwards:oriental_primary ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Oriental"@en .
+
+edwards:soft_floral a skos:Concept ;
+    dbp:next edwards:floral_oriental ;
+    dbp:prev edwards:floral ;
+    skos:broader edwards:floral_primary ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Soft Floral"@en .
+
+edwards:soft_oriental a skos:Concept ;
+    dbp:next edwards:oriental ;
+    dbp:prev edwards:floral_oriental ;
+    skos:broader edwards:oriental_primary ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Soft Oriental"@en .
+
+edwards:water a skos:Concept ;
+    dbp:next edwards:floral ;
+    dbp:prev edwards:green ;
+    skos:broader edwards:fresh ;
+    skos:inScheme voc:edwards ;
     skos:prefLabel "Water"@en .
+
+edwards:woods a skos:Concept ;
+    dbp:next edwards:mossy_woods ;
+    dbp:prev edwards:woody_oriental ;
+    skos:broader edwards:woody ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Woods"@en .
+
+edwards:woody_oriental a skos:Concept ;
+    dbp:next edwards:woods ;
+    dbp:prev edwards:oriental ;
+    skos:broader edwards:oriental_primary ;
+    skos:inScheme voc:edwards ;
+    skos:prefLabel "Woody Oriental"@en .
+
+edwards:oriental_primary a skos:Concept ;
+    dbp:next edwards:woody ;
+    dbp:prev edwards:floral_primary ;
+    skos:inScheme voc:edwards ;
+    skos:narrower edwards:oriental,
+        edwards:soft_oriental,
+        edwards:woody_oriental ;
+    skos:prefLabel "Oriental (primary)"@en ;
+    skos:topConceptOf voc:edwards .
+
+edwards:floral_primary a skos:Concept ;
+    dbp:next edwards:oriental_primary ;
+    dbp:prev edwards:fresh ;
+    skos:inScheme voc:edwards ;
+    skos:narrower edwards:floral,
+        edwards:floral_oriental,
+        edwards:soft_floral ;
+    skos:prefLabel "Floral (primary)"@en ;
+    skos:topConceptOf voc:edwards .
+
+edwards:fresh a skos:Concept ;
+    dbp:next edwards:floral_primary ;
+    dbp:prev edwards:woody ;
+    skos:inScheme voc:edwards ;
+    skos:narrower edwards:citrus,
+        edwards:fruity,
+        edwards:green,
+        edwards:water ;
+    skos:prefLabel "Fresh"@en ;
+    skos:topConceptOf voc:edwards .
+
+edwards:woody a skos:Concept ;
+    dbp:next edwards:fresh ;
+    dbp:prev edwards:floral_primary ;
+    skos:inScheme voc:edwards ;
+    skos:narrower edwards:aromatic,
+        edwards:dry_woods,
+        edwards:mossy_woods,
+        edwards:woods ;
+    skos:prefLabel "Woody"@en ;
+    skos:topConceptOf voc:edwards .
+
+voc:edwards a skos:ConceptScheme ;
+    rdfs:label "Michael Edwards' scent wheel"@en ;
+    dct:created "1983-01-01"^^xsd:gYear ;
+    dct:creator <http://dbpedia.org/resource/Michael_Edwards_(fragrance_expert)> ;
+    dct:modified "2010-01-01"^^xsd:gYear ;
+    dct:type voc:scent_wheel ;
+    skos:hasTopConcept edwards:floral_primary,
+        edwards:fresh,
+        edwards:oriental_primary,
+        edwards:woody .
+

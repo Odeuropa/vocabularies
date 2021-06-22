@@ -180,7 +180,7 @@ fragrant-spaces:85 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:87 a skos:Concept ;
-    skos:altLabel "artsenijtuin"@nl,
+    skos:altLabel "Artsenijtuin"@nl,
         "plantaadje"@nl,
         "plantage"@nl ;
     skos:inScheme odeuropa:fragrant-spaces ;
@@ -210,121 +210,121 @@ olf:36 skos:related fragrant-spaces:10 .
 
 olf:68 skos:related fragrant-spaces:26 .
 
-iconclass:12I61 skos:exactMatch fragrant-spaces:89 .
+iconclass:12I61 skos:closeMatch fragrant-spaces:89 .
 
-iconclass:25H11 skos:exactMatch fragrant-spaces:49 .
+iconclass:25H11 skos:closeMatch fragrant-spaces:49 .
 
-iconclass:25H119 skos:exactMatch fragrant-spaces:12 .
+iconclass:25H119 skos:closeMatch fragrant-spaces:12 .
 
-iconclass:25H133 skos:exactMatch fragrant-spaces:5 .
+iconclass:25H133 skos:closeMatch fragrant-spaces:5 .
 
-iconclass:25H15 skos:exactMatch fragrant-spaces:19 .
+iconclass:25H15 skos:closeMatch fragrant-spaces:19 .
 
-iconclass:25H159 skos:exactMatch fragrant-spaces:20 .
+iconclass:25H159 skos:closeMatch fragrant-spaces:20 .
 
-iconclass:25H17 skos:exactMatch fragrant-spaces:48 .
+iconclass:25H17 skos:closeMatch fragrant-spaces:48 .
 
-iconclass:25H19 skos:exactMatch fragrant-spaces:66 .
+iconclass:25H19 skos:closeMatch fragrant-spaces:66 .
 
-iconclass:25H191 skos:exactMatch fragrant-spaces:67 .
+iconclass:25H191 skos:closeMatch fragrant-spaces:67 .
 
-iconclass:25H22 skos:exactMatch fragrant-spaces:11 .
+iconclass:25H22 skos:closeMatch fragrant-spaces:11 .
 
-iconclass:25H2321 skos:exactMatch fragrant-spaces:51 .
+iconclass:25H2321 skos:closeMatch fragrant-spaces:51 .
 
-iconclass:25H2322 skos:exactMatch fragrant-spaces:93 .
+iconclass:25H2322 skos:closeMatch fragrant-spaces:93 .
 
-iconclass:25I141 skos:exactMatch fragrant-spaces:64 .
+iconclass:25I141 skos:closeMatch fragrant-spaces:64 .
 
-iconclass:25I1411 skos:exactMatch fragrant-spaces:40 .
+iconclass:25I1411 skos:closeMatch fragrant-spaces:40 .
 
-iconclass:25I2 skos:exactMatch fragrant-spaces:73 .
+iconclass:25I2 skos:closeMatch fragrant-spaces:73 .
 
-iconclass:25I4 skos:exactMatch fragrant-spaces:22 .
+iconclass:25I4 skos:closeMatch fragrant-spaces:22 .
 
-iconclass:31A5451 skos:exactMatch fragrant-spaces:59 .
+iconclass:31A5451 skos:closeMatch fragrant-spaces:59 .
 
-iconclass:33C51 skos:exactMatch fragrant-spaces:82 .
+iconclass:33C51 skos:closeMatch fragrant-spaces:82 .
 
-iconclass:41A17 skos:exactMatch fragrant-spaces:25 .
+iconclass:41A17 skos:closeMatch fragrant-spaces:25 .
 
-iconclass:41A223 skos:exactMatch fragrant-spaces:15 .
+iconclass:41A223 skos:closeMatch fragrant-spaces:15 .
 
-iconclass:41A24 skos:exactMatch fragrant-spaces:4 .
+iconclass:41A24 skos:closeMatch fragrant-spaces:4 .
 
-iconclass:41A6 skos:exactMatch fragrant-spaces:27 .
+iconclass:41A6 skos:closeMatch fragrant-spaces:27 .
 
-iconclass:41A635 skos:exactMatch fragrant-spaces:81 .
+iconclass:41A635 skos:closeMatch fragrant-spaces:81 .
 
-iconclass:41C21 skos:exactMatch fragrant-spaces:37 .
+iconclass:41C21 skos:closeMatch fragrant-spaces:37 .
 
-iconclass:41C231 skos:exactMatch fragrant-spaces:38 .
+iconclass:41C231 skos:closeMatch fragrant-spaces:38 .
 
-iconclass:41C232 skos:exactMatch fragrant-spaces:39 .
+iconclass:41C232 skos:closeMatch fragrant-spaces:39 .
 
-iconclass:41D422 skos:exactMatch fragrant-spaces:8 .
+iconclass:41D422 skos:closeMatch fragrant-spaces:8 .
 
-iconclass:41D428 skos:exactMatch fragrant-spaces:9 .
+iconclass:41D428 skos:closeMatch fragrant-spaces:9 .
 
-iconclass:41D4281 skos:exactMatch fragrant-spaces:75 .
+iconclass:41D4281 skos:closeMatch fragrant-spaces:75 .
 
-iconclass:42E43 skos:exactMatch fragrant-spaces:77 .
+iconclass:42E43 skos:closeMatch fragrant-spaces:77 .
 
-iconclass:43A23 skos:exactMatch fragrant-spaces:3 .
+iconclass:43A23 skos:closeMatch fragrant-spaces:3 .
 
-iconclass:43A3 skos:exactMatch fragrant-spaces:79 .
+iconclass:43A3 skos:closeMatch fragrant-spaces:79 .
 
-iconclass:43B31 skos:exactMatch fragrant-spaces:36 .
+iconclass:43B31 skos:closeMatch fragrant-spaces:36 .
 
-iconclass:43B311 skos:exactMatch fragrant-spaces:92 .
+iconclass:43B311 skos:closeMatch fragrant-spaces:92 .
 
-iconclass:43B312 skos:exactMatch fragrant-spaces:72 .
+iconclass:43B312 skos:closeMatch fragrant-spaces:72 .
 
-iconclass:44G311 skos:exactMatch fragrant-spaces:56 .
+iconclass:44G311 skos:closeMatch fragrant-spaces:56 .
 
-iconclass:45C723 skos:exactMatch fragrant-spaces:78 .
+iconclass:45C723 skos:closeMatch fragrant-spaces:78 .
 
-iconclass:45H3 skos:exactMatch fragrant-spaces:76 .
+iconclass:45H3 skos:closeMatch fragrant-spaces:76 .
 
-iconclass:46B11 skos:exactMatch fragrant-spaces:45 .
+iconclass:46B11 skos:closeMatch fragrant-spaces:45 .
 
-iconclass:46B112 skos:exactMatch fragrant-spaces:46 .
+iconclass:46B112 skos:closeMatch fragrant-spaces:46 .
 
-iconclass:46B322 skos:exactMatch fragrant-spaces:52 .
+iconclass:46B322 skos:closeMatch fragrant-spaces:52 .
 
-iconclass:46C1315 skos:exactMatch fragrant-spaces:60 .
+iconclass:46C1315 skos:closeMatch fragrant-spaces:60 .
 
-iconclass:47A12 skos:exactMatch fragrant-spaces:23 .
+iconclass:47A12 skos:closeMatch fragrant-spaces:23 .
 
-iconclass:47A22 skos:exactMatch fragrant-spaces:24 .
+iconclass:47A22 skos:closeMatch fragrant-spaces:24 .
 
-iconclass:47B27 skos:exactMatch fragrant-spaces:13 .
+iconclass:47B27 skos:closeMatch fragrant-spaces:13 .
 
-iconclass:47F31 skos:exactMatch fragrant-spaces:41 .
+iconclass:47F31 skos:closeMatch fragrant-spaces:41 .
 
-iconclass:47H411 skos:exactMatch fragrant-spaces:80 .
+iconclass:47H411 skos:closeMatch fragrant-spaces:80 .
 
-iconclass:47I2271 skos:exactMatch fragrant-spaces:63 .
+iconclass:47I2271 skos:closeMatch fragrant-spaces:63 .
 
-iconclass:47I23 skos:exactMatch fragrant-spaces:57 .
+iconclass:47I23 skos:closeMatch fragrant-spaces:57 .
 
-iconclass:47I31 skos:exactMatch fragrant-spaces:50 .
+iconclass:47I31 skos:closeMatch fragrant-spaces:50 .
 
-iconclass:47I53 skos:exactMatch fragrant-spaces:29 .
+iconclass:47I53 skos:closeMatch fragrant-spaces:29 .
 
-iconclass:47I531 skos:exactMatch fragrant-spaces:33 .
+iconclass:47I531 skos:closeMatch fragrant-spaces:33 .
 
-iconclass:48A821 skos:exactMatch fragrant-spaces:54 .
+iconclass:48A821 skos:closeMatch fragrant-spaces:54 .
 
-iconclass:49F11 skos:exactMatch fragrant-spaces:84 .
+iconclass:49F11 skos:closeMatch fragrant-spaces:84 .
 
-iconclass:49G4 skos:exactMatch fragrant-spaces:32 .
+iconclass:49G4 skos:closeMatch fragrant-spaces:32 .
 
-iconclass:49G41 skos:exactMatch fragrant-spaces:74 .
+iconclass:49G41 skos:closeMatch fragrant-spaces:74 .
 
-iconclass:49GB skos:exactMatch fragrant-spaces:58 .
+iconclass:49GB skos:closeMatch fragrant-spaces:58 .
 
-<http://iconclass.org/?> skos:exactMatch fragrant-spaces:43 .
+<http://iconclass.org/?> skos:closeMatch fragrant-spaces:43 .
 
 wordnet:2955921 skos:exactMatch fragrant-spaces:16 .
 
@@ -343,7 +343,7 @@ fragrant-spaces:11 a skos:Concept ;
         "Naviglio"@it,
         "Roggia"@it,
         "Kanaal"@nl ;
-    skos:exactMatch iconclass:25H22 ;
+    skos:closeMatch iconclass:25H22 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Canal"@en,
         "Canal"@fr,
@@ -357,7 +357,7 @@ fragrant-spaces:12 a skos:Concept ;
         "Caverne"@fr,
         "Grotta"@it,
         "Grot"@nl ;
-    skos:exactMatch iconclass:25H119 ;
+    skos:closeMatch iconclass:25H119 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Cave"@en,
         "Grotte"@fr,
@@ -366,7 +366,7 @@ fragrant-spaces:12 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:15 a skos:Concept ;
-    skos:exactMatch iconclass:41A223 ;
+    skos:closeMatch iconclass:41A223 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Dining-room"@en,
         "Salle à manger"@fr,
@@ -376,7 +376,7 @@ fragrant-spaces:15 a skos:Concept ;
 
 fragrant-spaces:22 a skos:Concept ;
     skos:altLabel "Stabilimenti e mulini sullo sfondo"@it ;
-    skos:exactMatch iconclass:25I4 ;
+    skos:closeMatch iconclass:25I4 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Factories and mills in landscape"@en,
         "Usines, fabriques et moulins dans un paysage"@fr,
@@ -388,7 +388,7 @@ fragrant-spaces:29 a skos:Concept ;
     skos:altLabel "Orangery"@en,
         "Arancera"@it,
         "Orangerie"@nl ;
-    skos:exactMatch iconclass:47I53 ;
+    skos:closeMatch iconclass:47I53 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Greenhouse"@en,
         "Serre"@fr,
@@ -398,8 +398,8 @@ fragrant-spaces:29 a skos:Concept ;
 
 fragrant-spaces:3 a skos:Concept ;
     skos:altLabel "Dansfeest"@nl ;
+    skos:closeMatch iconclass:43A23 ;
     skos:definition "Formal dance"@en ;
-    skos:exactMatch iconclass:43A23 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Ball"@en,
         "Bal"@fr,
@@ -408,10 +408,10 @@ fragrant-spaces:3 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:33 a skos:Concept ;
-    skos:altLabel "glass-house"@en ;
-    skos:exactMatch iconclass:47I531 ;
+    skos:altLabel "Glass-house"@en ;
+    skos:closeMatch iconclass:47I531 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "hot-house"@en,
+    skos:prefLabel "Hot-house"@en,
         "Serre chaude"@fr,
         "Serra riscaldata"@it,
         "Broeikas"@nl ;
@@ -423,7 +423,7 @@ fragrant-spaces:36 a skos:Concept ;
         "Bar"@it,
         "Bottega del caffè"@it,
         "Caffè"@it ;
-    skos:exactMatch iconclass:43B31 ;
+    skos:closeMatch iconclass:43B31 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Coffee-house"@en,
         "Café"@fr,
@@ -434,7 +434,7 @@ fragrant-spaces:36 a skos:Concept ;
 fragrant-spaces:4 a skos:Concept ;
     skos:altLabel "Salle d'eau"@fr,
         "Toilettes"@fr ;
-    skos:exactMatch iconclass:41A24 ;
+    skos:closeMatch iconclass:41A24 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Bathroom"@en,
         "Salle de bain"@fr,
@@ -449,7 +449,7 @@ fragrant-spaces:40 a skos:Concept ;
         "Vico"@it,
         "Vicolo"@it,
         "Viuzza"@it ;
-    skos:exactMatch iconclass:25I1411 ;
+    skos:closeMatch iconclass:25I1411 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Lane"@en,
         "Ruelle"@fr,
@@ -464,8 +464,8 @@ fragrant-spaces:41 a skos:Concept ;
         "Magasin"@fr,
         "Stock"@fr,
         "Deposito"@it ;
+    skos:closeMatch iconclass:47F31 ;
     skos:definition "Large-scale structure for storage"@en ;
-    skos:exactMatch iconclass:47F31 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Warehouse"@en,
         "Entrepôt"@fr,
@@ -475,8 +475,8 @@ fragrant-spaces:41 a skos:Concept ;
 
 fragrant-spaces:43 a skos:Concept ;
     skos:altLabel "Limonaia"@fr ;
+    skos:closeMatch <http://iconclass.org/?> ;
     skos:definition "A greenhouse for lemons"@en ;
-    skos:exactMatch <http://iconclass.org/?> ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Limonaia"@en,
         "Orangerie"@fr,
@@ -492,9 +492,9 @@ fragrant-spaces:48 a skos:Concept ;
         "Pastura"@it,
         "Weide"@nl,
         "veld"@nl ;
-    skos:exactMatch iconclass:25H17 ;
+    skos:closeMatch iconclass:25H17 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "meadow, pasture"@en,
+    skos:prefLabel "Meadow, pasture"@en,
         "Pàturage"@fr,
         "Pascolo"@it,
         "Weiland"@nl ;
@@ -502,9 +502,9 @@ fragrant-spaces:48 a skos:Concept ;
 
 fragrant-spaces:49 a skos:Concept ;
     skos:altLabel "Mont"@fr ;
-    skos:exactMatch iconclass:25H11 ;
+    skos:closeMatch iconclass:25H11 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "mountain"@en,
+    skos:prefLabel "Mountain"@en,
         "Montange"@fr,
         "Montagna"@it,
         "Bergen"@nl ;
@@ -512,7 +512,7 @@ fragrant-spaces:49 a skos:Concept ;
 
 fragrant-spaces:5 a skos:Concept ;
     skos:altLabel "Littoral"@fr ;
-    skos:exactMatch iconclass:25H133 ;
+    skos:closeMatch iconclass:25H133 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Beach"@en,
         "Spiaggia"@fr,
@@ -525,7 +525,7 @@ fragrant-spaces:50 a skos:Concept ;
         "Jardinerie"@fr,
         "Vivier"@fr,
         "Orto"@it ;
-    skos:exactMatch iconclass:47I31 ;
+    skos:closeMatch iconclass:47I31 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Nursery, market garden"@en,
         "Pépinière"@fr,
@@ -534,7 +534,7 @@ fragrant-spaces:50 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:52 a skos:Concept ;
-    skos:exactMatch iconclass:46B322 ;
+    skos:closeMatch iconclass:46B322 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Office"@en,
         "Bureau"@fr,
@@ -548,7 +548,7 @@ fragrant-spaces:54 a skos:Concept ;
         "Esibizione permanente"@it,
         "Galleria"@it,
         "Tentoonstellingsruimte"@nl ;
-    skos:exactMatch iconclass:48A821 ;
+    skos:closeMatch iconclass:48A821 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Permanent exhibition"@en,
         "Musée"@fr,
@@ -575,7 +575,7 @@ fragrant-spaces:56 a skos:Concept ;
         "Gattabuia"@it,
         "Penitenziario"@it,
         "Gevang"@nl ;
-    skos:exactMatch iconclass:44G311 ;
+    skos:closeMatch iconclass:44G311 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Prison"@en,
         "Prison"@fr,
@@ -587,7 +587,7 @@ fragrant-spaces:58 a skos:Concept ;
     skos:altLabel "Badestube"@de,
         "Apothekersbenodidheden"@nl,
         "simplicia"@nl ;
-    skos:exactMatch iconclass:49GB ;
+    skos:closeMatch iconclass:49GB ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Badehaus"@de,
         "Pharmacy"@en,
@@ -601,22 +601,22 @@ fragrant-spaces:59 a skos:Concept ;
         "Thermes"@fr,
         "Terme"@it,
         "Badhuis"@nl,
-        "kopalna hiša"@sl ;
+        "Kopalna hiša"@sl ;
+    skos:closeMatch iconclass:31A5451 ;
     skos:definition "Either Roman 'terme' where people can either bathe or get cleansed with steam, or a space with a pool or bath where people can bathe"@en ;
-    skos:exactMatch iconclass:31A5451 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Public Bath"@en,
         "Bains publics"@fr,
         "Bagni pubblici"@it,
         "Openbare baden"@nl,
-        "kopališče"@sl ;
+        "Kopališče"@sl ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:60 a skos:Concept ;
     skos:altLabel "Haras"@fr ;
-    skos:exactMatch iconclass:46C1315 ;
+    skos:closeMatch iconclass:46C1315 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "stud farm"@en,
+    skos:prefLabel "Stud farm"@en,
         "Écurie"@fr,
         "Scuderia"@it,
         "Veefokkerij"@nl ;
@@ -626,7 +626,7 @@ fragrant-spaces:63 a skos:Concept ;
     skos:altLabel "Stable"@en,
         "Stable"@fr,
         "Stalle"@fr ;
-    skos:exactMatch iconclass:47I2271 ;
+    skos:closeMatch iconclass:47I2271 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Stall"@en,
         "Étable"@fr,
@@ -637,7 +637,7 @@ fragrant-spaces:63 a skos:Concept ;
 fragrant-spaces:64 a skos:Concept ;
     skos:altLabel "Voie"@fr,
         "Via"@it ;
-    skos:exactMatch iconclass:25I141 ;
+    skos:closeMatch iconclass:25I141 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Street"@en,
         "Rue"@fr,
@@ -670,7 +670,7 @@ fragrant-spaces:74 a skos:Concept ;
         "Chambre d'hôpital"@fr,
         "Reparto"@it,
         "Stanza d'ospedale"@it ;
-    skos:exactMatch iconclass:49G41 ;
+    skos:closeMatch iconclass:49G41 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Hospital ward"@en,
         "Salle d'hôpital"@fr,
@@ -682,7 +682,7 @@ fragrant-spaces:75 a skos:Concept ;
     skos:altLabel "Home laundry"@en,
         "Laundry room"@en,
         "Lavanderia"@it ;
-    skos:exactMatch iconclass:41D4281 ;
+    skos:closeMatch iconclass:41D4281 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Wash house"@en,
         "Buanderie"@fr,
@@ -691,10 +691,10 @@ fragrant-spaces:75 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:77 a skos:Concept ;
-    skos:altLabel "cemetery"@en,
+    skos:altLabel "Cemetery"@en,
         "Camposanto"@it,
         "Grafveld"@nl ;
-    skos:exactMatch iconclass:42E43 ;
+    skos:closeMatch iconclass:42E43 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Graveyard"@en,
         "Cimetière"@fr,
@@ -704,7 +704,7 @@ fragrant-spaces:77 a skos:Concept ;
 
 fragrant-spaces:78 a skos:Concept ;
     skos:altLabel "Hôpital de terrain"@fr ;
-    skos:exactMatch iconclass:45C723 ;
+    skos:closeMatch iconclass:45C723 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Field hospital"@en,
         "Hôpital de campagne"@fr,
@@ -720,7 +720,7 @@ fragrant-spaces:79 a skos:Concept ;
         "Giostre"@it,
         "Luna Park"@it,
         "Circus"@nl ;
-    skos:exactMatch iconclass:43A3 ;
+    skos:closeMatch iconclass:43A3 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Pleasure fair"@en,
         "Foire d'amusement"@fr,
@@ -729,15 +729,15 @@ fragrant-spaces:79 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:8 a skos:Concept ;
-    skos:exactMatch iconclass:41D422 ;
+    skos:closeMatch iconclass:41D422 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "bleaching (laundering)"@en,
+    skos:prefLabel "Bleaching (laundering)"@en,
         "Bleken"@nl ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:80 a skos:Concept ;
     skos:altLabel "Rope walk"@en ;
-    skos:exactMatch iconclass:47H411 ;
+    skos:closeMatch iconclass:47H411 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Ropery"@en,
         "Corderie"@fr,
@@ -752,7 +752,7 @@ fragrant-spaces:82 a skos:Concept ;
         "Casa di appuntamenti"@it,
         "Lupanare"@it,
         "Hoerenhuis"@nl ;
-    skos:exactMatch iconclass:33C51 ;
+    skos:closeMatch iconclass:33C51 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Brothel"@en,
         "Maison de prostitution"@fr,
@@ -762,7 +762,7 @@ fragrant-spaces:82 a skos:Concept ;
 
 fragrant-spaces:9 a skos:Concept ;
     skos:altLabel "Wasserette"@nl ;
-    skos:exactMatch iconclass:41D428 ;
+    skos:closeMatch iconclass:41D428 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Building or outbuilding where laundry is done"@en,
         "Laverie"@fr,
@@ -772,14 +772,14 @@ fragrant-spaces:9 a skos:Concept ;
 
 fragrant-spaces:94 a skos:Concept ;
     skos:altLabel "Pozzo di catrame"@it,
-        "asfaltna jama"@sl ;
+        "Asfaltna jama"@sl ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Teergrube"@de,
         "Tarpit"@en,
         "Fosse à bitume"@fr,
         "Fossa di catrame"@it,
-        "teerput"@nl,
-        "asfaltno jezero"@sl ;
+        "Teerput"@nl,
+        "Asfaltno jezero"@sl ;
     skos:related olf:231 ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
@@ -809,7 +809,7 @@ fragrant-spaces:10 a skos:Concept ;
 
 fragrant-spaces:13 a skos:Concept ;
     skos:broader fragrant-spaces:23 ;
-    skos:exactMatch iconclass:47B27 ;
+    skos:closeMatch iconclass:47B27 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Chemical industry"@en,
         "Industrie Chimique"@fr,
@@ -848,7 +848,7 @@ fragrant-spaces:20 a skos:Concept ;
     skos:altLabel "Incendie de forêt"@fr,
         "Incendie forestier"@fr ;
     skos:broader fragrant-spaces:19 ;
-    skos:exactMatch iconclass:25H159 ;
+    skos:closeMatch iconclass:25H159 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Forest fire"@en,
         "Feu de forêt"@fr,
@@ -859,7 +859,7 @@ fragrant-spaces:20 a skos:Concept ;
 fragrant-spaces:24 a skos:Concept ;
     skos:altLabel "Officina di macchinari"@it ;
     skos:broader fragrant-spaces:23 ;
-    skos:exactMatch iconclass:47A22 ;
+    skos:closeMatch iconclass:47A22 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Factory-interior"@en,
         "Intérieur d'usine"@fr,
@@ -868,7 +868,7 @@ fragrant-spaces:24 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:25 a skos:Concept ;
-    skos:exactMatch iconclass:41A17 ;
+    skos:closeMatch iconclass:41A17 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:57 ;
     skos:prefLabel "Farm"@en,
@@ -893,9 +893,9 @@ fragrant-spaces:26 a skos:Concept ;
 
 fragrant-spaces:38 a skos:Concept ;
     skos:broader fragrant-spaces:37 ;
-    skos:exactMatch iconclass:41C231 ;
+    skos:closeMatch iconclass:41C231 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "rich kitchen"@en,
+    skos:prefLabel "Rich kitchen"@en,
         "Cuisine riche"@fr,
         "Cucina ricca"@it,
         "Rijke keuken"@nl ;
@@ -904,9 +904,9 @@ fragrant-spaces:38 a skos:Concept ;
 fragrant-spaces:39 a skos:Concept ;
     skos:altLabel "Gaarkeuken"@nl ;
     skos:broader fragrant-spaces:37 ;
-    skos:exactMatch iconclass:41C232 ;
+    skos:closeMatch iconclass:41C232 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "poor kitchen"@en,
+    skos:prefLabel "Poor kitchen"@en,
         "Cuisine pauvre"@fr,
         "Cucina povera"@it,
         "Ameluiskeuken"@nl ;
@@ -915,9 +915,9 @@ fragrant-spaces:39 a skos:Concept ;
 fragrant-spaces:46 a skos:Concept ;
     skos:altLabel "Marché couvert"@fr ;
     skos:broader fragrant-spaces:45 ;
-    skos:exactMatch iconclass:46B112 ;
+    skos:closeMatch iconclass:46B112 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "market-hall"@en,
+    skos:prefLabel "Market-hall"@en,
         "Halle"@fr,
         "Mercato coperto"@it,
         "Markthal"@nl ;
@@ -925,7 +925,7 @@ fragrant-spaces:46 a skos:Concept ;
 
 fragrant-spaces:51 a skos:Concept ;
     skos:broader fragrant-spaces:93 ;
-    skos:exactMatch iconclass:25H2321 ;
+    skos:closeMatch iconclass:25H2321 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Ocean"@en,
         "Océan"@fr,
@@ -937,16 +937,16 @@ fragrant-spaces:57 a skos:Concept ;
     skos:altLabel "Élevage de volaille"@fr,
         "Allevamento di polli"@it ;
     skos:broader fragrant-spaces:25 ;
-    skos:exactMatch iconclass:47I23 ;
+    skos:closeMatch iconclass:47I23 ;
     skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "poultry farm"@en,
+    skos:prefLabel "Poultry farm"@en,
         "Ferme avicole"@fr,
         "Azienda avicola"@it,
         "Pluimveehouderij"@nl ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:66 a skos:Concept ;
-    skos:exactMatch iconclass:25H19 ;
+    skos:closeMatch iconclass:25H19 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:67 ;
     skos:prefLabel "Swamps and polders"@en,
@@ -961,7 +961,7 @@ fragrant-spaces:67 a skos:Concept ;
         "Région marécageuse"@fr,
         "Zona paludosa"@it ;
     skos:broader fragrant-spaces:66 ;
-    skos:exactMatch iconclass:25H191 ;
+    skos:closeMatch iconclass:25H191 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Swamp"@en,
         "Marais"@fr,
@@ -982,7 +982,7 @@ fragrant-spaces:71 a skos:Concept ;
 fragrant-spaces:72 a skos:Concept ;
     skos:altLabel "Garden restaurant"@en ;
     skos:broader fragrant-spaces:27 ;
-    skos:exactMatch iconclass:43B312 ;
+    skos:closeMatch iconclass:43B312 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Tea garden"@en,
         "Jardin du thé"@fr,
@@ -993,7 +993,7 @@ fragrant-spaces:72 a skos:Concept ;
 fragrant-spaces:73 a skos:Concept ;
     skos:altLabel "Villaggio"@it ;
     skos:broader fragrant-spaces:32 ;
-    skos:exactMatch iconclass:25I2 ;
+    skos:closeMatch iconclass:25I2 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Village"@en,
         "Village"@fr,
@@ -1007,14 +1007,14 @@ fragrant-spaces:76 a skos:Concept ;
         "Zone de guerre"@fr,
         "Zona di guerra"@it,
         "Oorlogsgebied"@nl ;
-    skos:exactMatch iconclass:45H3 ;
+    skos:closeMatch iconclass:45H3 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Schlachtfeld"@de,
         "War zone"@en,
         "Champ de bataille"@fr,
         "Campo di battaglia"@it,
         "Slagveld"@nl,
-        "vojno polje"@sl ;
+        "Vojno polje"@sl ;
     skos:related olf:248 ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
@@ -1023,7 +1023,7 @@ fragrant-spaces:81 a skos:Concept ;
         "Walled Garden"@en,
         "Hortus conclusus"@nl ;
     skos:broader fragrant-spaces:27 ;
-    skos:exactMatch iconclass:41A635 ;
+    skos:closeMatch iconclass:41A635 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Fenced garden"@en,
         "Jardin Clos"@fr,
@@ -1035,7 +1035,7 @@ fragrant-spaces:84 a skos:Concept ;
     skos:altLabel "Hortus Botanicus"@en,
         "Hortus Botanicus"@nl ;
     skos:broader fragrant-spaces:27 ;
-    skos:exactMatch iconclass:49F11 ;
+    skos:closeMatch iconclass:49F11 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Botanical garden"@en,
         "Jardin botanique"@fr,
@@ -1073,7 +1073,7 @@ fragrant-spaces:90 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:93 a skos:Concept ;
-    skos:exactMatch iconclass:25H2322 ;
+    skos:closeMatch iconclass:25H2322 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:51 ;
     skos:prefLabel "Sea"@en,
@@ -1093,7 +1093,7 @@ fragrant-spaces:19 a skos:Concept ;
         "Selva"@it,
         "Hout"@nl,
         "Woud"@nl ;
-    skos:exactMatch iconclass:25H15 ;
+    skos:closeMatch iconclass:25H15 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:20 ;
     skos:prefLabel "Wald"@de,
@@ -1101,13 +1101,13 @@ fragrant-spaces:19 a skos:Concept ;
         "Forêt"@fr,
         "Foresta"@it,
         "Bos"@nl,
-        "gozdno drevje"@sl ;
+        "Gozdno drevje"@sl ;
     skos:related olf:200 ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:32 a skos:Concept ;
     skos:altLabel "Hospitaal"@nl ;
-    skos:exactMatch iconclass:49G4 ;
+    skos:closeMatch iconclass:49G4 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:73 ;
     skos:prefLabel "Hospital"@en,
@@ -1129,7 +1129,7 @@ fragrant-spaces:35 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:37 a skos:Concept ;
-    skos:exactMatch iconclass:41C21 ;
+    skos:closeMatch iconclass:41C21 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:38,
         fragrant-spaces:39 ;
@@ -1141,8 +1141,8 @@ fragrant-spaces:37 a skos:Concept ;
 
 fragrant-spaces:89 a skos:Concept ;
     skos:broader fragrant-spaces:53 ;
-    skos:exactMatch iconclass:12I61,
-        wordnet:3793728 ;
+    skos:closeMatch iconclass:12I61 ;
+    skos:exactMatch wordnet:3793728 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:prefLabel "Mosque"@en,
         "Mosquée"@fr,
@@ -1151,7 +1151,7 @@ fragrant-spaces:89 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:27 a skos:Concept ;
-    skos:exactMatch iconclass:41A6 ;
+    skos:closeMatch iconclass:41A6 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:72,
         fragrant-spaces:81,
@@ -1163,7 +1163,7 @@ fragrant-spaces:27 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:45 a skos:Concept ;
-    skos:exactMatch iconclass:46B11 ;
+    skos:closeMatch iconclass:46B11 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:2,
         fragrant-spaces:26,
@@ -1184,8 +1184,8 @@ fragrant-spaces:53 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:92 a skos:Concept ;
-    skos:exactMatch iconclass:43B311,
-        wordnet:4088393 ;
+    skos:closeMatch iconclass:43B311 ;
+    skos:exactMatch wordnet:4088393 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:16 ;
     skos:prefLabel "Restaurant"@en,
@@ -1195,7 +1195,7 @@ fragrant-spaces:92 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 fragrant-spaces:23 a skos:Concept ;
-    skos:exactMatch iconclass:47A12 ;
+    skos:closeMatch iconclass:47A12 ;
     skos:inScheme odeuropa:fragrant-spaces ;
     skos:narrower fragrant-spaces:10,
         fragrant-spaces:13,
@@ -1210,10 +1210,10 @@ fragrant-spaces:23 a skos:Concept ;
     skos:topConceptOf odeuropa:fragrant-spaces .
 
 odeuropa:fragrant-spaces a skos:ConceptScheme ;
-    rdfs:label "Fragrant-spaces" ;
+    rdfs:label "Fragrant spaces" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2021-06-21"^^xsd:date ;
-    pav:createdOn "2021-06-21"^^xsd:date ;
+    dct:modified "2021-06-22"^^xsd:date ;
+    pav:createdOn "2021-06-22"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept fragrant-spaces:1,
         fragrant-spaces:10,

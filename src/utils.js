@@ -31,5 +31,6 @@ export function save(name, outputFolder) {
 }
 
 export function capitalize(string) {
+  if (!string) return null;
   return string.charAt(0).toUpperCase() + string.slice(1);
 }

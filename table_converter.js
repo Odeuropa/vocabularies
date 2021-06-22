@@ -30,7 +30,7 @@ function run(options) {
   add(scheme, DC('modified'), $rdf.literal(today, XSD('date')));
   add(scheme, PAV('createdOn'), $rdf.literal(today, XSD('date')));
   add(scheme, PAV('version'), options.version);
-  add(scheme, RDFS('label'), capitalize(options.name.replace(/_/, ' ')));
+  add(scheme, RDFS('label'), capitalize(options.name.replace(/-/, ' ')));
 
   langTab.setScheme(scheme);
 

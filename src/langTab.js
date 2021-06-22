@@ -1,6 +1,6 @@
 import $rdf from 'rdflib';
 import validUrl from 'valid-url';
-import { add } from './utils.js';
+import { add, capitalize } from './utils.js';
 import {
   ODEUROPA, RDF, SKOS, DC, WORDNET, ICONCLASS,
 } from './prefixes.js';
@@ -29,12 +29,12 @@ function toConcept(s, lang, ns) {
   add(concept, RDF('type'), SKOS('Concept'));
 
   // if (s[k.QUAL]) label += ` (${s[k.QUAL].trim()})`;
-  if (!label.startsWith('<')) add(concept, SKOS('prefLabel'), label.replace(/\.$/, ''), lang);
+  if (!label.startsWith('<')) add(concept, SKOS('prefLabel'), capitalize(label.replace(/\.$/, '')), lang);
   if (s.SYNONYMS) {
     s.SYNONYMS.split(',')
-      .forEach((syn) => add(concept, SKOS('altLabel'), syn.replace(/\.$/, ''), lang));
+      .forEach((syn) => add(concept, SKOS('altLabel'), capitalize(syn.replace(/\.$/, '')), lang));
   }
-  add(concept, SKOS('definition'), s.DEFINITION, lang);
+  add(concept, SKOS('definition'), capitalize(s.DEFINITION), lang);
 
   if (s.RELATED) {
     s.RELATED.split(',')

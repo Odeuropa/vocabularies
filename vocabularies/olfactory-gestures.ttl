@@ -46,7 +46,7 @@ olfactory-gestures:23 a skos:Concept ;
 
 olfactory-gestures:29 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "perfuming"@en,
+    skos:prefLabel "Perfuming"@en,
         "Profumare"@it ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
@@ -124,44 +124,44 @@ iconclass:41C112 skos:closeMatch olfactory-gestures:16 .
 iconclass:49G311 skos:closeMatch olfactory-gestures:13 .
 
 olfactory-gestures:1 a skos:Concept ;
-    skos:altLabel "reukorgaan"@nl ;
+    skos:altLabel "Reukorgaan"@nl ;
     skos:closeMatch <http://iconclass.org/31A22111(NOSE)> ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "parts of the face: nose"@en,
+    skos:prefLabel "Parts of the face: nose"@en,
         "Naso"@it,
-        "neus"@nl ;
+        "Neus"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:10 a skos:Concept ;
     skos:closeMatch iconclass:31A623 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "faeces, excrement"@en ;
+    skos:prefLabel "Faeces, excrement"@en ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:11 a skos:Concept ;
-    skos:altLabel "plassen"@nl,
-        "zeiken"@nl ;
+    skos:altLabel "Zeiken"@nl,
+        "plassen"@nl ;
     skos:closeMatch iconclass:31A61 ;
     skos:inScheme odeuropa:olfactory-gestures ;
     skos:prefLabel "Urination"@en,
         "Urinare"@it,
-        "urineren"@nl ;
+        "Urineren"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:12 a skos:Concept ;
     skos:closeMatch iconclass:31AA61 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "urination-AA-female figure"@en,
-        "urineren (vrouwelijke figuur)"@nl ;
+    skos:prefLabel "Urination-AA-female figure"@en,
+        "Urineren (vrouwelijke figuur)"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:13 a skos:Concept ;
-    skos:altLabel "piskijker"@nl ;
+    skos:altLabel "Piskijker"@nl ;
     skos:closeMatch iconclass:49G311 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "examination of urine"@en,
+    skos:prefLabel "Examination of urine"@en,
         "Esame delle urine"@it,
-        "piskijken"@nl ;
+        "Piskijken"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:15 a skos:Concept ;
@@ -175,7 +175,7 @@ olfactory-gestures:15 a skos:Concept ;
 olfactory-gestures:16 a skos:Concept ;
     skos:closeMatch iconclass:41C112 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "trying, tasting food (e.g. by a cook)"@en,
+    skos:prefLabel "Trying, tasting food (e.g. by a cook)"@en,
         "Assaggiare"@it,
         "Proeven (bijv. door een kok)"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
@@ -190,9 +190,9 @@ olfactory-gestures:19 a skos:Concept ;
 olfactory-gestures:2 a skos:Concept ;
     skos:closeMatch iconclass:31A25351 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "holding one's nose"@en,
+    skos:prefLabel "Holding one's nose"@en,
         "Tenersi il naso"@it,
-        "de neus dichtknijpen"@nl ;
+        "De neus dichtknijpen"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:20 a skos:Concept ;
@@ -205,7 +205,7 @@ olfactory-gestures:20 a skos:Concept ;
 olfactory-gestures:24 a skos:Concept ;
     skos:closeMatch iconclass:31A2535 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "hand towards the nose"@en,
+    skos:prefLabel "Hand towards the nose"@en,
         "Mano verso il naso"@it ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
@@ -220,7 +220,7 @@ olfactory-gestures:25 a skos:Concept ;
 olfactory-gestures:26 a skos:Concept ;
     skos:closeMatch iconclass:31AA51454 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "powder, making toilet-AA-(for)women"@en ;
+    skos:prefLabel "Powder, making toilet-AA-(for)women"@en ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:27 a skos:Concept ;
@@ -242,9 +242,9 @@ olfactory-gestures:3 a skos:Concept ;
         "Turarsi il naso"@it ;
     skos:closeMatch iconclass:31B6222 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "holding one's nose closed"@en,
+    skos:prefLabel "Holding one's nose closed"@en,
         "Tappare il naso"@it,
-        "de neus dichthouden"@nl ;
+        "De neus dichthouden"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:4 a skos:Concept ;
@@ -254,19 +254,19 @@ olfactory-gestures:4 a skos:Concept ;
         "Puzza"@it,
         "Puzzetta"@it,
         "Scorreggia"@it,
-        "scheet"@nl ;
+        "Scheet"@nl ;
     skos:closeMatch iconclass:31A621 ;
     skos:inScheme odeuropa:olfactory-gestures ;
     skos:prefLabel "Flatulence"@en,
         "Flatulenza"@it,
-        "flatulentie"@nl ;
+        "Flatulentie"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:5 a skos:Concept ;
     skos:closeMatch iconclass:31AA621 ;
     skos:inScheme odeuropa:olfactory-gestures ;
     skos:prefLabel "Flatulence - AA-female human figure"@en,
-        "flatulentie (vrouwelijke figuur)"@nl ;
+        "Flatulentie (vrouwelijke figuur)"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:6 a skos:Concept ;
@@ -274,41 +274,41 @@ olfactory-gestures:6 a skos:Concept ;
         "Rigettare"@it,
         "Rigurgitare"@it,
         "Rimettere"@it,
-        "braken"@nl,
+        "Braken"@nl,
         "kotsen"@nl,
         "spugen"@nl ;
     skos:closeMatch iconclass:31A63 ;
     skos:inScheme odeuropa:olfactory-gestures ;
     skos:prefLabel "Vomiting"@en,
         "Vomitare"@it,
-        "overgeven"@nl ;
+        "Overgeven"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:7 a skos:Concept ;
     skos:closeMatch iconclass:31AA63 ;
     skos:inScheme odeuropa:olfactory-gestures ;
     skos:prefLabel "Vominting-AA-female human figure"@en,
-        "overgeven (vrouwelijke figuur)"@nl ;
+        "Overgeven (vrouwelijke figuur)"@nl ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:8 a skos:Concept ;
     skos:closeMatch iconclass:31A62 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "defecation"@en,
+    skos:prefLabel "Defecation"@en,
         "Defecare"@it ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 olfactory-gestures:9 a skos:Concept ;
     skos:closeMatch iconclass:31AA62 ;
     skos:inScheme odeuropa:olfactory-gestures ;
-    skos:prefLabel "defecation-AA-female figure"@en ;
+    skos:prefLabel "Defecation-AA-female figure"@en ;
     skos:topConceptOf odeuropa:olfactory-gestures .
 
 odeuropa:olfactory-gestures a skos:ConceptScheme ;
-    rdfs:label "Olfactory-gestures" ;
+    rdfs:label "Olfactory gestures" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2021-06-21"^^xsd:date ;
-    pav:createdOn "2021-06-21"^^xsd:date ;
+    dct:modified "2021-06-22"^^xsd:date ;
+    pav:createdOn "2021-06-22"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olfactory-gestures:1,
         olfactory-gestures:10,

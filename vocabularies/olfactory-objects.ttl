@@ -423,7 +423,7 @@ olfactory-objects:105 a skos:Concept ;
         "Nez"@fr,
         "Naso"@it,
         "Neuzen"@nl,
-        "nosovi"@sl ;
+        "Nosovi"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:119 a skos:Concept ;
@@ -431,8 +431,8 @@ olfactory-objects:119 a skos:Concept ;
     skos:prefLabel "Perfume Equipment"@en,
         "Équipement de parfum"@fr,
         "Attrezzatura per profumi"@it,
-        "parfumbenodigheden"@nl,
-        "parfumska oprema"@sl ;
+        "Parfumbenodigheden"@nl,
+        "Parfumska oprema"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:12 a skos:Concept ;
@@ -442,7 +442,7 @@ olfactory-objects:12 a skos:Concept ;
         "Cours d'anatomie"@fr,
         "Lezioni di Anatomia"@it,
         "Anatomische lessen"@nl,
-        "lekcije anatomije"@sl ;
+        "Lekcije anatomije"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:139 a skos:Concept ;
@@ -457,25 +457,25 @@ olfactory-objects:18 a skos:Concept ;
     skos:altLabel "Bouquet"@de,
         "Strauß"@de,
         "Mazzo"@it,
-        "buket"@sl ;
+        "Buket"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Blumenstrauß"@de,
         "Bouquet"@en,
         "Bouquet"@fr,
         "Bouquet"@it,
         "Boeket"@nl,
-        "šopek"@sl ;
+        "Šopek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:19 a skos:Concept ;
     skos:altLabel "Base per bouquet"@it,
-        "stojalo za šopek"@sl ;
+        "Stojalo za šopek"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Bouquet Holder"@en,
         "Porte-bouquet"@fr,
         "Porta bouquet"@it,
         "Boekethouder"@nl,
-        "držalo za šopek"@sl ;
+        "Držalo za šopek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:23 a skos:Concept ;
@@ -483,9 +483,9 @@ olfactory-objects:23 a skos:Concept ;
         "Dead Body"@en,
         "Salma"@it,
         "corpo morto"@it,
+        "Mrtvec"@sl,
         "kadaver"@sl,
         "mrlič"@sl,
-        "mrtvec"@sl,
         "posmrtni ostanki"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Kadaver"@de,
@@ -493,7 +493,7 @@ olfactory-objects:23 a skos:Concept ;
         "Cadavre"@fr,
         "Cadavere"@it,
         "Kadavers"@nl,
-        "truplo"@sl ;
+        "Truplo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:28 a skos:Concept ;
@@ -501,7 +501,7 @@ olfactory-objects:28 a skos:Concept ;
     skos:prefLabel "Cassolette"@en,
         "Cassolette"@fr,
         "Cassolette"@nl,
-        "narastek"@sl ;
+        "Narastek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:30 a skos:Concept ;
@@ -509,7 +509,7 @@ olfactory-objects:30 a skos:Concept ;
     skos:prefLabel "Chatelaine"@en,
         "Chatelaine"@fr,
         "Chatelaine"@nl,
-        "dolg srebrni pas za ženske"@sl ;
+        "Dolg srebrni pas za ženske"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:31 a skos:Concept ;
@@ -519,37 +519,37 @@ olfactory-objects:31 a skos:Concept ;
         "Flacon Chatelaine"@fr,
         "Bottiglia Chatelaine"@it,
         "Chatelaine-fles"@nl,
-        "bučka na dolgem srebrnem pasu za ženske"@sl ;
+        "Bučka na dolgem srebrnem pasu za ženske"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:38 a skos:Concept ;
-    skos:definition "chalice-like holder for liquids and fragrances"@en ;
+    skos:definition "Chalice-like holder for liquids and fragrances"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Ziborium"@de,
         "Ciborium"@en,
         "Ciboire"@fr,
         "Pisside"@it,
         "Ciborium"@nl,
-        "ciborij"@sl ;
+        "Ciborij"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:400 a skos:Concept ;
     skos:altLabel "Agua de Florida"@en ;
-    skos:definition "type of eau de Cologne imported from Europe to North and South-America used in rituals and for medical purposes"@en ;
+    skos:definition "Type of eau de Cologne imported from Europe to North and South-America used in rituals and for medical purposes"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Florida Water"@en ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:401 a skos:Concept ;
-    skos:definition "a predecessor of classic eau de Cologne first produced for Catarina de Medici and still produced by the Farmacia Santa Maria Novella in Florence using the original recipe"@en ;
+    skos:definition "A predecessor of classic eau de Cologne first produced for Catarina de Medici and still produced by the Farmacia Santa Maria Novella in Florence using the original recipe"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Acqua della Regina"@it ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:44 a skos:Concept ;
     skos:altLabel "Chat musqué"@fr,
-        "sevet"@nl,
-        "civet"@sl ;
+        "Sevet"@nl,
+        "Civet"@sl ;
     skos:definition "Cat with short legs and dark spots on fur"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Zibet"@de,
@@ -557,22 +557,22 @@ olfactory-objects:44 a skos:Concept ;
         "Civette"@fr,
         "Zibetto"@it,
         "Civet"@nl,
-        "cibet"@sl ;
+        "Cibet"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:46 a skos:Concept ;
-    skos:altLabel "oblačec"@sl ;
+    skos:altLabel "Oblačec"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Wolken"@de,
         "Cloud"@en,
         "Nuage"@fr,
         "Nuvola"@it,
-        "wolken"@nl,
-        "oblaki"@sl ;
+        "Wolken"@nl,
+        "Oblaki"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:47 a skos:Concept ;
-    skos:altLabel "ogel"@sl,
+    skos:altLabel "Ogel"@sl,
         "oglje"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Kohle"@de,
@@ -580,20 +580,20 @@ olfactory-objects:47 a skos:Concept ;
         "Charbon"@fr,
         "Carbone"@it,
         "Steenkool"@nl,
-        "premog"@sl ;
+        "Premog"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:51 a skos:Concept ;
     skos:altLabel "Tannenzapfen"@de,
         "Zapfen"@de,
-        "kadilni stožec"@sl ;
+        "Kadilni stožec"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Kegel (parfümiert)"@de,
         "Cone (perfumed)"@en,
         "Cône (parfumé)"@fr,
         "Cono (profumato)"@it,
         "Kegel (geparfumeerd)"@nl,
-        "kadilo v obliki stožca"@sl ;
+        "Kadilo v obliki stožca"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:57 a skos:Concept ;
@@ -604,7 +604,7 @@ olfactory-objects:57 a skos:Concept ;
         "Tuyau de drainage"@fr,
         "Drenaggio del tubo"@it,
         "Afvoerpijp, regenpijp"@nl,
-        "drenažne cevi"@sl ;
+        "Drenažne cevi"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:6 a skos:Concept ;
@@ -713,14 +713,14 @@ wordnet:4116429 skos:exactMatch olfactory-objects:136 .
 wordnet:7828160 skos:exactMatch olfactory-objects:177 .
 
 olfactory-objects:10 a skos:Concept ;
-    skos:altLabel "alchemistische apparatuur"@nl ;
+    skos:altLabel "Alchemistische apparatuur"@nl ;
     skos:closeMatch iconclass:49E393 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Alchemy Equipment"@en,
         "Équipement d'alchimie"@fr,
         "Attrezzatura alchemica"@it,
         "Alchemiebenodigdheden"@nl,
-        "alkimistična oprema"@sl ;
+        "Alkimistična oprema"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:100 a skos:Concept ;
@@ -730,7 +730,7 @@ olfactory-objects:100 a skos:Concept ;
         "Bain de bouche"@fr,
         "Colluttorio"@it,
         "Mondwater"@nl,
-        "ustna vodica"@sl ;
+        "Ustna vodica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:104 a skos:Concept ;
@@ -739,7 +739,7 @@ olfactory-objects:104 a skos:Concept ;
         "Petit bouquet"@fr,
         "Mazzolino"@it,
         "Ruikertje"@nl,
-        "aromatični šopek"@sl ;
+        "Aromatični šopek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:106 a skos:Concept ;
@@ -749,14 +749,14 @@ olfactory-objects:106 a skos:Concept ;
         "Râpe à noix de muscade"@fr,
         "Grattugia noce moscata"@it,
         "Nootmuskaatraspen"@nl,
-        "strgalo za muškatni orešček"@sl ;
+        "Strgalo za muškatni orešček"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:107 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Odeur de femme"@fr,
         "Odor di femmina"@it,
-        "vonj ženske"@sl ;
+        "Vonj ženske"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:108 a skos:Concept ;
@@ -765,8 +765,8 @@ olfactory-objects:108 a skos:Concept ;
     skos:prefLabel "Odor of sanctity"@en,
         "Odeur de sainteté"@fr,
         "Odor di santità"@it,
-        "geur der heiligheid"@nl,
-        "vonj svetosti"@sl ;
+        "Geur der heiligheid"@nl,
+        "Vonj svetosti"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:11 a skos:Concept ;
@@ -777,13 +777,13 @@ olfactory-objects:11 a skos:Concept ;
         "Matériel d'apothicaire"@fr,
         "Attrezzatura da farmacia"@it,
         "Apothekersbenodigdheden"@nl,
-        "lekarniška oprema"@sl ;
+        "Lekarniška oprema"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:112 a skos:Concept ;
     skos:altLabel "Pâtisserie"@fr,
         "Pasticceria"@it,
-        "sladica"@sl ;
+        "Sladica"@sl ;
     skos:closeMatch iconclass:41C622 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Gebäck"@de,
@@ -791,18 +791,18 @@ olfactory-objects:112 a skos:Concept ;
         "Pâte"@fr,
         "Pasticcino"@it,
         "Gebak"@nl,
-        "pecivo"@sl ;
+        "Pecivo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:123 a skos:Concept ;
-    skos:definition "mask filled with fragrant substances (sometimes fumigated) to protect oneself from sickening miasmas"@en ;
+    skos:definition "Mask filled with fragrant substances (sometimes fumigated) to protect oneself from sickening miasmas"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Pestmaske"@de,
         "Plague mask"@en,
         "Masque de peste"@fr,
         "Maschera della peste"@it,
         "Pestmasker"@nl,
-        "maske proti kugi"@sl ;
+        "Maske proti kugi"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:124 a skos:Concept ;
@@ -811,7 +811,7 @@ olfactory-objects:124 a skos:Concept ;
         "Piège de plomberie"@fr,
         "Trappola idraulica"@it,
         "Zwanenhals"@nl,
-        "vodovodna past"@sl ;
+        "Vodovodna past"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:135 a skos:Concept ;
@@ -821,7 +821,7 @@ olfactory-objects:135 a skos:Concept ;
         "Pluie"@fr,
         "Pioggia"@it,
         "Regen"@nl,
-        "dež"@sl ;
+        "Dež"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:145 a skos:Concept ;
@@ -840,16 +840,16 @@ olfactory-objects:145 a skos:Concept ;
         "Merda"@it,
         "Popò"@it,
         "Sterco"@it,
+        "Schijt"@nl,
         "excrement"@nl,
-        "schijt"@nl,
-        "drek"@sl ;
+        "Drek"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Scheiße"@de,
         "Excrement"@en,
         "Excrément"@fr,
         "Escremento"@it,
         "Poep"@nl,
-        "sranje"@sl ;
+        "Sranje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:15 a skos:Concept ;
@@ -860,17 +860,17 @@ olfactory-objects:15 a skos:Concept ;
         "Bière"@fr,
         "Birra"@it,
         "Bier"@nl,
-        "pivo"@sl ;
+        "Pivo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:150 a skos:Concept ;
-    skos:altLabel "vlugzouten"@nl ;
+    skos:altLabel "Vlugzouten"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Riechsalz"@de,
         "Smelling Salts"@en,
         "Sali"@it,
         "Reukzouten"@nl,
-        "dišeča sol"@sl ;
+        "Dišeča sol"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:152 a skos:Concept ;
@@ -879,18 +879,18 @@ olfactory-objects:152 a skos:Concept ;
         "Soap"@en,
         "Savon"@fr,
         "Sapone"@it,
-        "zeep"@nl,
-        "milo"@sl ;
+        "Zeep"@nl,
+        "Milo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:154 a skos:Concept ;
-    skos:altLabel "nardova špajka"@sl ;
+    skos:altLabel "Nardova špajka"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Spikenard"@en,
         "Nard"@fr,
         "Olio di nardo"@it,
         "Nardus"@nl,
-        "narda"@sl ;
+        "Narda"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:156 a skos:Concept ;
@@ -901,7 +901,7 @@ olfactory-objects:156 a skos:Concept ;
         "Écurie"@fr,
         "Stalla"@it,
         "Stal"@nl,
-        "hlev"@sl ;
+        "Hlev"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:157 a skos:Concept ;
@@ -912,7 +912,7 @@ olfactory-objects:157 a skos:Concept ;
         "Train à vapeur"@fr,
         "Treno a vapore"@it,
         "Stoomtrein"@nl,
-        "parnik"@sl ;
+        "Parnik"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:159 a skos:Concept ;
@@ -923,16 +923,16 @@ olfactory-objects:159 a skos:Concept ;
         "Talc"@fr,
         "Talco"@it,
         "Talk"@nl,
-        "smukec"@sl ;
+        "Smukec"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:16 a skos:Concept ;
     skos:closeMatch iconclass:12A61611 ;
-    skos:definition "spice box for Jewish ritual"@en ;
+    skos:definition "Spice box for Jewish ritual"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Besamim"@en,
         "Besamim"@nl,
-        "belica"@sl ;
+        "Belica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:160 a skos:Concept ;
@@ -942,7 +942,7 @@ olfactory-objects:160 a skos:Concept ;
         "Suif"@fr,
         "Sego"@it,
         "Talg (kaarsen)"@nl,
-        "sveča iz loja"@sl ;
+        "Sveča iz loja"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:161 a skos:Concept ;
@@ -954,7 +954,7 @@ olfactory-objects:161 a skos:Concept ;
         "Thé"@fr,
         "Tè"@it,
         "Thee"@nl,
-        "čaj"@sl ;
+        "Čaj"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:162 a skos:Concept ;
@@ -964,7 +964,7 @@ olfactory-objects:162 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Tussie Mussie"@en,
         "Tussie mussie"@fr,
-        "držalo za naš šopek"@sl ;
+        "Držalo za naš šopek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:165 a skos:Concept ;
@@ -973,8 +973,8 @@ olfactory-objects:165 a skos:Concept ;
         "Vinegar"@en,
         "Vinaigre"@fr,
         "Aceto"@it,
-        "azijn"@nl,
-        "kis"@sl ;
+        "Azijn"@nl,
+        "Kis"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:169 a skos:Concept ;
@@ -983,29 +983,29 @@ olfactory-objects:169 a skos:Concept ;
         "Wine"@en,
         "Vin"@fr,
         "Vino"@it,
-        "wijn"@nl,
-        "vino"@sl ;
+        "Wijn"@nl,
+        "Vino"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:17 a skos:Concept ;
     skos:closeMatch <http://iconclass.org/31A(A)22611> ;
-    skos:definition "female human figure"@en ;
+    skos:definition "Female human figure"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Blut"@de,
         "Blood"@en,
         "Bloed"@nl,
-        "kri"@sl ;
+        "Kri"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:173 a skos:Concept ;
-    skos:altLabel "scent trail"@en,
+    skos:altLabel "Scent trail"@en,
         "Scia"@it ;
-    skos:definition "invisible olfactory trail like an echo, left by person or object"@en ;
+    skos:definition "Invisible olfactory trail like an echo, left by person or object"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Sillage"@fr,
         "Sillage"@it,
         "Sillage"@nl,
-        "silaža"@sl ;
+        "Silaža"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:176 a skos:Concept ;
@@ -1017,7 +1017,7 @@ olfactory-objects:176 a skos:Concept ;
         "Linge"@fr,
         "Bucato"@it,
         "Was, wasgoed"@nl,
-        "perilo"@sl ;
+        "Perilo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:178 a skos:Concept ;
@@ -1029,7 +1029,7 @@ olfactory-objects:178 a skos:Concept ;
         "Fruit de mer"@fr,
         "Frutto di mare"@it,
         "Zeevruchten"@nl,
-        "morska hrana"@sl ;
+        "Morska hrana"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:198 a skos:Concept ;
@@ -1039,7 +1039,7 @@ olfactory-objects:198 a skos:Concept ;
         "Mer"@fr,
         "Mare"@it,
         "Zee"@nl,
-        "morje"@sl ;
+        "Morje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:199 a skos:Concept ;
@@ -1049,22 +1049,22 @@ olfactory-objects:199 a skos:Concept ;
         "Lac"@fr,
         "Lago"@it,
         "Meer"@nl,
-        "jezero"@sl ;
+        "Jezero"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:206 a skos:Concept ;
-    skos:altLabel "vanilje"@nl ;
+    skos:altLabel "Vanilje"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Vanille"@de,
         "Vanilla"@en,
         "Vanille"@fr,
         "Vaniglia"@it,
-        "vanille"@nl,
-        "vanilija"@sl ;
+        "Vanille"@nl,
+        "Vanilija"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:21 a skos:Concept ;
-    skos:altLabel "hlebec"@sl,
+    skos:altLabel "Hlebec"@sl,
         "štruca"@sl ;
     skos:closeMatch iconclass:41C62 ;
     skos:inScheme odeuropa:olfactory-objects ;
@@ -1073,16 +1073,16 @@ olfactory-objects:21 a skos:Concept ;
         "Pain"@fr,
         "Pane"@it,
         "Brood"@nl,
-        "kruh"@sl ;
+        "Kruh"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:211 a skos:Concept ;
-    skos:altLabel "balseming"@nl ;
+    skos:altLabel "Balseming"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Balsam"@de,
         "Balm/ embalming"@en,
-        "balsem"@nl,
-        "balzamirati / balzamiranje"@sl ;
+        "Balsem"@nl,
+        "Balzamirati / balzamiranje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:22 a skos:Concept ;
@@ -1093,18 +1093,18 @@ olfactory-objects:22 a skos:Concept ;
         "Beurre"@fr,
         "Burro"@it,
         "Boter"@nl,
-        "maslo"@sl ;
+        "Maslo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:225 a skos:Concept ;
     skos:altLabel "Gummitragant"@de,
         "Tragacanthe"@fr,
         "Gomma da tragacanto"@it,
-        "gom dragacanth"@nl ;
+        "Gom dragacanth"@nl ;
     skos:definition "Gomme de dragon"@fr ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Traganth"@de,
-        "gum tragacanth"@en,
+        "Gum tragacanth"@en,
         "Gomme adragante"@fr,
         "Gomma adragante"@it,
         "Gom tragacanth"@nl,
@@ -1116,14 +1116,14 @@ olfactory-objects:230 a skos:Concept ;
         "Bitume"@fr,
         "Asfalto"@it,
         "Bitume"@it,
-        "gudron"@sl ;
+        "Gudron"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Teer"@de,
         "Tar"@en,
         "Catrame"@fr,
         "Catrame"@it,
-        "teer"@nl,
-        "katran"@sl ;
+        "Teer"@nl,
+        "Katran"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:239 a skos:Concept ;
@@ -1140,7 +1140,7 @@ olfactory-objects:239 a skos:Concept ;
     skos:prefLabel "Acacia farnesiana"@en,
         "Cassier"@fr,
         "Acacia farnesiana"@it,
-        "akacija"@sl ;
+        "Akacija"@sl ;
     skos:related olfactory-objects:221 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -1158,33 +1158,33 @@ olfactory-objects:24 a skos:Concept ;
         "Camphrier"@fr,
         "Canforo"@it,
         "Kamfer (boom)"@nl,
-        "kafrovec"@sl ;
+        "Kafrovec"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:244 a skos:Concept ;
     skos:altLabel "Gas mostarda"@it,
-        "iperit"@sl ;
+        "Iperit"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Senfgas"@de,
-        "mustard gas"@en,
+        "Mustard gas"@en,
         "Gaz moutarde"@fr,
         "Iprite"@it,
-        "mosterdgas"@nl,
-        "gorčični plin"@sl ;
+        "Mosterdgas"@nl,
+        "Gorčični plin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:249 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Torf"@de,
-        "peat"@en,
+        "Peat"@en,
         "Tourbe"@fr,
         "Torba"@it,
         "Turf"@nl,
-        "šota"@sl ;
+        "Šota"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:26 a skos:Concept ;
-    skos:altLabel "cev"@sl,
+    skos:altLabel "Cev"@sl,
         "prepust"@sl ;
     skos:closeMatch iconclass:25H22 ;
     skos:inScheme odeuropa:olfactory-objects ;
@@ -1193,84 +1193,84 @@ olfactory-objects:26 a skos:Concept ;
         "Canal"@fr,
         "Canale"@it,
         "Kanaal"@nl,
-        "kanal"@sl ;
+        "Kanal"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:268 a skos:Concept ;
-    skos:altLabel "blitva"@sl ;
-    skos:definition "collective pots brewing in public spaces where people could leave left-overs and take home some 'warmoes'"@en ;
+    skos:altLabel "Blitva"@sl ;
+    skos:definition "Collective pots brewing in public spaces where people could leave left-overs and take home some 'warmoes'"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Warmoes"@nl,
-        "navadna pesa"@sl ;
+        "Navadna pesa"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:270 a skos:Concept ;
-    skos:altLabel "middels rook"@nl ;
-    skos:definition "method of diffusing scent by burning, smoking, smudging fragrant materials"@en ;
+    skos:altLabel "Middels rook"@nl ;
+    skos:definition "Method of diffusing scent by burning, smoking, smudging fragrant materials"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "per fumum"@en,
-        "parfum"@nl,
-        "po dimu"@sl ;
+    skos:prefLabel "Per fumum"@en,
+        "Parfum"@nl,
+        "Po dimu"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:271 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "ink"@en,
+    skos:prefLabel "Ink"@en,
         "Encre"@fr,
         "Inchiostro"@it,
-        "inkt"@nl,
-        "črnilo"@sl ;
+        "Inkt"@nl,
+        "Črnilo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:272 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cork"@en,
+    skos:prefLabel "Cork"@en,
         "Liège"@fr,
         "Sughero"@it,
-        "kurk"@nl,
-        "plutovinast zamašek"@sl ;
+        "Kurk"@nl,
+        "Plutovinast zamašek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:273 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cardboard"@en,
+    skos:prefLabel "Cardboard"@en,
         "Carton"@fr,
         "Cartone"@it,
-        "karton"@nl,
-        "karton"@sl ;
+        "Karton"@nl,
+        "Karton"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:274 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "glue"@en,
+    skos:prefLabel "Glue"@en,
         "Colle"@fr,
         "Colla"@it,
-        "lijm"@nl,
-        "lepilo"@sl ;
+        "Lijm"@nl,
+        "Lepilo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:275 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "turpentine"@en,
+    skos:prefLabel "Turpentine"@en,
         "Térébenthine"@fr,
         "Trementina"@it,
-        "terpentijn"@nl,
-        "terpentin"@sl ;
+        "Terpentijn"@nl,
+        "Terpentin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:276 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "rubber"@en,
+    skos:prefLabel "Rubber"@en,
         "Gomme"@fr,
         "Gomma"@it,
-        "rubber"@nl,
-        "guma"@sl ;
+        "Rubber"@nl,
+        "Guma"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:29 a skos:Concept ;
@@ -1288,11 +1288,11 @@ olfactory-objects:29 a skos:Concept ;
 olfactory-objects:294 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "hazelnut"@en,
+    skos:prefLabel "Hazelnut"@en,
         "Noisette"@fr,
         "Nocciola"@it,
-        "hazelnoot"@nl,
-        "lešnik"@sl ;
+        "Hazelnoot"@nl,
+        "Lešnik"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:295 a skos:Concept ;
@@ -1310,44 +1310,44 @@ olfactory-objects:295 a skos:Concept ;
         "Noccioline americane"@it,
         "Spagnolette"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "peanut"@en,
+    skos:prefLabel "Peanut"@en,
         "Cacahuète"@fr,
         "Arachide"@it,
-        "pinda"@nl,
-        "arašid"@sl ;
+        "Pinda"@nl,
+        "Arašid"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:296 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "almond"@en,
+    skos:prefLabel "Almond"@en,
         "Amande"@fr,
         "Mandorla"@it,
-        "amandel"@nl,
-        "mandelj"@sl ;
+        "Amandel"@nl,
+        "Mandelj"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:298 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
-    skos:altLabel "eggplant"@en,
-        "melancan (colloquial)"@sl ;
+    skos:altLabel "Eggplant"@en,
+        "Melancan (colloquial)"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "aubergine"@en,
+    skos:prefLabel "Aubergine"@en,
         "Aubergine"@fr,
         "Melanzana"@it,
-        "aubergine"@nl,
-        "jajčevec"@sl ;
+        "Aubergine"@nl,
+        "Jajčevec"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:299 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Petit pois"@fr ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "pea"@en,
+    skos:prefLabel "Pea"@en,
         "Pois"@fr,
         "Pisello"@it,
-        "erwt"@nl,
-        "grah"@sl ;
+        "Erwt"@nl,
+        "Grah"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:3 a skos:Concept ;
@@ -1358,71 +1358,71 @@ olfactory-objects:3 a skos:Concept ;
         "Bain"@fr,
         "Bagno"@it,
         "Bad"@nl,
-        "kopel"@sl ;
+        "Kopel"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:300 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Patate"@fr ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "potato"@en,
+    skos:prefLabel "Potato"@en,
         "Pomme de terre"@fr,
         "Patata"@it,
-        "aardappel"@nl,
-        "krompir"@sl ;
+        "Aardappel"@nl,
+        "Krompir"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:301 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
-    skos:altLabel "špargelj"@sl ;
+    skos:altLabel "Špargelj"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "asparagus"@en,
+    skos:prefLabel "Asparagus"@en,
         "Asperge"@fr,
         "Asparago"@it,
-        "asperge"@nl,
-        "beluš"@sl ;
+        "Asperge"@nl,
+        "Beluš"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:308 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "celery"@en,
+    skos:prefLabel "Celery"@en,
         "Céleri"@fr,
         "Sedano"@it,
-        "selderij"@nl,
-        "zelena"@sl ;
+        "Selderij"@nl,
+        "Zelena"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:309 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Pastinaca sativa"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "parsnip"@en,
+    skos:prefLabel "Parsnip"@en,
         "Panais"@fr,
         "Pastinaca"@it,
-        "pastinaak"@nl,
-        "pastinak"@sl ;
+        "Pastinaak"@nl,
+        "Pastinak"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:310 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "olive"@en,
+    skos:prefLabel "Olive"@en,
         "Olive"@fr,
         "Oliva"@it,
-        "olijf"@nl,
-        "oliva"@sl ;
+        "Olijf"@nl,
+        "Oliva"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:311 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Chou pommé"@fr ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cabbage"@en,
+    skos:prefLabel "Cabbage"@en,
         "Chou cabus"@fr,
         "Cavolo cappuccio"@it,
-        "kool"@nl,
-        "zelje"@sl ;
+        "Kool"@nl,
+        "Zelje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:312 a skos:Concept ;
@@ -1430,70 +1430,70 @@ olfactory-objects:312 a skos:Concept ;
     skos:altLabel "Fongus"@fr,
         "Fungus"@fr ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "mushroom"@en,
+    skos:prefLabel "Mushroom"@en,
         "Champignon"@fr,
         "Fungo"@it,
-        "champignons"@nl,
-        "gobe"@sl ;
+        "Champignons"@nl,
+        "Gobe"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:313 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cucumber"@en,
+    skos:prefLabel "Cucumber"@en,
         "Concombre"@fr,
         "Cetriolo"@it,
-        "komkommer"@nl,
-        "kumara"@sl ;
+        "Komkommer"@nl,
+        "Kumara"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:315 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "parsley"@en,
+    skos:prefLabel "Parsley"@en,
         "Persil"@fr,
         "Prezzemolo"@it,
-        "peterselie"@nl,
-        "peteršilj"@sl ;
+        "Peterselie"@nl,
+        "Peteršilj"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:316 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cress"@en,
+    skos:prefLabel "Cress"@en,
         "Cresson"@fr,
         "Crescione"@it,
-        "vrtna kreša"@sl ;
+        "Vrtna kreša"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:317 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "curry"@en,
+    skos:prefLabel "Curry"@en,
         "Curry"@fr,
         "Curry"@it,
-        "kerrie"@nl,
-        "kari"@sl ;
+        "Kerrie"@nl,
+        "Kari"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:318 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "mustard"@en,
+    skos:prefLabel "Mustard"@en,
         "Moutarde"@fr,
         "Senape"@it,
-        "mosterd"@nl,
-        "gorčica"@sl ;
+        "Mosterd"@nl,
+        "Gorčica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:319 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "chili"@en,
+    skos:prefLabel "Chili"@en,
         "Piment"@fr,
         "Peperoncino"@it,
-        "chili, peper"@nl,
-        "čili"@sl ;
+        "Chili, peper"@nl,
+        "Čili"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:32 a skos:Concept ;
@@ -1504,7 +1504,7 @@ olfactory-objects:32 a skos:Concept ;
         "Fromage"@fr,
         "Formaggio"@it,
         "Kaas"@nl,
-        "sir"@sl ;
+        "Sir"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:320 a skos:Concept ;
@@ -1512,45 +1512,45 @@ olfactory-objects:320 a skos:Concept ;
     skos:altLabel "Sénégrain"@fr,
         "Trigonelle fenugrec Trigonelle"@fr,
         "Trigonella"@it,
-        "sabljasti triplat"@sl,
+        "Sabljasti triplat"@sl,
         "smiljka"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "fenugreek"@en,
+    skos:prefLabel "Fenugreek"@en,
         "Fenugrec"@fr,
         "Fieno greco"@it,
-        "fenegriek"@nl,
-        "grško seno"@sl ;
+        "Fenegriek"@nl,
+        "Grško seno"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:323 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cumin"@en,
+    skos:prefLabel "Cumin"@en,
         "Cumin"@fr,
         "Cumino"@it,
-        "komijn"@nl,
-        "orientalska kumina"@sl ;
+        "Komijn"@nl,
+        "Orientalska kumina"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:324 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "anise"@en,
+    skos:prefLabel "Anise"@en,
         "Anis"@fr,
         "Anice"@it,
-        "anijs"@nl,
-        "janež"@sl ;
+        "Anijs"@nl,
+        "Janež"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:325 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
-    skos:altLabel "navadni komarček"@sl ;
+    skos:altLabel "Navadni komarček"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "fennel"@en,
+    skos:prefLabel "Fennel"@en,
         "Fenouil"@fr,
         "Finocchio"@it,
-        "venkel"@nl,
-        "koromač"@sl ;
+        "Venkel"@nl,
+        "Koromač"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:326 a skos:Concept ;
@@ -1563,46 +1563,46 @@ olfactory-objects:326 a skos:Concept ;
         "Carvi"@it,
         "Comino"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "caraway"@en,
+    skos:prefLabel "Caraway"@en,
         "Carvi"@fr,
         "Cumino dei prati"@it,
-        "karwij"@nl,
-        "kumina"@sl ;
+        "Karwij"@nl,
+        "Kumina"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:327 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "dill"@en,
+    skos:prefLabel "Dill"@en,
         "Aneth"@fr,
         "Aneto"@it,
-        "dille"@nl,
-        "navadni koper"@sl ;
+        "Dille"@nl,
+        "Navadni koper"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:328 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Liquerizia"@it,
-        "likviricija"@sl ;
+        "Likviricija"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "liquorice"@en,
+    skos:prefLabel "Liquorice"@en,
         "Réglisse"@fr,
         "Liquirizia"@it,
-        "drop"@nl,
-        "sladki koren"@sl ;
+        "Drop"@nl,
+        "Sladki koren"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:329 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Aspérule odorante"@fr,
         "Asperula"@it,
-        "dišeča perla"@sl ;
+        "Dišeča perla"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "woodruff"@en,
+    skos:prefLabel "Woodruff"@en,
         "Gaillet odorant"@fr,
         "Stellina odorosa"@it,
-        "lievevrouwebedstro"@nl,
-        "dišeča lakota"@sl ;
+        "Lievevrouwebedstro"@nl,
+        "Dišeča lakota"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:33 a skos:Concept ;
@@ -1613,37 +1613,37 @@ olfactory-objects:33 a skos:Concept ;
         "Substance chimique"@fr,
         "Sostanza chimica"@it,
         "Chemische substanties"@nl,
-        "kemične snovi"@sl ;
+        "Kemične snovi"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:330 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "coriander seed"@en,
+    skos:prefLabel "Coriander seed"@en,
         "Graine de coriandre"@fr,
         "Semi di coriandolo"@it,
-        "korianderzaad"@nl,
-        "semena koriandra"@sl ;
+        "Korianderzaad"@nl,
+        "Semena koriandra"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:331 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "coriander leaf"@en,
+    skos:prefLabel "Coriander leaf"@en,
         "Feuille de coriandre"@fr,
         "Foglie di coriandolo"@it,
-        "korianderblad"@nl,
-        "listi koriandra"@sl ;
+        "Korianderblad"@nl,
+        "Listi koriandra"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:332 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "sage"@en,
+    skos:prefLabel "Sage"@en,
         "Sauge"@fr,
         "Salvia"@it,
-        "salie"@nl,
-        "žajbelj"@sl ;
+        "Salie"@nl,
+        "Žajbelj"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:333 a skos:Concept ;
@@ -1651,11 +1651,11 @@ olfactory-objects:333 a skos:Concept ;
     skos:altLabel "Ache des montagnes"@fr,
         "Sedano di monte"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "lovage"@en,
+    skos:prefLabel "Lovage"@en,
         "Livèche"@fr,
         "Levistico"@it,
-        "lavas"@nl,
-        "luštrek"@sl ;
+        "Lavas"@nl,
+        "Luštrek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:334 a skos:Concept ;
@@ -1663,70 +1663,70 @@ olfactory-objects:334 a skos:Concept ;
     skos:altLabel "Citronnelle"@fr,
         "Mélisse citronnelle"@fr ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "lemon balm"@en,
+    skos:prefLabel "Lemon balm"@en,
         "Mélisse officinale"@fr,
         "Melissa vera"@it,
-        "citroenmelisse"@nl,
-        "melisa"@sl ;
+        "Citroenmelisse"@nl,
+        "Melisa"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:335 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "lemon"@en,
+    skos:prefLabel "Lemon"@en,
         "Citron"@fr,
         "Limone"@it,
-        "citroen"@nl,
-        "limona"@sl ;
+        "Citroen"@nl,
+        "Limona"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:336 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cider"@en,
+    skos:prefLabel "Cider"@en,
         "Cidre"@fr,
         "Sidro"@it,
-        "cider"@nl,
-        "jabolčno vino"@sl ;
+        "Cider"@nl,
+        "Jabolčno vino"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:337 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "liqueur"@en,
+    skos:prefLabel "Liqueur"@en,
         "Liqueur"@fr,
         "Liquore"@it,
-        "likeur"@nl,
-        "liker"@sl ;
+        "Likeur"@nl,
+        "Liker"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:338 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "milk"@en,
+    skos:prefLabel "Milk"@en,
         "Lait"@fr,
         "Latte"@it,
-        "melk"@nl,
-        "mleko"@sl ;
+        "Melk"@nl,
+        "Mleko"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:339 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Crema di latte"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cream"@en,
+    skos:prefLabel "Cream"@en,
         "Crème"@fr,
         "Panna"@it,
-        "room"@nl,
-        "smetana"@sl ;
+        "Room"@nl,
+        "Smetana"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:34 a skos:Concept ;
     skos:altLabel "Kamin"@de,
         "Camino"@it,
         "Ciminiera"@it,
-        "prepihovalnik"@sl,
-        "zračnik"@sl ;
+        "Zračnik"@sl,
+        "prepihovalnik"@sl ;
     skos:closeMatch iconclass:41B214 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Schornstein"@de,
@@ -1734,7 +1734,7 @@ olfactory-objects:34 a skos:Concept ;
         "Cheminée"@fr,
         "Comignolo"@it,
         "Schoorsteen"@nl,
-        "dimniki"@sl ;
+        "Dimniki"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:340 a skos:Concept ;
@@ -1745,62 +1745,62 @@ olfactory-objects:340 a skos:Concept ;
         "Iogurt"@it,
         "Yoghurt"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "yoghurt"@en,
+    skos:prefLabel "Yoghurt"@en,
         "Yaourt"@fr,
         "Yogurt"@it,
-        "yoghurt"@nl,
-        "jogurt"@sl ;
+        "Yoghurt"@nl,
+        "Jogurt"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:341 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Oeuf"@fr ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "egg"@en,
+    skos:prefLabel "Egg"@en,
         "Œuf"@fr,
         "Uovo"@it,
-        "eieren"@nl,
-        "jajca"@sl ;
+        "Eieren"@nl,
+        "Jajca"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:342 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "mussel"@en,
+    skos:prefLabel "Mussel"@en,
         "Moule"@fr,
         "Cozza"@it,
-        "mosselen"@nl,
-        "klapavice"@sl ;
+        "Mosselen"@nl,
+        "Klapavice"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:343 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "crustacean"@en,
+    skos:prefLabel "Crustacean"@en,
         "Crustacé"@fr,
         "Crostaceo"@it,
-        "schaaldieren"@nl,
-        "raki"@sl ;
+        "Schaaldieren"@nl,
+        "Raki"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:344 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "honey"@en,
+    skos:prefLabel "Honey"@en,
         "Miel"@fr,
         "Miele"@it,
-        "honing"@nl,
-        "med"@sl ;
+        "Honing"@nl,
+        "Med"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:346 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "broth"@en,
+    skos:prefLabel "Broth"@en,
         "Bouillon"@fr,
         "Brodo"@it,
-        "bouilion"@nl,
-        "mesna juha"@sl ;
+        "Bouilion"@nl,
+        "Mesna juha"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:347 a skos:Concept ;
@@ -1810,8 +1810,8 @@ olfactory-objects:347 a skos:Concept ;
     skos:prefLabel "Candy floss"@en,
         "Barbe à papa"@fr,
         "Zucchero filato"@it,
-        "suikerspin"@nl,
-        "sladkorna pena"@sl ;
+        "Suikerspin"@nl,
+        "Sladkorna pena"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:348 a skos:Concept ;
@@ -1819,20 +1819,20 @@ olfactory-objects:348 a skos:Concept ;
     skos:altLabel "Pâte d'amandes"@fr,
         "Pasta reale"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "marzipan"@en,
+    skos:prefLabel "Marzipan"@en,
         "Massepain"@fr,
         "Marzapane"@it,
-        "marsepein"@nl,
-        "marcipan"@sl ;
+        "Marsepein"@nl,
+        "Marcipan"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:349 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "amaretto"@en,
+    skos:prefLabel "Amaretto"@en,
         "Amaretto"@fr,
         "Amaretto"@it,
-        "amaretto"@nl,
+        "Amaretto"@nl,
         "Amaretto"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -1845,20 +1845,20 @@ olfactory-objects:35 a skos:Concept ;
         "Chocolat (solid)"@fr,
         "Cioccolato (tavoletta)"@it,
         "Chocola (vast)"@nl,
-        "polna čokolada"@sl ;
+        "Polna čokolada"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:350 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Geraneo"@it,
         "Giranio"@it,
-        "smrdljivka"@sl ;
+        "Smrdljivka"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "geranium"@en,
+    skos:prefLabel "Geranium"@en,
         "Géranium"@fr,
         "Geranio"@it,
-        "geranium"@nl,
-        "krvomočnica"@sl ;
+        "Geranium"@nl,
+        "Krvomočnica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:351 a skos:Concept ;
@@ -1866,77 +1866,77 @@ olfactory-objects:351 a skos:Concept ;
     skos:altLabel "Foglie di geraneo"@it,
         "Foglie di giranio"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "geranium leaf"@en,
+    skos:prefLabel "Geranium leaf"@en,
         "Feuille de géranium"@fr,
         "Foglie di geranio"@it,
-        "geraniumblad"@nl,
-        "list krvomočnice"@sl ;
+        "Geraniumblad"@nl,
+        "List krvomočnice"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:352 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "blackcurrant leaf"@en,
+    skos:prefLabel "Blackcurrant leaf"@en,
         "Feuille de ribes"@fr,
         "Foglie di ribes"@it,
-        "zwarte bes blad"@nl,
-        "list črnega ribeza"@sl ;
+        "Zwarte bes blad"@nl,
+        "List črnega ribeza"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:353 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "elderflower"@en,
+    skos:prefLabel "Elderflower"@en,
         "Sureau"@fr,
         "Sambuco"@it,
-        "vlierbloesem"@nl,
-        "bezeg"@sl ;
+        "Vlierbloesem"@nl,
+        "Bezeg"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:354 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Navone"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "rapeseed"@en,
+    skos:prefLabel "Rapeseed"@en,
         "Colza"@fr,
         "Colza"@it,
-        "koolzaad"@nl,
-        "ogrščica"@sl ;
+        "Koolzaad"@nl,
+        "Ogrščica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:355 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "eucalyptus"@en,
+    skos:prefLabel "Eucalyptus"@en,
         "Eucalyptus"@fr,
         "Eucalipto"@it,
-        "eucalyptus"@nl,
-        "evkaliptus"@sl ;
+        "Eucalyptus"@nl,
+        "Evkaliptus"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:356 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
-    skos:altLabel "dennennaald"@nl ;
+    skos:altLabel "Dennennaald"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "pine needle"@en,
+    skos:prefLabel "Pine needle"@en,
         "Aiguille de pin"@fr,
         "Ago di pino"@it,
         "Dennenaald"@nl,
-        "borova iglica"@sl ;
+        "Borova iglica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:357 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "fir needle"@en,
+    skos:prefLabel "Fir needle"@en,
         "Aiguille de sapin"@fr,
         "Ago di abete"@it,
         "Zilverparnaald"@nl,
-        "iglice jelke"@sl ;
+        "Iglice jelke"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:36 a skos:Concept ;
-    skos:altLabel "heiße Schokolade"@de,
+    skos:altLabel "Heiße Schokolade"@de,
         "Cacao"@en,
         "Cacao"@fr,
         "Cacao"@it,
@@ -1948,7 +1948,7 @@ olfactory-objects:36 a skos:Concept ;
         "Chocolat"@fr,
         "Cioccolata"@it,
         "Chocolademelk"@nl,
-        "čokolada, kakav"@sl ;
+        "Čokolada, kakav"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:361 a skos:Concept ;
@@ -1958,18 +1958,18 @@ olfactory-objects:361 a skos:Concept ;
     skos:prefLabel "Chamomile"@en,
         "Camomille"@fr,
         "Camomilla"@it,
-        "kamille"@nl,
-        "kamilica"@sl ;
+        "Kamille"@nl,
+        "Kamilica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:362 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "lilac"@en,
+    skos:prefLabel "Lilac"@en,
         "Lilas"@fr,
         "Lillà"@it,
-        "sering"@nl,
-        "lilija"@sl ;
+        "Sering"@nl,
+        "Lilija"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:363 a skos:Concept ;
@@ -1979,43 +1979,43 @@ olfactory-objects:363 a skos:Concept ;
         "Popcorn"@fr,
         "Mais scoppiato"@it,
         "Popcorn"@it,
-        "kokice"@sl ;
+        "Kokice"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "popcorn"@en,
+    skos:prefLabel "Popcorn"@en,
         "Pop-corn"@fr,
         "Pop-corn"@it,
-        "popcorn"@nl,
-        "pokovka"@sl ;
+        "Popcorn"@nl,
+        "Pokovka"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:364 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "malt"@en,
+    skos:prefLabel "Malt"@en,
         "Malt"@fr,
         "Malto"@it,
-        "mout"@nl,
-        "slad"@sl ;
+        "Mout"@nl,
+        "Slad"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:365 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "yeast"@en,
+    skos:prefLabel "Yeast"@en,
         "Levure"@fr,
         "Lievito"@it,
-        "gist"@nl,
-        "kvas"@sl ;
+        "Gist"@nl,
+        "Kvas"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:367 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "sweat"@en,
+    skos:prefLabel "Sweat"@en,
         "Sueur"@fr,
         "Sudore"@it,
-        "zweet"@nl,
-        "pot"@sl ;
+        "Zweet"@nl,
+        "Pot"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:368 a skos:Concept ;
@@ -2024,13 +2024,13 @@ olfactory-objects:368 a skos:Concept ;
         "Liquide séminal"@fr,
         "Liquido seminale"@it,
         "Seme"@it,
-        "sperma"@sl ;
+        "Sperma"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Semen"@en,
         "Sperme"@fr,
         "Sperma"@it,
-        "zaad, sperma"@nl,
-        "seme"@sl ;
+        "Zaad, sperma"@nl,
+        "Seme"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:37 a skos:Concept ;
@@ -2044,27 +2044,27 @@ olfactory-objects:37 a skos:Concept ;
         "Chypre"@fr,
         "Chypre"@it,
         "Chypre"@nl,
-        "skupina dišav cipresa"@sl ;
+        "Skupina dišav cipresa"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:370 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "blood"@en,
+    skos:prefLabel "Blood"@en,
         "Sang"@fr,
         "Sangue"@it,
-        "bloed"@nl,
-        "kri"@sl ;
+        "Bloed"@nl,
+        "Kri"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:371 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "liquid manure"@en,
+    skos:prefLabel "Liquid manure"@en,
         "Lisier"@fr,
         "Liquame"@it,
-        "vloeibare mest"@nl,
-        "gnojnica"@sl ;
+        "Vloeibare mest"@nl,
+        "Gnojnica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:372 a skos:Concept ;
@@ -2072,11 +2072,11 @@ olfactory-objects:372 a skos:Concept ;
     skos:altLabel "Genêt épineux"@fr,
         "Ginestra spinosa"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "furze"@en,
+    skos:prefLabel "Furze"@en,
         "Ajoncs"@fr,
         "Ginestrone"@it,
-        "brem"@nl,
-        "gorse"@sl ;
+        "Brem"@nl,
+        "Gorse"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:373 a skos:Concept ;
@@ -2084,8 +2084,8 @@ olfactory-objects:373 a skos:Concept ;
     skos:prefLabel "Sulphur sticks"@en,
         "Bâtonnets de soufre"@fr,
         "Bastoncini di zolfo"@it,
-        "zwavelstokjes"@nl,
-        "žveplove palčke"@sl ;
+        "Zwavelstokjes"@nl,
+        "Žveplove palčke"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:374 a skos:Concept ;
@@ -2094,7 +2094,7 @@ olfactory-objects:374 a skos:Concept ;
         "Boîte à priser musicale"@fr,
         "Tabacchiera musicale"@it,
         "Muzieksnuifdoos"@nl,
-        "glasbena škatla z njuhancem"@sl ;
+        "Glasbena škatla z njuhancem"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:381 a skos:Concept ;
@@ -2105,24 +2105,24 @@ olfactory-objects:381 a skos:Concept ;
         "Diesel"@it,
         "Nafta"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "diesel fuel"@en,
+    skos:prefLabel "Diesel fuel"@en,
         "Gazole"@fr,
         "Gasolio"@it,
-        "diesel"@nl,
-        "dizelsko gorivo"@sl ;
+        "Diesel"@nl,
+        "Dizelsko gorivo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:382 a skos:Concept ;
-    skos:altLabel "parrafin"@en,
+    skos:altLabel "Parrafin"@en,
         "Pétrole lampant"@fr,
         "Petrolio lampante"@it,
-        "petroleum"@nl ;
+        "Petroleum"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "kerosene"@en,
+    skos:prefLabel "Kerosene"@en,
         "Kérosène"@fr,
         "Cherosene"@it,
-        "kerozine"@nl,
-        "kerozin"@sl ;
+        "Kerozine"@nl,
+        "Kerozin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:383 a skos:Concept ;
@@ -2130,21 +2130,21 @@ olfactory-objects:383 a skos:Concept ;
         "Greggio"@it,
         "Oro nero"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "petroleum"@en,
+    skos:prefLabel "Petroleum"@en,
         "Pétrole"@fr,
         "Petrolio"@it,
-        "petroleum"@nl,
-        "nafta"@sl ;
+        "Petroleum"@nl,
+        "Nafta"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:388 a skos:Concept ;
     skos:altLabel "Sassafrasso"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "sassafras"@en,
+    skos:prefLabel "Sassafras"@en,
         "Laurier des Iroquois"@fr,
         "Sassofrasso"@it,
-        "sassafras"@nl,
-        "sasafras"@sl ;
+        "Sassafras"@nl,
+        "Sasafras"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:390 a skos:Concept ;
@@ -2153,15 +2153,15 @@ olfactory-objects:390 a skos:Concept ;
         "Semi di ambra"@it,
         "Semi muschiati"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "musk seed"@en,
+    skos:prefLabel "Musk seed"@en,
         "Graines d'Ambrette"@fr,
         "Seme di abelmosco"@it,
-        "muskuskaasjeskruidzaad"@nl,
-        "semena slezenovca"@sl ;
+        "Muskuskaasjeskruidzaad"@nl,
+        "Semena slezenovca"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:394 a skos:Concept ;
-    skos:altLabel "speculaas"@en,
+    skos:altLabel "Speculaas"@en,
         "speculoos"@en,
         "Speculoos"@fr,
         "Spéculaus"@fr,
@@ -2170,44 +2170,44 @@ olfactory-objects:394 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Spéculoos"@fr,
         "Speculoos"@it,
-        "speculaas"@nl ;
+        "Speculaas"@nl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:395 a skos:Concept ;
-    skos:altLabel "all-spice"@en,
-        "piment"@en,
+    skos:altLabel "Piment"@en,
+        "all-spice"@en,
         "Tout-épice"@fr,
         "Pepe garofanato"@it,
         "Pimento"@it,
         "Pimienta"@it ;
-    skos:definition "a berry with hints of cloves, pepper and nutmeg"@en ;
+    skos:definition "A berry with hints of cloves, pepper and nutmeg"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "all spice"@en,
+    skos:prefLabel "All spice"@en,
         "Quatre-épices"@fr,
         "Pepe della Giamaica"@it,
-        "piment"@nl,
-        "začimbe"@sl ;
+        "Piment"@nl,
+        "Začimbe"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:396 a skos:Concept ;
-    skos:definition "a piece of fragrant wood or tree"@en ;
+    skos:definition "A piece of fragrant wood or tree"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "oud"@en,
-        "oud"@nl ;
+    skos:prefLabel "Oud"@en,
+        "Oud"@nl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:397 a skos:Concept ;
-    skos:definition "shell mentioned in the bible used for incense"@en ;
+    skos:definition "Shell mentioned in the bible used for incense"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "onycha"@en,
-        "onycha"@nl ;
+    skos:prefLabel "Onycha"@en,
+        "Onycha"@nl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:398 a skos:Concept ;
-    skos:definition "a type of insect repelling fragrant grass"@en ;
+    skos:definition "A type of insect repelling fragrant grass"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "vetiver"@en,
-        "vetiver"@nl ;
+    skos:prefLabel "Vetiver"@en,
+        "Vetiver"@nl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:402 a skos:Concept ;
@@ -2221,7 +2221,7 @@ olfactory-objects:402 a skos:Concept ;
 olfactory-objects:45 a skos:Concept ;
     skos:altLabel "Viverra"@en,
         "Zibetto (animale)"@it,
-        "cibeta"@sl ;
+        "Cibeta"@sl ;
     skos:broader olfactory-objects:13 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Zibetkatze"@de,
@@ -2229,7 +2229,7 @@ olfactory-objects:45 a skos:Concept ;
         "Viverra"@fr,
         "Viverra"@it,
         "Civetkat"@nl,
-        "cibetovka"@sl ;
+        "Cibetovka"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:48 a skos:Concept ;
@@ -2248,11 +2248,11 @@ olfactory-objects:5 a skos:Concept ;
         "Baleine"@fr,
         "Balena"@it,
         "(Gestrande) walvis"@nl,
-        "nasedli kit"@sl ;
+        "Nasedli kit"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:50 a skos:Concept ;
-    skos:altLabel "črno zlato"@sl ;
+    skos:altLabel "Črno zlato"@sl ;
     skos:closeMatch iconclass:41C721 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Kaffee"@de,
@@ -2260,7 +2260,7 @@ olfactory-objects:50 a skos:Concept ;
         "Café"@fr,
         "Caffé"@it,
         "Koffie"@nl,
-        "kava"@sl ;
+        "Kava"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:53 a skos:Concept ;
@@ -2271,7 +2271,7 @@ olfactory-objects:53 a skos:Concept ;
         "Couche"@fr,
         "Pannolino"@it,
         "Luier"@nl,
-        "plenica"@sl ;
+        "Plenica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:54 a skos:Concept ;
@@ -2283,7 +2283,7 @@ olfactory-objects:54 a skos:Concept ;
         "Équipement de distillation"@fr,
         "Attrezzatura di distillazione"@it,
         "Distillatiebenodigdheden"@nl,
-        "destilacijska oprema"@sl ;
+        "Destilacijska oprema"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:56 a skos:Concept ;
@@ -2293,7 +2293,7 @@ olfactory-objects:56 a skos:Concept ;
         "Dragon"@fr,
         "Drago"@it,
         "Draken"@nl,
-        "zmaji"@sl ;
+        "Zmaji"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:60 a skos:Concept ;
@@ -2305,14 +2305,14 @@ olfactory-objects:60 a skos:Concept ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:62 a skos:Concept ;
-    skos:altLabel "eterično olje"@sl ;
+    skos:altLabel "Eterično olje"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Ätherische Öle"@de,
         "Essential oil"@en,
         "Huile essentielle"@fr,
         "Olio essenziale"@it,
         "Essentiele olie"@nl,
-        "dišavno olje"@sl ;
+        "Dišavno olje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:66 a skos:Concept ;
@@ -2322,7 +2322,7 @@ olfactory-objects:66 a skos:Concept ;
         "Feu"@fr,
         "Fuoco"@it,
         "Vuur"@nl,
-        "ogenj"@sl ;
+        "Ogenj"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:67 a skos:Concept ;
@@ -2333,7 +2333,7 @@ olfactory-objects:67 a skos:Concept ;
         "Foyer"@fr,
         "Camino"@it,
         "Openhaard"@nl,
-        "ognjišče"@sl ;
+        "Ognjišče"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:68 a skos:Concept ;
@@ -2343,7 +2343,7 @@ olfactory-objects:68 a skos:Concept ;
         "Poisson"@fr,
         "Pesce"@it,
         "Vis"@nl,
-        "riba"@sl ;
+        "Riba"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:7 a skos:Concept ;
@@ -2354,7 +2354,7 @@ olfactory-objects:7 a skos:Concept ;
         "Anneau de fiançailles"@fr,
         "Anello di fidanzamento"@it,
         "Trouwring (met geurvakje)"@nl,
-        "zaročni prstan"@sl ;
+        "Zaročni prstan"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:71 a skos:Concept ;
@@ -2367,30 +2367,30 @@ olfactory-objects:71 a skos:Concept ;
         "Hydrolat"@fr,
         "Idrosoli"@it,
         "Bloemenparfum"@nl,
-        "cvetlična voda"@sl ;
+        "Cvetlična voda"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Floral water"@en,
         "Eau aromatique"@fr,
         "Acqua floreale"@it,
         "Bloemenwater"@nl,
-        "rožna voda"@sl ;
+        "Rožna voda"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:73 a skos:Concept ;
-    skos:altLabel "cvetlice v laseh"@sl ;
+    skos:altLabel "Cvetlice v laseh"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Blumen in den Haaren"@de,
         "Flower in hair"@en,
         "Fleur dans les cheveux"@fr,
         "Fiore tra i capelli"@it,
         "Bloemen in haar"@nl,
-        "rože v laseh"@sl ;
+        "Rože v laseh"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:76 a skos:Concept ;
     skos:altLabel "Pelo"@it,
         "Vacht"@nl,
-        "kožuh"@sl,
+        "Kožuh"@sl,
         "kožuhovina"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Fell"@de,
@@ -2398,7 +2398,7 @@ olfactory-objects:76 a skos:Concept ;
         "Fourrure"@fr,
         "Pelliccia"@it,
         "Bont"@nl,
-        "krzno"@sl ;
+        "Krzno"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:78 a skos:Concept ;
@@ -2408,7 +2408,7 @@ olfactory-objects:78 a skos:Concept ;
         "Jardin"@fr,
         "Giardino"@it,
         "Tuin"@nl,
-        "vrt"@sl ;
+        "Vrt"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:79 a skos:Concept ;
@@ -2418,23 +2418,23 @@ olfactory-objects:79 a skos:Concept ;
         "Ail"@fr,
         "Aglio"@it,
         "Knoflook"@nl,
-        "česen"@sl ;
+        "Česen"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:8 a skos:Concept ;
     skos:altLabel "Feuer"@de,
         "Leuchtfeuer"@de,
         "Feu"@fr,
-        "vreugdevuur"@nl,
-        "kurišče"@sl ;
+        "Vreugdevuur"@nl,
+        "Kurišče"@sl ;
     skos:closeMatch iconclass:41B161 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Lagerfeuer"@de,
         "Bonfire"@en,
         "Feu de joie"@fr,
         "Falò"@it,
-        "kampvuur"@nl,
-        "ognjišče"@sl ;
+        "Kampvuur"@nl,
+        "Ognjišče"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:81 a skos:Concept ;
@@ -2446,7 +2446,7 @@ olfactory-objects:81 a skos:Concept ;
         "Herbe"@fr,
         "Erba"@it,
         "Gras"@nl,
-        "trava"@sl ;
+        "Trava"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:86 a skos:Concept ;
@@ -2456,7 +2456,7 @@ olfactory-objects:86 a skos:Concept ;
         "Mouchoir"@fr,
         "Fazzoletto"@it,
         "Zakdoek"@nl,
-        "robec"@sl ;
+        "Robec"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:91 a skos:Concept ;
@@ -2466,7 +2466,7 @@ olfactory-objects:91 a skos:Concept ;
         "Cuisine"@fr,
         "Cucina"@it,
         "Keuken"@nl,
-        "kuhinja"@sl ;
+        "Kuhinja"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:95 a skos:Concept ;
@@ -2476,19 +2476,19 @@ olfactory-objects:95 a skos:Concept ;
         "Lin"@fr,
         "Lino"@it,
         "Linnen"@nl,
-        "platno"@sl ;
+        "Platno"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:1 a skos:Concept ;
-    skos:altLabel "osvežilec zraka"@sl ;
+    skos:altLabel "Osvežilec zraka"@sl ;
     skos:broader olfactory-objects:4 ;
-    skos:definition "jewelry with protective qualities"@en ;
+    skos:definition "Jewelry with protective qualities"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Aromatic amulet"@en,
         "Amulette aromatique"@fr,
         "Amuleto aromatico"@it,
         "Aromatisch amulet"@nl,
-        "aromatični amulet"@sl ;
+        "Aromatični amulet"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:101 a skos:Concept ;
@@ -2510,7 +2510,7 @@ olfactory-objects:102 a skos:Concept ;
         "Musk Rat"@fr,
         "Topo muschiato"@it,
         "Muskusrat"@nl,
-        "pižmovka"@sl ;
+        "Pižmovka"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:103 a skos:Concept ;
@@ -2521,7 +2521,7 @@ olfactory-objects:103 a skos:Concept ;
         "Myrrhe"@fr,
         "Mirra"@it,
         "Mirre"@nl,
-        "mira"@sl ;
+        "Mira"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:111 a skos:Concept ;
@@ -2530,7 +2530,7 @@ olfactory-objects:111 a skos:Concept ;
         "Pot d'onguent"@fr,
         "Vasetto di unguento"@it,
         "Zalfpot"@nl,
-        "posodice za kreme"@sl ;
+        "Posodice za kreme"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:115 a skos:Concept ;
@@ -2540,29 +2540,29 @@ olfactory-objects:115 a skos:Concept ;
         "Pendentif flacon"@fr,
         "Pendente flacone"@it,
         "Parfumhanger"@nl,
-        "aromatični izvesek"@sl ;
+        "Aromatični izvesek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:117 a skos:Concept ;
-    skos:altLabel "dišavnica"@sl ;
+    skos:altLabel "Dišavnica"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Perfume box"@en,
         "Boîte de parfum"@fr,
         "Scatola di profumo"@it,
         "Parfumdoos"@nl,
-        "škatlica za parfum"@sl ;
+        "Škatlica za parfum"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:120 a skos:Concept ;
     skos:altLabel "Flacon à parfum"@fr,
         "Flacone di profumo"@it,
-        "parfumflacon"@nl ;
+        "Parfumflacon"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Perfume flacon"@en,
         "Flacon de parfum"@fr,
         "Boccetta di profumo"@it,
         "Parfumfles"@nl,
-        "stekleničke za parfume"@sl ;
+        "Stekleničke za parfume"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:127 a skos:Concept ;
@@ -2571,7 +2571,7 @@ olfactory-objects:127 a skos:Concept ;
         "Bateau pomander"@fr,
         "Nave pomo d'ambra"@it,
         "Pomanderscheepje"@nl,
-        "dišeča kroglica v obliki ladje"@sl ;
+        "Dišeča kroglica v obliki ladje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:128 a skos:Concept ;
@@ -2580,7 +2580,7 @@ olfactory-objects:128 a skos:Concept ;
         "Montre pomander"@fr,
         "Orologio pomo d'ambra"@it,
         "Pomanderhorloge"@nl,
-        "parfumska ura"@sl ;
+        "Parfumska ura"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:130 a skos:Concept ;
@@ -2589,7 +2589,7 @@ olfactory-objects:130 a skos:Concept ;
         "Bol de pot-pourri"@fr,
         "Ciotola di potpourri"@it,
         "Potpourrischaal"@nl,
-        "skleda za potpuri"@sl ;
+        "Skleda za potpuri"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:133 a skos:Concept ;
@@ -2599,26 +2599,26 @@ olfactory-objects:133 a skos:Concept ;
         "Perruque poudrée"@fr,
         "Parrucca incipriata"@it,
         "Poederpruik"@nl,
-        "napudrane lasulje"@sl ;
+        "Napudrane lasulje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:134 a skos:Concept ;
     skos:altLabel "Toilettes dehors"@fr,
         "Gabinetto"@it,
+        "Wc"@nl,
         "po"@nl,
-        "watercloset"@nl,
-        "wc"@nl ;
+        "watercloset"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Toiletten"@de,
         "Privy"@en,
         "Toilettes extérieures"@fr,
         "Latrina"@it,
         "Pot"@nl,
-        "stranišče"@sl ;
+        "Stranišče"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:137 a skos:Concept ;
-    skos:altLabel "koralda na rožnem vencu"@sl ;
+    skos:altLabel "Koralda na rožnem vencu"@sl ;
     skos:broader olfactory-objects:136 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Rosenkranzperle"@de,
@@ -2626,7 +2626,7 @@ olfactory-objects:137 a skos:Concept ;
         "Grain du chapelet"@fr,
         "Grano del Rosario"@it,
         "Rozenkranskraal"@nl,
-        "jagode na rožnem vencu"@sl ;
+        "Jagode na rožnem vencu"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:138 a skos:Concept ;
@@ -2637,30 +2637,30 @@ olfactory-objects:138 a skos:Concept ;
         "Rose"@fr,
         "Rosa"@it,
         "Roos"@nl,
-        "vrtnica"@sl ;
+        "Vrtnica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:140 a skos:Concept ;
-    skos:altLabel "sweet bags"@en,
-        "zavojček"@sl ;
+    skos:altLabel "Sweet bags"@en,
+        "Zavojček"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:158 ;
     skos:prefLabel "Sachet"@en,
         "Sachet"@fr,
         "Bustina"@it,
         "Sachet"@nl,
-        "vrečica"@sl ;
+        "Vrečica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:144 a skos:Concept ;
-    skos:altLabel "riool"@nl ;
+    skos:altLabel "Riool"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Kanalisation"@de,
         "Sewer"@en,
         "Égout"@fr,
         "Fogna"@it,
         "Riolering"@nl,
-        "odtočni kanal"@sl ;
+        "Odtočni kanal"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:146 a skos:Concept ;
@@ -2672,7 +2672,7 @@ olfactory-objects:146 a skos:Concept ;
         "Moufette"@fr,
         "Puzzola"@it,
         "Stinkdier"@nl,
-        "rakun"@sl ;
+        "Rakun"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:147 a skos:Concept ;
@@ -2682,17 +2682,17 @@ olfactory-objects:147 a skos:Concept ;
         "Fumée"@fr,
         "Fumo"@it,
         "Rook"@nl,
-        "dim"@sl ;
+        "Dim"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:149 a skos:Concept ;
-    skos:altLabel "geurdoos"@nl ;
+    skos:altLabel "Geurdoos"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Riechdöschen"@de,
         "Smelling Box"@en,
         "Petite boîte de crèmes odoriférantes"@fr,
         "Reukdoos"@nl,
-        "majhna škatla dišečih krem"@sl ;
+        "Majhna škatla dišečih krem"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:153 a skos:Concept ;
@@ -2706,7 +2706,7 @@ olfactory-objects:153 a skos:Concept ;
         "Cachalot"@fr,
         "Capodoglio"@it,
         "Potvis (ambergrijs)"@nl,
-        "kit glavač"@sl ;
+        "Kit glavač"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:155 a skos:Concept ;
@@ -2718,7 +2718,7 @@ olfactory-objects:155 a skos:Concept ;
         "Eau-de-vie"@fr,
         "Distillato"@it,
         "Gedistilleerd"@nl,
-        "žgane pijače"@sl ;
+        "Žgane pijače"@sl ;
     skos:related olfactory-objects:231 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -2727,7 +2727,7 @@ olfactory-objects:163 a skos:Concept ;
         "Fläschchen"@de,
         "Phiole"@de,
         "Fles"@nl,
-        "steklenička"@sl ;
+        "Steklenička"@sl ;
     skos:broader olfactory-objects:412 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Ampulle"@de,
@@ -2735,7 +2735,7 @@ olfactory-objects:163 a skos:Concept ;
         "Fiole"@fr,
         "Fiala"@it,
         "Flacon"@nl,
-        "viala"@sl ;
+        "Viala"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:164 a skos:Concept ;
@@ -2745,7 +2745,7 @@ olfactory-objects:164 a skos:Concept ;
         "Vinaigrette"@en,
         "Vinaigrette (boîtes-à-parfum)"@fr,
         "Vinaigrette"@nl,
-        "srebrna embalaža za parfum"@sl ;
+        "Srebrna embalaža za parfum"@sl ;
     skos:related olfactory-objects:20 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -2759,14 +2759,14 @@ olfactory-objects:166 a skos:Concept ;
         "Braaksel"@nl,
         "overgeefsel"@nl,
         "spuug"@nl,
-        "bljuvati"@sl ;
+        "Bljuvati"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Kotze"@de,
         "Vomit"@en,
         "Vomi"@fr,
         "Vomito"@it,
         "Kots"@nl,
-        "bruhati"@sl ;
+        "Bruhati"@sl ;
     skos:related olfactory-objects:25 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -2777,52 +2777,52 @@ olfactory-objects:167 a skos:Concept ;
         "Wax"@en,
         "Cire"@fr,
         "Cera"@it,
-        "was"@nl,
-        "vosek"@sl ;
+        "Was"@nl,
+        "Vosek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:168 a skos:Concept ;
-    skos:altLabel "poederpruik"@nl ;
+    skos:altLabel "Poederpruik"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Perücke"@de,
         "Wig"@en,
         "Perruque"@fr,
         "Parrucca"@it,
-        "pruik"@nl,
-        "lasulja"@sl ;
+        "Pruik"@nl,
+        "Lasulja"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:172 a skos:Concept ;
-    skos:altLabel "patchouli"@nl ;
+    skos:altLabel "Patchouli"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Patchouli"@en,
         "Patchouli"@fr,
         "Patchouli"@it,
         "Patchoeli"@nl,
-        "pačuli"@sl ;
+        "Pačuli"@sl ;
     skos:related olfactory-objects:260 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:174 a skos:Concept ;
-    skos:altLabel "still"@en,
-        "hruškasta posoda"@sl ;
+    skos:altLabel "Still"@en,
+        "Hruškasta posoda"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Alembic"@en,
         "Alambic"@fr,
         "Alambicco"@it,
-        "alambiek"@nl,
-        "retorta"@sl ;
+        "Alambiek"@nl,
+        "Retorta"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:179 a skos:Concept ;
-    skos:altLabel "svetilka na olje"@sl ;
+    skos:altLabel "Svetilka na olje"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Öllampe"@de,
         "Oil lamp"@en,
         "Lampe à huile"@fr,
         "Lampada ad olio"@it,
         "Olielamp"@nl,
-        "oljna svetilka"@sl ;
+        "Oljna svetilka"@sl ;
     skos:related olfactory-objects:109 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -2834,7 +2834,7 @@ olfactory-objects:180 a skos:Concept ;
         "Viande"@fr,
         "Carne"@it,
         "Vlees"@nl,
-        "meso"@sl ;
+        "Meso"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:181 a skos:Concept ;
@@ -2847,7 +2847,7 @@ olfactory-objects:181 a skos:Concept ;
         "Saucisse"@fr,
         "Salsiccia"@it,
         "Worsten"@nl,
-        "klobase"@sl ;
+        "Klobase"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:182 a skos:Concept ;
@@ -2858,21 +2858,21 @@ olfactory-objects:182 a skos:Concept ;
         "Jambon"@fr,
         "Prosciutto"@it,
         "Ham"@nl,
-        "šunka"@sl ;
+        "Šunka"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:183 a skos:Concept ;
     skos:altLabel "Brasato"@it,
         "Spezzatino"@it,
-        "obara"@sl ;
+        "Obara"@sl ;
     skos:broader olfactory-objects:405 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Eintopf"@de,
         "Stew"@en,
         "Ragoût"@fr,
         "Stufato"@it,
-        "stoofpot"@nl,
-        "enolončnica"@sl ;
+        "Stoofpot"@nl,
+        "Enolončnica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:184 a skos:Concept ;
@@ -2883,7 +2883,7 @@ olfactory-objects:184 a skos:Concept ;
         "Volaille"@fr,
         "Pollame"@it,
         "Gevogelte"@nl,
-        "perutnina"@sl ;
+        "Perutnina"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:185 a skos:Concept ;
@@ -2895,12 +2895,12 @@ olfactory-objects:185 a skos:Concept ;
         "Bouillie"@fr,
         "Porridge"@it,
         "Pap"@nl,
-        "kaša"@sl ;
+        "Kaša"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:186 a skos:Concept ;
     skos:altLabel "Pancakes"@de,
-        "pannenkoek"@nl ;
+        "Pannenkoek"@nl ;
     skos:broader olfactory-objects:405 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Pfannkuchen"@de,
@@ -2908,12 +2908,12 @@ olfactory-objects:186 a skos:Concept ;
         "Pancake"@fr,
         "Pancake"@it,
         "Pannekoek"@nl,
-        "palačinke"@sl ;
+        "Palačinke"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:187 a skos:Concept ;
     skos:altLabel "Pasteten"@de,
-        "gebak"@nl ;
+        "Gebak"@nl ;
     skos:broader olfactory-objects:405 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Torten"@de,
@@ -2921,14 +2921,14 @@ olfactory-objects:187 a skos:Concept ;
         "Tourte"@fr,
         "Pie"@it,
         "Taarten"@nl,
-        "pite"@sl ;
+        "Pite"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:192 a skos:Concept ;
     skos:altLabel "Capro"@it,
         "Irco"@it,
         "caprone"@it,
-        "geit"@nl ;
+        "Geit"@nl ;
     skos:broader olfactory-objects:411 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Ziegenbock"@de,
@@ -2936,7 +2936,7 @@ olfactory-objects:192 a skos:Concept ;
         "Chèvre (masculin)"@fr,
         "Becco"@it,
         "Bok"@nl,
-        "kozel"@sl ;
+        "Kozel"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:193 a skos:Concept ;
@@ -2953,8 +2953,8 @@ olfactory-objects:193 a skos:Concept ;
         "Sheep"@en,
         "Mouton"@fr,
         "Pecora"@it,
-        "schaap"@nl,
-        "ovce"@sl ;
+        "Schaap"@nl,
+        "Ovce"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:194 a skos:Concept ;
@@ -2969,8 +2969,8 @@ olfactory-objects:194 a skos:Concept ;
         "Chicken"@en,
         "Poule"@fr,
         "Pollo"@it,
-        "kip"@nl,
-        "kokoš"@sl ;
+        "Kip"@nl,
+        "Kokoš"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:196 a skos:Concept ;
@@ -2979,8 +2979,8 @@ olfactory-objects:196 a skos:Concept ;
     skos:prefLabel "Pigeon manure"@en,
         "Excrément de pigeon"@fr,
         "Cacca di piccione"@it,
-        "duivenmest"@nl,
-        "golobji iztrebki"@sl ;
+        "Duivenmest"@nl,
+        "Golobji iztrebki"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:197 a skos:Concept ;
@@ -2989,8 +2989,8 @@ olfactory-objects:197 a skos:Concept ;
     skos:prefLabel "Labdanum"@en,
         "Laudanum"@fr,
         "Labdano"@it,
-        "labdanum"@nl,
-        "brškin"@sl ;
+        "Labdanum"@nl,
+        "Brškin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:20 a skos:Concept ;
@@ -3001,13 +3001,13 @@ olfactory-objects:20 a skos:Concept ;
         "Bracelet vinaigrette"@fr,
         "Braccialetto vinaigrette"@it,
         "Vinaigrette armband"@nl,
-        "dišavna zapestnica"@sl ;
+        "Dišavna zapestnica"@sl ;
     skos:related olfactory-objects:164 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:201 a skos:Concept ;
-    skos:altLabel "linde"@nl,
-        "lindebloesem"@nl ;
+    skos:altLabel "Lindebloesem"@nl,
+        "linde"@nl ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Linde"@de,
@@ -3015,19 +3015,19 @@ olfactory-objects:201 a skos:Concept ;
         "Tilleul"@fr,
         "Tiglio"@it,
         "Lindeboom"@nl,
-        "lipa"@sl ;
+        "Lipa"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:202 a skos:Concept ;
-    skos:altLabel "santal"@nl ;
+    skos:altLabel "Santal"@nl ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Sandelholz"@de,
         "Sandalwood"@en,
         "Santal"@fr,
         "Sandalo (albero)"@it,
-        "sandelhout"@nl,
-        "sandalovina"@sl ;
+        "Sandelhout"@nl,
+        "Sandalovina"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:203 a skos:Concept ;
@@ -3037,9 +3037,9 @@ olfactory-objects:203 a skos:Concept ;
         "Storax"@fr,
         "Benzoino"@it,
         "Resina di stirace"@it,
+        "Benzoin"@nl,
         "benjoin"@nl,
-        "benzoin"@nl,
-        "benzoj"@sl ;
+        "Benzoj"@sl ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Benzoebaum"@de,
@@ -3047,7 +3047,7 @@ olfactory-objects:203 a skos:Concept ;
         "Benzoin"@fr,
         "Resina di benzoino"@it,
         "Benzoë"@nl,
-        "benzoin"@sl ;
+        "Benzoin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:204 a skos:Concept ;
@@ -3059,7 +3059,7 @@ olfactory-objects:204 a skos:Concept ;
         "Baume de Tolu"@fr,
         "Balsamo del Tolù"@it,
         "Tolu balsem"@nl,
-        "balzam Tolu"@sl ;
+        "Balzam Tolu"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:205 a skos:Concept ;
@@ -3071,7 +3071,7 @@ olfactory-objects:205 a skos:Concept ;
         "Baume du Pérou"@fr,
         "Balsamo del Perù"@it,
         "Peru balsem"@nl,
-        "balzam Peru"@sl ;
+        "Balzam Peru"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:207 a skos:Concept ;
@@ -3081,8 +3081,8 @@ olfactory-objects:207 a skos:Concept ;
         "Castoreum"@en,
         "Castoréum"@fr,
         "Castoreo"@it,
-        "castoreum"@nl,
-        "bobrovina"@sl ;
+        "Castoreum"@nl,
+        "Bobrovina"@sl ;
     skos:related olfactory-objects:14 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -3093,8 +3093,8 @@ olfactory-objects:208 a skos:Concept ;
         "Coumarin"@en,
         "Coumarine"@fr,
         "Cumarina"@it,
-        "coumarin"@nl,
-        "kumarin"@sl ;
+        "Coumarin"@nl,
+        "Kumarin"@sl ;
     skos:related olfactory-objects:87 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -3109,8 +3109,8 @@ olfactory-objects:209 a skos:Concept ;
         "Meadow sweet"@en,
         "Reine-des-prés"@fr,
         "Olmaria"@it,
-        "moerasspirea"@nl,
-        "močvirski oslad"@sl ;
+        "Moerasspirea"@nl,
+        "Močvirski oslad"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:210 a skos:Concept ;
@@ -3119,13 +3119,13 @@ olfactory-objects:210 a skos:Concept ;
     skos:prefLabel "Strewing herb"@en,
         "Herbes aromatique"@fr,
         "Erba aromatica"@it,
-        "strooikruiden"@nl,
-        "zeli za nastiljanje"@sl ;
+        "Strooikruiden"@nl,
+        "Zeli za nastiljanje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:212 a skos:Concept ;
-    skos:altLabel "sweet cane"@en,
-        "sweet flag"@en,
+    skos:altLabel "Sweet flag"@en,
+        "sweet cane"@en,
         "Jonc odorant"@fr,
         "Canna odorosa"@it ;
     skos:broader olfactory-objects:410 ;
@@ -3134,30 +3134,30 @@ olfactory-objects:212 a skos:Concept ;
         "Calamus"@en,
         "Acore odorant"@fr,
         "Calamo aromatico"@it,
-        "kalmoes"@nl,
-        "kolmež"@sl ;
+        "Kalmoes"@nl,
+        "Kolmež"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:213 a skos:Concept ;
     skos:broader olfactory-objects:177 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "mace"@en,
+    skos:prefLabel "Mace"@en,
         "Macis"@fr,
         "Macis"@it,
-        "foelie"@nl,
-        "muškatovec"@sl ;
+        "Foelie"@nl,
+        "Muškatovec"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:214 a skos:Concept ;
-    skos:altLabel "nagel"@nl ;
+    skos:altLabel "Nagel"@nl ;
     skos:broader olfactory-objects:177 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Nelken"@de,
-        "cloves"@en,
+        "Cloves"@en,
         "Clous de girofle"@fr,
         "Chiodi di Garofano"@it,
-        "kruidnagel"@nl,
-        "nageljnove žbice"@sl ;
+        "Kruidnagel"@nl,
+        "Nageljnove žbice"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:215 a skos:Concept ;
@@ -3165,67 +3165,67 @@ olfactory-objects:215 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Cinnamon"@en,
         "Cannelle"@fr,
-        "cimet"@sl ;
+        "Cimet"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:216 a skos:Concept ;
     skos:altLabel "Poudre"@fr,
-        "strelni prah"@sl ;
+        "Strelni prah"@sl ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Schießpulver"@de,
-        "gunpowder"@en,
+        "Gunpowder"@en,
         "Poudre à canon"@fr,
         "Polvere da sparo"@it,
-        "buskruit"@nl,
-        "smodnik"@sl ;
+        "Buskruit"@nl,
+        "Smodnik"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:217 a skos:Concept ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "styrax"@en,
+    skos:prefLabel "Styrax"@en,
         "Styrax"@fr,
         "Styrax"@it,
-        "styrax"@nl,
-        "stiraks"@sl ;
+        "Styrax"@nl,
+        "Stiraks"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:218 a skos:Concept ;
-    skos:altLabel "eikenhout"@nl,
-        "hrastovina"@sl ;
+    skos:altLabel "Eikenhout"@nl,
+        "Hrastovina"@sl ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Eiche"@de,
-        "oak"@en,
+        "Oak"@en,
         "Chêne"@fr,
         "Quercia"@it,
-        "eik"@nl,
-        "hrast"@sl ;
+        "Eik"@nl,
+        "Hrast"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:219 a skos:Concept ;
     skos:altLabel "Ylang-ylang"@it,
-        "ylang ylang"@sl ;
+        "Ylang ylang"@sl ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Ylang-Ylang Baum"@de,
-        "ylang ylang"@en,
+        "Ylang ylang"@en,
         "Ylang-ylang"@fr,
         "Ilang-ilang"@it,
-        "ylang ylang"@nl,
-        "kananga"@sl ;
+        "Ylang ylang"@nl,
+        "Kananga"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:220 a skos:Concept ;
     skos:altLabel "Opoponax"@fr ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "opoponax"@en,
+    skos:prefLabel "Opoponax"@en,
         "Opopanax"@fr,
         "Opopanace"@it,
-        "opoponax"@nl,
-        "sladka mira"@sl ;
+        "Opoponax"@nl,
+        "Sladka mira"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:222 a skos:Concept ;
@@ -3233,35 +3233,35 @@ olfactory-objects:222 a skos:Concept ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Galbanum"@de,
-        "galbanum"@en,
+        "Galbanum"@en,
         "Galbanum"@fr,
         "Galbano"@it,
-        "galbanum"@nl,
-        "galbanum"@sl ;
+        "Galbanum"@nl,
+        "Galbanum"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:223 a skos:Concept ;
-    skos:altLabel "vijolična"@sl ;
+    skos:altLabel "Vijolična"@sl ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Veilchen"@de,
-        "violet"@en,
+        "Violet"@en,
         "Violette"@fr,
         "Violetta"@it,
         "Viooltje"@nl,
-        "vijolice"@sl ;
+        "Vijolice"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:226 a skos:Concept ;
-    skos:altLabel "jacinta"@sl ;
+    skos:altLabel "Jacinta"@sl ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Hyazinte"@de,
-        "hyacinth"@en,
+        "Hyacinth"@en,
         "Jacinthe"@fr,
         "Giacinto"@it,
         "Hyacinth"@nl,
-        "hijacinta"@sl ;
+        "Hijacinta"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:234 a skos:Concept ;
@@ -3269,33 +3269,33 @@ olfactory-objects:234 a skos:Concept ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Myrte"@de,
-        "myrtle"@en,
+        "Myrtle"@en,
         "Myrte"@fr,
         "Mirto"@it,
-        "mirthe"@nl,
-        "mirta"@sl ;
+        "Mirthe"@nl,
+        "Mirta"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:235 a skos:Concept ;
     skos:broader olfactory-objects:88 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Minze"@de,
-        "mint"@en,
+        "Mint"@en,
         "Menthe"@fr,
         "Menta"@it,
-        "munt"@nl,
-        "meta"@sl ;
+        "Munt"@nl,
+        "Meta"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:236 a skos:Concept ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Orchidee"@de,
-        "orchid"@en,
+        "Orchid"@en,
         "Orchidées"@fr,
         "Orchidea"@it,
-        "orchidee"@nl,
-        "orhideja"@sl ;
+        "Orchidee"@nl,
+        "Orhideja"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:237 a skos:Concept ;
@@ -3306,7 +3306,7 @@ olfactory-objects:237 a skos:Concept ;
         "Tubéreuse"@fr,
         "Polianthes Tuberosa"@it,
         "Tuberoos"@nl,
-        "tuberoza"@sl ;
+        "Tuberoza"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:238 a skos:Concept ;
@@ -3326,11 +3326,11 @@ olfactory-objects:238 a skos:Concept ;
     skos:broader olfactory-objects:413 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Dreck"@de,
-        "filth"@en,
+        "Filth"@en,
         "Saleté"@fr,
         "Sporcizia"@it,
         "Viezigheid, vuil"@nl,
-        "umazanja"@sl ;
+        "Umazanja"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:240 a skos:Concept ;
@@ -3338,22 +3338,22 @@ olfactory-objects:240 a skos:Concept ;
     skos:broader olfactory-objects:413 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Nachttopf"@de,
-        "chamber pot"@en,
+        "Chamber pot"@en,
         "Pot de chambre"@fr,
         "Vaso da notte"@it,
         "Po, pot"@nl,
-        "nočna posoda"@sl ;
+        "Nočna posoda"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:241 a skos:Concept ;
-    skos:altLabel "gasgangreen"@nl ;
+    skos:altLabel "Gasgangreen"@nl ;
     skos:broader olfactory-objects:413 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "gangreen"@en,
+    skos:prefLabel "Gangreen"@en,
         "Gangrène"@fr,
         "Cancrena"@it,
         "Gangreen"@nl,
-        "gangrena"@sl ;
+        "Gangrena"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:242 a skos:Concept ;
@@ -3361,32 +3361,32 @@ olfactory-objects:242 a skos:Concept ;
     skos:broader olfactory-objects:413 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Schwefel"@de,
-        "sulphur"@en,
+        "Sulphur"@en,
         "Soufre"@fr,
         "Zolfo"@it,
-        "zwavel"@nl,
-        "žveplo"@sl ;
+        "Zwavel"@nl,
+        "Žveplo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:243 a skos:Concept ;
     skos:broader olfactory-objects:413 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Schwefelsäure"@de,
-        "sulphuric acid"@en,
+        "Sulphuric acid"@en,
         "Acide sulfurique"@fr,
         "Acido sulfurico"@it,
-        "zwavelzuur"@nl,
-        "žveplova kislina"@sl ;
+        "Zwavelzuur"@nl,
+        "Žveplova kislina"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:245 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Feuchte Erde"@de,
-        "wet earth"@en,
+        "Wet earth"@en,
         "Terre humide"@fr,
         "Terra bagnata"@it,
-        "natte aarde"@nl,
-        "mokra zemlja"@sl ;
+        "Natte aarde"@nl,
+        "Mokra zemlja"@sl ;
     skos:related olfactory-objects:48 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -3394,22 +3394,22 @@ olfactory-objects:246 a skos:Concept ;
     skos:altLabel "Petrichor"@de ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Regengeruch"@de,
-        "petrichor"@en,
+        "Petrichor"@en,
         "Pétrichor"@fr,
         "Petricore"@it,
-        "petrichor"@nl,
-        "vonj po dežju"@sl ;
+        "Petrichor"@nl,
+        "Vonj po dežju"@sl ;
     skos:related olfactory-objects:247 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:247 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Ozon"@de,
-        "ozone"@en,
+        "Ozone"@en,
         "Ozone"@fr,
         "Ozono"@it,
-        "ozon"@nl,
-        "ozon"@sl ;
+        "Ozon"@nl,
+        "Ozon"@sl ;
     skos:related olfactory-objects:246 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -3418,15 +3418,15 @@ olfactory-objects:248 a skos:Concept ;
         "Acide phénique"@fr,
         "Hydroxybenzène"@fr,
         "Acido fenico"@it,
-        "karbol"@sl,
+        "Karbol"@sl,
         "karbolna kislina"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Karbolsäure"@de,
         "Carbolic acid"@en,
         "Phénol"@fr,
         "Fenolo"@it,
-        "carbolzuur"@nl,
-        "fenol"@sl ;
+        "Carbolzuur"@nl,
+        "Fenol"@sl ;
     skos:related olfactory-objects:266 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -3438,25 +3438,25 @@ olfactory-objects:25 a skos:Concept ;
         "Bougie"@fr,
         "Candela"@it,
         "Kaarsen"@nl,
-        "sveče"@sl ;
+        "Sveče"@sl ;
     skos:related olfactory-objects:166 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:250 a skos:Concept ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "peonie"@en,
+    skos:prefLabel "Peonie"@en,
         "Pivoine"@fr,
         "Peonia"@it,
         "Pioenroos"@nl,
-        "potonika"@sl ;
+        "Potonika"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:252 a skos:Concept ;
     skos:definition "A Dutch renowned brand of eau de cologne"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Boldoot"@nl,
-        "nizozemski parfumer Boldoot"@sl ;
+        "Nizozemski parfumer Boldoot"@sl ;
     skos:related olfactory-objects:228 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -3464,13 +3464,13 @@ olfactory-objects:256 a skos:Concept ;
     skos:altLabel "Durion"@fr,
         "Durione"@it ;
     skos:broader olfactory-objects:75 ;
-    skos:definition "spiky large fruit"@en ;
+    skos:definition "Spiky large fruit"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Durian"@en,
         "Durian"@fr,
         "Durian"@it,
         "Doerian"@nl,
-        "durian"@sl ;
+        "Durian"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:257 a skos:Concept ;
@@ -3480,42 +3480,42 @@ olfactory-objects:257 a skos:Concept ;
         "Narcisse"@fr,
         "Narciso"@it,
         "Narcis"@nl,
-        "narcisa"@sl ;
+        "Narcisa"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:265 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "iso-butyl-quinoline"@en,
+    skos:prefLabel "Iso-butyl-quinoline"@en,
         "Isobutyl quinoléine"@fr,
         "Isobutil chinolina"@it,
-        "iso-butyl-quinoline"@nl,
-        "izobutil kinolin"@sl ;
+        "Iso-butyl-quinoline"@nl,
+        "Izobutil kinolin"@sl ;
     skos:related olfactory-objects:233 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:266 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "idoform"@en,
+    skos:prefLabel "Idoform"@en,
         "Iodoforme"@fr,
         "Iodoformio"@it,
-        "jodoform"@nl ;
+        "Jodoform"@nl ;
     skos:related olfactory-objects:248 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:269 a skos:Concept ;
-    skos:definition "collection of fragrant materials that can be burnt 'per fumum'  in order to give of scent"@en ;
+    skos:definition "Collection of fragrant materials that can be burnt 'per fumum'  in order to give of scent"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "incense"@en,
+    skos:prefLabel "Incense"@en,
         "Encens"@fr,
         "Incenso"@it,
-        "wierook"@nl,
-        "kadilo"@sl ;
+        "Wierook"@nl,
+        "Kadilo"@sl ;
     skos:related olfactory-objects:267 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:27 a skos:Concept ;
     skos:altLabel "Oeillet"@fr,
-        "kartavžar"@sl ;
+        "Kartavžar"@sl ;
     skos:broader olfactory-objects:72 ;
     skos:closeMatch iconclass:25G41 ;
     skos:inScheme odeuropa:olfactory-objects ;
@@ -3523,18 +3523,18 @@ olfactory-objects:27 a skos:Concept ;
         "Œillet"@fr,
         "Garofano"@it,
         "Anjer"@nl,
-        "nagelj"@sl ;
+        "Nagelj"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:277 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "grapefruit"@en,
+    skos:prefLabel "Grapefruit"@en,
         "Pamplemousse"@fr,
         "Melograno"@it,
-        "grapefruit"@nl,
-        "grenivka"@sl ;
+        "Grapefruit"@nl,
+        "Grenivka"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:278 a skos:Concept ;
@@ -3543,22 +3543,22 @@ olfactory-objects:278 a skos:Concept ;
         "Tangerine"@fr ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "mandarin"@en,
+    skos:prefLabel "Mandarin"@en,
         "Mandarine"@fr,
         "Mandarino"@it,
-        "mandarijn"@nl,
-        "mandarina"@sl ;
+        "Mandarijn"@nl,
+        "Mandarina"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:279 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "lemongrass"@en,
+    skos:prefLabel "Lemongrass"@en,
         "Citronnelle"@fr,
         "Citronella"@it,
-        "citroengras"@nl,
-        "limonska trava"@sl ;
+        "Citroengras"@nl,
+        "Limonska trava"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:280 a skos:Concept ;
@@ -3569,122 +3569,122 @@ olfactory-objects:280 a skos:Concept ;
         "Ribes"@it ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "blackcurrant"@en,
+    skos:prefLabel "Blackcurrant"@en,
         "Cassissier"@fr,
         "Ribes nero"@it,
-        "zwarte bes"@nl,
-        "črni ribez"@sl ;
+        "Zwarte bes"@nl,
+        "Črni ribez"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:281 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "blueberry"@en,
+    skos:prefLabel "Blueberry"@en,
         "Myrtille"@fr,
         "Mirtillo"@it,
-        "blauwe bes"@nl,
-        "borovnica"@sl ;
+        "Blauwe bes"@nl,
+        "Borovnica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:282 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "strawberry"@en,
+    skos:prefLabel "Strawberry"@en,
         "Fraise"@fr,
         "Fragola"@it,
-        "aardbei"@nl,
-        "jagoda"@sl ;
+        "Aardbei"@nl,
+        "Jagoda"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:283 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "raspberry"@en,
+    skos:prefLabel "Raspberry"@en,
         "Framboise"@fr,
         "Lampone"@it,
-        "framboos"@nl,
-        "malina"@sl ;
+        "Framboos"@nl,
+        "Malina"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:284 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "rhubarb"@en,
+    skos:prefLabel "Rhubarb"@en,
         "Rhubarbe"@fr,
         "Rabarbaro"@it,
-        "rabarber"@nl,
-        "rabarbara"@sl ;
+        "Rabarber"@nl,
+        "Rabarbara"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:285 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "peach"@en,
+    skos:prefLabel "Peach"@en,
         "Pêche"@fr,
         "Pesca"@it,
-        "perzik"@nl,
-        "breskev"@sl ;
+        "Perzik"@nl,
+        "Breskev"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:286 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "plum"@en,
+    skos:prefLabel "Plum"@en,
         "Prune"@fr,
         "Prugna"@it,
-        "pruim"@nl,
-        "sliva"@sl ;
+        "Pruim"@nl,
+        "Sliva"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:287 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "grape"@en,
+    skos:prefLabel "Grape"@en,
         "Raisin"@fr,
         "Uva"@it,
-        "druif"@nl,
-        "grozdje"@sl ;
+        "Druif"@nl,
+        "Grozdje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:288 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Melon miel"@fr,
-        "melona medene rose"@sl ;
+        "Melona medene rose"@sl ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "honeydew melon"@en,
+    skos:prefLabel "Honeydew melon"@en,
         "Melon honeydew"@fr,
         "Melone verde"@it,
-        "melona"@sl ;
+        "Melona"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:289 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "pineapple"@en,
+    skos:prefLabel "Pineapple"@en,
         "Ananas"@fr,
         "Ananas"@it,
-        "ananas"@nl,
-        "ananas"@sl ;
+        "Ananas"@nl,
+        "Ananas"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:290 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "pear"@en,
+    skos:prefLabel "Pear"@en,
         "Poire"@fr,
         "Pera"@it,
-        "peer"@nl,
-        "hruška"@sl ;
+        "Peer"@nl,
+        "Hruška"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:291 a skos:Concept ;
@@ -3693,11 +3693,11 @@ olfactory-objects:291 a skos:Concept ;
         "Anguria"@it ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "watermelon"@en,
+    skos:prefLabel "Watermelon"@en,
         "Pastèque"@fr,
         "Cocomero"@it,
-        "watermeloen"@nl,
-        "lubenica"@sl ;
+        "Watermeloen"@nl,
+        "Lubenica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:292 a skos:Concept ;
@@ -3706,34 +3706,34 @@ olfactory-objects:292 a skos:Concept ;
         "Cocco"@it ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "coconut"@en,
+    skos:prefLabel "Coconut"@en,
         "Noix de coco"@fr,
         "Noce di cocco"@it,
-        "cocosnoot"@nl,
-        "kokos"@sl ;
+        "Cocosnoot"@nl,
+        "Kokos"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:293 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "walnut"@en,
+    skos:prefLabel "Walnut"@en,
         "Noix"@fr,
         "Noce"@it,
-        "walnoot"@nl,
-        "oreh"@sl ;
+        "Walnoot"@nl,
+        "Oreh"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:297 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
-    skos:altLabel "korenje"@sl ;
+    skos:altLabel "Korenje"@sl ;
     skos:broader olfactory-objects:410 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "carrot"@en,
+    skos:prefLabel "Carrot"@en,
         "Carotte"@fr,
         "Carota"@it,
-        "wortel"@nl,
-        "korenček"@sl ;
+        "Wortel"@nl,
+        "Korenček"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:304 a skos:Concept ;
@@ -3741,11 +3741,11 @@ olfactory-objects:304 a skos:Concept ;
     skos:altLabel "Bell pepper"@en ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "bellpepper"@en,
+    skos:prefLabel "Bellpepper"@en,
         "Poivron"@fr,
         "Peperone"@it,
-        "paprika"@nl,
-        "paprika"@sl ;
+        "Paprika"@nl,
+        "Paprika"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:305 a skos:Concept ;
@@ -3769,11 +3769,11 @@ olfactory-objects:305 a skos:Concept ;
         "Pollanca"@it ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "corn"@en,
+    skos:prefLabel "Corn"@en,
         "Maïs"@fr,
         "Mais"@it,
-        "maïs"@nl,
-        "koruza"@sl ;
+        "Maïs"@nl,
+        "Koruza"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:306 a skos:Concept ;
@@ -3790,11 +3790,11 @@ olfactory-objects:306 a skos:Concept ;
         "Rafano orientale"@it ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "horse radish"@en,
+    skos:prefLabel "Horse radish"@en,
         "Raifort"@fr,
         "Barbaforte"@it,
-        "mierikswortel"@nl,
-        "navadni hren"@sl ;
+        "Mierikswortel"@nl,
+        "Navadni hren"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:307 a skos:Concept ;
@@ -3804,11 +3804,11 @@ olfactory-objects:307 a skos:Concept ;
         "Cive"@fr ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "spring onion"@en,
+    skos:prefLabel "Spring onion"@en,
         "Oignons verts"@fr,
         "Cipollotto"@it,
-        "lenteui"@nl,
-        "mlada čebula"@sl ;
+        "Lenteui"@nl,
+        "Mlada čebula"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:314 a skos:Concept ;
@@ -3816,22 +3816,22 @@ olfactory-objects:314 a skos:Concept ;
     skos:altLabel "Betterave"@fr ;
     skos:broader olfactory-objects:410 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "beetroot"@en,
+    skos:prefLabel "Beetroot"@en,
         "Betterave potagère"@fr,
         "Barbabietola"@it,
-        "rode biet"@nl,
-        "rdeča pesa"@sl ;
+        "Rode biet"@nl,
+        "Rdeča pesa"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:321 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:177 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "pepper"@en,
+    skos:prefLabel "Pepper"@en,
         "Poivre"@fr,
         "Pepe"@it,
-        "peper"@nl,
-        "poper"@sl ;
+        "Peper"@nl,
+        "Poper"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:322 a skos:Concept ;
@@ -3842,30 +3842,30 @@ olfactory-objects:322 a skos:Concept ;
     skos:prefLabel "Origan"@en,
         "Origan"@fr,
         "Origano"@it,
-        "oregano"@nl,
-        "origano"@sl ;
+        "Oregano"@nl,
+        "Origano"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:345 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:167 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "beeswax"@en,
+    skos:prefLabel "Beeswax"@en,
         "Cire d'abeille"@fr,
         "Cera d'api"@it,
-        "bijenwas"@nl,
-        "čebelji vosek"@sl ;
+        "Bijenwas"@nl,
+        "Čebelji vosek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:360 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:359 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cedar (Lebanon)"@en,
+    skos:prefLabel "Cedar (Lebanon)"@en,
         "Cèdre du Liban"@fr,
         "Cedro (Libano)"@it,
         "(Libanon) ceder"@nl,
-        "libanonska cedra"@sl ;
+        "Libanonska cedra"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:366 a skos:Concept ;
@@ -3878,15 +3878,15 @@ olfactory-objects:366 a skos:Concept ;
         "Orina"@it,
         "Pipí"@it,
         "Piscia"@it,
-        "pis"@nl,
+        "Pis"@nl,
         "zeik"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:369 ;
-    skos:prefLabel "urine"@en,
+    skos:prefLabel "Urine"@en,
         "Urine"@fr,
         "Urina"@it,
-        "urine"@nl,
-        "urin"@sl ;
+        "Urine"@nl,
+        "Urin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:369 a skos:Concept ;
@@ -3896,46 +3896,46 @@ olfactory-objects:369 a skos:Concept ;
         "Orina di gatto"@it,
         "Piscia di gatto"@it,
         "Urina di gatto"@it,
-        "kattenurine"@nl,
-        "kattenzeik"@nl ;
+        "Kattenzeik"@nl,
+        "kattenurine"@nl ;
     skos:broader olfactory-objects:366 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cat urine"@en,
+    skos:prefLabel "Cat urine"@en,
         "Pisse de chat"@fr,
         "Pipí di gatto"@it,
-        "kattenpis"@nl,
-        "mačji urin"@sl ;
+        "Kattenpis"@nl,
+        "Mačji urin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:375 a skos:Concept ;
     skos:broader olfactory-objects:109 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "whale oil"@en,
+    skos:prefLabel "Whale oil"@en,
         "Huile de baleine"@fr,
         "Olio di balena"@it,
-        "walvisolie"@nl,
-        "kitovo olje"@sl ;
+        "Walvisolie"@nl,
+        "Kitovo olje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:376 a skos:Concept ;
     skos:broader olfactory-objects:109 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cod liver oil"@en,
+    skos:prefLabel "Cod liver oil"@en,
         "Huile de foie de morue"@fr,
         "Olio di fegato di merluzzo"@it,
-        "levertraan"@nl,
-        "ribje olje iz jeter polenovke"@sl ;
+        "Levertraan"@nl,
+        "Ribje olje iz jeter polenovke"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:377 a skos:Concept ;
-    skos:altLabel "contamination"@en ;
+    skos:altLabel "Contamination"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:378 ;
-    skos:prefLabel "pollution"@en,
+    skos:prefLabel "Pollution"@en,
         "Pollution"@fr,
         "Inquinamento"@it,
-        "vervuiling"@nl,
-        "onesnaževanje"@sl ;
+        "Vervuiling"@nl,
+        "Onesnaževanje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:378 a skos:Concept ;
@@ -3943,42 +3943,42 @@ olfactory-objects:378 a skos:Concept ;
         "Inquinamento dell'aria"@it ;
     skos:broader olfactory-objects:377 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "air pollution"@en,
+    skos:prefLabel "Air pollution"@en,
         "Pollution atmosphérique"@fr,
         "Inquinamento atmosferico"@it,
-        "luchtvervuiling"@nl,
-        "onesnaževanje zraka"@sl ;
+        "Luchtvervuiling"@nl,
+        "Onesnaževanje zraka"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:379 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:380 ;
-    skos:prefLabel "wind"@en,
+    skos:prefLabel "Wind"@en,
         "Vent"@fr,
         "Vento"@it,
-        "wind"@nl,
-        "veter"@sl ;
+        "Wind"@nl,
+        "Veter"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:380 a skos:Concept ;
-    skos:altLabel "sea breeze"@en,
+    skos:altLabel "Sea breeze"@en,
         "Vento del mare"@it ;
     skos:broader olfactory-objects:379 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "sea wind"@en,
+    skos:prefLabel "Sea wind"@en,
         "Vent marin"@fr,
         "Brezza marina"@it,
-        "zeewind"@nl,
-        "morski veter"@sl ;
+        "Zeewind"@nl,
+        "Morski veter"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:384 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "passion flower"@en,
+    skos:prefLabel "Passion flower"@en,
         "Passiflore"@fr,
         "Passiflora"@it,
-        "passiebloem"@nl,
-        "pasijonka"@sl ;
+        "Passiebloem"@nl,
+        "Pasijonka"@sl ;
     skos:related olfactory-objects:72 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -3987,19 +3987,19 @@ olfactory-objects:385 a skos:Concept ;
         "Fruit de pourpre"@fr,
         "Maracuja"@it ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "passion fruit"@en,
+    skos:prefLabel "Passion fruit"@en,
         "Grenadille"@fr,
         "Frutto della passione"@it,
-        "passievrucht"@nl,
-        "marakuja"@sl ;
+        "Passievrucht"@nl,
+        "Marakuja"@sl ;
     skos:related olfactory-objects:75 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:386 a skos:Concept ;
     skos:definition "A combination of aromatics meant for pomanders and to protect oneself from miasmas and diseases"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "schalg"@nl,
-        "udarec?"@sl ;
+    skos:prefLabel "Schalg"@nl,
+        "Udarec?"@sl ;
     skos:related olfactory-objects:125 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4007,23 +4007,23 @@ olfactory-objects:387 a skos:Concept ;
     skos:definition "Scent balls fashioned in the shape of birds"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Oiselet"@fr,
-        "oiselet"@nl,
-        "majhen ptič?"@sl ;
+        "Oiselet"@nl,
+        "Majhen ptič?"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:389 a skos:Concept ;
     skos:altLabel "Ambretta"@it ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "musk mallow"@en,
+    skos:prefLabel "Musk mallow"@en,
         "Ambrette"@fr,
         "Abelmosco"@it,
-        "muskuskaasjeskruid"@nl,
-        "muškatni slezenovec"@sl ;
+        "Muskuskaasjeskruid"@nl,
+        "Muškatni slezenovec"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:39 a skos:Concept ;
-    skos:altLabel "havana"@sl,
+    skos:altLabel "Havana"@sl,
         "havanka"@sl ;
     skos:closeMatch iconclass:41C742 ;
     skos:inScheme odeuropa:olfactory-objects ;
@@ -4032,7 +4032,7 @@ olfactory-objects:39 a skos:Concept ;
         "Cigare"@fr,
         "Sigaro"@it,
         "Sigaar"@nl,
-        "cigara"@sl ;
+        "Cigara"@sl ;
     skos:related olfactory-objects:227 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4045,32 +4045,32 @@ olfactory-objects:391 a skos:Concept ;
         "Centaurée bleuet"@fr,
         "Fleur de Zacharie"@fr,
         "Ciano"@it,
-        "modriš"@sl,
-        "plavica"@sl ;
+        "Plavica"@sl,
+        "modriš"@sl ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "cornflower"@en,
+    skos:prefLabel "Cornflower"@en,
         "Bleuet"@fr,
         "Fiordaliso"@it,
-        "korenbloem"@nl,
-        "modri plavinec"@sl ;
+        "Korenbloem"@nl,
+        "Modri plavinec"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:393 a skos:Concept ;
-    skos:altLabel "zaplinjevanje"@sl ;
+    skos:altLabel "Zaplinjevanje"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "fumigation"@en,
+    skos:prefLabel "Fumigation"@en,
         "Fumigation"@fr,
         "Fumigazione"@it,
-        "per fumum"@nl,
-        "fumgacija"@sl ;
+        "Per fumum"@nl,
+        "Fumgacija"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:399 a skos:Concept ;
-    skos:altLabel "reuckwerk"@en ;
-    skos:definition "combination, composition of odorants or raw materials used for burnt offerings and embalmings (liquids, oils) and later for medical and aesthetic use"@en ;
+    skos:altLabel "Reuckwerk"@en ;
+    skos:definition "Combination, composition of odorants or raw materials used for burnt offerings and embalmings (liquids, oils) and later for medical and aesthetic use"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "reuckwerk"@nl ;
+    skos:prefLabel "Reuckwerk"@nl ;
     skos:related olfactory-objects:267 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4084,7 +4084,7 @@ olfactory-objects:40 a skos:Concept ;
         "Boîte à cigares"@fr,
         "Scatola per sigari"@it,
         "Sigaardoos"@nl,
-        "škatla za cigare"@sl ;
+        "Škatla za cigare"@sl ;
     skos:related olfactory-objects:227 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4095,7 +4095,7 @@ olfactory-objects:406 a skos:Concept ;
     skos:prefLabel "Nutmeg"@en,
         "Noix de muscade"@fr,
         "Noce moscata"@it,
-        "muškatni orešček"@sl ;
+        "Muškatni orešček"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:407 a skos:Concept ;
@@ -4104,7 +4104,7 @@ olfactory-objects:407 a skos:Concept ;
     skos:prefLabel "Basilic"@en,
         "Basilico"@it,
         "Basilicum"@nl,
-        "bazilika"@sl ;
+        "Bazilika"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:408 a skos:Concept ;
@@ -4112,21 +4112,21 @@ olfactory-objects:408 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Rosemary"@en,
         "Rosmarino"@it,
-        "rožmarin"@sl ;
+        "Rožmarin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:409 a skos:Concept ;
-    skos:altLabel "materina dušica"@sl ;
+    skos:altLabel "Materina dušica"@sl ;
     skos:broader olfactory-objects:88 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Thyme"@en,
         "Timo"@it,
         "Thijm"@nl,
-        "timijan"@sl ;
+        "Timijan"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:41 a skos:Concept ;
-    skos:altLabel "etui za cigare"@sl,
+    skos:altLabel "Etui za cigare"@sl,
         "zatok za cigare"@sl ;
     skos:closeMatch iconclass:41C7423 ;
     skos:inScheme odeuropa:olfactory-objects ;
@@ -4134,7 +4134,7 @@ olfactory-objects:41 a skos:Concept ;
         "Étui à cigares"@fr,
         "Astuccio per sigari"@it,
         "Sigaardoos"@nl,
-        "cigarnica"@sl ;
+        "Cigarnica"@sl ;
     skos:related olfactory-objects:227 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4143,14 +4143,14 @@ olfactory-objects:414 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Saffron"@en,
         "Zafferano"@it,
-        "žafran"@sl ;
+        "Žafran"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:416 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Book"@en,
         "Libro"@it,
-        "knjiga"@sl ;
+        "Knjiga"@sl ;
     skos:related olfactory-objects:262,
         olfactory-objects:263 ;
     skos:topConceptOf odeuropa:olfactory-objects .
@@ -4163,7 +4163,7 @@ olfactory-objects:42 a skos:Concept ;
         "Porte-cigare"@fr,
         "Portasigari"@it,
         "Sigaarhouder"@nl,
-        "ustnik za cigare"@sl ;
+        "Ustnik za cigare"@sl ;
     skos:related olfactory-objects:227 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4175,20 +4175,20 @@ olfactory-objects:43 a skos:Concept ;
         "Cigarette"@fr,
         "Sigaretta"@it,
         "Sigaret"@nl,
-        "cigarete"@sl ;
+        "Cigarete"@sl ;
     skos:related olfactory-objects:227 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:49 a skos:Concept ;
     skos:broader olfactory-objects:4 ;
     skos:closeMatch iconclass:41D2665 ;
-    skos:definition "type of fragrant jewel"@en ;
+    skos:definition "Type of fragrant jewel"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "(Cocktail) brooch"@en,
-        "broche"@fr,
+        "Broche"@fr,
         "Spilla"@it,
         "Cocktail broche (met parfum)"@nl,
-        "broška za koktejl"@sl ;
+        "Broška za koktejl"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:58 a skos:Concept ;
@@ -4201,7 +4201,7 @@ olfactory-objects:58 a skos:Concept ;
         "Eau de cologne"@fr,
         "Acqua di colonia"@it,
         "Eau de cologne"@nl,
-        "kolonjska vodica"@sl ;
+        "Kolonjska vodica"@sl ;
     skos:related olfactory-objects:228 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4213,18 +4213,18 @@ olfactory-objects:61 a skos:Concept ;
         "Orme"@fr,
         "Olmo"@it,
         "Iep"@nl,
-        "brest"@sl ;
+        "Brest"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:63 a skos:Concept ;
-    skos:altLabel "pahalnik"@sl ;
+    skos:altLabel "Pahalnik"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Fächer"@de,
         "Fan"@en,
         "Ventilateur"@fr,
         "Ventilatore"@it,
         "Waaier"@nl,
-        "pahljača"@sl ;
+        "Pahljača"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:64 a skos:Concept ;
@@ -4234,7 +4234,7 @@ olfactory-objects:64 a skos:Concept ;
         "Plume"@fr,
         "Piuma"@it,
         "Veer"@nl,
-        "pero"@sl ;
+        "Pero"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:69 a skos:Concept ;
@@ -4245,14 +4245,14 @@ olfactory-objects:69 a skos:Concept ;
         "Flacon"@fr,
         "Flacone"@it,
         "Flacon, fles"@nl,
-        "parfumska steklenička"@sl ;
+        "Parfumska steklenička"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:70 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Flacon ring"@en,
         "Flaconring"@nl,
-        "obročasta steklenica"@sl ;
+        "Obročasta steklenica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:77 a skos:Concept ;
@@ -4268,7 +4268,7 @@ olfactory-objects:77 a skos:Concept ;
         "Spazzatura"@it,
         "Afval"@nl,
         "Vuil"@nl,
-        "odpadek"@sl ;
+        "Odpadek"@sl ;
     skos:closeMatch iconclass:44E54 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Müll"@de,
@@ -4276,18 +4276,18 @@ olfactory-objects:77 a skos:Concept ;
         "Ordures"@fr,
         "Rifiuti"@it,
         "Vuilnis"@nl,
-        "smeti"@sl ;
+        "Smeti"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:82 a skos:Concept ;
-    skos:altLabel "venec"@sl ;
+    skos:altLabel "Venec"@sl ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Guirlande"@en,
         "Guirlande"@fr,
         "Ghirlanda"@it,
         "Guirlande"@nl,
-        "girlanda"@sl ;
+        "Girlanda"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:83 a skos:Concept ;
@@ -4299,7 +4299,7 @@ olfactory-objects:83 a skos:Concept ;
         "Arme à feu"@fr,
         "Pistola"@it,
         "Geweer"@nl,
-        "orožje"@sl ;
+        "Orožje"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:84 a skos:Concept ;
@@ -4308,7 +4308,7 @@ olfactory-objects:84 a skos:Concept ;
         "Gyroscope Pomme d'ambre"@fr,
         "Giroscopio Pomo d'ambra"@it,
         "Gyroscoop pomander"@nl,
-        "okrogla amber krogla"@sl ;
+        "Okrogla amber krogla"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:87 a skos:Concept ;
@@ -4318,7 +4318,7 @@ olfactory-objects:87 a skos:Concept ;
         "Foin"@fr,
         "Fieno"@it,
         "Hooi"@nl,
-        "seno"@sl ;
+        "Seno"@sl ;
     skos:related olfactory-objects:208 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4332,7 +4332,7 @@ olfactory-objects:9 a skos:Concept ;
         "Holocauste"@fr,
         "Sacrificio"@it,
         "Reukoffer"@nl,
-        "žgalna daritev"@sl ;
+        "Žgalna daritev"@sl ;
     skos:related olfactory-objects:264 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4343,7 +4343,7 @@ olfactory-objects:90 a skos:Concept ;
     skos:prefLabel "Inro"@en,
         "Inrō"@fr,
         "Inro"@nl,
-        "inro"@sl ;
+        "Inro"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:94 a skos:Concept ;
@@ -4352,7 +4352,7 @@ olfactory-objects:94 a skos:Concept ;
         "Revêtement en cuir"@fr,
         "Rivestimento in pelle"@it,
         "Leerbehang"@nl,
-        "usnjene stenske tapete"@sl ;
+        "Usnjene stenske tapete"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:96 a skos:Concept ;
@@ -4361,14 +4361,14 @@ olfactory-objects:96 a skos:Concept ;
         "Armoire à linge"@fr,
         "Armadio"@it,
         "Linnenkast"@nl,
-        "omara za perilo"@sl ;
+        "Omara za perilo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:97 a skos:Concept ;
     skos:definition "Box to keep eau de cologne"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Lodereindoos"@nl,
-        "škatlica z dišavo"@sl ;
+        "Škatlica z dišavo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:110 a skos:Concept ;
@@ -4378,25 +4378,25 @@ olfactory-objects:110 a skos:Concept ;
         "Oignon"@fr,
         "Cipolla"@it,
         "Ui"@nl,
-        "čebule"@sl ;
+        "Čebule"@sl ;
     skos:related olfactory-objects:302,
         olfactory-objects:303 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:114 a skos:Concept ;
-    skos:altLabel "dolg ščit"@sl ;
+    skos:altLabel "Dolg ščit"@sl ;
     skos:broader olfactory-objects:4 ;
-    skos:definition "diagonally worn ambergris scented necklace with brownish beads"@en ;
+    skos:definition "Diagonally worn ambergris scented necklace with brownish beads"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Peltas"@en,
         "Peltas"@nl,
-        "pelta"@sl ;
+        "Pelta"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:116 a skos:Concept ;
     skos:altLabel "Parfumflasche"@de,
         "Flacon de parfum"@fr,
-        "parfumske stekleničke"@sl ;
+        "Parfumske stekleničke"@sl ;
     skos:broader olfactory-objects:412 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Parfümflaschen"@de,
@@ -4404,18 +4404,18 @@ olfactory-objects:116 a skos:Concept ;
         "Bouteille de parfum"@fr,
         "Bottiglia di profumo"@it,
         "Parfumfles"@nl,
-        "steklenica za parfume"@sl ;
+        "Steklenica za parfume"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:118 a skos:Concept ;
     skos:broader olfactory-objects:4 ;
-    skos:definition "fragrant type of accessory"@en ;
+    skos:definition "Fragrant type of accessory"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Perfume button"@en,
         "Bouton de parfum"@fr,
         "Bottone di profumo"@it,
         "Parfumknopen"@nl,
-        "odišavljeni gumbi"@sl ;
+        "Odišavljeni gumbi"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:121 a skos:Concept ;
@@ -4425,7 +4425,7 @@ olfactory-objects:121 a skos:Concept ;
         "Bague Parfum"@fr,
         "Anello da profumo"@it,
         "Parfumring"@nl,
-        "parfumski prstan"@sl ;
+        "Parfumski prstan"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:122 a skos:Concept ;
@@ -4436,24 +4436,24 @@ olfactory-objects:122 a skos:Concept ;
         "Tuyau"@fr,
         "Tubo"@it,
         "Pijpen"@nl,
-        "pipe"@sl ;
+        "Pipe"@sl ;
     skos:related olfactory-objects:227 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:129 a skos:Concept ;
     skos:broader olfactory-objects:4 ;
-    skos:definition "holder of tussie mussie to prevent one from catching the plague"@en ;
+    skos:definition "Holder of tussie mussie to prevent one from catching the plague"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Posy holder"@en,
         "Boekethouder"@nl,
-        "držalo za aromatični šopek"@sl ;
+        "Držalo za aromatični šopek"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:131 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Pouncet Box"@en,
         "Boîte Pouncet"@fr,
-        "prelukljana srebrna škatlica z dišavo"@sl ;
+        "Prelukljana srebrna škatlica z dišavo"@sl ;
     skos:related olfactory-objects:125 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4466,12 +4466,12 @@ olfactory-objects:132 a skos:Concept ;
         "Poudrier"@fr,
         "Porta-cipria"@it,
         "Poederdoos"@nl,
-        "pudrnica"@sl ;
+        "Pudrnica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:136 a skos:Concept ;
-    skos:altLabel "molek"@sl,
-        "roženkranc"@sl ;
+    skos:altLabel "Roženkranc"@sl,
+        "molek"@sl ;
     skos:exactMatch wordnet:4116429 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:137 ;
@@ -4480,7 +4480,7 @@ olfactory-objects:136 a skos:Concept ;
         "Chapelet"@fr,
         "Rosario"@it,
         "Rozenkrans"@nl,
-        "rožni venec"@sl ;
+        "Rožni venec"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:14 a skos:Concept ;
@@ -4492,19 +4492,19 @@ olfactory-objects:14 a skos:Concept ;
         "Castor"@fr,
         "Castoro"@it,
         "Bever"@nl,
-        "bober"@sl ;
+        "Bober"@sl ;
     skos:related olfactory-objects:207 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:141 a skos:Concept ;
-    skos:altLabel "odišavljene jagode"@sl ;
+    skos:altLabel "Odišavljene jagode"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Parfümierte Perlen"@de,
         "Scented bead"@en,
         "Perle parfumée"@fr,
         "Perlina profumata"@it,
         "Geurende kralen"@nl,
-        "odišavljene koralde"@sl ;
+        "Odišavljene koralde"@sl ;
     skos:related olfactory-objects:2 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4517,21 +4517,21 @@ olfactory-objects:142 a skos:Concept ;
         "Bouteille porte parfum"@fr,
         "Bottiglia porta-profumo"@it,
         "Geurfles"@nl,
-        "steklenička z vonjem"@sl ;
+        "Steklenička z vonjem"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:143 a skos:Concept ;
     skos:altLabel "Boîte de parfum"@fr,
         "Scatola di profumo"@it,
-        "geurdoos"@nl,
-        "dišavnica"@sl ;
+        "Geurdoos"@nl,
+        "Dišavnica"@sl ;
     skos:closeMatch iconclass:41C315 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "scent box"@en,
+    skos:prefLabel "Scent box"@en,
         "Boîte porte parfum"@fr,
         "Scatola porta-profumo"@it,
         "Reukdoos"@nl,
-        "škatle z vonjem"@sl ;
+        "Škatle z vonjem"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:148 a skos:Concept ;
@@ -4543,18 +4543,18 @@ olfactory-objects:148 a skos:Concept ;
         "Flacon de sels"@fr,
         "Bottiglia di sali"@it,
         "Reukfles"@nl,
-        "steklenička s soljo"@sl ;
+        "Steklenička s soljo"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:158 a skos:Concept ;
     skos:altLabel "Plague Bag"@en,
         "sachet"@en ;
     skos:broader olfactory-objects:140 ;
-    skos:definition "small bags contaning sweet smelling substances, often worn on the body to mask the smell of sweat or to fight diseases"@en ;
+    skos:definition "Small bags contaning sweet smelling substances, often worn on the body to mask the smell of sweat or to fight diseases"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Sweet Bag"@en,
         "Sachet"@nl,
-        "vreče s slaščicami"@sl ;
+        "Vreče s slaščicami"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:170 a skos:Concept ;
@@ -4566,14 +4566,14 @@ olfactory-objects:170 a skos:Concept ;
         "Iris"@en,
         "Iris"@fr,
         "Iris"@it,
-        "iris"@nl,
-        "perunika"@sl ;
+        "Iris"@nl,
+        "Perunika"@sl ;
     skos:related olfactory-objects:224 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:171 a skos:Concept ;
     skos:altLabel "Narcisse Jonquille"@fr,
-        "narcis"@nl ;
+        "Narcis"@nl ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:257 ;
@@ -4582,7 +4582,7 @@ olfactory-objects:171 a skos:Concept ;
         "Jonquille"@fr,
         "Giunchiglia"@it,
         "Jonquille"@nl,
-        "narcise jonquil"@sl ;
+        "Narcise jonquil"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:175 a skos:Concept ;
@@ -4593,16 +4593,16 @@ olfactory-objects:175 a skos:Concept ;
         "Muguet"@fr,
         "Mughetto"@it,
         "Lelietje-van-dalen"@nl,
-        "šmarnica"@sl ;
+        "Šmarnica"@sl ;
     skos:related olfactory-objects:92 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:188 a skos:Concept ;
     skos:altLabel "Cochon"@fr,
         "Porco"@it,
+        "Zwijn"@nl,
         "big"@nl,
-        "zwijn"@nl,
-        "svinje"@sl ;
+        "Svinje"@sl ;
     skos:broader olfactory-objects:13 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Schweine"@de,
@@ -4610,7 +4610,7 @@ olfactory-objects:188 a skos:Concept ;
         "Porc"@fr,
         "Maiale"@it,
         "Varken"@nl,
-        "prašiči"@sl ;
+        "Prašiči"@sl ;
     skos:related olfactory-objects:98 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4622,7 +4622,7 @@ olfactory-objects:189 a skos:Concept ;
         "Cheval"@fr,
         "Cavallo"@it,
         "Paard"@nl,
-        "konji"@sl ;
+        "Konji"@sl ;
     skos:related olfactory-objects:98 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4641,7 +4641,7 @@ olfactory-objects:190 a skos:Concept ;
         "Vache"@fr,
         "Mucca"@it,
         "Koe"@nl,
-        "krave"@sl ;
+        "Krave"@sl ;
     skos:related olfactory-objects:98 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4653,7 +4653,7 @@ olfactory-objects:191 a skos:Concept ;
         "Taureau"@fr,
         "Toro"@it,
         "Stier"@nl,
-        "biki"@sl ;
+        "Biki"@sl ;
     skos:related olfactory-objects:98 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4664,64 +4664,64 @@ olfactory-objects:195 a skos:Concept ;
         "Pigeon"@en,
         "Pigeon"@fr,
         "Piccione"@it,
-        "duif"@nl,
-        "golobi"@sl ;
+        "Duif"@nl,
+        "Golobi"@sl ;
     skos:related olfactory-objects:98 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:2 a skos:Concept ;
     skos:broader olfactory-objects:4 ;
-    skos:definition "type of aromatic jewelry"@en ;
+    skos:definition "Type of aromatic jewelry"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Bao"@en,
         "Bao"@nl,
-        "žemljica"@sl ;
+        "Žemljica"@sl ;
     skos:related olfactory-objects:141 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:224 a skos:Concept ;
-    skos:altLabel "korenine irisa"@sl ;
+    skos:altLabel "Korenine irisa"@sl ;
     skos:broader olfactory-objects:410 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Florentiner Schwertlilie"@de,
-        "orris root"@en,
+        "Orris root"@en,
         "Racine d'iris"@fr,
         "Radice di iris"@it,
         "Iriswortel"@nl,
-        "korenine perunike"@sl ;
+        "Korenine perunike"@sl ;
     skos:related olfactory-objects:170 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:229 a skos:Concept ;
     skos:altLabel "Theriac"@en ;
     skos:broader olfactory-objects:404 ;
-    skos:definition "medicin made of a dozen of odorant substances, pearls and snake venom"@en ;
+    skos:definition "Medicin made of a dozen of odorant substances, pearls and snake venom"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Theriaca"@en,
         "Thériaque"@fr,
         "Teriaca"@it,
         "Theriacum"@nl,
-        "protistrup"@sl ;
+        "Protistrup"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:231 a skos:Concept ;
     skos:altLabel "Juniper berry"@en,
         "Baies de genièvre"@fr,
         "Bacca di Ginepro"@it,
-        "jeneverbes"@nl ;
+        "Jeneverbes"@nl ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Wacholderbeere"@de,
         "Juniper"@en,
         "Genièvre"@fr,
         "Ginepro"@it,
-        "jeneverstruik"@nl,
-        "brin / brinove jagode"@sl ;
+        "Jeneverstruik"@nl,
+        "Brin / brinove jagode"@sl ;
     skos:related olfactory-objects:155 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:232 a skos:Concept ;
-    skos:altLabel "bay leaves"@en,
+    skos:altLabel "Bay leaves"@en,
         "Lauro"@it ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme odeuropa:olfactory-objects ;
@@ -4729,8 +4729,8 @@ olfactory-objects:232 a skos:Concept ;
         "Laurel"@en,
         "Laurier"@fr,
         "Alloro"@it,
-        "laurier"@nl,
-        "lovor"@sl ;
+        "Laurier"@nl,
+        "Lovor"@sl ;
     skos:related olfactory-objects:93 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4741,7 +4741,7 @@ olfactory-objects:251 a skos:Concept ;
         "Bol d'encens"@fr,
         "Ciotola d'incenso"@it,
         "Wierookschaal"@nl,
-        "posode s kadilom"@sl ;
+        "Posode s kadilom"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:253 a skos:Concept ;
@@ -4752,7 +4752,7 @@ olfactory-objects:253 a skos:Concept ;
         "Fougère"@fr,
         "Fougère"@it,
         "Fougère"@nl,
-        "praprot"@sl ;
+        "Praprot"@sl ;
     skos:related olfactory-objects:415 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4761,8 +4761,8 @@ olfactory-objects:254 a skos:Concept ;
     skos:definition "Foul breath of a patient that was believed to be able to be contagious because of its odor"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Soffio pestifero"@it,
-        "contagium"@nl,
-        "okužba"@sl ;
+        "Contagium"@nl,
+        "Okužba"@sl ;
     skos:related olfactory-objects:261 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4775,7 +4775,7 @@ olfactory-objects:255 a skos:Concept ;
         "Rafflésie"@fr,
         "Rafflesia"@it,
         "Rafflessia"@nl,
-        "raflesija"@sl ;
+        "Raflesija"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:258 a skos:Concept ;
@@ -4785,7 +4785,7 @@ olfactory-objects:258 a skos:Concept ;
         "Jasmin"@fr,
         "Gelsomino"@it,
         "Jasmijn"@nl,
-        "jasmin"@sl ;
+        "Jasmin"@sl ;
     skos:related olfactory-objects:92 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4795,19 +4795,19 @@ olfactory-objects:260 a skos:Concept ;
         "Cashmere"@fr,
         "Cashmere"@it,
         "Kasjmier"@nl,
-        "kašmir"@sl ;
+        "Kašmir"@sl ;
     skos:related olfactory-objects:172 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:261 a skos:Concept ;
     skos:broader olfactory-objects:413 ;
-    skos:definition "manifestation of noxious air, often perceived as a foul smell"@en ;
+    skos:definition "Manifestation of noxious air, often perceived as a foul smell"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Miasma"@en,
         "Miasme"@fr,
         "Miasma"@it,
         "Miasma"@nl,
-        "miazma"@sl ;
+        "Miazma"@sl ;
     skos:related olfactory-objects:254 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4820,19 +4820,19 @@ olfactory-objects:262 a skos:Concept ;
         "Oïdium"@fr,
         "Oidio"@it,
         "Meeldauw"@nl,
-        "plesen"@sl ;
+        "Plesen"@sl ;
     skos:related olfactory-objects:416 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:263 a skos:Concept ;
-    skos:altLabel "ambigious: it might pertain to a shaped container into which you pour liquid that becomes solid in the shape of the container"@sl ;
+    skos:altLabel "Ambigious: it might pertain to a shaped container into which you pour liquid that becomes solid in the shape of the container"@sl ;
     skos:broader olfactory-objects:413 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Mould"@en,
         "Moisissure"@fr,
         "Muffa"@it,
         "Schimmel"@nl,
-        "plesen"@sl ;
+        "Plesen"@sl ;
     skos:related olfactory-objects:416 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4841,11 +4841,11 @@ olfactory-objects:302 a skos:Concept ;
     skos:altLabel "Civette"@fr ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "chives"@en,
+    skos:prefLabel "Chives"@en,
         "Ciboulette"@fr,
         "Erba cipollina"@it,
-        "bieslook"@nl,
-        "drobnjak"@sl ;
+        "Bieslook"@nl,
+        "Drobnjak"@sl ;
     skos:related olfactory-objects:110 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4853,11 +4853,11 @@ olfactory-objects:303 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "leek"@en,
+    skos:prefLabel "Leek"@en,
         "Poireau"@fr,
         "Porro"@it,
-        "prij"@nl,
-        "por"@sl ;
+        "Prij"@nl,
+        "Por"@sl ;
     skos:related olfactory-objects:110 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4866,35 +4866,35 @@ olfactory-objects:358 a skos:Concept ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:359 ;
-    skos:prefLabel "conifer"@en,
+    skos:prefLabel "Conifer"@en,
         "Conifère"@fr,
         "Conifera"@it,
-        "coniferen"@nl,
-        "borovci"@sl ;
+        "Coniferen"@nl,
+        "Borovci"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:359 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     skos:altLabel "Cèdre rouge oriental"@fr,
-        "potloodceder"@nl ;
+        "Potloodceder"@nl ;
     skos:broader olfactory-objects:358 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:360 ;
-    skos:prefLabel "cedar (Virginia)"@en,
+    skos:prefLabel "Cedar (Virginia)"@en,
         "Genévrier de Virginie"@fr,
         "Ginepro della Virginia"@it,
-        "ceder (Virginia)"@nl,
-        "virginijski brin"@sl ;
+        "Ceder (Virginia)"@nl,
+        "Virginijski brin"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:392 a skos:Concept ;
     skos:broader olfactory-objects:233 ;
     skos:inScheme odeuropa:olfactory-objects ;
-    skos:prefLabel "chamois leather"@en,
+    skos:prefLabel "Chamois leather"@en,
         "Peaux de chamois"@fr,
         "Pelle di camoscio"@it,
-        "zeemleer"@nl,
-        "semiš"@sl ;
+        "Zeemleer"@nl,
+        "Semiš"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:411 a skos:Concept ;
@@ -4903,20 +4903,20 @@ olfactory-objects:411 a skos:Concept ;
     skos:narrower olfactory-objects:192 ;
     skos:prefLabel "Goat"@en,
         "Capra"@it,
-        "koza"@sl ;
+        "Koza"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:415 a skos:Concept ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Lavender"@en,
         "Lavanda"@it,
-        "sivka"@sl ;
+        "Sivka"@sl ;
     skos:related olfactory-objects:253,
         olfactory-objects:88 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:55 a skos:Concept ;
-    skos:altLabel "cucki"@sl,
+    skos:altLabel "Cucki"@sl,
         "ščeneta"@sl ;
     skos:broader olfactory-objects:13 ;
     skos:closeMatch iconclass:34B11 ;
@@ -4926,7 +4926,7 @@ olfactory-objects:55 a skos:Concept ;
         "Cane"@fr,
         "Cane"@it,
         "Hond"@nl,
-        "psi"@sl ;
+        "Psi"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:59 a skos:Concept ;
@@ -4948,7 +4948,7 @@ olfactory-objects:85 a skos:Concept ;
     skos:altLabel "Ventilateur pliant"@fr,
         "Éventail"@fr,
         "Rosta"@it,
-        "ventilator"@sl ;
+        "Ventilator"@sl ;
     skos:broader olfactory-objects:4 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Fächer"@de,
@@ -4956,20 +4956,20 @@ olfactory-objects:85 a skos:Concept ;
         "Ventilateur"@fr,
         "Ventaglio"@it,
         "Handwaaier"@nl,
-        "pahljača"@sl ;
+        "Pahljača"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:93 a skos:Concept ;
     skos:altLabel "Laurel Arch"@en,
         "Couronne de lauriers"@it,
-        "lovorika"@sl ;
+        "Lovorika"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Lorbeerkranz"@de,
         "Laurel Wreath"@en,
         "Couronne de lauriers"@fr,
         "Corona di alloro"@it,
         "Laurierkrans, laurierboog"@nl,
-        "lovorjev venec"@sl ;
+        "Lovorjev venec"@sl ;
     skos:related olfactory-objects:232 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4979,7 +4979,7 @@ olfactory-objects:99 a skos:Concept ;
         "Bocaux à médicaments"@fr,
         "Flacone medicinale"@it,
         "Medicijnflessen"@nl,
-        "kozarec za zdravila"@sl ;
+        "Kozarec za zdravila"@sl ;
     skos:related olfactory-objects:404 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -4992,14 +4992,14 @@ olfactory-objects:109 a skos:Concept ;
         "Huille"@fr,
         "Olio"@it,
         "Olie"@nl,
-        "olje"@sl ;
+        "Olje"@sl ;
     skos:related olfactory-objects:179 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:126 a skos:Concept ;
     skos:altLabel "Pomander (pour femme)"@fr,
-        "muskbal (voor vrouwen)"@nl,
-        "reukbal (voor vrouwen)"@nl ;
+        "Reukbal (voor vrouwen)"@nl,
+        "muskbal (voor vrouwen)"@nl ;
     skos:broader olfactory-objects:125 ;
     skos:closeMatch iconclass:31AA51451 ;
     skos:inScheme odeuropa:olfactory-objects ;
@@ -5007,12 +5007,12 @@ olfactory-objects:126 a skos:Concept ;
         "Pomme d'ambre (pour femme)"@fr,
         "Pomo d'ambra (per donna)"@it,
         "Pomander (voor vrouwen)"@nl,
-        "parfumska krogla"@sl ;
+        "Parfumska krogla"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:151 a skos:Concept ;
-    skos:altLabel "snuifdoos"@nl,
-        "doze za njuhanec"@sl ;
+    skos:altLabel "Snuifdoos"@nl,
+        "Doze za njuhanec"@sl ;
     skos:closeMatch iconclass:41C7441 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Schnupftabakdose"@de,
@@ -5020,7 +5020,7 @@ olfactory-objects:151 a skos:Concept ;
         "Boîte à priser"@fr,
         "Tabacchiera"@it,
         "Snuifdoosje"@nl,
-        "tobačnice za njuhanec"@sl ;
+        "Tobačnice za njuhanec"@sl ;
     skos:related olfactory-objects:227 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -5029,11 +5029,11 @@ olfactory-objects:221 a skos:Concept ;
         olfactory-objects:72 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Akazie"@de,
-        "acacia"@en,
+        "Acacia"@en,
         "Acacia"@fr,
         "Acacia"@it,
-        "acacia"@nl,
-        "akacija"@sl ;
+        "Acacia"@nl,
+        "Akacija"@sl ;
     skos:related olfactory-objects:239 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -5051,7 +5051,7 @@ olfactory-objects:264 a skos:Concept ;
         "Autel de l'encens"@fr,
         "Altare dell'incenso"@it,
         "Reukaltaar"@nl,
-        "zlati kadilni oltar"@sl ;
+        "Zlati kadilni oltar"@sl ;
     skos:related olfactory-objects:9 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -5059,14 +5059,14 @@ olfactory-objects:267 a skos:Concept ;
     skos:altLabel "Encens (résine oliban)"@fr,
         "Oliban"@fr,
         "Thiouraye"@fr,
-        "wierook"@nl ;
+        "Wierook"@nl ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:prefLabel "Frankincense"@en,
         "Franc encens"@fr,
         "Franchincenso"@it,
         "Wijrook"@nl,
-        "sveto kadilo"@sl ;
+        "Sveto kadilo"@sl ;
     skos:related olfactory-objects:269,
         olfactory-objects:399 ;
     skos:topConceptOf odeuropa:olfactory-objects .
@@ -5080,7 +5080,7 @@ olfactory-objects:404 a skos:Concept ;
         olfactory-objects:229 ;
     skos:prefLabel "Medicine"@en,
         "Medicinale"@it,
-        "ydravilo"@sl ;
+        "Ydravilo"@sl ;
     skos:related olfactory-objects:99 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -5092,7 +5092,7 @@ olfactory-objects:410 a skos:Concept ;
         olfactory-objects:314 ;
     skos:prefLabel "Root"@en,
         "Radice"@it,
-        "korenina"@sl ;
+        "Korenina"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:412 a skos:Concept ;
@@ -5103,7 +5103,7 @@ olfactory-objects:412 a skos:Concept ;
         olfactory-objects:163 ;
     skos:prefLabel "Bottle"@en,
         "Bottiglia"@it,
-        "steklenica"@sl ;
+        "Steklenica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:52 a skos:Concept ;
@@ -5116,7 +5116,7 @@ olfactory-objects:52 a skos:Concept ;
         "Cuir de Russie"@fr,
         "Cuir de Russie"@it,
         "Russisch leer"@nl,
-        "rusko usnje"@sl ;
+        "Rusko usnje"@sl ;
     skos:related olfactory-objects:113,
         olfactory-objects:80 ;
     skos:topConceptOf odeuropa:olfactory-objects .
@@ -5128,7 +5128,7 @@ olfactory-objects:80 a skos:Concept ;
         "Gants"@fr,
         "Guanti"@it,
         "Handschoenen"@nl,
-        "rokavice"@sl ;
+        "Rokavice"@sl ;
     skos:related olfactory-objects:113,
         olfactory-objects:52 ;
     skos:topConceptOf odeuropa:olfactory-objects .
@@ -5144,7 +5144,7 @@ olfactory-objects:89 a skos:Concept ;
         "Brûleur d'encens"@fr,
         "Bruciatore d'incenso"@it,
         "Wierookbrander"@nl,
-        "kadilnica"@sl ;
+        "Kadilnica"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:92 a skos:Concept ;
@@ -5156,7 +5156,7 @@ olfactory-objects:92 a skos:Concept ;
         "Lys"@fr,
         "Giglio"@it,
         "Lelie"@nl,
-        "lilija, lilije"@sl ;
+        "Lilija, lilije"@sl ;
     skos:related olfactory-objects:175,
         olfactory-objects:258 ;
     skos:topConceptOf odeuropa:olfactory-objects .
@@ -5170,7 +5170,7 @@ olfactory-objects:113 a skos:Concept ;
     skos:prefLabel "Peau d'Espagne"@en,
         "Peau d'Espagne"@fr,
         "Spaans leer/ Peau d'Espagne"@nl,
-        "špansko usnje"@sl ;
+        "Špansko usnje"@sl ;
     skos:related olfactory-objects:52,
         olfactory-objects:80 ;
     skos:topConceptOf odeuropa:olfactory-objects .
@@ -5195,14 +5195,14 @@ olfactory-objects:228 a skos:Concept ;
         "Aqua Mirabilis"@fr,
         "Aqua Mirabilis"@it,
         "Wonderwater"@nl,
-        "čudežna voda"@sl ;
+        "Čudežna voda"@sl ;
     skos:related olfactory-objects:252,
         olfactory-objects:58,
         olfactory-objects:59 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:233 a skos:Concept ;
-    skos:altLabel "leder"@nl ;
+    skos:altLabel "Leder"@nl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:113,
         olfactory-objects:392,
@@ -5211,22 +5211,22 @@ olfactory-objects:233 a skos:Concept ;
         "Leather"@en,
         "Cuir"@fr,
         "Cuoio"@it,
-        "leer"@nl,
-        "usnje"@sl ;
+        "Leer"@nl,
+        "Usnje"@sl ;
     skos:related olfactory-objects:265 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:125 a skos:Concept ;
     skos:altLabel "Musk ball"@en,
+        "Pomme de senteur"@fr,
         "pomander"@fr,
         "pomandre ou pommandre"@fr,
-        "pomme de senteur"@fr,
+        "Reukbal"@nl,
         "muskbal"@nl,
-        "reukbal"@nl,
-        "parfumska krogla"@sl ;
+        "Parfumska krogla"@sl ;
     skos:broader olfactory-objects:4 ;
     skos:closeMatch iconclass:31A51451 ;
-    skos:definition "jewel (often) made of precious metal, designed to contain scents, sometimes in seperate compartments, and accompanied by a small spoon"@en ;
+    skos:definition "Jewel (often) made of precious metal, designed to contain scents, sometimes in seperate compartments, and accompanied by a small spoon"@en ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:126 ;
     skos:prefLabel "Bisamapfel"@de,
@@ -5234,7 +5234,7 @@ olfactory-objects:125 a skos:Concept ;
         "Pomme d'ambre"@fr,
         "Pomo d'ambra"@it,
         "Pomander"@nl,
-        "pomander"@sl ;
+        "Pomander"@sl ;
     skos:related olfactory-objects:131,
         olfactory-objects:386 ;
     skos:topConceptOf odeuropa:olfactory-objects .
@@ -5244,7 +5244,7 @@ olfactory-objects:227 a skos:Concept ;
     skos:prefLabel "Tobacco"@en,
         "Tabac"@fr,
         "Tabacco"@it,
-        "tobak"@sl ;
+        "Tobak"@sl ;
     skos:related olfactory-objects:122,
         olfactory-objects:151,
         olfactory-objects:39,
@@ -5265,7 +5265,7 @@ olfactory-objects:403 a skos:Concept ;
         olfactory-objects:307 ;
     skos:prefLabel "Vegetable"@en,
         "Verdura"@it,
-        "zelenjava"@sl ;
+        "Zelenjava"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:98 a skos:Concept ;
@@ -5278,7 +5278,7 @@ olfactory-objects:98 a skos:Concept ;
         "Fumier"@fr,
         "Letame"@it,
         "Mest"@nl,
-        "gnoj"@sl ;
+        "Gnoj"@sl ;
     skos:related olfactory-objects:188,
         olfactory-objects:189,
         olfactory-objects:190,
@@ -5299,7 +5299,7 @@ olfactory-objects:88 a skos:Concept ;
         "Herbe"@fr,
         "Erba (menta, basilico, timo, origano, ecc.)"@it,
         "Kruiden"@nl,
-        "zelišča"@sl ;
+        "Zelišča"@sl ;
     skos:related olfactory-objects:415 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -5318,7 +5318,7 @@ olfactory-objects:177 a skos:Concept ;
         "Épices"@fr,
         "Spezie"@it,
         "Specerijen (kruidnagel, foelie, nootmuskaat, kaneel, etc.)"@nl,
-        "začimba (nageljnove žbice, muškatovec, muškatni orešček, cimet)"@sl ;
+        "Začimba (nageljnove žbice, muškatovec, muškatni orešček, cimet)"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:413 a skos:Concept ;
@@ -5352,7 +5352,7 @@ olfactory-objects:259 a skos:Concept ;
         "Résine"@fr,
         "Resina"@it,
         "Harzen"@nl,
-        "smole"@sl ;
+        "Smole"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:405 a skos:Concept ;
@@ -5370,7 +5370,7 @@ olfactory-objects:405 a skos:Concept ;
         olfactory-objects:88 ;
     skos:prefLabel "Food"@en,
         "Cibo"@it,
-        "hrana"@sl ;
+        "Hrana"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:200 a skos:Concept ;
@@ -5391,11 +5391,11 @@ olfactory-objects:200 a skos:Concept ;
         "Arbre"@fr,
         "Albero"@it,
         "Bomen"@nl,
-        "drevesa"@sl ;
+        "Drevesa"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:4 a skos:Concept ;
-    skos:altLabel "kopalna hiša"@sl ;
+    skos:altLabel "Kopalna hiša"@sl ;
     skos:exactMatch wordnet:3602662 ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:1,
@@ -5412,7 +5412,7 @@ olfactory-objects:4 a skos:Concept ;
         olfactory-objects:85,
         olfactory-objects:90 ;
     skos:prefLabel "Jewelry"@en,
-        "kopališče"@sl ;
+        "Kopališče"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:13 a skos:Concept ;
@@ -5438,11 +5438,11 @@ olfactory-objects:13 a skos:Concept ;
         "Animal"@fr,
         "Animale"@it,
         "Dieren"@nl,
-        "živali"@sl ;
+        "Živali"@sl ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 olfactory-objects:72 a skos:Concept ;
-    skos:altLabel "cvetlice"@sl ;
+    skos:altLabel "Cvetlice"@sl ;
     skos:inScheme odeuropa:olfactory-objects ;
     skos:narrower olfactory-objects:138,
         olfactory-objects:170,
@@ -5467,7 +5467,7 @@ olfactory-objects:72 a skos:Concept ;
         "Fleur"@fr,
         "Fiore"@it,
         "Bloemen"@nl,
-        "rože"@sl ;
+        "Rože"@sl ;
     skos:related olfactory-objects:384 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
@@ -5498,15 +5498,15 @@ olfactory-objects:75 a skos:Concept ;
         "Fruit"@fr,
         "Frutto"@it,
         "Fruit"@nl,
-        "sadje"@sl ;
+        "Sadje"@sl ;
     skos:related olfactory-objects:385 ;
     skos:topConceptOf odeuropa:olfactory-objects .
 
 odeuropa:olfactory-objects a skos:ConceptScheme ;
-    rdfs:label "Olfactory-objects" ;
+    rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2021-06-21"^^xsd:date ;
-    pav:createdOn "2021-06-21"^^xsd:date ;
+    dct:modified "2021-06-22"^^xsd:date ;
+    pav:createdOn "2021-06-22"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olfactory-objects:1,
         olfactory-objects:10,
