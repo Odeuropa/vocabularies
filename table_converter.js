@@ -9,7 +9,7 @@ import langTab from './src/langTab.js';
 // import groupTab from './groupTab.js';
 // import matchTab from './matchTab.js';
 import {
-  ODEUROPA, RDF, RDFS, SKOS, DC, XSD, PAV, nsValues,
+  ODEUROPA, ODEUROPA_VOC, RDF, RDFS, SKOS, DC, XSD, PAV, nsValues,
 } from './src/prefixes.js';
 
 function run(options) {
@@ -21,8 +21,8 @@ function run(options) {
   const today = new Date().toISOString().slice(0, 10);
 
   // setup scheme
-  const baseUri = `${ODEUROPA(options.name).value}/`;
-  const scheme = $rdf.sym(ODEUROPA(options.name));
+  const baseUri = `${ODEUROPA_VOC(options.name).value}/`;
+  const scheme = $rdf.sym(ODEUROPA_VOC(options.name));
   const ns = $rdf.Namespace(baseUri);
 
   add(scheme, RDF('type'), SKOS('ConceptScheme'));
