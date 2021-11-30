@@ -19,8 +19,8 @@ export function add(s, p, o, lang) {
   }
   if (typeof o === 'string') o = o.trim().replace(/\n$/, '');
   if (!o || o.value === 'undefined') return;
-  if (typeof o === 'string' && validUrl.isUri(o)) store.add(s, p, $rdf.sym(o));
-  else if (lang) store.add(s, p, $rdf.literal(o, lang));
+  if (lang) store.add(s, p, $rdf.literal(o, lang));
+  else if (typeof o === 'string' && validUrl.isUri(o)) store.add(s, p, $rdf.sym(o));
   else store.add(s, p, o);
 }
 
