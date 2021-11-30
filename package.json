@@ -12,17 +12,18 @@
   "license": "ISC",
   "dependencies": {
     "argparse": "^2.0.1",
-    "command-line-args": "^5.1.1",
+    "axios": "^0.24.0",
+    "command-line-args": "^5.2.0",
     "csvtojson": "^2.0.10",
     "fs-extra": "^10.0.0",
     "klaw-sync": "^6.0.0",
-    "rdflib": "^2.2.5",
+    "rdflib": "^2.2.12",
     "valid-url": "^1.0.9",
     "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "eslint": "^7.29.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4"
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
   }
 }

@@ -52,14 +52,3 @@ To make them ready to work with [Skosmos](https://github.com/NatLibFi/Skosmos), 
     skosify vocabularies/olfactory-objects.ttl -o vocabularies/olfactory-objects.ttl
     skosify vocabularies/olfactory-gestures.ttl -o vocabularies/olfactory-gestures.ttl
     skosify vocabularies/fragrant-spaces.ttl -o vocabularies/fragrant-spaces.ttl
-
-
-docker run --name odeuropa_virtuoso \
--p 8890:8890 -p 1111:1111 \
--e DBA_PASSWORD=odeuropa123 \
--e SPARQL_UPDATE=true \
--e VIRT_SPARQL_ResultSetMaxRows=-1 \
--e VIRT_SPARQL_MaxQueryCostEstimationTime=-1 \
--e VIRT_SPARQL_MaxQueryExecutionTime=-1 \
--v /var/docker/odeuropa/virtuoso/data:/data \
--d d2klab/virtuoso

@@ -4,36 +4,59 @@ import YAML from 'yaml';
 import csv from 'csvtojson';
 import $rdf from 'rdflib';
 import argparse from 'argparse';
+import { interlink } from './src/vocabulary.api.js';
 
 import {
-  ODEUROPA, RDF, RDFS, SKOS, DC, XSD, DBP,
+  ODEUROPA, RDF, RDFS, SKOS, DC, XSD, DBP, SCHEMA, nsValues,
 } from './src/prefixes.js';
 import { add, save } from './src/utils.js';
 
-function toConcept(s, scheme, ns, lang = 'en') {
-  let l1 = s.level1;
-  if (!l1) return null;
-  l1 = l1.trim();
-  const id = l1.toLowerCase().replace(/[^\w]/g, '_');
+function toPredicate(what) {
+  if (!what || !what.includes(':')) return null;
+  const [pfx, body] = what.split(':');
+  return $rdf.sym(nsValues[pfx] + body);
+}
 
-  const concept = ns(id);
-  add(concept, RDF('type'), SKOS('Concept'));
-  add(concept, SKOS('prefLabel'), l1, lang);
+async function toConcept(s, scheme, ns, meta, lang = 'en') {
+  const results = [];
+  let concept;
+  let id;
+  for (let i = 1; i <= 5; i++) {
+    const lev = `level${i}`;
+    let l = s[lev];
 
-  add(concept, SKOS('topConceptOf'), scheme);
+    if (!l) {
+      if (i === 1) {
+        results.push(null);
+        continue;
+      } else break;
+    }
+    l = l.trim();
 
-  let l2 = s.level2;
-  if (!l2) return [concept];
-  l2 = l2.trim();
-  const id2 = l2.toLowerCase().replace(/[^\w]/g, '_');
-  const concept2 = ns(id2);
-  add(concept2, RDF('type'), SKOS('Concept'));
-  add(concept2, SKOS('prefLabel'), l2, lang);
+    const idTemp = l.toLowerCase().replace(/[^\w]/g, '_');
 
-  add(concept2, SKOS('inScheme'), scheme);
-  add(concept2, SKOS('broader'), concept);
+    let prop;
+    if (meta[lev] === 'concat') id = `${id}_${idTemp}`;
+    else {
+      id = idTemp;
+      prop = meta[lev];
+    }
 
-  return [concept, concept2];
+    concept = ns(id);
+    add(concept, RDF('type'), SKOS('Concept'));
+    add(concept, SKOS('prefLabel'), l, lang);
+
+    add(concept, SKOS('inScheme'), scheme);
+
+    if (!results[i - 2]) add(concept, SKOS('topConceptOf'), scheme);
+    else add(concept, toPredicate(prop) || SKOS('broader'), results[i - 2]);
+    results.push(concept);
+  }
+  if (s.picture) {
+    s.picture.split('\n').forEach((pic) => add(concept, SCHEMA('subjectOf'), pic));
+  }
+  add(concept, SKOS('related'), await interlink(s.related, lang), lang);
+  return results;
 }
 
 async function main(name, folder = './raw/', outputFolder = './vocabularies') {
@@ -48,23 +71,26 @@ async function main(name, folder = './raw/', outputFolder = './vocabularies') {
   const scheme = ODEUROPA(`${name}/`);
   const ns = $rdf.Namespace(scheme.value);
   add(scheme, RDF('type'), SKOS('ConceptScheme'));
-  add(scheme, RDFS('label'), meta.label, 'en');
+  add(scheme, RDFS('label'), meta.label, meta.lang);
   add(scheme, DC('created'), $rdf.literal(meta.created, XSD('gYear')));
   add(scheme, DC('creator'), meta.creator);
+  add(scheme, DC('contributor'), meta.contributor);
+  add(scheme, DC('comment'), meta.comment, meta.lang);
 
   const { type } = meta;
   if (type) add(scheme, DC('type'), ODEUROPA(type));
 
-  const raw = await csv({ delimiter: ';' }).fromFile(vocFile);
+  const raw = await csv({ delimiter: meta.separator || ';' }).fromFile(vocFile);
 
   let first = null;
   let prev = null;
-  raw.forEach((line, l) => {
-    const concepts = toConcept(line, scheme, ns, meta.lang);
-    if (type === 'scent_wheel') {
+  Promise.all(raw.map(async (line, l) => {
+    const concepts = await toConcept(line, scheme, ns, meta, meta.lang);
+    if (type && type.includes('wheel')) {
       if (!first) first = concepts;
       else {
         concepts.forEach((concept, x) => {
+          if (!concept || !prev[x]) return;
           if (prev[x].value === concept.value) return;
 
           add(prev[x], DBP('next'), concept);
@@ -79,9 +105,7 @@ async function main(name, folder = './raw/', outputFolder = './vocabularies') {
 
       prev = concepts;
     }
-  });
-
-  save(name, outputFolder);
+  })).then(() => save(name, outputFolder));
 }
 
 function parseArgs() {

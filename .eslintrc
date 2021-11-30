@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "rules": {
+    "no-param-reassign": "off",
+    "no-console": "warn",
+    "no-plusplus": "off",
+    "no-continue": "off",
+    "no-restricted-syntax": "off",
+    "radix": "off"
+  }
+}
