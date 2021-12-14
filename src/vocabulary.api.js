@@ -20,5 +20,5 @@ export async function interlink(q, lang, domain) {
     res = await query(q, lang, domain || 'fragrant-spaces');
     if (res && res[0].confidence > 0.7) return res[0].id;
   }
-  return q;
+  return null;
 }
