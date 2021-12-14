@@ -7,7 +7,7 @@ import argparse from 'argparse';
 import { interlink } from './src/vocabulary.api.js';
 
 import {
-  ODEUROPA, RDF, RDFS, SKOS, DC, XSD, DBP, SCHEMA, nsValues,
+  ODEUROPA, ODEUROPA_VOC, RDF, RDFS, SKOS, DC, XSD, DBP, SCHEMA, nsValues,
 } from './src/prefixes.js';
 import { add, save } from './src/utils.js';
 
@@ -68,7 +68,7 @@ async function main(name, folder = './raw/', outputFolder = './vocabularies') {
   console.log(meta);
 
   // setup scheme
-  const scheme = ODEUROPA(`${name}/`);
+  const scheme = ODEUROPA_VOC(`${name}/`);
   const ns = $rdf.Namespace(scheme.value);
   add(scheme, RDF('type'), SKOS('ConceptScheme'));
   add(scheme, RDFS('label'), meta.label, meta.lang);
@@ -78,7 +78,7 @@ async function main(name, folder = './raw/', outputFolder = './vocabularies') {
   add(scheme, DC('comment'), meta.comment, meta.lang);
 
   const { type } = meta;
-  if (type) add(scheme, DC('type'), ODEUROPA(type));
+  if (type) add(scheme, DC('type'), ODEUROPA_VOC(type));
 
   const raw = await csv({ delimiter: meta.separator || ';' }).fromFile(vocFile);
 
