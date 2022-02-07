@@ -83,7 +83,7 @@ function toConcept(s, lang, ns) {
 
   if (s.BIBLIOGRAPHY) {
     s.BIBLIOGRAPHY.split(';')
-      .forEach((b) => add(concept, DC('bibliographicCitation'), b, lang));
+      .forEach((b) => add(concept, DC('bibliographicCitation'), b, lang, true));
   }
 }
 
