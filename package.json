@@ -13,18 +13,19 @@
   "dependencies": {
     "@frogcat/ttl2jsonld": "^0.0.6",
     "argparse": "^2.0.1",
-    "axios": "^0.24.0",
-    "command-line-args": "^5.2.0",
+    "axios": "^0.25.0",
+    "command-line-args": "^5.2.1",
     "csvtojson": "^2.0.10",
     "fs-extra": "^10.0.0",
+    "js-levenshtein": "^1.1.6",
     "klaw-sync": "^6.0.0",
-    "rdflib": "^2.2.12",
+    "rdflib": "^2.2.17",
     "valid-url": "^1.0.9",
     "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "eslint": "^8.3.0",
+    "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.3"
+    "eslint-plugin-import": "^2.25.4"
   }
 }

@@ -1,5 +1,7 @@
+import fs from 'fs-extra';
 import $rdf from 'rdflib';
 import validUrl from 'valid-url';
+import * as iconclass from './iconclass.js';
 import { add, capitalize } from './utils.js';
 import {
   ODEUROPA, RDF, SKOS, DC, WORDNET, ICONCLASS,
@@ -19,11 +21,20 @@ function getCollection(coll, ns) {
   return x;
 }
 
-function toConcept(s, lang, ns) {
+const iconclassMatches = [];
+async function toConcept(s, lang, ns) {
   const id = s.ID.trim();
   if (!id) return;
   const label = (lang === 'en') ? s['LABEL en'].trim() : s.LABEL.trim();
-  if (!label) return;
+  if (!label) {
+    if (lang === 'en') iconclassMatches.push({ id: '', label: '' });
+    return;
+  }
+
+  if (lang === 'en') {
+    const res = await iconclass.search(label);
+    iconclassMatches.push(res);
+  }
 
   const concept = ns(id);
   add(concept, RDF('type'), SKOS('Concept'));
@@ -87,9 +98,11 @@ function toConcept(s, lang, ns) {
   }
 }
 
-function convert(source, lang, ns) {
-  source.filter((s) => s.ID)
-    .forEach((s) => toConcept(s, lang, ns));
+async function convert(source, lang, ns) {
+  for (const row of source.filter((s) => s.ID)) await toConcept(row, lang, ns);
+  if (lang === 'en') {
+    fs.writeFileSync('iconclass.tsv', iconclassMatches.map((x) => `${x.id}\t${x.label}`).join('\n'));
+  }
 }
 
 function setScheme(_scheme) {
