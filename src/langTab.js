@@ -1,15 +1,22 @@
 import fs from 'fs-extra';
 import $rdf from 'rdflib';
+import axios from 'axios';
 import validUrl from 'valid-url';
+import WBK from 'wikibase-sdk'
 import * as iconclass from './iconclass.js';
 import { add, capitalize } from './utils.js';
 import {
-  ODEUROPA, RDF, SKOS, DC, WORDNET, ICONCLASS,
+  ODEUROPA, RDF, SKOS, DC, WORDNET, ICONCLASS, OWL
 } from './prefixes.js';
 
 let scheme;
 
 const collections = {};
+
+const wdk = WBK({
+  instance: 'https://www.wikidata.org',
+  sparqlEndpoint: 'https://query.wikidata.org/sparql'
+})
 
 function getCollection(coll, ns) {
   const name = coll.replace(/\s/, '_');
@@ -22,19 +29,23 @@ function getCollection(coll, ns) {
 }
 
 const iconclassMatches = [];
+const wdMatches = [];
 async function toConcept(s, lang, ns) {
   const id = s.ID.trim();
   if (!id) return;
   const label = (lang === 'en') ? s['LABEL en'].trim() : s.LABEL.trim();
   if (!label) {
-    if (lang === 'en') iconclassMatches.push({ id: '', label: '' });
+    if (lang === 'en') {
+      iconclassMatches.push({ id: '', label: '' });
+      wdMatches.push({ concepturi: '', label: '' });
+    }
     return;
   }
 
-  if (lang === 'en') {
-    const res = await iconclass.search(label);
-    iconclassMatches.push(res);
-  }
+  // if (lang === 'en') {
+  //   const res = await iconclass.search(label);
+  //   iconclassMatches.push(res);
+  // }
 
   const concept = ns(id);
   add(concept, RDF('type'), SKOS('Concept'));
@@ -64,6 +75,20 @@ async function toConcept(s, lang, ns) {
   if (s.CATEGORY) {
     s.CATEGORY.split(/[,;]/)
       .forEach((r) => add(getCollection(r.trim(), ns), SKOS('member'), concept));
+  }
+
+  let isIks = false;
+  if (s.INTERLINKS) {
+    const iks = s.INTERLINKS.split(' ');
+    iks.forEach((r) => add(concept, OWL('sameAs'), r));
+    isIks = iks.some((r) => r.includes('wikidata'));
+  }
+
+  if (lang === 'en' && !isIks) {
+    // search in wikidata
+    // const { data } = await axios.get(wdk.searchEntities(label));
+    // const res = data && data.search && data.search[0];
+    // wdMatches.push(res || { concepturi: '', label: '' });
   }
 
   let hasInternalBroader;
@@ -99,10 +124,15 @@ async function toConcept(s, lang, ns) {
 }
 
 async function convert(source, lang, ns) {
-  for (const row of source.filter((s) => s.ID)) await toConcept(row, lang, ns);
-  if (lang === 'en') {
-    fs.writeFileSync('iconclass.tsv', iconclassMatches.map((x) => `${x.id}\t${x.label}`).join('\n'));
+  for (const row of source.filter((s) => s.ID)) {
+    await toConcept(row, lang, ns);
   }
+  if (lang === 'en') {
+    // fs.writeFileSync('wikidata.tsv', wdMatches.map((x) => `${x.concepturi}\t${x.label}`).join('\n'));
+    //   fs.writeFileSync('iconclass.tsv', iconclassMatches.map((x) => `${x.id}\t${x.label}`).join('\n'));
+  }
+
+
 }
 
 function setScheme(_scheme) {

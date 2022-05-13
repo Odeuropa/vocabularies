@@ -39,12 +39,7 @@ function run(options) {
 
     // const name = lang.split('-')[1];
     return csv().fromFile(file)
-      .then((s) => {
-        // if (lang.startsWith('group-')) groupTab.convert(s, name);
-        // else if (lang.startsWith('matches-')) matchTab.convert(s, name);
-        // else
-        langTab.convert(s, lang, ns);
-      });
+      .then((s) => langTab.convert(s, lang, ns));
   }
 
   const promises = klawSync(src, { nodir: true })

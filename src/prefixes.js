@@ -14,6 +14,7 @@ export const DBP = $rdf.Namespace('http://dbpedia.org/property/');
 export const WORDNET = $rdf.Namespace('http://www.w3.org/2006/03/wn/wn20/');
 export const ICONCLASS = $rdf.Namespace('http://iconclass.org/');
 export const SCHEMA = $rdf.Namespace('http://schema.org/');
+export const OWL = $rdf.Namespace('http://www.w3.org/2002/07/owl#');
 
 export const nsValues = {
   odeuropa: ODEUROPA().value,
@@ -30,4 +31,5 @@ export const nsValues = {
   wordnet: WORDNET().value,
   iconclass: ICONCLASS().value,
   schema: SCHEMA().value,
+  owl: OWL().value,
 };
