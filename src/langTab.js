@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import $rdf from 'rdflib';
 import axios from 'axios';
 import validUrl from 'valid-url';
-import WBK from 'wikibase-sdk'
+import WBK from 'wikibase-sdk';
 import * as iconclass from './iconclass.js';
 import { add, capitalize } from './utils.js';
 import {
@@ -15,8 +15,8 @@ const collections = {};
 
 const wdk = WBK({
   instance: 'https://www.wikidata.org',
-  sparqlEndpoint: 'https://query.wikidata.org/sparql'
-})
+  sparqlEndpoint: 'https://query.wikidata.org/sparql',
+});
 
 function getCollection(coll, ns) {
   const name = coll.replace(/\s/, '_');
