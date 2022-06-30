@@ -7,9 +7,9 @@ import argparse from 'argparse';
 import { interlink } from './src/vocabulary.api.js';
 
 import {
-  ODEUROPA, ODEUROPA_VOC, RDF, RDFS, SKOS, DC, XSD, DBP, SCHEMA, nsValues,
+  ODEUROPA_VOC, RDF, RDFS, SKOS, DC, XSD, DBP, SCHEMA, GOLD, nsValues,
 } from './src/prefixes.js';
-import { add, save } from './src/utils.js';
+import { add, save, capitalize } from './src/utils.js';
 
 function toPredicate(what) {
   if (!what || !what.includes(':')) return null;
@@ -17,13 +17,27 @@ function toPredicate(what) {
   return $rdf.sym(nsValues[pfx] + body);
 }
 
+const collections = {};
+function getCollection(coll, ns, lang = 'en') {
+  const name = coll.replace(/\s/g, '_');
+  if (collections[name]) return collections[name];
+
+  const x = ns(name);
+  add(x, RDF('type'), SKOS('Collection'));
+  add(x, SKOS('prefLabel'), coll, lang);
+  return x;
+}
+
 async function toConcept(s, scheme, ns, meta, lang = 'en') {
   const results = [];
   let concept;
   let id;
+
+  const COLS = meta.columns;
   for (let i = 1; i <= 5; i++) {
     const lev = `level${i}`;
-    let l = s[lev];
+    const NAME = COLS.name || lev;
+    let l = s[NAME] || s.name;
 
     if (!l) {
       if (i === 1) {
@@ -44,7 +58,7 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
 
     concept = ns(id);
     add(concept, RDF('type'), SKOS('Concept'));
-    add(concept, SKOS('prefLabel'), l, lang);
+    add(concept, SKOS('prefLabel'), l.trim(), lang);
 
     add(concept, SKOS('inScheme'), scheme);
 
@@ -55,6 +69,35 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
   if (s.picture) {
     s.picture.split('\n').forEach((pic) => add(concept, SCHEMA('subjectOf'), pic));
   }
+
+  const POS = COLS.pos || 'pos';
+  const SYNONYM = COLS.synonym || 'synonym';
+  const CATEGORY = COLS.category || 'category';
+  const BIB = COLS.bib || 'bib';
+  const DEFINITION = COLS.definition || 'definition';
+  const EXAMPLE = COLS.example || 'example';
+
+  if (s[CATEGORY]) {
+    add(getCollection(s[CATEGORY].trim(), ns), SKOS('member'), concept);
+  }
+  if (s[BIB]) {
+    add(concept, DC('bibliographicCitation'), s[BIB].trim());
+  }
+  if (s[DEFINITION]) {
+    add(concept, SKOS('definition'), s[DEFINITION].trim(), lang);
+  }
+
+  if (s[EXAMPLE]) {
+    add(concept, SKOS('example'), s[EXAMPLE].trim(), lang);
+  }
+
+  if (s[SYNONYM]) {
+    s[SYNONYM].split(/,/g).forEach((syn) => add(concept, SKOS('altLabel'), syn.trim(), lang));
+  }
+  if (s[POS]) {
+    add(concept, RDF('type'), GOLD(capitalize(s[POS].trim()).replace(/e^/, 'al')));
+  }
+
   add(concept, SKOS('related'), await interlink(s.related, lang), lang);
   return results;
 }
@@ -76,6 +119,8 @@ async function main(name, folder = './raw/', outputFolder = './vocabularies') {
   add(scheme, DC('creator'), meta.creator);
   add(scheme, DC('contributor'), meta.contributor);
   add(scheme, DC('comment'), meta.comment, meta.lang);
+
+  for (const bib of (meta.bib || [])) add(scheme, DC('bibliographicCitation'), bib);
 
   const { type } = meta;
   if (type) add(scheme, DC('type'), ODEUROPA_VOC(type));

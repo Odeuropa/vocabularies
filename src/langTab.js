@@ -6,7 +6,7 @@ import WBK from 'wikibase-sdk';
 import * as iconclass from './iconclass.js';
 import { add, capitalize } from './utils.js';
 import {
-  ODEUROPA, RDF, SKOS, DC, WORDNET, ICONCLASS, OWL
+  RDF, SKOS, DC, WORDNET, ICONCLASS, OWL,
 } from './prefixes.js';
 
 let scheme;
@@ -127,12 +127,10 @@ async function convert(source, lang, ns) {
   for (const row of source.filter((s) => s.ID)) {
     await toConcept(row, lang, ns);
   }
-  if (lang === 'en') {
-    // fs.writeFileSync('wikidata.tsv', wdMatches.map((x) => `${x.concepturi}\t${x.label}`).join('\n'));
-    //   fs.writeFileSync('iconclass.tsv', iconclassMatches.map((x) => `${x.id}\t${x.label}`).join('\n'));
-  }
-
-
+  // if (lang === 'en') {
+  // fs.writeFileSync('wikidata.tsv', wdMatches.map((x) => `${x.concepturi}\t${x.label}`).join('\n'));
+  //   fs.writeFileSync('iconclass.tsv', iconclassMatches.map((x) => `${x.id}\t${x.label}`).join('\n'));
+  // }
 }
 
 function setScheme(_scheme) {

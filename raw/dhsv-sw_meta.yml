@@ -1,0 +1,17 @@
+label: Dutch Historical Smell Vocabulary (DHSV) - Smell Words
+created: 2022
+creator: Inger Leemans
+lang: nl
+separator: ","
+bib:
+    - Asifa Majid & Niclas Burenhult, Odors are expressible in language, as long as you speak the right language, Cognition 130 (2014) 266–270
+    - Ewelina Wnuk, Semantic specificity of perception verbs in Maniq. Nijmegen, PhD Thesis 2016
+    - Sean Raspet, Toward an Olfactory Language System, Future Anterior. Journal of Historic Preservation, History, Theory, and Criticism , Vol. 13, No. 2 (Winter 2016), pp. 139-153
+columns:
+    name: Smell word
+    pos: Lexical category
+    synonym: Spelling variants
+    category: Olfactory Language Category
+    bib: Provenance
+    definition: Definition
+    example: Attestation
