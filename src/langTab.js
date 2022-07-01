@@ -71,6 +71,12 @@ async function toConcept(s, lang, ns) {
       .filter((r) => !Number.isNaN(Number.parseInt(r, 10)))
       .forEach((r) => add(concept, SKOS('related'), $rdf.sym(`http://data.odeuropa.eu/olfactory_objects/${r}`)));
   }
+  if (s['SAMEAS OBJECT']) {
+    s['SAMEAS OBJECT'].split(',')
+      .map((r) => r.split(' ')[0].trim())
+      .filter((r) => !Number.isNaN(Number.parseInt(r, 10)))
+      .forEach((r) => add(concept, OWL('sameAs'), $rdf.sym(`http://data.odeuropa.eu/olfactory_objects/${r}`)));
+  }
 
   if (s.CATEGORY) {
     s.CATEGORY.split(/[,;]/)

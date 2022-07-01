@@ -52,3 +52,4 @@ To make them ready to work with [Skosmos](https://github.com/NatLibFi/Skosmos), 
     skosify vocabularies/olfactory-objects.ttl -o vocabularies/olfactory-objects.ttl
     skosify vocabularies/olfactory-gestures.ttl -o vocabularies/olfactory-gestures.ttl
     skosify vocabularies/fragrant-spaces.ttl -o vocabularies/fragrant-spaces.ttl
+    skosify vocabularies/noses.ttl -o vocabularies/noses.ttl
