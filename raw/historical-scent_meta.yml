@@ -10,4 +10,4 @@ comment:
   - as suggested by Caro Verbeek, dd. april 2021; edited by Inger Leemans and Sofia Ehrich; commented on by Peter de Cupere
 lang: en
 separator: ','
-level2: schema:category
+level2: concat

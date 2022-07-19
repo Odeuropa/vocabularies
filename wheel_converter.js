@@ -33,7 +33,7 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
   let concept;
   let id;
 
-  const COLS = meta.columns;
+  const COLS = meta.columns || {};
   for (let i = 1; i <= 5; i++) {
     const lev = `level${i}`;
     const NAME = COLS.name || lev;
@@ -47,7 +47,7 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
     }
     l = l.trim();
 
-    const idTemp = l.toLowerCase().replace(/[^\w]/g, '_');
+    const idTemp = l.toLowerCase().replace(/\(.+\)/g, '').trim().replace(/[^\w]/g, '_');
 
     let prop;
     if (meta[lev] === 'concat') id = `${id}_${idTemp}`;
