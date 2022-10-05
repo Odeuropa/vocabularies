@@ -1,12 +1,12 @@
 ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATION,ICONCLASS CODE,SMELL MENTIONED IN ICONCLASS,RELATED SCENT (see 'art historical scent wheel in google drive' for categories),RELATED OBJECT,RELATED,PARENT,INTERLINKS,cvat label
-1,Smelling,,,,,,,31A22111,,,,,,,too many samples (every face)
-2,Holding one's nose,,,,,,,31A25351,,,,,,,holding the nose
+1,Smelling,Sniffing,,,,,,31A22111,,,,,,,too many samples (every face)
+2,Holding one's nose,Holding the nose,,,,,,31A25351,,,,,,,holding the nose
 3,Holding one's nose closed,,,,,,,31B6222,,,,,,,holding the nose
 4,Flatulence,,,,,,,31A621,,,,,,,
 5,Hunting,,,,,,,,,,,,,,
 6,Vomiting,,,,,,,31A63,,,166 Vomit,,,,vomiting
 7,Bleaching,,,,,,,41D422,,,,,,,
-8,Defecation,,,,,,,31A62,,,145 Excrement,,,,defecating
+8,Defecation,Defecating,,,,,,31A62,,,145 Excrement,,,,defecating
 9,Per fumum,,,,,,,,,,,,,,
 10,Embalming,,,,,,,,,,211 Balm,,,,
 11,Urination,,,,,,,31A61,,,366 Urine,,,,peeing
@@ -15,7 +15,7 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 14,Holding something to the nose,,,,,,,X,,,,,,,sniffing
 15,Eating,,,,,,,41C11,,,405 Food,,,,
 16,Food tasting,Food trying,,,,,,41C112,,,405 Food,,,,
-17,Changing diaper,,,,,,,X,,,,,,,cleaning a baby
+17,Changing diaper,Cleaning a baby,,,,,,X,,,,,,,cleaning a baby
 18,Smoking,,,,,,,X,,,,,,,indirect via 'smoking equipment'
 19,Burning,,,,,,,22E12,,,,,,,indirect via 'fire'
 20,Fainting,,,,,,,31B181,,,,,,,
