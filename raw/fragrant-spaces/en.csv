@@ -25,7 +25,7 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 24,Factory-interior,,,,,,,47A22,,,,,,23 Factory,,,,,,
 25,Farm,,,,,,,41A17,,,,,,,http://www.wikidata.org/entity/Q131596,,,,,farm; field - cultivated
 26,Fish market,,,,,,,X,,Fish,,,68 Fish,45 Market,http://www.wikidata.org/entity/Q1188480,,,,,market - indoor; market - outdoor; bazaar - indoor; bazaar - outdoor
-27,Garden,,,,,,,41A6,,,,,,,http://www.wikidata.org/entity/Q1107656,,,,,herb garden; japanese garden; roof garden; topiary garden; vegetable garden; zen garden; botanical garden; cottage garden; formal garden
+27,Garden,,,,,,,41A6,,,,,78 Plant,,http://www.wikidata.org/entity/Q1107656,,,,,herb garden; japanese garden; roof garden; topiary garden; vegetable garden; zen garden; botanical garden; cottage garden; formal garden
 28,Grocery,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q1295201,,,,,
 29,Greenhouse,,,,,,,47I53,,"fruity, orange",,,,,http://www.wikidata.org/entity/Q165044,,,,,greenhouse - indoor; greenhouse - outdoor
 30,Hayfield,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q2485852,,,,,hayfield
@@ -100,7 +100,7 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 99,Limkiln,,,,,,,,,,,,,,,,,,,
 100,Pub,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q212198,,,,,
 101,Hell,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q564,,,,,
-102,Theatre,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q11635,,,,,
+102,Theatre,Theater,,,,,,,,,,,,,http://www.wikidata.org/entity/Q11635,,,,,
 103,Dirt road,,,,,,,,,,,,,64 Street,http://www.wikidata.org/entity/Q700143,,,,,
 104,School,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q3914,,,,,
 105,Bakery,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q274393,,,,,

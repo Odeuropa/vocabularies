@@ -8,7 +8,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix wordnet: <http://www.w3.org/2006/03/wn/wn20/> .
+@prefix wordnet: <http://wordnet-rdf.princeton.edu/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 olf:112 skos:related fragrant-spaces:55 .
@@ -26,6 +26,8 @@ olf:36 skos:related fragrant-spaces:10 .
 olf:454 skos:related fragrant-spaces:35 .
 
 olf:68 skos:related fragrant-spaces:26 .
+
+olf:78 skos:related fragrant-spaces:27 .
 
 fragrant-spaces:1 a skos:Concept ;
     skos:altLabel "Laboratorio alchemico"@it,
@@ -62,6 +64,7 @@ fragrant-spaces:102 a skos:Concept ;
     dct:bibliographicCitation "Dit zelfde ondervind men in de Schouwburgen, daar men in de bovenste zittingen (t.w. de loges) altydt een vunze reuk gewaar word,  du hamel du monceau, Baak d. Gezondh. 73 [1760]."@nl,
         "WNT: Omstreeks het midden der voorstelling verneemt men een zonderling geraas, en een onaangename reuk verspreidt zich door de zaal,  Alg. Handelsbl. 11 Sept. 1830, 6 a [1830]."@nl ;
     owl:sameAs wd:Q11635 ;
+    skos:altLabel "Theater"@en ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Theatre"@en,
         "Théâtre"@fr,
@@ -1439,19 +1442,6 @@ fragrant-spaces:89 a skos:Concept ;
         "Moskee"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
-fragrant-spaces:27 a skos:Concept ;
-    owl:sameAs wd:Q1107656 ;
-    skos:closeMatch iconclass:41A6 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:narrower fragrant-spaces:72,
-        fragrant-spaces:81,
-        fragrant-spaces:84 ;
-    skos:prefLabel "Garden"@en,
-        "Jardin"@fr,
-        "Giardino"@it,
-        "Tuin"@nl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
 fragrant-spaces:45 a skos:Concept ;
     owl:sameAs wd:Q330284 ;
     skos:closeMatch iconclass:46B11 ;
@@ -1505,6 +1495,22 @@ fragrant-spaces:92 a skos:Concept ;
     skos:related olf:227 ;
     skos:topConceptOf voc:fragrant-spaces .
 
+fragrant-spaces:27 a skos:Concept ;
+    owl:sameAs wd:Q1107656 ;
+    skos:closeMatch iconclass:41A6 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:narrower fragrant-spaces:72,
+        fragrant-spaces:81,
+        fragrant-spaces:84 ;
+    skos:prefLabel "Garten"@de,
+        "Garden"@en,
+        "Jardin"@fr,
+        "Giardino"@it,
+        "Tuin"@nl,
+        "Vrt"@sl ;
+    skos:related olf:78 ;
+    skos:topConceptOf voc:fragrant-spaces .
+
 fragrant-spaces:23 a skos:Concept ;
     dct:bibliographicCitation "WNT: 't Fabriek, — de gore, hooge holten, die ze wel eens even door 'n kierende deur had ingekeken, terwijl 'n zure stank, door 'n bitteren roet-walm heen, haar in de keel sloeg, schart.-ant., Sprotje 1, 13 [1905]."@nl ;
     owl:sameAs wd:Q83405 ;
@@ -1527,8 +1533,8 @@ fragrant-spaces:23 a skos:Concept ;
 voc:fragrant-spaces a skos:ConceptScheme ;
     rdfs:label "Fragrant spaces" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-05-13"^^xsd:date ;
-    pav:createdOn "2022-05-13"^^xsd:date ;
+    dct:modified "2022-10-11"^^xsd:date ;
+    pav:createdOn "2022-10-11"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept fragrant-spaces:1,
         fragrant-spaces:10,
