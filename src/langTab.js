@@ -4,9 +4,9 @@ import axios from 'axios';
 import validUrl from 'valid-url';
 import WBK from 'wikibase-sdk';
 import * as iconclass from './iconclass.js';
-import { add, capitalize } from './utils.js';
+import { add, capitalize, getWikidataImage } from './utils.js';
 import {
-  RDF, SKOS, DC, WORDNET, ICONCLASS, OWL,
+  RDF, SKOS, DC, WORDNET, ICONCLASS, OWL, SCHEMA
 } from './prefixes.js';
 
 let scheme;
@@ -83,14 +83,19 @@ async function toConcept(s, lang, ns) {
       .forEach((r) => add(getCollection(r.trim(), ns), SKOS('member'), concept));
   }
 
-  let isIks = false;
+  let wdlink = false;
   if (s.INTERLINKS) {
     const iks = s.INTERLINKS.split(' ');
     iks.forEach((r) => add(concept, OWL('sameAs'), r));
-    isIks = iks.some((r) => r.includes('wikidata'));
+    wdlink = iks.find((r) => r.includes('wikidata'));
+    if (wdlink) {
+      // add image link
+      const imgLink = await getWikidataImage(wdlink);
+      add(concept, SCHEMA('image'), imgLink);
+    }
   }
 
-  if (lang === 'en' && !isIks) {
+  if (lang === 'en' && !wdlink) {
     // search in wikidata
     // const { data } = await axios.get(wdk.searchEntities(label));
     // const res = data && data.search && data.search[0];

@@ -1,13 +1,22 @@
 import fs from 'fs-extra';
 import path from 'path';
+import axios from 'axios';
 import $rdf from 'rdflib';
 import validUrl from 'valid-url';
+import WBK from 'wikibase-sdk';
+import yaml from 'yaml';
 import { nsValues } from './prefixes.js';
+
+const wdk = WBK({
+  instance: 'https://www.wikidata.org',
+  sparqlEndpoint: 'https://query.wikidata.org/sparql',
+});
 
 export const store = $rdf.graph();
 
 export function add(s, p, o, lang, forceLiteral = false) {
   if (!s || !p || !o) return;
+
   /* eslint-disable no-param-reassign  */
   if (o instanceof $rdf.Node) {
     store.add(s, p, o);
@@ -42,4 +51,29 @@ export function save(name, outputFolder) {
 export function capitalize(string) {
   if (!string) return null;
   return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+const wdImageFile = './raw/wikidata_images.yaml';
+const wdImageCache = yaml.parse(fs.readFileSync(wdImageFile, 'utf8'));
+
+export async function getWikidataImage(uri) {
+  const id = uri.split('/').pop();
+  if (wdImageCache[id]) return wdImageCache[id];
+
+  const apiUri = wdk.getEntities({
+    ids: [id],
+    languages: ['en'], // returns all languages if not specified
+    props: ['claims'],
+  });
+
+  const res = await axios.get(apiUri);
+  const data = res.data.entities[id];
+  const images = data.claims.P18;
+  if (!images || !images.length) return null;
+  const imageFile = images[0].mainsnak.datavalue.value;
+
+  const imageUri = wdk.getImageUrl(imageFile);
+  wdImageCache[id] = imageUri;
+  fs.writeFileSync(wdImageFile, yaml.stringify(wdImageCache));
+  return imageUri;
 }
