@@ -49,16 +49,13 @@ function run(options) {
 
   return Promise.all(promises)
     .then(() => {
-      store.namespaces = nsValues;
-      store.namespaces[options.name] = ns().value;
-
       $rdf.serialize(undefined, store, 'http://example.org', 'text/turtle', (err, str) => {
         if (err) throw (err);
         const data = str.replace('@prefix : <#>.\n', '');
 
         fs.writeFile(dst, data, 'utf8');
         console.log(`File written: ${dst}`);
-      });
+      }, { namespaces: nsValues });
     })
     .catch((err) => console.error(err));
 }

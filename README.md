@@ -36,7 +36,10 @@ Arguments
 - `-s`, `--src` (optional, default `./raw`) Source file folder.
 - `-d`, `--dst` (optional, default `./vocabularies`) Destination file folder.
 
-Example: `node table_converter fragrant-spaces`
+Examples:
+      node table_converter fragrant-spaces
+      node table_converter olfactory-objects
+      node table_converter olfactory-gestures
 
 
 ### How to write the input for vocabularies

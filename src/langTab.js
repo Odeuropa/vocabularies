@@ -91,7 +91,7 @@ async function toConcept(s, lang, ns) {
     if (wdlink) {
       // add image link
       const imgLink = await getWikidataImage(wdlink);
-      add(concept, SCHEMA('image'), imgLink);
+      add(concept, SCHEMA('image'), imgLink, null, { forceLink: true });
     }
   }
 
@@ -130,7 +130,7 @@ async function toConcept(s, lang, ns) {
 
   if (s.BIBLIOGRAPHY) {
     s.BIBLIOGRAPHY.split(';')
-      .forEach((b) => add(concept, DC('bibliographicCitation'), b, lang, true));
+      .forEach((b) => add(concept, DC('bibliographicCitation'), b, lang, { forceLiteral: true }));
   }
 }
 

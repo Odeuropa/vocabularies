@@ -14,7 +14,16 @@ const wdk = WBK({
 
 export const store = $rdf.graph();
 
-export function add(s, p, o, lang, forceLiteral = false) {
+function minimalUrlencoding(url) {
+  // replace only the problematic chars
+  return `${url}`.replaceAll(' ', '%20')
+    .replaceAll('"', '%22')
+    .replaceAll('^', '%5E')
+    .replaceAll('(', '%28')
+    .replaceAll(')', '%29');
+}
+
+export function add(s, p, o, lang, opt = {}) {
   if (!s || !p || !o) return;
 
   /* eslint-disable no-param-reassign  */
@@ -29,7 +38,8 @@ export function add(s, p, o, lang, forceLiteral = false) {
   if (typeof o === 'string') o = o.trim().replace(/\n$/, '');
   if (!o || o.value === 'undefined' || o === '?') return;
 
-  if (!forceLiteral && typeof o === 'string' && validUrl.isUri(o)) store.add(s, p, $rdf.sym(o));
+  if (opt.forceLink) store.add(s, p, $rdf.sym(minimalUrlencoding(o)));
+  else if (!opt.forceLiteral && typeof o === 'string' && validUrl.isUri(o)) store.add(s, p, $rdf.sym(o));
   else if (lang) store.add(s, p, $rdf.literal(o, lang));
   else store.add(s, p, o);
 }

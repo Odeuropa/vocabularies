@@ -13,7 +13,7 @@ export const WD = $rdf.Namespace('http://www.wikidata.org/entity/');
 export const DBP = $rdf.Namespace('http://dbpedia.org/property/');
 export const WORDNET = $rdf.Namespace('http://wordnet-rdf.princeton.edu/id/');
 export const ICONCLASS = $rdf.Namespace('http://iconclass.org/');
-export const SCHEMA = $rdf.Namespace('http://schema.org/');
+export const SCHEMA = $rdf.Namespace('https://schema.org/');
 export const OWL = $rdf.Namespace('http://www.w3.org/2002/07/owl#');
 export const GOLD = $rdf.Namespace('http://purl.org/linguistics/gold/');
 
