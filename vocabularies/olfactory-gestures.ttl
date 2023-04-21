@@ -49,6 +49,14 @@ olf:18 a skos:Concept ;
         "Kajenje"@sl ;
     skos:topConceptOf voc:olfactory-gestures .
 
+olf:22 a skos:Concept ;
+    skos:broader olf:1 ;
+    skos:inScheme voc:olfactory-gestures ;
+    skos:prefLabel "Piss smelling"@en,
+        "Sentir la pisse"@fr,
+        "Annusare la pipí"@it,
+        "Vohanje urina"@sl .
+
 olf:27 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Ash collecting"@en,
@@ -147,14 +155,13 @@ olf:10 a skos:Concept ;
     skos:related ol:211 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olf:22 a skos:Concept ;
-    skos:broader olf:1 ;
+olf:21 a skos:Concept ;
+    skos:broader olf:23 ;
     skos:inScheme voc:olfactory-gestures ;
-    skos:prefLabel "Piss smelling"@en,
-        "Sentir la pisse"@fr,
-        "Annusare la pipí"@it,
-        "Vohanje urina"@sl ;
-    skos:topConceptOf voc:olfactory-gestures .
+    skos:prefLabel "Censing"@en,
+        "Encenser"@fr,
+        "Incensare"@it ;
+    skos:related ol:269 .
 
 olf:23 a skos:Concept ;
     skos:definition "E.g. incense"@en ;
@@ -192,15 +199,6 @@ iconclass:B skos:closeMatch olf:20,
 
 iconclass:C skos:closeMatch olf:15,
         olf:16 .
-
-olf:21 a skos:Concept ;
-    skos:broader olf:23 ;
-    skos:inScheme voc:olfactory-gestures ;
-    skos:prefLabel "Censing"@en,
-        "Encenser"@fr,
-        "Incensare"@it ;
-    skos:related ol:269 ;
-    skos:topConceptOf voc:olfactory-gestures .
 
 olf:19 a skos:Concept ;
     skos:closeMatch iconclass:1,
@@ -539,8 +537,8 @@ iconclass:1 skos:closeMatch olf:1,
 voc:olfactory-gestures a skos:ConceptScheme ;
     rdfs:label "Olfactory gestures" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2023-03-13"^^xsd:date ;
-    pav:createdOn "2023-03-13"^^xsd:date ;
+    dct:modified "2023-04-21"^^xsd:date ;
+    pav:createdOn "2023-04-21"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olf:1,
         olf:10,
@@ -555,8 +553,6 @@ voc:olfactory-gestures a skos:ConceptScheme ;
         olf:19,
         olf:2,
         olf:20,
-        olf:21,
-        olf:22,
         olf:23,
         olf:24,
         olf:25,

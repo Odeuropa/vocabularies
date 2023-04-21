@@ -43,6 +43,23 @@ noses:111 skos:related noses:6 .
 olf:65 skos:related noses:7,
         noses:9 .
 
+noses:1 a skos:Concept ;
+    dct:bibliographicCitation "Die schrikkelijke fijnheid van reuk, waarvoor de jagthond van Pieterbaas onderdoen moet, wolff en deken, Wildsch. 2, 212 [1793]."@nl,
+        """WNT: "Even als in 't velt de hazen, op het bassen / Der brakken snel van reuk, hun legerstede ontvlucht, / Vliên voor den winthont, die, vol vuur door 't veltgerucht,
+ Hen na- en omzet, springt en raamt, tot hy ten lesten / Den prooi verwint". Hoogvliet"""@nl ;
+    owl:sameAs wd:Q38774 ;
+    skos:altLabel "Brak"@nl ;
+    skos:broader noses:13 ;
+    skos:definition "Brak is een jachthond van een ras, die loopend wild opzoekt en het zoo lang op den voet (d. i. door den reuk) vervolgt, tot het geschoten of doodgedreven is; fr. chien courant."@nl ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Jagdhund"@de,
+        "Hunting dog"@en,
+        "Chien de chasse"@fr,
+        "Cane da caccia"@it,
+        "Jachthond"@nl,
+        "Lovski pes"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Courbet%20-%20L'Hallali%20du%20cerf.jpg> .
+
 noses:10 a skos:Concept ;
     dct:bibliographicCitation "WNT: Ruiker: Persoon die ruikt of goed ruiken kan. (Tabakssnuiver). Ruker: Het woord zal in het Mnl. wel niet bekend zijn geweest, gezegd van een persoon, hij die ruikt of goed ruiken kan, een fijnen reuk heeft (vgl. bij Duc. “odorare i. naribus sapere”) of ook reukwerkmaker (lat. odorare, “welriekend maken”"@nl,
         "eene dezer beide beteekenissen kan eigen zijn aan Kil.'s “riecker, odorator"@nl ;
@@ -88,6 +105,19 @@ noses:2 a skos:Concept ;
 noses:404 skos:related noses:3,
         noses:4 .
 
+noses:5 a skos:Concept ;
+    dct:bibliographicCitation "WNT: De Graauwe reiger (Ardea cinerea, Latham, A. major Linn.) is een vreesachtige en schuwe vogel, welke een scherp gezigt en eenen fijnen reuk heeft, en uit dien hoofde zeer moeijelijk te naderen is, thon-bomhoff, Jagersschool 283 [1835]."@nl ;
+    owl:sameAs wd:Q18789 ;
+    skos:broader noses:14 ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Reiher"@de,
+        "Heron"@en,
+        "Héron"@fr,
+        "Airone"@it,
+        "Reiger"@nl,
+        "Čaplje"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ardea%20cinerea%20EM1A2714%20%2827349354381%29.jpg> .
+
 noses:8 a skos:Concept ;
     dct:bibliographicCitation "Het stinkt hier of 'er de Duivel zyn ruykballetjen had laaten vallen … Waar vaaren wy hier heen Kapitein? … Myn Heer, wy zijn by de traanbokken. Wel Kapitein repje dan zo veel als je kond … Zie zo! dat gaat wel, wy zeilend'er Dieu mercy voorby, en zeilen de kil in, Gem. Parnas-Loof 32 [1692]."@nl,
         "Traanbok, … iemand, die in de traan werkt, en daarvan eenen onaangenamen reuk bekomt, weil. [1810]."@nl,
@@ -100,24 +130,6 @@ noses:8 a skos:Concept ;
         "Traanbok"@nl,
         "Izdelovalec solz"@sl ;
     skos:topConceptOf voc:noses .
-
-noses:1 a skos:Concept ;
-    dct:bibliographicCitation "Die schrikkelijke fijnheid van reuk, waarvoor de jagthond van Pieterbaas onderdoen moet, wolff en deken, Wildsch. 2, 212 [1793]."@nl,
-        """WNT: "Even als in 't velt de hazen, op het bassen / Der brakken snel van reuk, hun legerstede ontvlucht, / Vliên voor den winthont, die, vol vuur door 't veltgerucht,
- Hen na- en omzet, springt en raamt, tot hy ten lesten / Den prooi verwint". Hoogvliet"""@nl ;
-    owl:sameAs wd:Q38774 ;
-    skos:altLabel "Brak"@nl ;
-    skos:broader noses:13 ;
-    skos:definition "Brak is een jachthond van een ras, die loopend wild opzoekt en het zoo lang op den voet (d. i. door den reuk) vervolgt, tot het geschoten of doodgedreven is; fr. chien courant."@nl ;
-    skos:inScheme voc:noses ;
-    skos:prefLabel "Jagdhund"@de,
-        "Hunting dog"@en,
-        "Chien de chasse"@fr,
-        "Cane da caccia"@it,
-        "Jachthond"@nl,
-        "Lovski pes"@sl ;
-    skos:topConceptOf voc:noses ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Courbet%20-%20L'Hallali%20du%20cerf.jpg> .
 
 noses:11 a skos:Concept ;
     dct:bibliographicCitation "WNT: De Portugaler zend zyn Kielen … derwaert (t.w. naar Brazilië) … Om Amber, Balsemgeur, Saffraen' Brasilhout, Suiker En Boomwol en Tabak voor Rooker en voor Ruiker, f. de haes, Port. 19."@nl ;
@@ -157,19 +169,19 @@ noses:14 a skos:Concept ;
         "Ptica"@sl ;
     skos:topConceptOf voc:noses .
 
-noses:5 a skos:Concept ;
-    dct:bibliographicCitation "WNT: De Graauwe reiger (Ardea cinerea, Latham, A. major Linn.) is een vreesachtige en schuwe vogel, welke een scherp gezigt en eenen fijnen reuk heeft, en uit dien hoofde zeer moeijelijk te naderen is, thon-bomhoff, Jagersschool 283 [1835]."@nl ;
-    owl:sameAs wd:Q18789 ;
-    skos:broader noses:14 ;
+noses:4 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Men blinddoeke een ervaren Chimist, Drogist of Apothekar, en legge hem duizend verschillende drogerijen voor, hij zal dezelve door den reuk onderkennen, berkhey, N.H.5, 349 [1805]."@nl ;
+    owl:sameAs wd:Q1131236 ;
+    skos:altLabel "Apothekar"@nl ;
+    skos:broader noses:3 ;
     skos:inScheme voc:noses ;
-    skos:prefLabel "Reiher"@de,
-        "Heron"@en,
-        "Héron"@fr,
-        "Airone"@it,
-        "Reiger"@nl,
-        "Čaplje"@sl ;
-    skos:topConceptOf voc:noses ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ardea%20cinerea%20EM1A2714%20%2827349354381%29.jpg> .
+    skos:prefLabel "Apothecary"@en,
+        "Apothicaire"@fr,
+        "Speziale"@it,
+        "Apotheker"@nl,
+        "Lekarnar"@sl ;
+    skos:related noses:404 ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/ApotekerHjorten.jpg> .
 
 noses:6 a skos:Concept ;
     dct:bibliographicCitation "WNT: De Salf-verkooper bereyt den wellustigen parfuymen (ruyckwerck), wel rieckende seep-balletjes en roock-werck, met het welcke sylieden overgooten zijnde, lieffelijck ruycken, Comenius, Deure d. Taalen 137 [1666]."@nl ;
@@ -198,21 +210,6 @@ noses:3 a skos:Concept ;
     skos:related noses:404 ;
     skos:topConceptOf voc:noses ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-W0129-0019,%20Leipzig,%20Apothekerin%20mit%20Feinwaage.jpg> .
-
-noses:4 a skos:Concept ;
-    dct:bibliographicCitation "WNT: Men blinddoeke een ervaren Chimist, Drogist of Apothekar, en legge hem duizend verschillende drogerijen voor, hij zal dezelve door den reuk onderkennen, berkhey, N.H.5, 349 [1805]."@nl ;
-    owl:sameAs wd:Q1131236 ;
-    skos:altLabel "Apothekar"@nl ;
-    skos:broader noses:3 ;
-    skos:inScheme voc:noses ;
-    skos:prefLabel "Apothecary"@en,
-        "Apothicaire"@fr,
-        "Speziale"@it,
-        "Apotheker"@nl,
-        "Lekarnar"@sl ;
-    skos:related noses:404 ;
-    skos:topConceptOf voc:noses ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/ApotekerHjorten.jpg> .
 
 noses:7 a skos:Concept ;
     dct:bibliographicCitation "WNT: Het rook er zo lekker als bij een' parfumeur, Wolff en deken, Wildsch. 1, 84 [1793]."@nl ;
@@ -246,19 +243,16 @@ noses:9 a skos:Concept ;
 voc:noses a skos:ConceptScheme ;
     rdfs:label "Noses" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2023-03-13"^^xsd:date ;
-    pav:createdOn "2023-03-13"^^xsd:date ;
+    dct:modified "2023-04-21"^^xsd:date ;
+    pav:createdOn "2023-04-21"^^xsd:date ;
     pav:version "0.1" ;
-    skos:hasTopConcept noses:1,
-        noses:10,
+    skos:hasTopConcept noses:10,
         noses:11,
         noses:12,
         noses:13,
         noses:14,
         noses:2,
         noses:3,
-        noses:4,
-        noses:5,
         noses:6,
         noses:7,
         noses:8,

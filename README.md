@@ -40,6 +40,7 @@ Examples:
       node table_converter fragrant-spaces
       node table_converter olfactory-objects
       node table_converter olfactory-gestures
+      node table_converter noses
 
 
 ### How to write the input for vocabularies

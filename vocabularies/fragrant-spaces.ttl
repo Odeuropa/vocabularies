@@ -56,6 +56,21 @@ fr:100 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Pubbsm.jpg> .
 
+fr:103 a skos:Concept ;
+    dct:bibliographicCitation "WNT: De korte nacht had geen koelte meegebracht, en de dampkring was steeds bevangen, vol van den reuk der zandwegen, die voortwentelden tusschen het dorre zoomgras en de poeierige akkers,  Vlaanderen 2, 361 [1904]."@nl ;
+    owl:sameAs wd:Q700143 ;
+    skos:altLabel "Route de terre"@fr,
+        "Carrareccia"@it,
+        "Mulattiera"@it ;
+    skos:broader fr:64 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Dirt road"@en,
+        "Chemin de terre"@fr,
+        "Strada sterrata"@it,
+        "Zandweg"@nl,
+        "Makadam"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Piste%20im%20Erongo.jpg> .
+
 fr:105 a skos:Concept ;
     dct:bibliographicCitation "WNT: Uit de openstaande bakkersdeuren walmde den vollen reuk van verschgebakken krentebrood, vlaaien en confijten,  thiry, Hofken v. Ol. 107 [1910]."@nl ;
     owl:sameAs wd:Q274393 ;
@@ -237,6 +252,20 @@ fr:42 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/ForndeCalç.jpg> .
 
+fr:47 a skos:Concept ;
+    owl:sameAs wd:Q62562206 ;
+    skos:altLabel "Palude"@it,
+        "Terreno paludoso"@it,
+        "Zona paludosa"@it,
+        "Barje"@sl ;
+    skos:broader fr:66 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Marshland"@en,
+        "Marécage"@fr,
+        "Acquitrino"@it,
+        "Moeras"@nl,
+        "Močvirje"@sl .
+
 fr:6 a skos:Concept ;
     owl:sameAs wd:Q131734 ;
     skos:altLabel "Brewery"@en ;
@@ -272,6 +301,20 @@ fr:62 a skos:Concept ;
         "Barakarsko naselje"@sl ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Mumbai%2003-2016%20105%20Bandra%20station%20surroundings.jpg> .
+
+fr:65 a skos:Concept ;
+    owl:sameAs wd:Q227857 ;
+    skos:altLabel "Usine de sucre"@fr,
+        "Fabbrica dello Zucchero"@it,
+        "Suikerbranderij"@nl ;
+    skos:broader fr:23 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Sugar factory"@en,
+        "Sucrerie"@fr,
+        "Zuccherificio"@it,
+        "Suikerraffinaderij"@nl,
+        "Tovarna sladkorja"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Sugar%20plant%20dsc09052.jpg> .
 
 fr:68 a skos:Concept ;
     owl:sameAs wd:Q3515239 ;
@@ -412,51 +455,131 @@ olf:248 skos:related fr:32,
 olf:3 skos:related fr:4,
         fr:59 .
 
-fr:103 a skos:Concept ;
-    dct:bibliographicCitation "WNT: De korte nacht had geen koelte meegebracht, en de dampkring was steeds bevangen, vol van den reuk der zandwegen, die voortwentelden tusschen het dorre zoomgras en de poeierige akkers,  Vlaanderen 2, 361 [1904]."@nl ;
-    owl:sameAs wd:Q700143 ;
-    skos:altLabel "Route de terre"@fr,
-        "Carrareccia"@it,
-        "Mulattiera"@it ;
-    skos:broader fr:64 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Dirt road"@en,
-        "Chemin de terre"@fr,
-        "Strada sterrata"@it,
-        "Zandweg"@nl,
-        "Makadam"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Piste%20im%20Erongo.jpg> .
-
-fr:47 a skos:Concept ;
-    owl:sameAs wd:Q62562206 ;
-    skos:altLabel "Palude"@it,
-        "Terreno paludoso"@it,
-        "Zona paludosa"@it,
-        "Barje"@sl ;
-    skos:broader fr:66 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Marshland"@en,
-        "Marécage"@fr,
-        "Acquitrino"@it,
-        "Moeras"@nl,
-        "Močvirje"@sl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fr:65 a skos:Concept ;
-    owl:sameAs wd:Q227857 ;
-    skos:altLabel "Usine de sucre"@fr,
-        "Fabbrica dello Zucchero"@it,
-        "Suikerbranderij"@nl ;
+fr:10 a skos:Concept ;
+    skos:altLabel "Fabbrica di cacao"@it ;
     skos:broader fr:23 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Sugar factory"@en,
-        "Sucrerie"@fr,
-        "Zuccherificio"@it,
-        "Suikerraffinaderij"@nl,
-        "Tovarna sladkorja"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Sugar%20plant%20dsc09052.jpg> .
+    skos:prefLabel "Cacao factory"@en,
+        "Usine de cacao"@fr,
+        "Fabbrica di cioccolato"@it,
+        "Cacaofabriek"@nl,
+        "Tovarna kakava"@sl ;
+    skos:related olf:36 .
+
+fr:16 a skos:Concept ;
+    owl:sameAs wd:Q1127296 ;
+    skos:altLabel "Gourde"@fr,
+        "Réfectoire Cafétéria"@fr,
+        "Refettorio"@it,
+        "Kantina"@sl ;
+    skos:broader fr:92 ;
+    skos:exactMatch wordnet:2955921 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Canteen"@en,
+        "Cantine"@fr,
+        "Mensa"@it,
+        "Kantine"@nl,
+        "Menza"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Military%20Canteen%207984.jpg> .
+
+fr:2 a skos:Concept ;
+    skos:altLabel "Marché des animaux"@fr,
+        "Fiera"@it,
+        "Mercato del bestiame"@it,
+        "Veemarkt"@nl ;
+    skos:broader fr:45 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Animal market"@en,
+        "Marché aux bestiaux"@fr,
+        "Mercato degli animali"@it,
+        "Dierenmarkt"@nl,
+        "Živinski sejem"@sl ;
+    skos:related olf:13 .
+
+fr:26 a skos:Concept ;
+    owl:sameAs wd:Q1188480 ;
+    skos:altLabel "Poissonerie"@fr,
+        "Mercato ittico"@it,
+        "Pescheria"@it,
+        "Visafslag"@nl,
+        "Ribarnica"@sl ;
+    skos:broader fr:45 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Fish market"@en,
+        "Marché aux poissons"@fr,
+        "Mercato del pesce"@it,
+        "Vismarkt"@nl,
+        "Ribja tržnica"@sl ;
+    skos:related olf:68 ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/HAL%20fish%20market.jpg> .
+
+fr:43 a skos:Concept ;
+    skos:broader fr:29 ;
+    skos:closeMatch <http://iconclass.org/?> ;
+    skos:definition "A greenhouse for lemons"@en ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Limonaia"@en,
+        "Limonaia"@fr,
+        "Limonaia"@it,
+        "Limonaia"@nl .
+
+fr:55 a skos:Concept ;
+    skos:altLabel "Industria dolciaria"@it ;
+    skos:broader fr:23 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Pastry factory"@en,
+        "Pâtisserie"@fr,
+        "Pasticceria"@it,
+        "Banketbakkerij"@nl,
+        "Tovarna peciva"@sl ;
+    skos:related olf:112 .
+
+fr:71 a skos:Concept ;
+    owl:sameAs wd:Q55635949 ;
+    skos:broader fr:23 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Tobacco factory"@en,
+        "Usine de tabac"@fr,
+        "Fabbrica di Tabacco"@it,
+        "Tabaksfabriek"@nl,
+        "Tobačna tovarna"@sl ;
+    skos:related olf:227 .
+
+fr:86 a skos:Concept ;
+    skos:altLabel "Vieille demeure"@fr ;
+    skos:broader fr:69 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Old House"@en,
+        "Vieille maison"@fr,
+        "Vecchia casa"@it,
+        "Oud huis"@nl,
+        "Stara hiša"@sl ;
+    skos:related olf:262 .
+
+fr:88 a skos:Concept ;
+    owl:sameAs wd:Q34627,
+        <https://www.geonames.org/ontology#S.REST> ;
+    skos:broader fr:53 ;
+    skos:exactMatch wordnet:4381822 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Synagogue"@en,
+        "Synagogue"@fr,
+        "Sinagoga"@it,
+        "Synagoge"@nl,
+        "Sinagoga"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Eldridge%20Street%20Synagogue%20%2842773%29.jpg> .
+
+fr:90 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Sien, die in de plooien van 'r kleeren altijd de scherp goor-zure lucht meebracht van 'r azijn-makerij,  schart.-ant., Sprotje 1, 29 [1905]."@nl ;
+    skos:altLabel "Fabbrica di aceto"@it ;
+    skos:broader fr:23 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Vinegar factory"@en,
+        "Usine de vinaigre"@fr,
+        "Acetificio"@it,
+        "Azijnmakerij"@nl,
+        "Kisarna"@sl ;
+    skos:related olf:165 .
 
 fr:94 a skos:Concept ;
     skos:altLabel "Pozzo di catrame"@it,
@@ -480,18 +603,6 @@ iconclass:F skos:closeMatch fr:41,
 olf:262 skos:related fr:67,
         fr:86,
         fr:95 .
-
-fr:10 a skos:Concept ;
-    skos:altLabel "Fabbrica di cacao"@it ;
-    skos:broader fr:23 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Cacao factory"@en,
-        "Usine de cacao"@fr,
-        "Fabbrica di cioccolato"@it,
-        "Cacaofabriek"@nl,
-        "Tovarna kakava"@sl ;
-    skos:related olf:36 ;
-    skos:topConceptOf voc:fragrant-spaces .
 
 fr:101 a skos:Concept ;
     dct:bibliographicCitation "WNT: En al waer dit genoch tot een Godt-salich leven, Soo stelt daer evenwel de helsche pijn beneven, Vol vier, vol vlam, vol nacht, vol swaevel, peck, en stanck,  Poirters, H. Herte 86."@nl ;
@@ -521,129 +632,20 @@ fr:108 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Brueghel%20de%20Oude%20en%20Peter%20Paul%20Rubens%20-%20Het%20aards%20paradijs%20met%20de%20zondeval%20van%20Adam%20en%20Eva.jpg> .
 
-fr:16 a skos:Concept ;
-    owl:sameAs wd:Q1127296 ;
-    skos:altLabel "Gourde"@fr,
-        "Réfectoire Cafétéria"@fr,
-        "Refettorio"@it,
-        "Kantina"@sl ;
-    skos:broader fr:92 ;
-    skos:exactMatch wordnet:2955921 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Canteen"@en,
-        "Cantine"@fr,
-        "Mensa"@it,
-        "Kantine"@nl,
-        "Menza"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Military%20Canteen%207984.jpg> .
-
-fr:2 a skos:Concept ;
-    skos:altLabel "Marché des animaux"@fr,
-        "Fiera"@it,
-        "Mercato del bestiame"@it,
-        "Veemarkt"@nl ;
-    skos:broader fr:45 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Animal market"@en,
-        "Marché aux bestiaux"@fr,
-        "Mercato degli animali"@it,
-        "Dierenmarkt"@nl,
-        "Živinski sejem"@sl ;
-    skos:related olf:13 ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fr:26 a skos:Concept ;
-    owl:sameAs wd:Q1188480 ;
-    skos:altLabel "Poissonerie"@fr,
-        "Mercato ittico"@it,
-        "Pescheria"@it,
-        "Visafslag"@nl,
-        "Ribarnica"@sl ;
-    skos:broader fr:45 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Fish market"@en,
-        "Marché aux poissons"@fr,
-        "Mercato del pesce"@it,
-        "Vismarkt"@nl,
-        "Ribja tržnica"@sl ;
-    skos:related olf:68 ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/HAL%20fish%20market.jpg> .
-
-fr:43 a skos:Concept ;
-    skos:broader fr:29 ;
-    skos:closeMatch <http://iconclass.org/?> ;
-    skos:definition "A greenhouse for lemons"@en ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Limonaia"@en,
-        "Limonaia"@fr,
-        "Limonaia"@it,
-        "Limonaia"@nl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fr:55 a skos:Concept ;
-    skos:altLabel "Industria dolciaria"@it ;
-    skos:broader fr:23 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Pastry factory"@en,
-        "Pâtisserie"@fr,
-        "Pasticceria"@it,
-        "Banketbakkerij"@nl,
-        "Tovarna peciva"@sl ;
-    skos:related olf:112 ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fr:71 a skos:Concept ;
-    owl:sameAs wd:Q55635949 ;
-    skos:broader fr:23 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Tobacco factory"@en,
-        "Usine de tabac"@fr,
-        "Fabbrica di Tabacco"@it,
-        "Tabaksfabriek"@nl,
-        "Tobačna tovarna"@sl ;
-    skos:related olf:227 ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fr:86 a skos:Concept ;
-    skos:altLabel "Vieille demeure"@fr ;
-    skos:broader fr:69 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Old House"@en,
-        "Vieille maison"@fr,
-        "Vecchia casa"@it,
-        "Oud huis"@nl,
-        "Stara hiša"@sl ;
-    skos:related olf:262 ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fr:88 a skos:Concept ;
-    owl:sameAs wd:Q34627,
-        <https://www.geonames.org/ontology#S.REST> ;
+fr:35 a skos:Concept ;
+    dct:bibliographicCitation "WNT: (Mozes) leeft, hij groeit in deugd, in moed, Die straks, voor vunze kerkerwalmen, U Kanâns geuren aêmen doet,  bogaers 1, 59 [1835]."@nl ;
+    owl:sameAs wd:Q16970,
+        <https://www.geonames.org/ontology#S.CH> ;
     skos:broader fr:53 ;
-    skos:exactMatch wordnet:4381822 ;
+    skos:exactMatch wordnet:3031762 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Synagogue"@en,
-        "Synagogue"@fr,
-        "Sinagoga"@it,
-        "Synagoge"@nl,
-        "Sinagoga"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Eldridge%20Street%20Synagogue%20%2842773%29.jpg> .
-
-fr:90 a skos:Concept ;
-    dct:bibliographicCitation "WNT: Sien, die in de plooien van 'r kleeren altijd de scherp goor-zure lucht meebracht van 'r azijn-makerij,  schart.-ant., Sprotje 1, 29 [1905]."@nl ;
-    skos:altLabel "Fabbrica di aceto"@it ;
-    skos:broader fr:23 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Vinegar factory"@en,
-        "Usine de vinaigre"@fr,
-        "Acetificio"@it,
-        "Azijnmakerij"@nl,
-        "Kisarna"@sl ;
-    skos:related olf:165 ;
-    skos:topConceptOf voc:fragrant-spaces .
+    skos:prefLabel "Church"@en,
+        "Eglise"@fr,
+        "Chiesa"@it,
+        "Kerk"@nl,
+        "Cerkev"@sl ;
+    skos:related olf:454 ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20di%20San%20Pietro%20in%20Vaticano%20September%202015-1a.jpg> .
 
 fr:11 a skos:Concept ;
     owl:sameAs wd:Q12284 ;
@@ -666,21 +668,20 @@ fr:11 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Corinth%20Canal%201.jpg> .
 
-fr:35 a skos:Concept ;
-    dct:bibliographicCitation "WNT: (Mozes) leeft, hij groeit in deugd, in moed, Die straks, voor vunze kerkerwalmen, U Kanâns geuren aêmen doet,  bogaers 1, 59 [1835]."@nl ;
-    owl:sameAs wd:Q16970,
-        <https://www.geonames.org/ontology#S.CH> ;
-    skos:broader fr:53 ;
-    skos:exactMatch wordnet:3031762 ;
+fr:73 a skos:Concept ;
+    owl:sameAs wd:Q532 ;
+    skos:altLabel "Villaggio"@it ;
+    skos:broader fr:32 ;
+    skos:closeMatch iconclass:2,
+        iconclass:5,
+        iconclass:I ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Church"@en,
-        "Eglise"@fr,
-        "Chiesa"@it,
-        "Kerk"@nl,
-        "Cerkev"@sl ;
-    skos:related olf:454 ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20di%20San%20Pietro%20in%20Vaticano%20September%202015-1a.jpg> .
+    skos:prefLabel "Village"@en,
+        "Village"@fr,
+        "Paese"@it,
+        "Dorp"@nl,
+        "Vas"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Betley-%20The%20main%20road,%20looking%20north,%20the%20postmans%20bike%20at%20rest%20-%20geograph.org.uk%20-%20147874.jpg> .
 
 fr:79 a skos:Concept ;
     skos:altLabel "Circus"@en,
@@ -719,6 +720,21 @@ fr:112 a skos:Concept ;
         "Dnevna soba"@sl ;
     skos:topConceptOf voc:fragrant-spaces .
 
+fr:13 a skos:Concept ;
+    owl:sameAs wd:Q207652 ;
+    skos:broader fr:23 ;
+    skos:closeMatch iconclass:2,
+        iconclass:4,
+        iconclass:7,
+        iconclass:B ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Chemical industry"@en,
+        "Industrie Chimique"@fr,
+        "Industria chimica"@it,
+        "Chemische industrie"@nl,
+        "Kemična industrija"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/FEMA%20-%2037677%20-%20Aerial%20of%20a%20Louisiana%20oil%20refinary%20repaired%20since%20Katrina.jpg> .
+
 fr:22 a skos:Concept ;
     skos:altLabel "Stabilimenti e mulini sullo sfondo"@it ;
     skos:closeMatch iconclass:2,
@@ -732,6 +748,20 @@ fr:22 a skos:Concept ;
         "Fabrieken en molens in landschap"@nl,
         "Tovarne in mlini v pokrajini"@sl ;
     skos:topConceptOf voc:fragrant-spaces .
+
+fr:24 a skos:Concept ;
+    skos:altLabel "Officina di macchinari"@it ;
+    skos:broader fr:23 ;
+    skos:closeMatch iconclass:2,
+        iconclass:4,
+        iconclass:7,
+        iconclass:A ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Factory-interior"@en,
+        "Intérieur d'usine"@fr,
+        "Interno di una fabbrica"@it,
+        "Fabrieksinterieur"@nl,
+        "Notranje prostore tovarne"@sl .
 
 fr:3 a skos:Concept ;
     owl:sameAs wd:Q478515 ;
@@ -849,22 +879,6 @@ fr:69 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ranch%20style%20home%20in%20Salinas,%20California.JPG> .
 
-fr:73 a skos:Concept ;
-    owl:sameAs wd:Q532 ;
-    skos:altLabel "Villaggio"@it ;
-    skos:broader fr:32 ;
-    skos:closeMatch iconclass:2,
-        iconclass:5,
-        iconclass:I ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Village"@en,
-        "Village"@fr,
-        "Paese"@it,
-        "Dorp"@nl,
-        "Vas"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Betley-%20The%20main%20road,%20looking%20north,%20the%20postmans%20bike%20at%20rest%20-%20geograph.org.uk%20-%20147874.jpg> .
-
 fr:74 a skos:Concept ;
     skos:altLabel "Hospital room"@en,
         "Chambre d'hôpital"@fr,
@@ -955,6 +969,23 @@ fr:82 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Forain%20-%20Le%20client.jpg> .
 
+fr:84 a skos:Concept ;
+    owl:sameAs wd:Q167346 ;
+    skos:altLabel "Hortus Botanicus"@en,
+        "Hortus Botanicus"@nl ;
+    skos:broader fr:27 ;
+    skos:closeMatch iconclass:1,
+        iconclass:4,
+        iconclass:9,
+        iconclass:F ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Botanical garden"@en,
+        "Jardin botanique"@fr,
+        "Giardino botanico"@it,
+        "Botanische tuin"@nl,
+        "Botanični vrt"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Gewaechshaus%20Botanischer%20Garten%20Berlin.jpg> .
+
 fr:95 a skos:Concept ;
     owl:sameAs wd:Q7075 ;
     skos:closeMatch iconclass:4,
@@ -1012,6 +1043,25 @@ fr:111 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20youth%20hostel%20room.jpg> .
 
+fr:116 a skos:Concept ;
+    owl:sameAs wd:Q214252 ;
+    skos:altLabel "Paardenbox"@nl,
+        "Paardenstand"@nl ;
+    skos:broader fr:63 ;
+    skos:closeMatch iconclass:2,
+        iconclass:4,
+        iconclass:7,
+        iconclass:I ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Pensionsstall"@de,
+        "Stable"@en,
+        "Écurie"@fr,
+        "Scuderia"@it,
+        "Paardenstal"@nl,
+        "Hlev"@sl ;
+    skos:related olf:189 ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Quadra%20%2826722518231%29.jpg> .
+
 fr:12 a skos:Concept ;
     owl:sameAs wd:Q35509 ;
     skos:altLabel "Grotto"@en,
@@ -1032,22 +1082,6 @@ fr:12 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Hawaiian%20lava%20tube.jpg> .
 
-fr:13 a skos:Concept ;
-    owl:sameAs wd:Q207652 ;
-    skos:broader fr:23 ;
-    skos:closeMatch iconclass:2,
-        iconclass:4,
-        iconclass:7,
-        iconclass:B ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Chemical industry"@en,
-        "Industrie Chimique"@fr,
-        "Industria chimica"@it,
-        "Chemische industrie"@nl,
-        "Kemična industrija"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/FEMA%20-%2037677%20-%20Aerial%20of%20a%20Louisiana%20oil%20refinary%20repaired%20since%20Katrina.jpg> .
-
 fr:15 a skos:Concept ;
     owl:sameAs wd:Q661199 ;
     skos:closeMatch iconclass:1,
@@ -1064,20 +1098,23 @@ fr:15 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Heiligengrabe,%20Kloster%20Stift%20zum%20Heiligengrabe,%20Abtei,%20Speiseraum%20--%202017%20--%207082-8.jpg> .
 
-fr:24 a skos:Concept ;
-    skos:altLabel "Officina di macchinari"@it ;
-    skos:broader fr:23 ;
-    skos:closeMatch iconclass:2,
-        iconclass:4,
-        iconclass:7,
-        iconclass:A ;
+fr:20 a skos:Concept ;
+    owl:sameAs wd:Q107434304 ;
+    skos:altLabel "Incendie de forêt"@fr,
+        "Incendie forestier"@fr ;
+    skos:broader fr:19 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:5,
+        iconclass:9,
+        iconclass:H ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Factory-interior"@en,
-        "Intérieur d'usine"@fr,
-        "Interno di una fabbrica"@it,
-        "Fabrieksinterieur"@nl,
-        "Notranje prostore tovarne"@sl ;
-    skos:topConceptOf voc:fragrant-spaces .
+    skos:prefLabel "Forest fire"@en,
+        "Feu de forêt"@fr,
+        "Incendio boschivo"@it,
+        "Bosbrand"@nl,
+        "Gozdni požar"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Lick%20Fire%20on%20the%20Umatilla%20National%20Forest%20burning%20at%20night.jpg> .
 
 fr:25 a skos:Concept ;
     owl:sameAs wd:Q131596,
@@ -1112,6 +1149,37 @@ fr:32 a skos:Concept ;
     skos:related olf:248 ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Больница%20№%203.%20Северодвинск.%20Старый%20корпус.jpg> .
+
+fr:38 a skos:Concept ;
+    owl:sameAs wd:Q43275297 ;
+    skos:broader fr:37 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:3,
+        iconclass:4,
+        iconclass:C ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Rich kitchen"@en,
+        "Cuisine riche"@fr,
+        "Cucina ricca"@it,
+        "Rijke keuken"@nl,
+        "Bogata kuhinja"@sl .
+
+fr:39 a skos:Concept ;
+    owl:sameAs wd:Q43275344 ;
+    skos:altLabel "Gaarkeuken"@nl ;
+    skos:broader fr:37 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:3,
+        iconclass:4,
+        iconclass:C ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Poor kitchen"@en,
+        "Cuisine pauvre"@fr,
+        "Cucina povera"@it,
+        "Armeluiskeuken"@nl,
+        "Uboga kuhinja"@sl .
 
 fr:4 a skos:Concept ;
     owl:sameAs wd:Q190771 ;
@@ -1178,6 +1246,41 @@ fr:41 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Automatisches%20Kleinteilelager.jpg> .
 
+fr:44 a skos:Concept ;
+    owl:sameAs wd:Q952885 ;
+    skos:altLabel "Orangery"@en ;
+    skos:broader fr:29 ;
+    skos:closeMatch iconclass:3,
+        iconclass:4,
+        iconclass:5,
+        iconclass:7,
+        iconclass:I ;
+    skos:definition "A greenhouse for oranges"@en ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Orangerie"@en,
+        "Orangerie"@fr,
+        "Aranciera"@it,
+        "Oranjerie"@nl,
+        "Oranžerija"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Kensington%20Palace%20Orangery.jpg> .
+
+fr:46 a skos:Concept ;
+    owl:sameAs wd:Q2080521 ;
+    skos:altLabel "Marché couvert"@fr ;
+    skos:broader fr:45 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:4,
+        iconclass:6,
+        iconclass:B ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Market-hall"@en,
+        "Halle"@fr,
+        "Mercato coperto"@it,
+        "Markthal"@nl,
+        "Tržnica"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20asv2021-11%20img42%20Grand%20Bazaar.jpg> .
+
 fr:48 a skos:Concept ;
     owl:sameAs wd:Q7777019 ;
     skos:altLabel "Pasture"@en,
@@ -1239,6 +1342,22 @@ fr:50 a skos:Concept ;
         "Drevesnica"@sl ;
     skos:topConceptOf voc:fragrant-spaces .
 
+fr:51 a skos:Concept ;
+    owl:sameAs wd:Q9430 ;
+    skos:broader fr:93 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:3,
+        iconclass:5,
+        iconclass:H ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Ocean"@en,
+        "Océan"@fr,
+        "Oceano"@it,
+        "Oceaan"@nl,
+        "Ocean"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/World%20ocean%20map.gif> .
+
 fr:52 a skos:Concept ;
     owl:sameAs wd:Q182060 ;
     skos:closeMatch iconclass:2,
@@ -1275,6 +1394,40 @@ fr:54 a skos:Concept ;
         "Tentoonstellingsruimte"@nl,
         "Muzej"@sl ;
     skos:topConceptOf voc:fragrant-spaces .
+
+fr:57 a skos:Concept ;
+    owl:sameAs wd:Q107856378 ;
+    skos:altLabel "Élevage de volaille"@fr,
+        "Allevamento di polli"@it ;
+    skos:broader fr:25 ;
+    skos:closeMatch iconclass:2,
+        iconclass:3,
+        iconclass:4,
+        iconclass:7,
+        iconclass:I ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Poultry farm"@en,
+        "Ferme avicole"@fr,
+        "Azienda avicola"@it,
+        "Pluimveehouderij"@nl,
+        "Reja perutnine"@sl .
+
+fr:72 a skos:Concept ;
+    owl:sameAs wd:Q1827414 ;
+    skos:altLabel "Garden restaurant"@en ;
+    skos:broader fr:27 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:3,
+        iconclass:4,
+        iconclass:B ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Tea garden"@en,
+        "Jardin du thé"@fr,
+        "Giardino per il tè"@it,
+        "Theetuin"@nl,
+        "Čajni vrt"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/The%20Orchard%20Tea%20Garden%20in%20Grantchester%20May%202007.JPG> .
 
 fr:75 a skos:Concept ;
     owl:sameAs wd:Q1690211 ;
@@ -1317,23 +1470,22 @@ fr:76 a skos:Concept ;
     skos:related olf:248 ;
     skos:topConceptOf voc:fragrant-spaces .
 
-fr:84 a skos:Concept ;
-    owl:sameAs wd:Q167346 ;
-    skos:altLabel "Hortus Botanicus"@en,
-        "Hortus Botanicus"@nl ;
-    skos:broader fr:27 ;
+fr:89 a skos:Concept ;
+    owl:sameAs wd:Q32815 ;
+    skos:altLabel "Mošeja"@sl ;
+    skos:broader fr:53 ;
     skos:closeMatch iconclass:1,
-        iconclass:4,
-        iconclass:9,
-        iconclass:F ;
+        iconclass:2,
+        iconclass:6,
+        iconclass:I ;
+    skos:exactMatch wordnet:3793728 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Botanical garden"@en,
-        "Jardin botanique"@fr,
-        "Giardino botanico"@it,
-        "Botanische tuin"@nl,
-        "Botanični vrt"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Gewaechshaus%20Botanischer%20Garten%20Berlin.jpg> .
+    skos:prefLabel "Mosque"@en,
+        "Mosquée"@fr,
+        "Moschea"@it,
+        "Moskee"@nl,
+        "Džamija"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Mosque,%20Tamale,%20Northern%20region,%20Dagbon.jpg> .
 
 fr:9 a skos:Concept ;
     skos:altLabel "Washuis"@nl ;
@@ -1366,6 +1518,23 @@ fr:93 a skos:Concept ;
         "Morje"@sl ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Paracas%20National%20Reserve,%20Ica,%20Peru-3April2011.jpg> .
+
+fr:96 a skos:Concept ;
+    owl:sameAs wd:Q106259 ;
+    skos:altLabel "Prise"@fr,
+        "poldre"@fr ;
+    skos:broader fr:66 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:5,
+        iconclass:9,
+        iconclass:H ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Polder"@en,
+        "Polder"@fr,
+        "Polder"@nl,
+        "Polder"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/2012-05-13%20Nordsee-Luftbilder%20DSCF8784.jpg> .
 
 fr:98 a skos:Concept ;
     dct:bibliographicCitation "(Ieder huis) heeft sijn vuyltjens, sijn' verborgene riolen, Sijn on-Civetsch geheim, sijn' Amberloose holen,  huygens 1, 539 [1661]."@nl,
@@ -1421,26 +1590,6 @@ fr:102 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ana%20Maria%20Ventura%20como%20Altisidora%20en%20%22La%20enamorada%20del%20rey%22%20%281988%29.jpg> .
 
-fr:116 a skos:Concept ;
-    owl:sameAs wd:Q214252 ;
-    skos:altLabel "Paardenbox"@nl,
-        "Paardenstand"@nl ;
-    skos:broader fr:63 ;
-    skos:closeMatch iconclass:2,
-        iconclass:4,
-        iconclass:7,
-        iconclass:I ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Pensionsstall"@de,
-        "Stable"@en,
-        "Écurie"@fr,
-        "Scuderia"@it,
-        "Paardenstal"@nl,
-        "Hlev"@sl ;
-    skos:related olf:189 ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Quadra%20%2826722518231%29.jpg> .
-
 fr:19 a skos:Concept ;
     owl:sameAs wd:Q4421 ;
     skos:altLabel "Wood"@en,
@@ -1465,25 +1614,6 @@ fr:19 a skos:Concept ;
     skos:related olf:200 ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20on%20San%20Juan%20Island.jpg> .
-
-fr:20 a skos:Concept ;
-    owl:sameAs wd:Q107434304 ;
-    skos:altLabel "Incendie de forêt"@fr,
-        "Incendie forestier"@fr ;
-    skos:broader fr:19 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:5,
-        iconclass:9,
-        iconclass:H ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Forest fire"@en,
-        "Feu de forêt"@fr,
-        "Incendio boschivo"@it,
-        "Bosbrand"@nl,
-        "Gozdni požar"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Lick%20Fire%20on%20the%20Umatilla%20National%20Forest%20burning%20at%20night.jpg> .
 
 fr:33 a skos:Concept ;
     owl:sameAs wd:Q165044 ;
@@ -1520,111 +1650,6 @@ fr:37 a skos:Concept ;
         "Kuhinja"@sl ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Kitchenwhitehouse.jpg> .
-
-fr:38 a skos:Concept ;
-    owl:sameAs wd:Q43275297 ;
-    skos:broader fr:37 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:3,
-        iconclass:4,
-        iconclass:C ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Rich kitchen"@en,
-        "Cuisine riche"@fr,
-        "Cucina ricca"@it,
-        "Rijke keuken"@nl,
-        "Bogata kuhinja"@sl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fr:39 a skos:Concept ;
-    owl:sameAs wd:Q43275344 ;
-    skos:altLabel "Gaarkeuken"@nl ;
-    skos:broader fr:37 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:3,
-        iconclass:4,
-        iconclass:C ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Poor kitchen"@en,
-        "Cuisine pauvre"@fr,
-        "Cucina povera"@it,
-        "Armeluiskeuken"@nl,
-        "Uboga kuhinja"@sl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fr:44 a skos:Concept ;
-    owl:sameAs wd:Q952885 ;
-    skos:altLabel "Orangery"@en ;
-    skos:broader fr:29 ;
-    skos:closeMatch iconclass:3,
-        iconclass:4,
-        iconclass:5,
-        iconclass:7,
-        iconclass:I ;
-    skos:definition "A greenhouse for oranges"@en ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Orangerie"@en,
-        "Orangerie"@fr,
-        "Aranciera"@it,
-        "Oranjerie"@nl,
-        "Oranžerija"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Kensington%20Palace%20Orangery.jpg> .
-
-fr:46 a skos:Concept ;
-    owl:sameAs wd:Q2080521 ;
-    skos:altLabel "Marché couvert"@fr ;
-    skos:broader fr:45 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:4,
-        iconclass:6,
-        iconclass:B ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Market-hall"@en,
-        "Halle"@fr,
-        "Mercato coperto"@it,
-        "Markthal"@nl,
-        "Tržnica"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20asv2021-11%20img42%20Grand%20Bazaar.jpg> .
-
-fr:51 a skos:Concept ;
-    owl:sameAs wd:Q9430 ;
-    skos:broader fr:93 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:3,
-        iconclass:5,
-        iconclass:H ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Ocean"@en,
-        "Océan"@fr,
-        "Oceano"@it,
-        "Oceaan"@nl,
-        "Ocean"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/World%20ocean%20map.gif> .
-
-fr:57 a skos:Concept ;
-    owl:sameAs wd:Q107856378 ;
-    skos:altLabel "Élevage de volaille"@fr,
-        "Allevamento di polli"@it ;
-    skos:broader fr:25 ;
-    skos:closeMatch iconclass:2,
-        iconclass:3,
-        iconclass:4,
-        iconclass:7,
-        iconclass:I ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Poultry farm"@en,
-        "Ferme avicole"@fr,
-        "Azienda avicola"@it,
-        "Pluimveehouderij"@nl,
-        "Reja perutnine"@sl ;
-    skos:topConceptOf voc:fragrant-spaces .
 
 fr:59 a skos:Concept ;
     owl:sameAs wd:Q785952 ;
@@ -1709,23 +1734,27 @@ fr:64 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Slezské%20Beskydy%20-%20Rytířská%20stezka%20%28cesta%20Nýdek%20-%20Velká%20Čantoryje%29.JPG> .
 
-fr:72 a skos:Concept ;
-    owl:sameAs wd:Q1827414 ;
-    skos:altLabel "Garden restaurant"@en ;
-    skos:broader fr:27 ;
+fr:67 a skos:Concept ;
+    owl:sameAs wd:Q166735 ;
+    skos:altLabel "Fens"@en,
+        "Inland marsh"@en,
+        "Région marécageuse"@fr,
+        "Zona paludosa"@it,
+        "Ven"@nl ;
+    skos:broader fr:66 ;
     skos:closeMatch iconclass:1,
         iconclass:2,
-        iconclass:3,
-        iconclass:4,
-        iconclass:B ;
+        iconclass:5,
+        iconclass:9,
+        iconclass:H ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Tea garden"@en,
-        "Jardin du thé"@fr,
-        "Giardino per il tè"@it,
-        "Theetuin"@nl,
-        "Čajni vrt"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/The%20Orchard%20Tea%20Garden%20in%20Grantchester%20May%202007.JPG> .
+    skos:prefLabel "Swamp"@en,
+        "Marais"@fr,
+        "Palude"@it,
+        "Moeras"@nl,
+        "Močvirje"@sl ;
+    skos:related olf:262 ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Briesetal%20bei%20Briese.JPG> .
 
 fr:78 a skos:Concept ;
     owl:sameAs wd:Q1402739 ;
@@ -1746,41 +1775,23 @@ fr:78 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Loon%203%20earthquake.JPG> .
 
-fr:89 a skos:Concept ;
-    owl:sameAs wd:Q32815 ;
-    skos:altLabel "Mošeja"@sl ;
-    skos:broader fr:53 ;
+fr:81 a skos:Concept ;
+    skos:altLabel "Hortus Conclusus"@en,
+        "Walled Garden"@en,
+        "Hortus conclusus"@nl ;
+    skos:broader fr:27 ;
     skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:6,
-        iconclass:I ;
-    skos:exactMatch wordnet:3793728 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Mosque"@en,
-        "Mosquée"@fr,
-        "Moschea"@it,
-        "Moskee"@nl,
-        "Džamija"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Mosque,%20Tamale,%20Northern%20region,%20Dagbon.jpg> .
-
-fr:96 a skos:Concept ;
-    owl:sameAs wd:Q106259 ;
-    skos:altLabel "Prise"@fr,
-        "poldre"@fr ;
-    skos:broader fr:66 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
+        iconclass:3,
+        iconclass:4,
         iconclass:5,
-        iconclass:9,
-        iconclass:H ;
+        iconclass:6,
+        iconclass:A ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Polder"@en,
-        "Polder"@fr,
-        "Polder"@nl,
-        "Polder"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/2012-05-13%20Nordsee-Luftbilder%20DSCF8784.jpg> .
+    skos:prefLabel "Fenced garden"@en,
+        "Jardin Clos"@fr,
+        "Giardino recintato"@it,
+        "Omsloten tuin"@nl,
+        "Ograjen vrt"@sl .
 
 fr:104 a skos:Concept ;
     dct:bibliographicCitation "WNT: Nimmer zal men Kinderen zenden naar kleine, vunsche, stinkende Schooltjes,  v. geuns bij sypkens smit, M. v. Geuns 537 a [1788]."@nl ;
@@ -1859,48 +1870,6 @@ fr:53 a skos:Concept ;
         "Svetišče"@sl ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Arch%20St%20Meeting%20interior.JPG> .
-
-fr:67 a skos:Concept ;
-    owl:sameAs wd:Q166735 ;
-    skos:altLabel "Fens"@en,
-        "Inland marsh"@en,
-        "Région marécageuse"@fr,
-        "Zona paludosa"@it,
-        "Ven"@nl ;
-    skos:broader fr:66 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:5,
-        iconclass:9,
-        iconclass:H ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Swamp"@en,
-        "Marais"@fr,
-        "Palude"@it,
-        "Moeras"@nl,
-        "Močvirje"@sl ;
-    skos:related olf:262 ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Briesetal%20bei%20Briese.JPG> .
-
-fr:81 a skos:Concept ;
-    skos:altLabel "Hortus Conclusus"@en,
-        "Walled Garden"@en,
-        "Hortus conclusus"@nl ;
-    skos:broader fr:27 ;
-    skos:closeMatch iconclass:1,
-        iconclass:3,
-        iconclass:4,
-        iconclass:5,
-        iconclass:6,
-        iconclass:A ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Fenced garden"@en,
-        "Jardin Clos"@fr,
-        "Giardino recintato"@it,
-        "Omsloten tuin"@nl,
-        "Ograjen vrt"@sl ;
-    skos:topConceptOf voc:fragrant-spaces .
 
 fr:92 a skos:Concept ;
     dct:bibliographicCitation "WNT: Het rook er zoo lakker a's aen de deur van 't Lanswelvaren: — zoo 'enen reuk gelyk van 'en restoratie, consc., Avondst. 89 [1846]."@nl ;
@@ -2290,15 +2259,13 @@ iconclass:4 skos:closeMatch fr:102,
 voc:fragrant-spaces a skos:ConceptScheme ;
     rdfs:label "Fragrant spaces" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2023-03-13"^^xsd:date ;
-    pav:createdOn "2023-03-13"^^xsd:date ;
+    dct:modified "2023-04-21"^^xsd:date ;
+    pav:createdOn "2023-04-21"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept fr:1,
-        fr:10,
         fr:100,
         fr:101,
         fr:102,
-        fr:103,
         fr:104,
         fr:105,
         fr:106,
@@ -2312,23 +2279,16 @@ voc:fragrant-spaces a skos:ConceptScheme ;
         fr:113,
         fr:114,
         fr:115,
-        fr:116,
         fr:12,
-        fr:13,
         fr:14,
         fr:15,
-        fr:16,
         fr:17,
         fr:18,
         fr:19,
-        fr:2,
-        fr:20,
         fr:21,
         fr:22,
         fr:23,
-        fr:24,
         fr:25,
-        fr:26,
         fr:27,
         fr:28,
         fr:29,
@@ -2338,31 +2298,21 @@ voc:fragrant-spaces a skos:ConceptScheme ;
         fr:32,
         fr:33,
         fr:34,
-        fr:35,
         fr:36,
         fr:37,
-        fr:38,
-        fr:39,
         fr:4,
         fr:40,
         fr:41,
         fr:42,
-        fr:43,
-        fr:44,
         fr:45,
-        fr:46,
-        fr:47,
         fr:48,
         fr:49,
         fr:5,
         fr:50,
-        fr:51,
         fr:52,
         fr:53,
         fr:54,
-        fr:55,
         fr:56,
-        fr:57,
         fr:58,
         fr:59,
         fr:6,
@@ -2371,16 +2321,11 @@ voc:fragrant-spaces a skos:ConceptScheme ;
         fr:62,
         fr:63,
         fr:64,
-        fr:65,
         fr:66,
-        fr:67,
         fr:68,
         fr:69,
         fr:7,
         fr:70,
-        fr:71,
-        fr:72,
-        fr:73,
         fr:74,
         fr:75,
         fr:76,
@@ -2389,23 +2334,16 @@ voc:fragrant-spaces a skos:ConceptScheme ;
         fr:79,
         fr:8,
         fr:80,
-        fr:81,
         fr:82,
         fr:83,
-        fr:84,
         fr:85,
-        fr:86,
         fr:87,
-        fr:88,
-        fr:89,
         fr:9,
-        fr:90,
         fr:91,
         fr:92,
         fr:93,
         fr:94,
         fr:95,
-        fr:96,
         fr:97,
         fr:98,
         fr:99 .

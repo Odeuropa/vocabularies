@@ -138,8 +138,10 @@ async function toConcept(s, lang, ns) {
             add(concept, SKOS('closeMatch'), ICONCLASS(icl.trim()));
     }
 
-    add(concept, SKOS('inScheme'), scheme);
-    if (!hasInternalBroader) add(concept, SKOS('topConceptOf'), scheme);
+    if (lang == 'en') {
+        add(concept, SKOS('inScheme'), scheme);
+        if (!hasInternalBroader) add(concept, SKOS('topConceptOf'), scheme);
+    }
 
     if (s.BIBLIOGRAPHY) {
         s.BIBLIOGRAPHY.split(';')
