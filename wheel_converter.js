@@ -16,6 +16,8 @@ import {
     DBP,
     SCHEMA,
     GOLD,
+    OWL,
+    WDT,
     nsValues,
 } from './src/prefixes.js';
 import { add, save, capitalize } from './src/utils.js';
@@ -87,6 +89,9 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
     const BIB = COLS.bib || 'bib';
     const DEFINITION = COLS.definition || 'definition';
     const EXAMPLE = COLS.example || 'example';
+    const SAMEAS = COLS.sameAs || 'sameAs';
+
+    const separator2 = meta.separator2 || /,/g;
 
     if (s[CATEGORY]) {
         add(getCollection(s[CATEGORY].trim(), ns), SKOS('member'), concept);
@@ -103,10 +108,19 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
     }
 
     if (s[SYNONYM]) {
-        s[SYNONYM].split(/,/g).forEach((syn) => add(concept, SKOS('altLabel'), syn.trim(), lang));
+        s[SYNONYM].split(separator2).forEach((syn) => add(concept, SKOS('altLabel'), syn.trim(), lang));
     }
     if (s[POS]) {
         add(concept, RDF('type'), GOLD(capitalize(s[POS].trim()).replace(/e^/, 'al')));
+    }
+    if (s[SAMEAS]) {
+        add(concept, OWL('sameAs'), s[SAMEAS]);
+    }
+    if (s.cas) {
+        add(concept, WDT('P231'), s.cas);
+    }
+    if (s.chemical) {
+        add(concept, WDT('P274'), s.chemical);
     }
 
     add(concept, SKOS('related'), await interlink(s.related, lang), lang);
