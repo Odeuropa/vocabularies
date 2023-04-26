@@ -1,0 +1,10 @@
+label: Flavornet odorants
+created: 1998
+creator:
+  - Terry Acree
+  - Heinrich Arn
+lang: en
+separator: ';'
+separator2: ', '
+level2: concat
+level3: odeuropa:F3_had_source

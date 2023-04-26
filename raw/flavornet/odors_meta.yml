@@ -6,4 +6,5 @@ creator:
 lang: en
 separator: ';'
 level2: concat
-level3: odeuropa:F3_had_source
+source:
+  odorant: flavornet/odorants

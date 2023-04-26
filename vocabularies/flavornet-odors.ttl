@@ -1,0 +1,3925 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix odor: <http://data.odeuropa.eu/vocabulary/flavornet/odorants/> .
+@prefix odors: <http://data.odeuropa.eu/vocabulary/flavornet/odors/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+odor:256 skos:related odors:animal_acid .
+
+odors:animal_acid a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "acid"@en ;
+    skos:related odor:256 .
+
+odors:animal_amine a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "amine"@en ;
+    skos:related odor:undefined .
+
+odors:animal_black_currant a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "black currant"@en ;
+    skos:related odor:undefined .
+
+odors:animal_cat a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cat"@en ;
+    skos:related odor:undefined .
+
+odors:animal_fecal a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fecal"@en ;
+    skos:related odor:undefined .
+
+odors:animal_green a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:animal_plastic a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "plastic"@en ;
+    skos:related odor:undefined .
+
+odors:animal_rancid a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rancid"@en ;
+    skos:related odor:undefined .
+
+odors:animal_roast a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast"@en ;
+    skos:related odor:undefined .
+
+odors:animal_rubber a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rubber"@en ;
+    skos:related odor:undefined .
+
+odors:animal_smoke a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "smoke"@en ;
+    skos:related odor:undefined .
+
+odors:animal_sweat a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweat"@en ;
+    skos:related odor:undefined .
+
+odors:animal_tallow a skos:Concept ;
+    skos:broader odors:animal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tallow"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_anise a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "anise"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_balsamic a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "balsamic"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_camphor a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "camphor"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_citrus a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "citrus"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_cocoa a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cocoa"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_coconut a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "coconut"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_cognac a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cognac"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_cream a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cream"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_ester a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "ester"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_ether a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "ether"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_fat a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_flower a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "flower"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_fruit a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_gasoline a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "gasoline"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_green a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_herb a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "herb"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_licorice a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "licorice"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_malt a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "malt"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_medicine a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "medicine"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_menthol a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "menthol"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_mint a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mint"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_mushroom a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mushroom"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_nut a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "nut"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_peppermint a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "peppermint"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_phenol a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "phenol"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_pine a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pine"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_plastic a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "plastic"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_pungent a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_rancid a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rancid"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_raspberry a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "raspberry"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_roast a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_seaweed a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "seaweed"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_smoke a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "smoke"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_solvent a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "solvent"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_soy a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "soy"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_spice a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_straw a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "straw"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_sweet a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_terpentine a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "terpentine"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_turpentine a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "turpentine"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_vanilla a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "vanilla"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_violet a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "violet"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_wet_cloth a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wet cloth"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_wintergreen a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wintergreen"@en ;
+    skos:related odor:undefined .
+
+odors:aromatic_wood a skos:Concept ;
+    skos:broader odors:aromatic ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wood"@en ;
+    skos:related odor:undefined .
+
+odors:berry_black_currant a skos:Concept ;
+    skos:broader odors:berry ;
+    skos:inScheme odors: ;
+    skos:prefLabel "black currant"@en ;
+    skos:related odor:undefined .
+
+odors:berry_ether a skos:Concept ;
+    skos:broader odors:berry ;
+    skos:inScheme odors: ;
+    skos:prefLabel "ether"@en ;
+    skos:related odor:undefined .
+
+odors:berry_fruit a skos:Concept ;
+    skos:broader odors:berry ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:berry_grape a skos:Concept ;
+    skos:broader odors:berry ;
+    skos:inScheme odors: ;
+    skos:prefLabel "grape"@en ;
+    skos:related odor:undefined .
+
+odors:berry_raspberry a skos:Concept ;
+    skos:broader odors:berry ;
+    skos:inScheme odors: ;
+    skos:prefLabel "raspberry"@en ;
+    skos:related odor:undefined .
+
+odors:berry_strawberry a skos:Concept ;
+    skos:broader odors:berry ;
+    skos:inScheme odors: ;
+    skos:prefLabel "strawberry"@en ;
+    skos:related odor:undefined .
+
+odors:berry_sweet a skos:Concept ;
+    skos:broader odors:berry ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:berry_tomato a skos:Concept ;
+    skos:broader odors:berry ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tomato"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_0 a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "0"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_citrus a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "citrus"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_cologne a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cologne"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_coriander a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "coriander"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_earth a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "earth"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_flower a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "flower"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_fresh a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fresh"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_fruit a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_green a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_herb a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "herb"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_lavender a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lavender"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_lemon a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lemon"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_mandarin a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mandarin"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_metal a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "metal"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_mint a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mint"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_must a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "must"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_oil a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "oil"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_orange a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "orange"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_orange_peel a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "orange peel"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_pine a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pine"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_resin a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "resin"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_soap a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "soap"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_spice a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_sweet a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_tallow a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tallow"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_tart_lime a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tart lime"@en ;
+    skos:related odor:undefined .
+
+odors:citrus_turpentine a skos:Concept ;
+    skos:broader odors:citrus ;
+    skos:inScheme odors: ;
+    skos:prefLabel "turpentine"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_butter a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "butter"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_cheese a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cheese"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_cream a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cream"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_fat a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_green a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_hot_milk a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "hot milk"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_pungent a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_rancid a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rancid"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_soap a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "soap"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_sweat a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweat"@en ;
+    skos:related odor:undefined .
+
+odors:dairy_sweet a skos:Concept ;
+    skos:broader odors:dairy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_almond a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "almond"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_anise a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "anise"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_citrus a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "citrus"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_cocoa a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cocoa"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_coconut a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "coconut"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_fat a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_flower a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "flower"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_fried a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fried"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_gasoline a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "gasoline"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_green a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_herb a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "herb"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_leaf a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "leaf"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_lemon a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lemon"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_meat a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "meat"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_medicine a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "medicine"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_mint a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mint"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_nut a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "nut"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_oil a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "oil"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_orris a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "orris"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_peanut_butter a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "peanut butter"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_plastic a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "plastic"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_pungent a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_rancid a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rancid"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_roast_beef a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast beef"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_roasted_nut a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roasted nut"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_soap a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "soap"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_spice a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_sweet a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_wax a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wax"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_wine a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wine"@en ;
+    skos:related odor:undefined .
+
+odors:edible_oil_wood a skos:Concept ;
+    skos:broader odors:edible_oil ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wood"@en ;
+    skos:related odor:undefined .
+
+odors:fecal a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:fecal_urine ;
+    skos:prefLabel "Fecal"@en ;
+    skos:topConceptOf odors: .
+
+odors:fecal_urine a skos:Concept ;
+    skos:broader odors:fecal ;
+    skos:inScheme odors: ;
+    skos:prefLabel "urine"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_alcohol a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "alcohol"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_balsamic a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "balsamic"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_bitter a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "bitter"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_cabbage a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cabbage"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_fruit a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_green a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_metal a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "metal"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_mushroom a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mushroom"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_must a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "must"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_oil a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "oil"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_onion a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "onion"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_pungent a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_putrid a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "putrid"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_rancid a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rancid"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_solvent a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "solvent"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_sour a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sour"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_spice a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_sweet a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_wine a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wine"@en ;
+    skos:related odor:undefined .
+
+odors:fermented_yeast a skos:Concept ;
+    skos:broader odors:fermented ;
+    skos:inScheme odors: ;
+    skos:prefLabel "yeast"@en ;
+    skos:related odor:undefined .
+
+odors:fishy_cabbage a skos:Concept ;
+    skos:broader odors:fishy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cabbage"@en ;
+    skos:related odor:undefined .
+
+odors:fishy_fish a skos:Concept ;
+    skos:broader odors:fishy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fish"@en ;
+    skos:related odor:undefined .
+
+odors:fishy_pungent a skos:Concept ;
+    skos:broader odors:fishy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:fishy_sulfur a skos:Concept ;
+    skos:broader odors:fishy ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sulfur"@en ;
+    skos:related odor:undefined .
+
+odors:floral_almond a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "almond"@en ;
+    skos:related odor:undefined .
+
+odors:floral_apple a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "apple"@en ;
+    skos:related odor:undefined .
+
+odors:floral_balsamic a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "balsamic"@en ;
+    skos:related odor:undefined .
+
+odors:floral_camomile a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "camomile"@en ;
+    skos:related odor:undefined .
+
+odors:floral_celery a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "celery"@en ;
+    skos:related odor:undefined .
+
+odors:floral_citrus a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "citrus"@en ;
+    skos:related odor:undefined .
+
+odors:floral_dust a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "dust"@en ;
+    skos:related odor:undefined .
+
+odors:floral_ether a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "ether"@en ;
+    skos:related odor:undefined .
+
+odors:floral_fat a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:floral_flower a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "flower"@en ;
+    skos:related odor:undefined .
+
+odors:floral_fresh a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fresh"@en ;
+    skos:related odor:undefined .
+
+odors:floral_fruit a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:floral_geranium a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "geranium"@en ;
+    skos:related odor:undefined .
+
+odors:floral_green a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:floral_hawthorne a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "hawthorne"@en ;
+    skos:related odor:undefined .
+
+odors:floral_honey a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "honey"@en ;
+    skos:related odor:undefined .
+
+odors:floral_hummus a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "hummus"@en ;
+    skos:related odor:undefined .
+
+odors:floral_hyacinth a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "hyacinth"@en ;
+    skos:related odor:undefined .
+
+odors:floral_jasmine a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "jasmine"@en ;
+    skos:related odor:undefined .
+
+odors:floral_lactone a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lactone"@en ;
+    skos:related odor:undefined .
+
+odors:floral_lavender a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lavender"@en ;
+    skos:related odor:undefined .
+
+odors:floral_lemon a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lemon"@en ;
+    skos:related odor:undefined .
+
+odors:floral_lily a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lily"@en ;
+    skos:related odor:undefined .
+
+odors:floral_magnolia a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "magnolia"@en ;
+    skos:related odor:undefined .
+
+odors:floral_muguet a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "muguet"@en ;
+    skos:related odor:undefined .
+
+odors:floral_must a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "must"@en ;
+    skos:related odor:undefined .
+
+odors:floral_oil a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "oil"@en ;
+    skos:related odor:undefined .
+
+odors:floral_onion a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "onion"@en ;
+    skos:related odor:undefined .
+
+odors:floral_pungent a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:floral_rose a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rose"@en ;
+    skos:related odor:undefined .
+
+odors:floral_spice a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:floral_sweet a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:floral_tobacco a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tobacco"@en ;
+    skos:related odor:undefined .
+
+odors:floral_vanilla a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "vanilla"@en ;
+    skos:related odor:undefined .
+
+odors:floral_walnut a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "walnut"@en ;
+    skos:related odor:undefined .
+
+odors:floral_warm a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "warm"@en ;
+    skos:related odor:undefined .
+
+odors:floral_wax a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wax"@en ;
+    skos:related odor:undefined .
+
+odors:floral_wood a skos:Concept ;
+    skos:broader odors:floral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wood"@en ;
+    skos:related odor:undefined .
+
+odors:fruity_rubber a skos:Concept ;
+    skos:broader odors:fruity ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rubber"@en ;
+    skos:related odor:undefined .
+
+odors:fruity_sweet a skos:Concept ;
+    skos:broader odors:fruity ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:grain_almond a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "almond"@en ;
+    skos:related odor:undefined .
+
+odors:grain_bitter_almond a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "bitter almond"@en ;
+    skos:related odor:undefined .
+
+odors:grain_bread a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "bread"@en ;
+    skos:related odor:undefined .
+
+odors:grain_fat a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:grain_nut a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "nut"@en ;
+    skos:related odor:undefined .
+
+odors:grain_popcorn a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "popcorn"@en ;
+    skos:related odor:undefined .
+
+odors:grain_roast a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast"@en ;
+    skos:related odor:undefined .
+
+odors:grain_sweet a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:grain_walnut a skos:Concept ;
+    skos:broader odors:grain ;
+    skos:inScheme odors: ;
+    skos:prefLabel "walnut"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_balsamic a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "balsamic"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_butter a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "butter"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_camphor a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "camphor"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_caraway a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "caraway"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_coumarin a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "coumarin"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_dill a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "dill"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_earth a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "earth"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_fat a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_fresh a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fresh"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_fruit a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_geranium a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "geranium"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_grass a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "grass"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_green a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_green_tea a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green tea"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_herb a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "herb"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_honey a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "honey"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_leaf a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "leaf"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_lemon a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lemon"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_lettuce a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lettuce"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_medicine a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "medicine"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_metal a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "metal"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_mint a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mint"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_must a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "must"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_nut a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "nut"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_oil a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "oil"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_peppermint a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "peppermint"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_prune a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "prune"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_resin a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "resin"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_rose a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rose"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_spearmint a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spearmint"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_spice a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_sweet a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_tallow a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tallow"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_terpentine a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "terpentine"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_thyme a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "thyme"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_truffle a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "truffle"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_vinyl a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "vinyl"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_warm a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "warm"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_wax a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wax"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_weak_spice a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "weak spice"@en ;
+    skos:related odor:undefined .
+
+odors:herbs_wood a skos:Concept ;
+    skos:broader odors:herbs ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wood"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_almond a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "almond"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_almond_shell a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "almond shell"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_baked a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "baked"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_biscuit a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "biscuit"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_brown_sugar a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "brown sugar"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_burnt a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "burnt"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_burnt_sugar a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "burnt sugar"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_butterscotch a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "butterscotch"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_caramel a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "caramel"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_cocoa a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cocoa"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_coffee a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "coffee"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_cotton_candy a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cotton candy"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_cream a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cream"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_crushed_bug a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "crushed bug"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_fat a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_fruit a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_hazelnut a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "hazelnut"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_malt a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "malt"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_marshmallow a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "marshmallow"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_mildew a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mildew"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_must a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "must"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_nut a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "nut"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_popcorn a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "popcorn"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_potato a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "potato"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_pungent a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_roast a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_roast_beef a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast beef"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_roasted_nut a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roasted nut"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_smoke a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "smoke"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_sulfur a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sulfur"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_sweet a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_vanilla a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "vanilla"@en ;
+    skos:related odor:undefined .
+
+odors:maillard_whiskey a skos:Concept ;
+    skos:broader odors:maillard ;
+    skos:inScheme odors: ;
+    skos:prefLabel "whiskey"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_acid a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "acid"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_alkaline a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "alkaline"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_alkane a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "alkane"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_burnt a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "burnt"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_camphor a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "camphor"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_cardboard a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cardboard"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_chemical a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "chemical"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_dust a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "dust"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_earth a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "earth"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_ether a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "ether"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_fat a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_fecal a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fecal"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_fruit a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_garlic a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "garlic"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_gasoline a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "gasoline"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_green a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_meat a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "meat"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_medicine a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "medicine"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_metal a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "metal"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_mold a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mold"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_mothball a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mothball"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_mushroom a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mushroom"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_must a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "must"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_onion a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "onion"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_paint a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "paint"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_paper a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "paper"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_pesticide a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pesticide"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_phenol a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "phenol"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_plastic a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "plastic"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_pungent a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_roast a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_rubber a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rubber"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_sharp a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sharp"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_smoke a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "smoke"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_sulfur a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sulfur"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_sweet a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_tar a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tar"@en ;
+    skos:related odor:undefined .
+
+odors:mineral_turpentine a skos:Concept ;
+    skos:broader odors:mineral ;
+    skos:inScheme odors: ;
+    skos:prefLabel "turpentine"@en ;
+    skos:related odor:undefined .
+
+odors:peppers_green a skos:Concept ;
+    skos:broader odors:peppers ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:peppers_herb a skos:Concept ;
+    skos:broader odors:peppers ;
+    skos:inScheme odors: ;
+    skos:prefLabel "herb"@en ;
+    skos:related odor:undefined .
+
+odors:peppers_mushroom a skos:Concept ;
+    skos:broader odors:peppers ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mushroom"@en ;
+    skos:related odor:undefined .
+
+odors:peppers_pepper a skos:Concept ;
+    skos:broader odors:peppers ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pepper"@en ;
+    skos:related odor:undefined .
+
+odors:peppers_pungent a skos:Concept ;
+    skos:broader odors:peppers ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:peppers_rubber a skos:Concept ;
+    skos:broader odors:peppers ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rubber"@en ;
+    skos:related odor:undefined .
+
+odors:pome_apple a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "apple"@en ;
+    skos:related odor:undefined .
+
+odors:pome_apple__rose a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "apple. rose"@en ;
+    skos:related odor:undefined .
+
+odors:pome_apple_peel a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "apple peel"@en ;
+    skos:related odor:undefined .
+
+odors:pome_banana a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "banana"@en ;
+    skos:related odor:undefined .
+
+odors:pome_citrus a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "citrus"@en ;
+    skos:related odor:undefined .
+
+odors:pome_ether a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "ether"@en ;
+    skos:related odor:undefined .
+
+odors:pome_fat a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:pome_foxy a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "foxy"@en ;
+    skos:related odor:undefined .
+
+odors:pome_fresh a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fresh"@en ;
+    skos:related odor:undefined .
+
+odors:pome_fruit a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:pome_green a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:pome_honey a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "honey"@en ;
+    skos:related odor:undefined .
+
+odors:pome_peach a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "peach"@en ;
+    skos:related odor:undefined .
+
+odors:pome_pear a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pear"@en ;
+    skos:related odor:undefined .
+
+odors:pome_prune a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "prune"@en ;
+    skos:related odor:undefined .
+
+odors:pome_rose a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rose"@en ;
+    skos:related odor:undefined .
+
+odors:pome_sweet a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:pome_watermelon a skos:Concept ;
+    skos:broader odors:pome ;
+    skos:inScheme odors: ;
+    skos:prefLabel "watermelon"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_cooked_meat a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cooked meat"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_fat a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_meat_broth a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "meat broth"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_roast a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_roasted_meat a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roasted meat"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_smoke a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "smoke"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_sweat a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweat"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_tallow a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tallow"@en ;
+    skos:related odor:undefined .
+
+odors:processed_meat_thiamin a skos:Concept ;
+    skos:broader odors:processed_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "thiamin"@en ;
+    skos:related odor:undefined .
+
+odors:raw_meat_meat a skos:Concept ;
+    skos:broader odors:raw_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "meat"@en ;
+    skos:related odor:undefined .
+
+odors:raw_meat_thiamin a skos:Concept ;
+    skos:broader odors:raw_meat ;
+    skos:inScheme odors: ;
+    skos:prefLabel "thiamin"@en ;
+    skos:related odor:undefined .
+
+odors:root_spices_garlic a skos:Concept ;
+    skos:broader odors:root_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "garlic"@en ;
+    skos:related odor:undefined .
+
+odors:root_spices_sulfur a skos:Concept ;
+    skos:broader odors:root_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sulfur"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_basil a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "basil"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_caraway a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "caraway"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_clove a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "clove"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_fennel a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fennel"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_fresh a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fresh"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_honey a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "honey"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_horseradish a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "horseradish"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_mint a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mint"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_mustard a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mustard"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_pepper a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pepper"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_sharp a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sharp"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_solvent a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "solvent"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_spice a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_turpentine a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "turpentine"@en ;
+    skos:related odor:undefined .
+
+odors:seed_spices_wood a skos:Concept ;
+    skos:broader odors:seed_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wood"@en ;
+    skos:related odor:undefined .
+
+odors:stone_apricot a skos:Concept ;
+    skos:broader odors:stone ;
+    skos:inScheme odors: ;
+    skos:prefLabel "apricot"@en ;
+    skos:related odor:undefined .
+
+odors:stone_fat a skos:Concept ;
+    skos:broader odors:stone ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:stone_fresh a skos:Concept ;
+    skos:broader odors:stone ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fresh"@en ;
+    skos:related odor:undefined .
+
+odors:stone_peach a skos:Concept ;
+    skos:broader odors:stone ;
+    skos:inScheme odors: ;
+    skos:prefLabel "peach"@en ;
+    skos:related odor:undefined .
+
+odors:stone_plum a skos:Concept ;
+    skos:broader odors:stone ;
+    skos:inScheme odors: ;
+    skos:prefLabel "plum"@en ;
+    skos:related odor:undefined .
+
+odors:stone_sweet a skos:Concept ;
+    skos:broader odors:stone ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_anise a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "anise"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_balsamic a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "balsamic"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_cinnamon a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cinnamon"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_clove a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "clove"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_cotton_candy a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cotton candy"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_curry a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "curry"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_ether a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "ether"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_flower a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "flower"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_fruit a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_honey a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "honey"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_licorice a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "licorice"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_lilac a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "lilac"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_maple a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "maple"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_mint a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mint"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_must a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "must"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_nutmeg a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "nutmeg"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_paint a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "paint"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_rose a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rose"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_spice a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_sweet a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_turpentine a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "turpentine"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_vanilla a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "vanilla"@en ;
+    skos:related odor:undefined .
+
+odors:sweet_spices_warm a skos:Concept ;
+    skos:broader odors:sweet_spices ;
+    skos:inScheme odors: ;
+    skos:prefLabel "warm"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_banana a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "banana"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_coconut a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "coconut"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_ether a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "ether"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_flower a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "flower"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_fruit a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_grapefruit a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "grapefruit"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_green a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_peach a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "peach"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_pineapple a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pineapple"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_solvent a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "solvent"@en ;
+    skos:related odor:undefined .
+
+odors:tropical_spice a skos:Concept ;
+    skos:broader odors:tropical ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_balsamic a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "balsamic"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_beet a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "beet"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_boiled_vegetable a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "boiled vegetable"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_box_tree a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "box tree"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_broccoli a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "broccoli"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_butter a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "butter"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_cabbage a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cabbage"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_carrot a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "carrot"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_citrus a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "citrus"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_cooked_potato a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cooked potato"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_cooked_vegetable a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cooked vegetable"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_cucumber a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "cucumber"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_earth a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "earth"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_fat a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fat"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_flower a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "flower"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_fresh a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fresh"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_fruit a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "fruit"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_gasoline a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "gasoline"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_grass a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "grass"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_green a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_green_bean a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green bean"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_green_leaf a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green leaf"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_green_pepper a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "green pepper"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_herb a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "herb"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_leaf a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "leaf"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_meat a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "meat"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_melon a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "melon"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_metal a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "metal"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_moss a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "moss"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_mushroom a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "mushroom"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_must a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "must"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_nut a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "nut"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_oil a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "oil"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_onion a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "onion"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_orris a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "orris"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_pea a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pea"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_phenol a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "phenol"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_pine a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pine"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_plastic a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "plastic"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_potato a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "potato"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_pungent a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "pungent"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_resin a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "resin"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_roast a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roast"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_roasted_nut a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "roasted nut"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_rubber a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "rubber"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_seaweed a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "seaweed"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_spice a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "spice"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_sulfur a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sulfur"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_sweet a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "sweet"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_tomato_leaf a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "tomato leaf"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_truffle a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "truffle"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_turpentine a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "turpentine"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_violet a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "violet"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_walnut a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "walnut"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_wax a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wax"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_wine a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wine"@en ;
+    skos:related odor:undefined .
+
+odors:vegetable_wood a skos:Concept ;
+    skos:broader odors:vegetable ;
+    skos:inScheme odors: ;
+    skos:prefLabel "wood"@en ;
+    skos:related odor:undefined .
+
+odors:fruity a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:fruity_rubber,
+        odors:fruity_sweet ;
+    skos:prefLabel "Fruity"@en ;
+    skos:topConceptOf odors: .
+
+odors:raw_meat a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:raw_meat_meat,
+        odors:raw_meat_thiamin ;
+    skos:prefLabel "Raw meat"@en ;
+    skos:topConceptOf odors: .
+
+odors:root_spices a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:root_spices_garlic,
+        odors:root_spices_sulfur ;
+    skos:prefLabel "Root spices"@en ;
+    skos:topConceptOf odors: .
+
+odors:fishy a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:fishy_cabbage,
+        odors:fishy_fish,
+        odors:fishy_pungent,
+        odors:fishy_sulfur ;
+    skos:prefLabel "Fishy"@en ;
+    skos:topConceptOf odors: .
+
+odors:peppers a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:peppers_green,
+        odors:peppers_herb,
+        odors:peppers_mushroom,
+        odors:peppers_pepper,
+        odors:peppers_pungent,
+        odors:peppers_rubber ;
+    skos:prefLabel "Peppers"@en ;
+    skos:topConceptOf odors: .
+
+odors:stone a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:stone_apricot,
+        odors:stone_fat,
+        odors:stone_fresh,
+        odors:stone_peach,
+        odors:stone_plum,
+        odors:stone_sweet ;
+    skos:prefLabel "Stone"@en ;
+    skos:topConceptOf odors: .
+
+odors:berry a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:berry_black_currant,
+        odors:berry_ether,
+        odors:berry_fruit,
+        odors:berry_grape,
+        odors:berry_raspberry,
+        odors:berry_strawberry,
+        odors:berry_sweet,
+        odors:berry_tomato ;
+    skos:prefLabel "Berry"@en ;
+    skos:topConceptOf odors: .
+
+odors:grain a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:grain_almond,
+        odors:grain_bitter_almond,
+        odors:grain_bread,
+        odors:grain_fat,
+        odors:grain_nut,
+        odors:grain_popcorn,
+        odors:grain_roast,
+        odors:grain_sweet,
+        odors:grain_walnut ;
+    skos:prefLabel "Grain"@en ;
+    skos:topConceptOf odors: .
+
+odors:processed_meat a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:processed_meat_cooked_meat,
+        odors:processed_meat_fat,
+        odors:processed_meat_meat_broth,
+        odors:processed_meat_roast,
+        odors:processed_meat_roasted_meat,
+        odors:processed_meat_smoke,
+        odors:processed_meat_sweat,
+        odors:processed_meat_tallow,
+        odors:processed_meat_thiamin ;
+    skos:prefLabel "Processed meat"@en ;
+    skos:topConceptOf odors: .
+
+odors:dairy a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:dairy_butter,
+        odors:dairy_cheese,
+        odors:dairy_cream,
+        odors:dairy_fat,
+        odors:dairy_green,
+        odors:dairy_hot_milk,
+        odors:dairy_pungent,
+        odors:dairy_rancid,
+        odors:dairy_soap,
+        odors:dairy_sweat,
+        odors:dairy_sweet ;
+    skos:prefLabel "Dairy"@en ;
+    skos:topConceptOf odors: .
+
+odors:tropical a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:tropical_banana,
+        odors:tropical_coconut,
+        odors:tropical_ether,
+        odors:tropical_flower,
+        odors:tropical_fruit,
+        odors:tropical_grapefruit,
+        odors:tropical_green,
+        odors:tropical_peach,
+        odors:tropical_pineapple,
+        odors:tropical_solvent,
+        odors:tropical_spice ;
+    skos:prefLabel "Tropical"@en ;
+    skos:topConceptOf odors: .
+
+odors:animal a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:animal_acid,
+        odors:animal_amine,
+        odors:animal_black_currant,
+        odors:animal_cat,
+        odors:animal_fecal,
+        odors:animal_green,
+        odors:animal_plastic,
+        odors:animal_rancid,
+        odors:animal_roast,
+        odors:animal_rubber,
+        odors:animal_smoke,
+        odors:animal_sweat,
+        odors:animal_tallow ;
+    skos:prefLabel "Animal"@en ;
+    skos:topConceptOf odors: .
+
+odors:seed_spices a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:seed_spices_basil,
+        odors:seed_spices_caraway,
+        odors:seed_spices_clove,
+        odors:seed_spices_fennel,
+        odors:seed_spices_fresh,
+        odors:seed_spices_honey,
+        odors:seed_spices_horseradish,
+        odors:seed_spices_mint,
+        odors:seed_spices_mustard,
+        odors:seed_spices_pepper,
+        odors:seed_spices_sharp,
+        odors:seed_spices_solvent,
+        odors:seed_spices_spice,
+        odors:seed_spices_turpentine,
+        odors:seed_spices_wood ;
+    skos:prefLabel "Seed spices"@en ;
+    skos:topConceptOf odors: .
+
+odors:pome a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:pome_apple,
+        odors:pome_apple__rose,
+        odors:pome_apple_peel,
+        odors:pome_banana,
+        odors:pome_citrus,
+        odors:pome_ether,
+        odors:pome_fat,
+        odors:pome_foxy,
+        odors:pome_fresh,
+        odors:pome_fruit,
+        odors:pome_green,
+        odors:pome_honey,
+        odors:pome_peach,
+        odors:pome_pear,
+        odors:pome_prune,
+        odors:pome_rose,
+        odors:pome_sweet,
+        odors:pome_watermelon ;
+    skos:prefLabel "Pome"@en ;
+    skos:topConceptOf odors: .
+
+odors:fermented a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:fermented_alcohol,
+        odors:fermented_balsamic,
+        odors:fermented_bitter,
+        odors:fermented_cabbage,
+        odors:fermented_fruit,
+        odors:fermented_green,
+        odors:fermented_metal,
+        odors:fermented_mushroom,
+        odors:fermented_must,
+        odors:fermented_oil,
+        odors:fermented_onion,
+        odors:fermented_pungent,
+        odors:fermented_putrid,
+        odors:fermented_rancid,
+        odors:fermented_solvent,
+        odors:fermented_sour,
+        odors:fermented_spice,
+        odors:fermented_sweet,
+        odors:fermented_wine,
+        odors:fermented_yeast ;
+    skos:prefLabel "Fermented"@en ;
+    skos:topConceptOf odors: .
+
+odors:sweet_spices a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:sweet_spices_anise,
+        odors:sweet_spices_balsamic,
+        odors:sweet_spices_cinnamon,
+        odors:sweet_spices_clove,
+        odors:sweet_spices_cotton_candy,
+        odors:sweet_spices_curry,
+        odors:sweet_spices_ether,
+        odors:sweet_spices_flower,
+        odors:sweet_spices_fruit,
+        odors:sweet_spices_honey,
+        odors:sweet_spices_licorice,
+        odors:sweet_spices_lilac,
+        odors:sweet_spices_maple,
+        odors:sweet_spices_mint,
+        odors:sweet_spices_must,
+        odors:sweet_spices_nutmeg,
+        odors:sweet_spices_paint,
+        odors:sweet_spices_rose,
+        odors:sweet_spices_spice,
+        odors:sweet_spices_sweet,
+        odors:sweet_spices_turpentine,
+        odors:sweet_spices_vanilla,
+        odors:sweet_spices_warm ;
+    skos:prefLabel "Sweet spices"@en ;
+    skos:topConceptOf odors: .
+
+odors:citrus a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:citrus_0,
+        odors:citrus_citrus,
+        odors:citrus_cologne,
+        odors:citrus_coriander,
+        odors:citrus_earth,
+        odors:citrus_flower,
+        odors:citrus_fresh,
+        odors:citrus_fruit,
+        odors:citrus_green,
+        odors:citrus_herb,
+        odors:citrus_lavender,
+        odors:citrus_lemon,
+        odors:citrus_mandarin,
+        odors:citrus_metal,
+        odors:citrus_mint,
+        odors:citrus_must,
+        odors:citrus_oil,
+        odors:citrus_orange,
+        odors:citrus_orange_peel,
+        odors:citrus_pine,
+        odors:citrus_resin,
+        odors:citrus_soap,
+        odors:citrus_spice,
+        odors:citrus_sweet,
+        odors:citrus_tallow,
+        odors:citrus_tart_lime,
+        odors:citrus_turpentine ;
+    skos:prefLabel "Citrus"@en ;
+    skos:topConceptOf odors: .
+
+odors:edible_oil a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:edible_oil_almond,
+        odors:edible_oil_anise,
+        odors:edible_oil_citrus,
+        odors:edible_oil_cocoa,
+        odors:edible_oil_coconut,
+        odors:edible_oil_fat,
+        odors:edible_oil_flower,
+        odors:edible_oil_fried,
+        odors:edible_oil_gasoline,
+        odors:edible_oil_green,
+        odors:edible_oil_herb,
+        odors:edible_oil_leaf,
+        odors:edible_oil_lemon,
+        odors:edible_oil_meat,
+        odors:edible_oil_medicine,
+        odors:edible_oil_mint,
+        odors:edible_oil_nut,
+        odors:edible_oil_oil,
+        odors:edible_oil_orris,
+        odors:edible_oil_peanut_butter,
+        odors:edible_oil_plastic,
+        odors:edible_oil_pungent,
+        odors:edible_oil_rancid,
+        odors:edible_oil_roast_beef,
+        odors:edible_oil_roasted_nut,
+        odors:edible_oil_soap,
+        odors:edible_oil_spice,
+        odors:edible_oil_sweet,
+        odors:edible_oil_wax,
+        odors:edible_oil_wine,
+        odors:edible_oil_wood ;
+    skos:prefLabel "Edible Oil"@en ;
+    skos:topConceptOf odors: .
+
+odors:maillard a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:maillard_almond,
+        odors:maillard_almond_shell,
+        odors:maillard_baked,
+        odors:maillard_biscuit,
+        odors:maillard_brown_sugar,
+        odors:maillard_burnt,
+        odors:maillard_burnt_sugar,
+        odors:maillard_butterscotch,
+        odors:maillard_caramel,
+        odors:maillard_cocoa,
+        odors:maillard_coffee,
+        odors:maillard_cotton_candy,
+        odors:maillard_cream,
+        odors:maillard_crushed_bug,
+        odors:maillard_fat,
+        odors:maillard_fruit,
+        odors:maillard_hazelnut,
+        odors:maillard_malt,
+        odors:maillard_marshmallow,
+        odors:maillard_mildew,
+        odors:maillard_must,
+        odors:maillard_nut,
+        odors:maillard_popcorn,
+        odors:maillard_potato,
+        odors:maillard_pungent,
+        odors:maillard_roast,
+        odors:maillard_roast_beef,
+        odors:maillard_roasted_nut,
+        odors:maillard_smoke,
+        odors:maillard_sulfur,
+        odors:maillard_sweet,
+        odors:maillard_vanilla,
+        odors:maillard_whiskey ;
+    skos:prefLabel "Maillard"@en ;
+    skos:topConceptOf odors: .
+
+odors:floral a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:floral_almond,
+        odors:floral_apple,
+        odors:floral_balsamic,
+        odors:floral_camomile,
+        odors:floral_celery,
+        odors:floral_citrus,
+        odors:floral_dust,
+        odors:floral_ether,
+        odors:floral_fat,
+        odors:floral_flower,
+        odors:floral_fresh,
+        odors:floral_fruit,
+        odors:floral_geranium,
+        odors:floral_green,
+        odors:floral_hawthorne,
+        odors:floral_honey,
+        odors:floral_hummus,
+        odors:floral_hyacinth,
+        odors:floral_jasmine,
+        odors:floral_lactone,
+        odors:floral_lavender,
+        odors:floral_lemon,
+        odors:floral_lily,
+        odors:floral_magnolia,
+        odors:floral_muguet,
+        odors:floral_must,
+        odors:floral_oil,
+        odors:floral_onion,
+        odors:floral_pungent,
+        odors:floral_rose,
+        odors:floral_spice,
+        odors:floral_sweet,
+        odors:floral_tobacco,
+        odors:floral_vanilla,
+        odors:floral_walnut,
+        odors:floral_warm,
+        odors:floral_wax,
+        odors:floral_wood ;
+    skos:prefLabel "Floral"@en ;
+    skos:topConceptOf odors: .
+
+odors:mineral a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:mineral_acid,
+        odors:mineral_alkaline,
+        odors:mineral_alkane,
+        odors:mineral_burnt,
+        odors:mineral_camphor,
+        odors:mineral_cardboard,
+        odors:mineral_chemical,
+        odors:mineral_dust,
+        odors:mineral_earth,
+        odors:mineral_ether,
+        odors:mineral_fat,
+        odors:mineral_fecal,
+        odors:mineral_fruit,
+        odors:mineral_garlic,
+        odors:mineral_gasoline,
+        odors:mineral_green,
+        odors:mineral_meat,
+        odors:mineral_medicine,
+        odors:mineral_metal,
+        odors:mineral_mold,
+        odors:mineral_mothball,
+        odors:mineral_mushroom,
+        odors:mineral_must,
+        odors:mineral_onion,
+        odors:mineral_paint,
+        odors:mineral_paper,
+        odors:mineral_pesticide,
+        odors:mineral_phenol,
+        odors:mineral_plastic,
+        odors:mineral_pungent,
+        odors:mineral_roast,
+        odors:mineral_rubber,
+        odors:mineral_sharp,
+        odors:mineral_smoke,
+        odors:mineral_sulfur,
+        odors:mineral_sweet,
+        odors:mineral_tar,
+        odors:mineral_turpentine ;
+    skos:prefLabel "Mineral"@en ;
+    skos:topConceptOf odors: .
+
+odors:herbs a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:herbs_balsamic,
+        odors:herbs_butter,
+        odors:herbs_camphor,
+        odors:herbs_caraway,
+        odors:herbs_coumarin,
+        odors:herbs_dill,
+        odors:herbs_earth,
+        odors:herbs_fat,
+        odors:herbs_fresh,
+        odors:herbs_fruit,
+        odors:herbs_geranium,
+        odors:herbs_grass,
+        odors:herbs_green,
+        odors:herbs_green_tea,
+        odors:herbs_herb,
+        odors:herbs_honey,
+        odors:herbs_leaf,
+        odors:herbs_lemon,
+        odors:herbs_lettuce,
+        odors:herbs_medicine,
+        odors:herbs_metal,
+        odors:herbs_mint,
+        odors:herbs_must,
+        odors:herbs_nut,
+        odors:herbs_oil,
+        odors:herbs_peppermint,
+        odors:herbs_prune,
+        odors:herbs_resin,
+        odors:herbs_rose,
+        odors:herbs_spearmint,
+        odors:herbs_spice,
+        odors:herbs_sweet,
+        odors:herbs_tallow,
+        odors:herbs_terpentine,
+        odors:herbs_thyme,
+        odors:herbs_truffle,
+        odors:herbs_vinyl,
+        odors:herbs_warm,
+        odors:herbs_wax,
+        odors:herbs_weak_spice,
+        odors:herbs_wood ;
+    skos:prefLabel "Herbs"@en ;
+    skos:topConceptOf odors: .
+
+odors:aromatic a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:aromatic_anise,
+        odors:aromatic_balsamic,
+        odors:aromatic_camphor,
+        odors:aromatic_citrus,
+        odors:aromatic_cocoa,
+        odors:aromatic_coconut,
+        odors:aromatic_cognac,
+        odors:aromatic_cream,
+        odors:aromatic_ester,
+        odors:aromatic_ether,
+        odors:aromatic_fat,
+        odors:aromatic_flower,
+        odors:aromatic_fruit,
+        odors:aromatic_gasoline,
+        odors:aromatic_green,
+        odors:aromatic_herb,
+        odors:aromatic_licorice,
+        odors:aromatic_malt,
+        odors:aromatic_medicine,
+        odors:aromatic_menthol,
+        odors:aromatic_mint,
+        odors:aromatic_mushroom,
+        odors:aromatic_nut,
+        odors:aromatic_peppermint,
+        odors:aromatic_phenol,
+        odors:aromatic_pine,
+        odors:aromatic_plastic,
+        odors:aromatic_pungent,
+        odors:aromatic_rancid,
+        odors:aromatic_raspberry,
+        odors:aromatic_roast,
+        odors:aromatic_seaweed,
+        odors:aromatic_smoke,
+        odors:aromatic_solvent,
+        odors:aromatic_soy,
+        odors:aromatic_spice,
+        odors:aromatic_straw,
+        odors:aromatic_sweet,
+        odors:aromatic_terpentine,
+        odors:aromatic_turpentine,
+        odors:aromatic_vanilla,
+        odors:aromatic_violet,
+        odors:aromatic_wet_cloth,
+        odors:aromatic_wintergreen,
+        odors:aromatic_wood ;
+    skos:prefLabel "Aromatic"@en ;
+    skos:topConceptOf odors: .
+
+odors:vegetable a skos:Concept ;
+    skos:inScheme odors: ;
+    skos:narrower odors:vegetable_balsamic,
+        odors:vegetable_beet,
+        odors:vegetable_boiled_vegetable,
+        odors:vegetable_box_tree,
+        odors:vegetable_broccoli,
+        odors:vegetable_butter,
+        odors:vegetable_cabbage,
+        odors:vegetable_carrot,
+        odors:vegetable_citrus,
+        odors:vegetable_cooked_potato,
+        odors:vegetable_cooked_vegetable,
+        odors:vegetable_cucumber,
+        odors:vegetable_earth,
+        odors:vegetable_fat,
+        odors:vegetable_flower,
+        odors:vegetable_fresh,
+        odors:vegetable_fruit,
+        odors:vegetable_gasoline,
+        odors:vegetable_grass,
+        odors:vegetable_green,
+        odors:vegetable_green_bean,
+        odors:vegetable_green_leaf,
+        odors:vegetable_green_pepper,
+        odors:vegetable_herb,
+        odors:vegetable_leaf,
+        odors:vegetable_meat,
+        odors:vegetable_melon,
+        odors:vegetable_metal,
+        odors:vegetable_moss,
+        odors:vegetable_mushroom,
+        odors:vegetable_must,
+        odors:vegetable_nut,
+        odors:vegetable_oil,
+        odors:vegetable_onion,
+        odors:vegetable_orris,
+        odors:vegetable_pea,
+        odors:vegetable_phenol,
+        odors:vegetable_pine,
+        odors:vegetable_plastic,
+        odors:vegetable_potato,
+        odors:vegetable_pungent,
+        odors:vegetable_resin,
+        odors:vegetable_roast,
+        odors:vegetable_roasted_nut,
+        odors:vegetable_rubber,
+        odors:vegetable_seaweed,
+        odors:vegetable_spice,
+        odors:vegetable_sulfur,
+        odors:vegetable_sweet,
+        odors:vegetable_tomato_leaf,
+        odors:vegetable_truffle,
+        odors:vegetable_turpentine,
+        odors:vegetable_violet,
+        odors:vegetable_walnut,
+        odors:vegetable_wax,
+        odors:vegetable_wine,
+        odors:vegetable_wood ;
+    skos:prefLabel "Vegetable"@en ;
+    skos:topConceptOf odors: .
+
+odor:undefined skos:related odors:animal_amine,
+        odors:animal_black_currant,
+        odors:animal_cat,
+        odors:animal_fecal,
+        odors:animal_green,
+        odors:animal_plastic,
+        odors:animal_rancid,
+        odors:animal_roast,
+        odors:animal_rubber,
+        odors:animal_smoke,
+        odors:animal_sweat,
+        odors:animal_tallow,
+        odors:aromatic_anise,
+        odors:aromatic_balsamic,
+        odors:aromatic_camphor,
+        odors:aromatic_citrus,
+        odors:aromatic_cocoa,
+        odors:aromatic_coconut,
+        odors:aromatic_cognac,
+        odors:aromatic_cream,
+        odors:aromatic_ester,
+        odors:aromatic_ether,
+        odors:aromatic_fat,
+        odors:aromatic_flower,
+        odors:aromatic_fruit,
+        odors:aromatic_gasoline,
+        odors:aromatic_green,
+        odors:aromatic_herb,
+        odors:aromatic_licorice,
+        odors:aromatic_malt,
+        odors:aromatic_medicine,
+        odors:aromatic_menthol,
+        odors:aromatic_mint,
+        odors:aromatic_mushroom,
+        odors:aromatic_nut,
+        odors:aromatic_peppermint,
+        odors:aromatic_phenol,
+        odors:aromatic_pine,
+        odors:aromatic_plastic,
+        odors:aromatic_pungent,
+        odors:aromatic_rancid,
+        odors:aromatic_raspberry,
+        odors:aromatic_roast,
+        odors:aromatic_seaweed,
+        odors:aromatic_smoke,
+        odors:aromatic_solvent,
+        odors:aromatic_soy,
+        odors:aromatic_spice,
+        odors:aromatic_straw,
+        odors:aromatic_sweet,
+        odors:aromatic_terpentine,
+        odors:aromatic_turpentine,
+        odors:aromatic_vanilla,
+        odors:aromatic_violet,
+        odors:aromatic_wet_cloth,
+        odors:aromatic_wintergreen,
+        odors:aromatic_wood,
+        odors:berry_black_currant,
+        odors:berry_ether,
+        odors:berry_fruit,
+        odors:berry_grape,
+        odors:berry_raspberry,
+        odors:berry_strawberry,
+        odors:berry_sweet,
+        odors:berry_tomato,
+        odors:citrus_0,
+        odors:citrus_citrus,
+        odors:citrus_cologne,
+        odors:citrus_coriander,
+        odors:citrus_earth,
+        odors:citrus_flower,
+        odors:citrus_fresh,
+        odors:citrus_fruit,
+        odors:citrus_green,
+        odors:citrus_herb,
+        odors:citrus_lavender,
+        odors:citrus_lemon,
+        odors:citrus_mandarin,
+        odors:citrus_metal,
+        odors:citrus_mint,
+        odors:citrus_must,
+        odors:citrus_oil,
+        odors:citrus_orange,
+        odors:citrus_orange_peel,
+        odors:citrus_pine,
+        odors:citrus_resin,
+        odors:citrus_soap,
+        odors:citrus_spice,
+        odors:citrus_sweet,
+        odors:citrus_tallow,
+        odors:citrus_tart_lime,
+        odors:citrus_turpentine,
+        odors:dairy_butter,
+        odors:dairy_cheese,
+        odors:dairy_cream,
+        odors:dairy_fat,
+        odors:dairy_green,
+        odors:dairy_hot_milk,
+        odors:dairy_pungent,
+        odors:dairy_rancid,
+        odors:dairy_soap,
+        odors:dairy_sweat,
+        odors:dairy_sweet,
+        odors:edible_oil_almond,
+        odors:edible_oil_anise,
+        odors:edible_oil_citrus,
+        odors:edible_oil_cocoa,
+        odors:edible_oil_coconut,
+        odors:edible_oil_fat,
+        odors:edible_oil_flower,
+        odors:edible_oil_fried,
+        odors:edible_oil_gasoline,
+        odors:edible_oil_green,
+        odors:edible_oil_herb,
+        odors:edible_oil_leaf,
+        odors:edible_oil_lemon,
+        odors:edible_oil_meat,
+        odors:edible_oil_medicine,
+        odors:edible_oil_mint,
+        odors:edible_oil_nut,
+        odors:edible_oil_oil,
+        odors:edible_oil_orris,
+        odors:edible_oil_peanut_butter,
+        odors:edible_oil_plastic,
+        odors:edible_oil_pungent,
+        odors:edible_oil_rancid,
+        odors:edible_oil_roast_beef,
+        odors:edible_oil_roasted_nut,
+        odors:edible_oil_soap,
+        odors:edible_oil_spice,
+        odors:edible_oil_sweet,
+        odors:edible_oil_wax,
+        odors:edible_oil_wine,
+        odors:edible_oil_wood,
+        odors:fecal_urine,
+        odors:fermented_alcohol,
+        odors:fermented_balsamic,
+        odors:fermented_bitter,
+        odors:fermented_cabbage,
+        odors:fermented_fruit,
+        odors:fermented_green,
+        odors:fermented_metal,
+        odors:fermented_mushroom,
+        odors:fermented_must,
+        odors:fermented_oil,
+        odors:fermented_onion,
+        odors:fermented_pungent,
+        odors:fermented_putrid,
+        odors:fermented_rancid,
+        odors:fermented_solvent,
+        odors:fermented_sour,
+        odors:fermented_spice,
+        odors:fermented_sweet,
+        odors:fermented_wine,
+        odors:fermented_yeast,
+        odors:fishy_cabbage,
+        odors:fishy_fish,
+        odors:fishy_pungent,
+        odors:fishy_sulfur,
+        odors:floral_almond,
+        odors:floral_apple,
+        odors:floral_balsamic,
+        odors:floral_camomile,
+        odors:floral_celery,
+        odors:floral_citrus,
+        odors:floral_dust,
+        odors:floral_ether,
+        odors:floral_fat,
+        odors:floral_flower,
+        odors:floral_fresh,
+        odors:floral_fruit,
+        odors:floral_geranium,
+        odors:floral_green,
+        odors:floral_hawthorne,
+        odors:floral_honey,
+        odors:floral_hummus,
+        odors:floral_hyacinth,
+        odors:floral_jasmine,
+        odors:floral_lactone,
+        odors:floral_lavender,
+        odors:floral_lemon,
+        odors:floral_lily,
+        odors:floral_magnolia,
+        odors:floral_muguet,
+        odors:floral_must,
+        odors:floral_oil,
+        odors:floral_onion,
+        odors:floral_pungent,
+        odors:floral_rose,
+        odors:floral_spice,
+        odors:floral_sweet,
+        odors:floral_tobacco,
+        odors:floral_vanilla,
+        odors:floral_walnut,
+        odors:floral_warm,
+        odors:floral_wax,
+        odors:floral_wood,
+        odors:fruity_rubber,
+        odors:fruity_sweet,
+        odors:grain_almond,
+        odors:grain_bitter_almond,
+        odors:grain_bread,
+        odors:grain_fat,
+        odors:grain_nut,
+        odors:grain_popcorn,
+        odors:grain_roast,
+        odors:grain_sweet,
+        odors:grain_walnut,
+        odors:herbs_balsamic,
+        odors:herbs_butter,
+        odors:herbs_camphor,
+        odors:herbs_caraway,
+        odors:herbs_coumarin,
+        odors:herbs_dill,
+        odors:herbs_earth,
+        odors:herbs_fat,
+        odors:herbs_fresh,
+        odors:herbs_fruit,
+        odors:herbs_geranium,
+        odors:herbs_grass,
+        odors:herbs_green,
+        odors:herbs_green_tea,
+        odors:herbs_herb,
+        odors:herbs_honey,
+        odors:herbs_leaf,
+        odors:herbs_lemon,
+        odors:herbs_lettuce,
+        odors:herbs_medicine,
+        odors:herbs_metal,
+        odors:herbs_mint,
+        odors:herbs_must,
+        odors:herbs_nut,
+        odors:herbs_oil,
+        odors:herbs_peppermint,
+        odors:herbs_prune,
+        odors:herbs_resin,
+        odors:herbs_rose,
+        odors:herbs_spearmint,
+        odors:herbs_spice,
+        odors:herbs_sweet,
+        odors:herbs_tallow,
+        odors:herbs_terpentine,
+        odors:herbs_thyme,
+        odors:herbs_truffle,
+        odors:herbs_vinyl,
+        odors:herbs_warm,
+        odors:herbs_wax,
+        odors:herbs_weak_spice,
+        odors:herbs_wood,
+        odors:maillard_almond,
+        odors:maillard_almond_shell,
+        odors:maillard_baked,
+        odors:maillard_biscuit,
+        odors:maillard_brown_sugar,
+        odors:maillard_burnt,
+        odors:maillard_burnt_sugar,
+        odors:maillard_butterscotch,
+        odors:maillard_caramel,
+        odors:maillard_cocoa,
+        odors:maillard_coffee,
+        odors:maillard_cotton_candy,
+        odors:maillard_cream,
+        odors:maillard_crushed_bug,
+        odors:maillard_fat,
+        odors:maillard_fruit,
+        odors:maillard_hazelnut,
+        odors:maillard_malt,
+        odors:maillard_marshmallow,
+        odors:maillard_mildew,
+        odors:maillard_must,
+        odors:maillard_nut,
+        odors:maillard_popcorn,
+        odors:maillard_potato,
+        odors:maillard_pungent,
+        odors:maillard_roast,
+        odors:maillard_roast_beef,
+        odors:maillard_roasted_nut,
+        odors:maillard_smoke,
+        odors:maillard_sulfur,
+        odors:maillard_sweet,
+        odors:maillard_vanilla,
+        odors:maillard_whiskey,
+        odors:mineral_acid,
+        odors:mineral_alkaline,
+        odors:mineral_alkane,
+        odors:mineral_burnt,
+        odors:mineral_camphor,
+        odors:mineral_cardboard,
+        odors:mineral_chemical,
+        odors:mineral_dust,
+        odors:mineral_earth,
+        odors:mineral_ether,
+        odors:mineral_fat,
+        odors:mineral_fecal,
+        odors:mineral_fruit,
+        odors:mineral_garlic,
+        odors:mineral_gasoline,
+        odors:mineral_green,
+        odors:mineral_meat,
+        odors:mineral_medicine,
+        odors:mineral_metal,
+        odors:mineral_mold,
+        odors:mineral_mothball,
+        odors:mineral_mushroom,
+        odors:mineral_must,
+        odors:mineral_onion,
+        odors:mineral_paint,
+        odors:mineral_paper,
+        odors:mineral_pesticide,
+        odors:mineral_phenol,
+        odors:mineral_plastic,
+        odors:mineral_pungent,
+        odors:mineral_roast,
+        odors:mineral_rubber,
+        odors:mineral_sharp,
+        odors:mineral_smoke,
+        odors:mineral_sulfur,
+        odors:mineral_sweet,
+        odors:mineral_tar,
+        odors:mineral_turpentine,
+        odors:peppers_green,
+        odors:peppers_herb,
+        odors:peppers_mushroom,
+        odors:peppers_pepper,
+        odors:peppers_pungent,
+        odors:peppers_rubber,
+        odors:pome_apple,
+        odors:pome_apple__rose,
+        odors:pome_apple_peel,
+        odors:pome_banana,
+        odors:pome_citrus,
+        odors:pome_ether,
+        odors:pome_fat,
+        odors:pome_foxy,
+        odors:pome_fresh,
+        odors:pome_fruit,
+        odors:pome_green,
+        odors:pome_honey,
+        odors:pome_peach,
+        odors:pome_pear,
+        odors:pome_prune,
+        odors:pome_rose,
+        odors:pome_sweet,
+        odors:pome_watermelon,
+        odors:processed_meat_cooked_meat,
+        odors:processed_meat_fat,
+        odors:processed_meat_meat_broth,
+        odors:processed_meat_roast,
+        odors:processed_meat_roasted_meat,
+        odors:processed_meat_smoke,
+        odors:processed_meat_sweat,
+        odors:processed_meat_tallow,
+        odors:processed_meat_thiamin,
+        odors:raw_meat_meat,
+        odors:raw_meat_thiamin,
+        odors:root_spices_garlic,
+        odors:root_spices_sulfur,
+        odors:seed_spices_basil,
+        odors:seed_spices_caraway,
+        odors:seed_spices_clove,
+        odors:seed_spices_fennel,
+        odors:seed_spices_fresh,
+        odors:seed_spices_honey,
+        odors:seed_spices_horseradish,
+        odors:seed_spices_mint,
+        odors:seed_spices_mustard,
+        odors:seed_spices_pepper,
+        odors:seed_spices_sharp,
+        odors:seed_spices_solvent,
+        odors:seed_spices_spice,
+        odors:seed_spices_turpentine,
+        odors:seed_spices_wood,
+        odors:stone_apricot,
+        odors:stone_fat,
+        odors:stone_fresh,
+        odors:stone_peach,
+        odors:stone_plum,
+        odors:stone_sweet,
+        odors:sweet_spices_anise,
+        odors:sweet_spices_balsamic,
+        odors:sweet_spices_cinnamon,
+        odors:sweet_spices_clove,
+        odors:sweet_spices_cotton_candy,
+        odors:sweet_spices_curry,
+        odors:sweet_spices_ether,
+        odors:sweet_spices_flower,
+        odors:sweet_spices_fruit,
+        odors:sweet_spices_honey,
+        odors:sweet_spices_licorice,
+        odors:sweet_spices_lilac,
+        odors:sweet_spices_maple,
+        odors:sweet_spices_mint,
+        odors:sweet_spices_must,
+        odors:sweet_spices_nutmeg,
+        odors:sweet_spices_paint,
+        odors:sweet_spices_rose,
+        odors:sweet_spices_spice,
+        odors:sweet_spices_sweet,
+        odors:sweet_spices_turpentine,
+        odors:sweet_spices_vanilla,
+        odors:sweet_spices_warm,
+        odors:tropical_banana,
+        odors:tropical_coconut,
+        odors:tropical_ether,
+        odors:tropical_flower,
+        odors:tropical_fruit,
+        odors:tropical_grapefruit,
+        odors:tropical_green,
+        odors:tropical_peach,
+        odors:tropical_pineapple,
+        odors:tropical_solvent,
+        odors:tropical_spice,
+        odors:vegetable_balsamic,
+        odors:vegetable_beet,
+        odors:vegetable_boiled_vegetable,
+        odors:vegetable_box_tree,
+        odors:vegetable_broccoli,
+        odors:vegetable_butter,
+        odors:vegetable_cabbage,
+        odors:vegetable_carrot,
+        odors:vegetable_citrus,
+        odors:vegetable_cooked_potato,
+        odors:vegetable_cooked_vegetable,
+        odors:vegetable_cucumber,
+        odors:vegetable_earth,
+        odors:vegetable_fat,
+        odors:vegetable_flower,
+        odors:vegetable_fresh,
+        odors:vegetable_fruit,
+        odors:vegetable_gasoline,
+        odors:vegetable_grass,
+        odors:vegetable_green,
+        odors:vegetable_green_bean,
+        odors:vegetable_green_leaf,
+        odors:vegetable_green_pepper,
+        odors:vegetable_herb,
+        odors:vegetable_leaf,
+        odors:vegetable_meat,
+        odors:vegetable_melon,
+        odors:vegetable_metal,
+        odors:vegetable_moss,
+        odors:vegetable_mushroom,
+        odors:vegetable_must,
+        odors:vegetable_nut,
+        odors:vegetable_oil,
+        odors:vegetable_onion,
+        odors:vegetable_orris,
+        odors:vegetable_pea,
+        odors:vegetable_phenol,
+        odors:vegetable_pine,
+        odors:vegetable_plastic,
+        odors:vegetable_potato,
+        odors:vegetable_pungent,
+        odors:vegetable_resin,
+        odors:vegetable_roast,
+        odors:vegetable_roasted_nut,
+        odors:vegetable_rubber,
+        odors:vegetable_seaweed,
+        odors:vegetable_spice,
+        odors:vegetable_sulfur,
+        odors:vegetable_sweet,
+        odors:vegetable_tomato_leaf,
+        odors:vegetable_truffle,
+        odors:vegetable_turpentine,
+        odors:vegetable_violet,
+        odors:vegetable_walnut,
+        odors:vegetable_wax,
+        odors:vegetable_wine,
+        odors:vegetable_wood .
+
+odors: a skos:ConceptScheme ;
+    rdfs:label "Flavornet and human odor space"@en ;
+    dct:created "1998"^^xsd:gYear ;
+    dct:creator "Heinrich Arn",
+        "Terry Acree" ;
+    skos:hasTopConcept odors:animal,
+        odors:aromatic,
+        odors:berry,
+        odors:citrus,
+        odors:dairy,
+        odors:edible_oil,
+        odors:fecal,
+        odors:fermented,
+        odors:fishy,
+        odors:floral,
+        odors:fruity,
+        odors:grain,
+        odors:herbs,
+        odors:maillard,
+        odors:mineral,
+        odors:peppers,
+        odors:pome,
+        odors:processed_meat,
+        odors:raw_meat,
+        odors:root_spices,
+        odors:seed_spices,
+        odors:stone,
+        odors:sweet_spices,
+        odors:tropical,
+        odors:vegetable .
+

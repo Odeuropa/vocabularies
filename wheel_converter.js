@@ -22,6 +22,20 @@ import {
 } from './src/prefixes.js';
 import { add, save, capitalize } from './src/utils.js';
 
+var odorants_map = null
+
+async function get_odorant(name, file) {
+    if (!odorants_map) {
+        odorants_map = {}
+
+        let data = await csv({ delimiter: ';' }).fromFile(`raw/${file}.csv`);
+        for (let x of data) {
+            odorants_map[x.level1] = x.id
+        }
+    }
+    return ODEUROPA_VOC(`${file}/${odorants_map[name]}`)
+}
+
 function toPredicate(what) {
     if (!what || !what.includes(':')) return null;
     const [pfx, body] = what.split(':');
@@ -60,15 +74,14 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
         l = l.trim();
 
         const idTemp = l.toLowerCase().replace(/\(.+\)/g, '').trim().replace(/[^\w]/g, '_');
-
         let prop;
-        if (!id) {
-            if (meta[lev] === 'concat') id = `${id}_${idTemp}`;
-            else {
-                id = idTemp;
-                prop = meta[lev];
-            }
+        if (meta[lev] === 'concat') {
+            id = `${id}_${idTemp}`
+        } else if (!id) {
+            id = idTemp;
+            prop = meta[lev];
         }
+
         concept = ns(id);
         add(concept, RDF('type'), SKOS('Concept'));
         add(concept, SKOS('prefLabel'), l.trim(), lang);
@@ -121,6 +134,12 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
     }
     if (s.chemical) {
         add(concept, WDT('P274'), s.chemical);
+    }
+    let odt = s.odorant
+    if (odt) {
+        if (meta.source.odorant) odt = await get_odorant(odt, meta.source.odorant)
+
+        add(concept, SKOS('related'), odt);
     }
 
     add(concept, SKOS('related'), await interlink(s.related, lang), lang);
