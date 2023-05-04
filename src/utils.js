@@ -28,8 +28,7 @@ export function add(s, p, o, lang, opt = {}) {
 
     /* eslint-disable no-param-reassign  */
     if (o instanceof $rdf.Node) {
-        store.add(s, p, o);
-        return;
+        return store.add(s, p, o);
     }
     if (Array.isArray(o)) {
         o.forEach((ox) => add(s, p, ox, lang));
@@ -38,11 +37,37 @@ export function add(s, p, o, lang, opt = {}) {
     if (typeof o === 'string') o = o.trim().replace(/\n$/, '');
     if (!o || o.value === 'undefined' || o === '?') return;
 
-    if (opt.forceLink) store.add(s, p, $rdf.sym(minimalUrlencoding(o)));
-    else if (!opt.forceLiteral && typeof o === 'string' && validUrl.isUri(o)) store.add(s, p, $rdf.sym(o));
-    else if (lang) store.add(s, p, $rdf.literal(o, lang));
-    else store.add(s, p, o);
+    if (opt.forceLink) return store.add(s, p, $rdf.sym(minimalUrlencoding(o)));
+    else if (!opt.forceLiteral && typeof o === 'string' && validUrl.isUri(o)) return store.add(s, p, $rdf.sym(o));
+    else if (lang) return store.add(s, p, $rdf.literal(o, lang));
+    else return store.add(s, p, o);
 }
+
+async function wrap_statement(s) {
+    let { subject, predicate, object } = s
+    // console.log(subject, predicate, object);
+
+    let gx = $rdf.graph();
+
+    gx.add(subject, predicate, object)
+    gx.namespaces = nsValues;
+
+    let str = await $rdf.serialize(undefined, gx, 'http://example.org', 'text/turtle')
+
+    return `<< ${str.split('.\n').at(-2).trim()} >>`.replaceAll(' ', '$$')
+}
+
+export async function add_rdfstar(s, p, o) {
+    if (s instanceof $rdf.Statement) {
+        s = await wrap_statement(s)
+    }
+    if (o instanceof $rdf.Statement) {
+        o = await wrap_statement(o)
+    }
+    return add(s, p, o)
+}
+
+
 
 export function save(name, outputFolder) {
     const output = path.join(outputFolder, `${name.replace('/', '-')}.ttl`);
@@ -51,7 +76,10 @@ export function save(name, outputFolder) {
     $rdf.serialize(undefined, store, 'http://example.org', 'text/turtle', (err, str) => {
         if (err) throw (err);
         const data = str
-            .replace('@prefix : <#>.\n', '');
+            .replace('@prefix : <#>.\n', '')
+            .replaceAll('<<<', '<<')
+            .replaceAll('>>>', '>>')
+            .replaceAll('$', ' ');
 
         fs.writeFile(output, data, 'utf8');
         console.log(`File written: ${output}`);

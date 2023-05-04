@@ -4,6 +4,7 @@ import YAML from 'yaml';
 import csv from 'csvtojson';
 import $rdf from 'rdflib';
 import argparse from 'argparse';
+
 import { interlink } from './src/vocabulary.api.js';
 
 import {
@@ -22,16 +23,11 @@ import {
 } from './src/prefixes.js';
 import { add, save, capitalize } from './src/utils.js';
 
-var odorants_map = null
+var odorants_map = {}
 
 async function get_odorant(name, file) {
-    if (!odorants_map) {
-        odorants_map = {}
-
-        let data = await csv({ delimiter: ';' }).fromFile(`raw/${file}.csv`);
-        for (let x of data) {
-            odorants_map[x.level1] = x.id
-        }
+    if (!odorants_map[name]) {
+        console.log(name);
     }
     return ODEUROPA_VOC(`${file}/${odorants_map[name]}`)
 }
@@ -59,10 +55,11 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
     let concept;
     let id = s['id'];
 
+
     const COLS = meta.columns || {};
     for (let i = 1; i <= 5; i++) {
         const lev = `level${i}`;
-        const NAME = COLS.name || lev;
+        const NAME = (i == 1 && COLS.name) || lev;
         let l = s[NAME] || s.name;
 
         if (!l) {
@@ -77,7 +74,7 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
         let prop;
         if (meta[lev] === 'concat') {
             id = `${id}_${idTemp}`
-        } else if (!id) {
+        } else if (!id || i > 1) {
             id = idTemp;
             prop = meta[lev];
         }
@@ -135,11 +132,15 @@ async function toConcept(s, scheme, ns, meta, lang = 'en') {
     if (s.chemical) {
         add(concept, WDT('P274'), s.chemical);
     }
-    let odt = s.odorant
-    if (odt) {
-        if (meta.source.odorant) odt = await get_odorant(odt, meta.source.odorant)
+    let odorant = s.odorant
+    if (odorant) {
+        for (let odt of odorant.split('|')) {
+            if (meta.source.odorant) {
+                odt = await get_odorant(odt, meta.source.odorant)
 
-        add(concept, SKOS('related'), odt);
+                add(concept, SKOS('related'), odt);
+            }
+        }
     }
 
     add(concept, SKOS('related'), await interlink(s.related, lang), lang);
@@ -153,6 +154,15 @@ async function main(name, folder = './raw/', outputFolder = './vocabularies') {
 
     const meta = YAML.parse(fs.readFileSync(metaFile, 'utf8'));
     console.log(meta);
+
+    if (meta.source && meta.source.odorant) {
+        let data = await csv({ delimiter: ';' }).fromFile(path.join(folder, `${meta.source.odorant}.csv`));
+        for (let x of data) {
+            for (let y of x.level1.split('|'))
+                odorants_map[y] = x.id
+        }
+
+    }
 
     // setup scheme
     const scheme = ODEUROPA_VOC(`${name}/`);
@@ -173,6 +183,7 @@ async function main(name, folder = './raw/', outputFolder = './vocabularies') {
 
     let first = null;
     let prev = null;
+
     Promise.all(raw.map(async(line, l) => {
         const concepts = await toConcept(line, scheme, ns, meta, meta.lang);
         if (type && type.includes('wheel')) {
@@ -194,6 +205,7 @@ async function main(name, folder = './raw/', outputFolder = './vocabularies') {
 
             prev = concepts;
         }
+
     })).then(() => save(name, outputFolder));
 }
 

@@ -10,16 +10,15 @@ olf:110 skos:related zw:alliaceous .
 
 olf:177 skos:related zw:aromatic .
 
+olf:270 skos:related zw:ambrosiac .
+
 olf:345 skos:related zw:ethereal .
 
 olf:415 skos:related zw:fragrant .
 
-olf:79 skos:related zw:alliaceous .
+olf:431 skos:related zw:ambrosiac .
 
-zw:ambrosiac a skos:Concept ;
-    skos:inScheme zw: ;
-    skos:prefLabel "Ambrosiac"@en ;
-    skos:topConceptOf zw: .
+olf:79 skos:related zw:alliaceous .
 
 zw:empyreumatic a skos:Concept ;
     skos:inScheme zw: ;
@@ -64,6 +63,13 @@ zw:alliaceous a skos:Concept ;
     skos:prefLabel "Alliaceous"@en ;
     skos:related olf:110,
         olf:79 ;
+    skos:topConceptOf zw: .
+
+zw:ambrosiac a skos:Concept ;
+    skos:inScheme zw: ;
+    skos:prefLabel "Ambrosiac"@en ;
+    skos:related olf:270,
+        olf:431 ;
     skos:topConceptOf zw: .
 
 zw: a skos:ConceptScheme ;

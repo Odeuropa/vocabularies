@@ -14,7 +14,7 @@ Animal; sweat; o-picoline|pentanoic acid|5-isopropyl-2-methylpyrazine|methylethy
 Animal; tallow; 6-decenal|2-decenal|2-decenal
 Aromatic; anise; estragole
 Aromatic; balsamic; styrene|acetylfuran
-Aromatic; camphor; _-fenchyl alcohol|_-fenchyl alcohol|fenchyl alcohol|dihydrolinalool|borneol|methylbutanone|camphor|camphene
+Aromatic; camphor; α-fenchyl alcohol|α-fenchyl alcohol|fenchyl alcohol|dihydrolinalool|borneol|methylbutanone|camphor|camphene
 Aromatic; citrus; dihydrolinalool|p-cymene
 Aromatic; cocoa; butyl methylbutyrate
 Aromatic; coconut; ethyl undecanoate
@@ -23,8 +23,8 @@ Aromatic; cream; diethyl acetal
 Aromatic; ester; methyl cyclohexanecarboxylate
 Aromatic; ether; ethanal|methyl ethyl ketone
 Aromatic; fat; 3,5-octadienone
-Aromatic; flower; benzyl alcohol|_-dodecalactone|_-ionone
-Aromatic; fruit; ethyl phenylacetate|ethyl propionate|diethyl acetal|ethyl heptylate|ethyl 3-methylbutanoate|methylnonanedione|linalyl acetate|neryl acetate|hexyl acetate|nonyl acetate|butyl methylbutyrate|p-menth-1-en-9-ol|_-dodecalactone|epoxy-_-ionone|isobornyl propionate|cedrenol|p-menth-1-en-9-yl acetate|ethyl cyclohexanoate|3,5-octadienone|methyl cyclohexanecarboxylate|2-pentylthiophene|_-ocimene|isopiperitone|2-methylbutyl acetate|propyl hexanoate|isopropyl butanoate|_-dodecalactone|methyl quinoxaline|sesquiphellandrene
+Aromatic; flower; benzyl alcohol|γ-dodecalactone|β-ionone
+Aromatic; fruit; ethyl phenylacetate|ethyl propionate|diethyl acetal|ethyl heptylate|ethyl 3-methylbutanoate|methylnonanedione|linalyl acetate|neryl acetate|hexyl acetate|nonyl acetate|butyl methylbutyrate|p-menth-1-en-9-ol|γ-dodecalactone|epoxy-β-ionone|isobornyl propionate|cedrenol|p-menth-1-en-9-yl acetate|ethyl cyclohexanoate|3,5-octadienone|methyl cyclohexanecarboxylate|2-pentylthiophene|α-ocimene|isopiperitone|2-methylbutyl acetate|propyl hexanoate|isopropyl butanoate|δ-dodecalactone|methyl quinoxaline|sesquiphellandrene
 Aromatic; gasoline; styrene|p-cymene
 Aromatic; green; isobutyraldehyde
 Aromatic; herb; hexyl acetate|p-menth-1-en-9-ol|ocimene|p-menth-1-en-9-yl acetate|sesquiphellandrene
@@ -37,26 +37,26 @@ Aromatic; mushroom; 3,5-octadienone
 Aromatic; nut; methyl quinoxaline
 Aromatic; peppermint; methyl salicylate
 Aromatic; phenol; phenol|p-hydroethylbenzene|4-propyl-guaiacol|syringol
-Aromatic; pine; _-terpinene
-Aromatic; plastic; _-terpinene
+Aromatic; pine; δ-terpinene
+Aromatic; plastic; δ-terpinene
 Aromatic; pungent; isopropyl butanoate|ethanal|isobutyraldehyde|propanoic acid
 Aromatic; rancid; propanoic acid
-Aromatic; raspberry; _-ionone
+Aromatic; raspberry; β-ionone
 Aromatic; roast; methyl quinoxaline
-Aromatic; seaweed; _-ionone
+Aromatic; seaweed; β-ionone
 Aromatic; smoke; guaiacol|syringol
 Aromatic; solvent; p-cymene
 Aromatic; soy; propanoic acid
 Aromatic; spice; p-hydroethylbenzene
 Aromatic; straw; methylnonanedione
-Aromatic; sweet; benzyl alcohol|ethyl phenylacetate|linalyl acetate|nonyl acetate|_-dodecalactone|epoxy-_-ionone|1,8-cineole|2-pentylthiophene|isopiperitone|_-sinensal|p-methoxystyrene|_-dodecalactone|sesquiphellandrene|guaiacol
+Aromatic; sweet; benzyl alcohol|ethyl phenylacetate|linalyl acetate|nonyl acetate|γ-dodecalactone|epoxy-β-ionone|1,8-cineole|2-pentylthiophene|isopiperitone|β-sinensal|p-methoxystyrene|δ-dodecalactone|sesquiphellandrene|guaiacol
 Aromatic; terpentine; (-)-nootkatone
 Aromatic; turpentine; isobornyl propionate
 Aromatic; vanilla; acetovanillone
-Aromatic; violet; _-ionone
-Aromatic; wet cloth; _-ocimene
+Aromatic; violet; β-ionone
+Aromatic; wet cloth; α-ocimene
 Aromatic; wintergreen; ethyl salicylate
-Aromatic; wood; dihydrolinalool|epoxy-_-ionone
+Aromatic; wood; dihydrolinalool|epoxy-β-ionone
 Berry; black currant; mercaptomethylpentanone
 Berry; ether; hexanone
 Berry; fruit; pentenal|isopropyl benzoate
@@ -65,33 +65,33 @@ Berry; raspberry; raspberry ketone
 Berry; strawberry; hexyl methylbutyrate|methyl cinnamate|pentenal|methyl cinnamate
 Berry; sweet; isopropyl benzoate
 Berry; tomato; pentenal
-Citrus; 0; 697
-Citrus; citrus; linalyl valerate|linalyl formate|_-p-dimethylstyrene|p-cymenol|_-cubebene|(Z)-limonene oxide|cis-linalool pyran oxide|6(10)-dihydromyrcenol|dihydromyrcenol|(Z)-_-Farnesene|(Z)-ocimene,|(E)-limonene oxide|dihydroterpinyl acetate|(+)-limonene,|(epoxymethylbutyl)-methylfuran
+Citrus; 0; nonanal
+Citrus; citrus; linalyl valerate|linalyl formate|α-p-dimethylstyrene|p-cymenol|β-cubebene|(Z)-limonene oxide|cis-linalool pyran oxide|6(10)-dihydromyrcenol|dihydromyrcenol|(Z)-β-Farnesene|(Z)-ocimene,|(E)-limonene oxide|dihydroterpinyl acetate|(+)-limonene|(epoxymethylbutyl)-methylfuran
 Citrus; cologne; 6(10)-dihydromyrcenol|dihydromyrcenol
 Citrus; coriander; linalyl formate
 Citrus; earth; (epoxymethylbutyl)-methylfuran
 Citrus; flower; (Z)-ocimene,
 Citrus; fresh; undecanone|(Z)-limonene oxide|ethylhydroxyhexanoate|(E)-limonene oxide
-Citrus; fruit; _-cubebene
-Citrus; green; undecanone|cis-linalool pyran oxide|(Z)-_-Farnesene|(epoxymethylbutyl)-methylfuran
+Citrus; fruit; β-cubebene
+Citrus; green; undecanone|cis-linalool pyran oxide|(Z)-β-Farnesene|(epoxymethylbutyl)-methylfuran
 Citrus; herb; (Z)-ocimene,
 Citrus; lavender; linalyl valerate
-Citrus; lemon; neral|_-3-carene|limonene|geranial|citral|_-terpinene
+Citrus; lemon; neral|δ-3-carene|limonene|geranial|citral|α-terpinene
 Citrus; mandarin; undecanol
 Citrus; metal; zingiberenol
-Citrus; mint; geranial|_-cyclocitral|(+)-limonene,|_-phellandrene
+Citrus; mint; geranial|β-cyclocitral|(+)-limonene|α-phellandrene
 Citrus; must; p-cymenol
 Citrus; oil; decyl alcohol
 Citrus; orange; methyl octanoate|undecanone|decyl alcohol|limonene|2-decenal
-Citrus; orange peel; decanal|_-carene
-Citrus; pine; _-p-dimethylstyrene|dihydroterpinyl acetate
-Citrus; resin; _-3-carene
+Citrus; orange peel; decanal|β-carene
+Citrus; pine; α-p-dimethylstyrene|dihydroterpinyl acetate
+Citrus; resin; δ-3-carene
 Citrus; soap; decanal
-Citrus; spice; _-phellandrene
+Citrus; spice; α-phellandrene
 Citrus; sweet; nerol
 Citrus; tallow; decanal
 Citrus; tart lime; 6(10)-dihydromyrcenol|dihydromyrcenol
-Citrus; turpentine; _-phellandrene
+Citrus; turpentine; α-phellandrene
 Dairy; butter; diacetyl|acetoin|2,3-pentadione|pentenol|isobutyric acid
 Dairy; cheese; butyric acid|methylbutyric acid|octanoic acid|isobutyric acid
 Dairy; cream; acetoin|2,3-pentadione
@@ -104,7 +104,7 @@ Dairy; soap; heptanone|nonanone
 Dairy; sweat; butyric acid|methylbutyric acid|octanoic acid
 Dairy; sweet; durene
 Edible Oil; almond; heptenal
-Edible Oil; anise; _-terpineol
+Edible Oil; anise; α-terpineol
 Edible Oil; citrus; heptanal
 Edible Oil; cocoa; dimethyl pyrazine|dimethyl pyrazine
 Edible Oil; coconut; methyl laurate
@@ -118,9 +118,9 @@ Edible Oil; leaf; ethyl laurate
 Edible Oil; lemon; octanal
 Edible Oil; meat; dimethyl pyrazine
 Edible Oil; medicine; dimethyl pyrazine
-Edible Oil; mint; _-terpineol
+Edible Oil; mint; α-terpineol
 Edible Oil; nut; dimethyl pyrazine
-Edible Oil; oil; cinnamyl alcohol|butyl laurate|undecylic acid|undecanaldehyde|stearyl alcohol|_-muurolene|nerol oxide|dehydrocarveol|(E,E)-farnesyl acetate|octadecanaldehyde|(E)-2-dodecen-1-ol|_-terpineol
+Edible Oil; oil; cinnamyl alcohol|butyl laurate|undecylic acid|undecanaldehyde|stearyl alcohol|δ-muurolene|nerol oxide|dehydrocarveol|(E,E)-farnesyl acetate|octadecanaldehyde|(E)-2-dodecen-1-ol|α-terpineol
 Edible Oil; orris; methyl tetradecanoate
 Edible Oil; peanut butter; ethyl pyrazine|dimethyl pyrazine
 Edible Oil; plastic; octenol
@@ -128,7 +128,7 @@ Edible Oil; pungent; undecanaldehyde
 Edible Oil; rancid; heptanal|2-hexenal
 Edible Oil; roast beef; dimethyl pyrazine
 Edible Oil; roasted nut; dimethyl pyrazine
-Edible Oil; soap; octanone|octanal|(Z)-6-dodecen-_-lactone|octenol|heptenal|3,6-nonadienal|(E)-2-undecenal
+Edible Oil; soap; octanone|octanal|(Z)-6-dodecen-γ-lactone|octenol|heptenal|3,6-nonadienal|(E)-2-undecenal
 Edible Oil; spice; 1,3-p-menthadien-7-al
 Edible Oil; sweet; undecanaldehyde|uncineol
 Edible Oil; wax; lauryl alcohol|uncineol|decadienal|(Z)-nerolidol|(E,E)-farnesyl acetate|2,4-nonadienal|ethyl hexadecanoate|terpinyl acetate
@@ -143,7 +143,7 @@ Fermented; fruit; diethyl succinate|ethyl octenoate|ethyl valerate
 Fermented; green; (Z)-3-hexenyl butanoate
 Fermented; metal; octenone
 Fermented; mushroom; octenol|octenone
-Fermented; must; tridecanol|myrcene|_-terpineol|ethyl octenoate|3-terpinen-1-ol
+Fermented; must; tridecanol|myrcene|β-terpineol|ethyl octenoate|3-terpinen-1-ol
 Fermented; oil; ethyl octenoate
 Fermented; onion; 2-methyl-1-butanol|dimethyl disulfide
 Fermented; pungent; propanal|ethyl octenoate|propanol
@@ -160,7 +160,7 @@ Fishy; fish; 4-ethyl-6-hepten-3-one|pentenone|dimethyl trisulfide|(E,Z)-3,6-nona
 Fishy; pungent; pentenone
 Fishy; sulfur; dimethyl trisulfide
 Floral; almond; acetophenone
-Floral; apple; (E)-_-damascone
+Floral; apple; (E)-β-damascone
 Floral; balsamic; butyl benzoate
 Floral; camomile; ethyl benzoate
 Floral; celery; ethyl benzoate
@@ -168,13 +168,13 @@ Floral; citrus; lauric aldehyde
 Floral; dust; citronellyl acetate
 Floral; ether; (E,E)-farnesylacetone
 Floral; fat; decanol|lauric aldehyde
-Floral; flower; tridecanal|p-anisyl alcohol|(E,E)-farnesylacetone|methyl geranate|trans-crotonaldehyde|tetradecyl aldehyde|methyl anthranilate|linalool oxide|epoxylinalool|phytol|10-epi-_-eudesmol|ethyl dihydrocinnamate|hexadecanol|4-mercapto-4-methyl-2-pentanol|(E)-linalool oxide|cetyl alcohol|ethyl-(E)-cinnamate|pinocarveol|(E)-rose oxide|methyl methylpropanoate|trimethylphenylbutenone|2-methyl anisole|_-farnesol|(E)-isoeugenol|(Z)-linalool oxide|nitro-phenylethane|ethyl vanillate|6-Methoxyeugenol|linalool|(E)-Whiskey lactone|trimethylphenylbutenone|(+)-cis-rose oxide|ethyl benzoate|phenylethyl benzoate|acetophenone
+Floral; flower; tridecanal|p-anisyl alcohol|(E,E)-farnesylacetone|methyl geranate|trans-crotonaldehyde|tetradecyl aldehyde|methyl anthranilate|linalool oxide|epoxylinalool|phytol|10-epi-γ-eudesmol|ethyl dihydrocinnamate|hexadecanol|4-mercapto-4-methyl-2-pentanol|(E)-linalool oxide|cetyl alcohol|ethyl-(E)-cinnamate|pinocarveol|(E)-rose oxide|methyl methylpropanoate|trimethylphenylbutenone|2-methyl anisole|β-farnesol|(E)-isoeugenol|(Z)-linalool oxide|nitro-phenylethane|ethyl vanillate|6-Methoxyeugenol|linalool|(E)-Whiskey lactone|trimethylphenylbutenone|(+)-cis-rose oxide|ethyl benzoate|phenylethyl benzoate|acetophenone
 Floral; fresh; pentadecanal
 Floral; fruit; geranyl valerate|methyl geranate|citronellyl butyrate|octyl acetate|butanediol|butyl octanoate|ethyl vanillate|ethyl benzoate|ethyl lactate|citronellyl isobutyrate
 Floral; geranium; geraniol|(E,Z)-2,4-nonadienal|o-xylene
 Floral; green; 2-ethylhexanol|methyl geranate|geranyl acetone|trimethylphenylbutenone|trimethylphenylbutenone|(+)-cis-rose oxide
 Floral; hawthorne; phenylethanal
-Floral; honey; _-phenethyl acetate|phenylethanal|methyl anthranilate|ethyl-(E)-cinnamate|phenylethyl benzoate
+Floral; honey; β-phenethyl acetate|phenylethanal|methyl anthranilate|ethyl-(E)-cinnamate|phenylethyl benzoate
 Floral; hummus; dimethoxytoluene
 Floral; hyacinth; hotrienol
 Floral; jasmine; methyl jasmonate|methyl dihydroepijasmonate|methyl epijasmonate
@@ -185,18 +185,18 @@ Floral; lily; lauric aldehyde
 Floral; magnolia; geranyl acetone
 Floral; muguet; (E)-farnesol
 Floral; must; tridecanal|acetophenone
-Floral; oil; _-farnesol
+Floral; oil; β-farnesol
 Floral; onion; butanediol
 Floral; pungent; (E,Z)-2,4-nonadienal
-Floral; rose; _-phenethyl acetate|2-ethylhexanol|geranyl valerate|geranyl acetate|citronellol|geraniol|citronellyl butyrate|citronellyl acetate|isogeraniol|(-)-cis-rose oxide|isogeraniol|citronellyl isobutyrate
+Floral; rose; β-phenethyl acetate|2-ethylhexanol|geranyl valerate|geranyl acetate|citronellol|geraniol|citronellyl butyrate|citronellyl acetate|isogeraniol|(-)-cis-rose oxide|isogeraniol|citronellyl isobutyrate
 Floral; spice; nitro-phenylethane
-Floral; sweet; tridecanal|phenylethanal|eudesmol|citronellyl butyrate|10-epi-_-eudesmol|styrene glycol|(-)-cis-rose oxide|ethyl vanillate|6-Methoxyeugenol
-Floral; tobacco; _-phenethyl acetate
+Floral; sweet; tridecanal|phenylethanal|eudesmol|citronellyl butyrate|10-epi-γ-eudesmol|styrene glycol|(-)-cis-rose oxide|ethyl vanillate|6-Methoxyeugenol
+Floral; tobacco; β-phenethyl acetate
 Floral; vanilla; ethyl vanillate
 Floral; walnut; 2-methyl anisole
 Floral; warm; 2-methyl anisole
 Floral; wax; tetradecyl aldehyde|hexadecanol|cetyl alcohol
-Floral; wood; eudesmol|linalool oxide|10-epi-_-eudesmol
+Floral; wood; eudesmol|linalool oxide|10-epi-γ-eudesmol
 Fruity; rubber; ethyl isobutyrate
 Fruity; sweet; ethyl isobutyrate
 Grain; almond; furfural
@@ -208,28 +208,28 @@ Grain; popcorn; methyl pyrazine
 Grain; roast; acetylpyrroline
 Grain; sweet; furfural
 Grain; walnut; 2-acetylpyrrole
-Herbs; balsamic; benzyl benzoate|(-)-_-bisabolene|p-coumaric acid|pentanol
+Herbs; balsamic; benzyl benzoate|(-)-β-bisabolene|p-coumaric acid|pentanol
 Herbs; butter; octanone
 Herbs; camphor; isobornyl formate|isoborneol|dihydrocarvyl acetate
 Herbs; caraway; carveol
 Herbs; coumarin; 4-hexanolide
-Herbs; dill; epoxy-p-menthene|(+)-_-phellandrene|dill ether
+Herbs; dill; epoxy-p-menthene|(+)-α-phellandrene|dill ether
 Herbs; earth; isobornyl formate
 Herbs; fat; 2-octenal|hexanal
-Herbs; fresh; _-elemene|(E)-p-mentha-2,8-dien-1-ol|piperitone|carveol
+Herbs; fresh; β-elemene|(E)-p-mentha-2,8-dien-1-ol|piperitone|carveol
 Herbs; fruit; spathulenol
 Herbs; geranium; octadienone
 Herbs; grass; 2-ethylpyridine|hexanal|(Z)-3-hexenol
-Herbs; green; isobornyl formate|alpha,_-dimethylallyl alcohol|2-octenal|artemisia ketone|2-pentanol|carvyl acetate
+Herbs; green; isobornyl formate|alpha,γ-dimethylallyl alcohol|2-octenal|artemisia ketone|2-pentanol|carvyl acetate
 Herbs; green tea; (-)-cubenol
-Herbs; herb; octanone|caryophyllene oxide|methylbutenol|safranal|benzyl benzoate|bornyl butyrate|_-bisabolol|piperitol|_-cubebene|humulene oxide|T-muurolol|(-)-cubenol|levomenol|artemisia alcohol|_-muurolene|hydroxypentanone|_-elemene|_-cadinol|(E)-_-ocimene|(Z)-dihydrocarvone|calamenene|(Z)-piperitol|_-bourbonene|(Z)-3-hexenyl-2-methylbutanoate|artemisia ketone|heptanol|(E)-dihydrocarvone|p-2-menthen-1-ol|_-curcumene|spathulenol|citronellyl valerate|methyl benzoate|2,3,4,5-tetrahydroanisole|hydroxycalamenene
+Herbs; herb; octanone|caryophyllene oxide|methylbutenol|safranal|benzyl benzoate|bornyl butyrate|β-bisabolol|piperitol|α-cubebene|humulene oxide|T-muurolol|(-)-cubenol|levomenol|artemisia alcohol|γ-muurolene|hydroxypentanone|β-elemene|δ-cadinol|(E)-β-ocimene|(Z)-dihydrocarvone|calamenene|(Z)-piperitol|β-bourbonene|(Z)-3-hexenyl-2-methylbutanoate|artemisia ketone|heptanol|(E)-dihydrocarvone|p-2-menthen-1-ol|α-curcumene|spathulenol|citronellyl valerate|methyl benzoate|2,3,4,5-tetrahydroanisole|hydroxycalamenene
 Herbs; honey; citronellyl valerate
 Herbs; leaf; isopulegyl acetate
 Herbs; lemon; 2,3-dehydro-1,8-cineole
 Herbs; lettuce; methyl benzoate
-Herbs; medicine; dihydrocarvyl acetate|_-cadinene
+Herbs; medicine; dihydrocarvyl acetate|δ-cadinene
 Herbs; metal; heptenone|octadienone
-Herbs; mint; menthone|p-anisaldehyde|(R)-linden ether|epoxy-p-menthene|dihydrocarvyl acetate|_-phellandrene|dihydrocarveol|(E)-p-mentha-2,8-dien-1-ol|isopulegyl acetate|piperitone|2,3-dehydro-1,8-cineole
+Herbs; mint; menthone|p-anisaldehyde|(R)-linden ether|epoxy-p-menthene|dihydrocarvyl acetate|β-phellandrene|dihydrocarveol|(E)-p-mentha-2,8-dien-1-ol|isopulegyl acetate|piperitone|2,3-dehydro-1,8-cineole
 Herbs; must; isoborneol
 Herbs; nut; 2-octenal
 Herbs; oil; benzyl benzoate
@@ -238,17 +238,17 @@ Herbs; prune; methyl benzoate
 Herbs; resin; octanone
 Herbs; rose; citronellyl valerate
 Herbs; spearmint; carvyl acetate|carveol
-Herbs; spice; caryophyllene oxide|(-)-cubenol|_-muurolene|calamenene|dihydrocarveol|2,3,4,5-tetrahydroanisole
-Herbs; sweet; caryophyllene oxide|safranal|p-anisaldehyde|_-bisabolol|(E)-_-ocimene|(Z)-3-hexenyl-2-methylbutanoate|4-hexanolide|methyl benzoate
+Herbs; spice; caryophyllene oxide|(-)-cubenol|γ-muurolene|calamenene|dihydrocarveol|2,3,4,5-tetrahydroanisole
+Herbs; sweet; caryophyllene oxide|safranal|p-anisaldehyde|β-bisabolol|(E)-β-ocimene|(Z)-3-hexenyl-2-methylbutanoate|4-hexanolide|methyl benzoate
 Herbs; tallow; hexanal
-Herbs; terpentine; _-phellandrene
-Herbs; thyme; _-cadinene
+Herbs; terpentine; β-phellandrene
+Herbs; thyme; δ-cadinene
 Herbs; truffle; hydroxypentanone
-Herbs; vinyl; alpha,_-dimethylallyl alcohol
+Herbs; vinyl; alpha,γ-dimethylallyl alcohol
 Herbs; warm; (Z)-dihydrocarvone|(E)-dihydrocarvone|citronellyl valerate
-Herbs; wax; _-cubebene|_-elemene
+Herbs; wax; α-cubebene|β-elemene
 Herbs; weak spice; T-muurolol
-Herbs; wood; bornyl butyrate|_-muurolene|_-cadinene
+Herbs; wood; bornyl butyrate|γ-muurolene|δ-cadinene
 Maillard; almond; benzaldehyde|pentanal|5-methylfurfural|methylbutanal
 Maillard; almond shell; 4-vinylphenol
 Maillard; baked; diethylmethylpyrazine|nonenone
@@ -257,20 +257,20 @@ Maillard; brown sugar; diethyl malate
 Maillard; burnt; 3-methyl-1-butanol|ethyldimethylpyrazine|furfuryl alcohol
 Maillard; burnt sugar; benzaldehyde|5-methylfurfural
 Maillard; butterscotch; methyl vanillate
-Maillard; caramel; ethyl-4-hydroxymethyl- 3(2H)-Furanone|maltol|norfuraneol|hydroxydimethylcyclopentenone|2-acetyl-1,4,5,6-tetrahydropyridine|2-acetyl-3,4,5,6-tetrahydropyridine|homofuraneol|furaneol|�methyl vanillate|dimethylmethoxyfuranone|acetyloxy-dimethylfuranone|5-methylfurfural|_-butyrolactone|ethyl hydroxybutanoate
+Maillard; caramel; ethyl-4-hydroxymethyl- 3(2H)-Furanone|maltol|norfuraneol|hydroxydimethylcyclopentenone|2-acetyl-1,4,5,6-tetrahydropyridine|2-acetyl-3,4,5,6-tetrahydropyridine|homofuraneol|furaneol|methyl vanillate|dimethylmethoxyfuranone|acetyloxy-dimethylfuranone|5-methylfurfural|γ-butyrolactone|ethyl hydroxybutanoate
 Maillard; cocoa; dimethyl pyrazine|methylbutanal
 Maillard; coffee; fufuryl mercaptan
 Maillard; cotton candy; methyl furaneol|pantolactone|Diethyl 2-hydroxyglutarate
 Maillard; cream; 4-heptenal
 Maillard; crushed bug; 3-octen-2-one
-Maillard; fat; _-heptalactone
-Maillard; fruit; _-heptalactone
+Maillard; fat; γ-heptalactone
+Maillard; fruit; γ-heptalactone
 Maillard; hazelnut; filbertone
 Maillard; malt; pentanal|3-methyl-1-butanol|2-methyl-1-butanol|methylbutanal
 Maillard; marshmallow; ethyl 3-hydroxybutanoate
 Maillard; mildew; dimethylmethoxyfuranone
 Maillard; must; trimethyl-pyrazine
-Maillard; nut; filbertone|_-heptalactone|3-octen-2-one|dihydromethylcyclopentapyrazine|acetylthiazole|3-octenone
+Maillard; nut; filbertone|γ-heptalactone|3-octen-2-one|dihydromethylcyclopentapyrazine|acetylthiazole|3-octenone
 Maillard; popcorn; Propionylpyrrole|acetylpyridine|ethyldimethylpyrazine|acetylthiazoline
 Maillard; potato; trimethyl-pyrazine
 Maillard; pungent; ethyl formate|pentanal
@@ -279,7 +279,7 @@ Maillard; roast beef; dimethyl pyrazine
 Maillard; roasted nut; dimethyl pyrazine
 Maillard; smoke; 4-Carbethoxybutyrolactone|dimethylthiazole
 Maillard; sulfur; acetylthiazole
-Maillard; sweet; methyl furaneol|dimethylmethoxyfuranone|diethyl malate|_-butyrolactone
+Maillard; sweet; methyl furaneol|dimethylmethoxyfuranone|diethyl malate|γ-butyrolactone
 Maillard; vanilla; methyl vanillate
 Maillard; whiskey; 3-methyl-1-butanol|butyl decanoate
 Mineral; acid; cumin aldehyde
@@ -290,13 +290,13 @@ Mineral; camphor; camphene hydrate
 Mineral; cardboard; palmitaldehyde|5-oxymethylfurfurole
 Mineral; chemical; heptanol|octanol|4-methyl-3-penten-2-one
 Mineral; dust; pinenol
-Mineral; earth; bornyl methyl ether|trimethylthiazole|ethenyl-dimethylpyrazine|ethenyl-ethylmethylpyrazine|2-methoxy-3,6-dimethylpyrazine|methylisoborneol|1,5-octadienone|ethyldimethylthiazole|_-caryophyllene alcohol|diethyl tartrate
+Mineral; earth; bornyl methyl ether|trimethylthiazole|ethenyl-dimethylpyrazine|ethenyl-ethylmethylpyrazine|2-methoxy-3,6-dimethylpyrazine|methylisoborneol|1,5-octadienone|ethyldimethylthiazole|α-caryophyllene alcohol|diethyl tartrate
 Mineral; ether; pentanone
 Mineral; fat; (E)-2-hexenoic acid
 Mineral; fecal; skatole
 Mineral; fruit; butanol
-Mineral; garlic; allyl isothiocyanate, allyspol|methyl ethyl sulfide|methanethiol
-Mineral; gasoline; p, a -dimethylstyrol|methanethiol|benzothiazole|_-terpinene
+Mineral; garlic; allyl isothiocyanate|methyl ethyl sulfide|methanethiol
+Mineral; gasoline; p, a -dimethylstyrol|methanethiol|benzothiazole|γ-terpinene
 Mineral; green; heptanol|epoxy-2-decenal|butyl isothiocyanate
 Mineral; meat; mercaptopentanone
 Mineral; medicine; p-cresol|methyl-thiophenethiol|chavicol|acetylpyrrolizine|butanol
@@ -311,24 +311,24 @@ Mineral; paper; 2-nonenal
 Mineral; pesticide; 1-cyclohexen-3-one
 Mineral; phenol; p-cresol|chavicol
 Mineral; plastic; m-xylene|methyl-p-xylene
-Mineral; pungent; allyl isothiocyanate, allyspol|butyl isothiocyanate
+Mineral; pungent; allyl isothiocyanate|butyl isothiocyanate
 Mineral; roast; methylfurfurylthiol
 Mineral; rubber; dimethylthiazole|benzothiazole
 Mineral; sharp; cumin aldehyde
 Mineral; smoke; p-cresol
-Mineral; sulfur; hexanethiol|formylmethyl thiophene|sulfurol|ethyl mercaptopropionate|3-mercaptohexanol|methylthiophene|methyl thiocyanate|methyldithiolane|allyl isothiocyanate, allyspol|butyl isothiocyanate|methylfurfurylthiol|methyl ethyl sulfide|thenylthiol|dimethyl sulfone|mercaptopentanone|methanethiol|acetylthiophene|2-formylthiophene
+Mineral; sulfur; hexanethiol|formylmethyl thiophene|sulfurol|ethyl mercaptopropionate|3-mercaptohexanol|methylthiophene|methyl thiocyanate|methyldithiolane|allyl isothiocyanate|butyl isothiocyanate|methylfurfurylthiol|methyl ethyl sulfide|thenylthiol|dimethyl sulfone|mercaptopentanone|methanethiol|acetylthiophene|2-formylthiophene
 Mineral; sweet; 4-methyl-3-penten-2-one
 Mineral; tar; naphthalene
-Mineral; turpentine; p-menthatriene|p-mentha-dien-hydroperoxide|p-menthadienhydroperoxide|p-menthadienhydroperoxide|p-menthadienhydroperoxide|_-terpinene
+Mineral; turpentine; p-menthatriene|p-mentha-dien-hydroperoxide|p-menthadienhydroperoxide|p-menthadienhydroperoxide|p-menthadienhydroperoxide|γ-terpinene
 Peppers; green; butanal
-Peppers; herb; _-selinene
+Peppers; herb; 	β-selinene
 Peppers; mushroom; methylisohexenyl ketone|nonenone
 Peppers; pepper; methylisohexenyl ketone
 Peppers; pungent; butanal|nonenone
 Peppers; rubber; methylisohexenyl ketone
 Pome; apple; (2S)-2-methyl-ethyl ester-butanoic acid|diethyl malonate|ethyl butyrate|geranyl butyrate|geranyl isovalerate|isobutyl acetate|linalyl isovalerate|heptyl 2-methylbutyrate|methyl methylbutanoate|2-hexenal|pentyl methylbutyrate|ethyl methylbutyrate|methyl methylbutyrate
 Pome; apple peel; ethyl hexanoate|hexyl butanoate|hexyl hexanoate
-Pome; apple. rose; _-damascenone
+Pome; apple. rose; β-damascenone
 Pome; banana; isobutyl acetate
 Pome; citrus; linalyl isovalerate
 Pome; ether; methyl butanoate
@@ -337,7 +337,7 @@ Pome; foxy; o-aminoacetophenone
 Pome; fresh; methyl hexanoate
 Pome; fruit; geranyl butyrate|ethyl octanoate|methyl hexanoate|geranyl isovalerate|isobutyl acetate|ethyl hexanoate|hexadecanone|ethyl isohexanoate|(Z)-3-hexenyl hexanoate|methyl butanoate
 Pome; green; 2-hexenal
-Pome; honey; _-damascenone
+Pome; honey; β-damascenone
 Pome; peach; hexyl hexanoate
 Pome; pear; butyl acetate|ethyl-(E,Z)-2,4-decadienoate|linalyl butyrate
 Pome; prune; (Z)-3-hexenyl hexanoate
@@ -361,23 +361,23 @@ Seed spices; basil; DL-carvone
 Seed spices; caraway; (Z)-carveol|(E)-carveol|(+)-carvone
 Seed spices; clove; eugenol
 Seed spices; fennel; DL-carvone
-Seed spices; fresh; _-zingiberene
+Seed spices; fresh; ;α-zingiberene
 Seed spices; honey; eugenol
 Seed spices; horseradish; 4-pentenyl isothiocyanate
 Seed spices; mint; DL-carvone
 Seed spices; mustard; 4-pentenyl isothiocyanate
 Seed spices; pepper; asaricin|sabinene
-Seed spices; sharp; _-zingiberene
+Seed spices; sharp; α-zingiberene
 Seed spices; solvent; (E)-carveol
-Seed spices; spice; asaricin|perilla aldehyde|bulnesol|3-oxo-_-ionol|1,4-cineole|_-zingiberene|(Z)-oak-lactone
+Seed spices; spice; asaricin|perilla aldehyde|bulnesol|3-oxo-α-ionol|1,4-cineole|α-zingiberene|(Z)-oak-lactone
 Seed spices; turpentine; sabinene
 Seed spices; wood; sabinene
-Stone; apricot; _-undecalactone
-Stone; fat; _-decalactone
+Stone; apricot; γ-undecalactone
+Stone; fat; γ-decalactone
 Stone; fresh; isopropyl hexanoate
-Stone; peach; (Z)-6-dodecene-_-lactone|_-decalactone|R-_-decenolactone|5-octanolide|_-decalactone|_-undecalactone
+Stone; peach; (Z)-6-dodecene-γ-lactone|δ-decalactone|R-δ-decenolactone|5-octanolide|γ-decalactone|δ-undecalactone
 Stone; plum; benzyl butanoate
-Stone; sweet; (Z)-6-dodecene-_-lactone
+Stone; sweet; (Z)-6-dodecene-γ-lactone
 Sweet spices; anise; hydrocinnamic alcohol
 Sweet spices; balsamic; myristicin
 Sweet spices; cinnamon; ethyl cinnamate|hydrocinnamic alcohol|(E)-cinnamaldehyde
@@ -385,7 +385,7 @@ Sweet spices; clove; 4-ethylguaiacol|p-vinylguaiacol|methyl eugenol
 Sweet spices; cotton candy; sotolon
 Sweet spices; curry; p-vinylguaiacol
 Sweet spices; ether; ethyl tetradecanoate
-Sweet spices; flower; phenylacetic acid|elemicin|_-bisabolol|(E)-isoelemicin|isoeugenol
+Sweet spices; flower; phenylacetic acid|elemicin|α-bisabolol|(E)-isoelemicin|isoeugenol
 Sweet spices; fruit; limonene oxide|hydrocinnamic alcohol|ethylmethyl pyrazine|isopentyldimethylpyrazine|cadinadiene
 Sweet spices; honey; ethyl cinnamate|phenylacetic acid|cinnamic acid|2-phenylethyl alcohol
 Sweet spices; licorice; dehydro-ar-ionene
@@ -396,23 +396,23 @@ Sweet spices; must; 1-terpinen-4-ol
 Sweet spices; nutmeg; 1-terpinen-4-ol
 Sweet spices; paint; (E)-cinnamaldehyde
 Sweet spices; rose; 2-phenylethyl alcohol
-Sweet spices; spice; ethylfuranone|myrtenal|ethylfuranone|4-ethylguaiacol|sotolon|cadinadiene|elemicin|_-bisabolol|(E)-isoelemicin|2-phenylethyl alcohol|myristicin|abhexone|acetylmethylcyclohexene|methyl eugenol|safrole
+Sweet spices; spice; ethylfuranone|myrtenal|ethylfuranone|4-ethylguaiacol|sotolon|cadinadiene|elemicin|α-bisabolol|(E)-isoelemicin|2-phenylethyl alcohol|myristicin|abhexone|acetylmethylcyclohexene|methyl eugenol|safrole
 Sweet spices; sweet; ethylmethyl pyrazine|2-undecenal|ethylbenzaldehyde|safrole
 Sweet spices; turpentine; 1-terpinen-4-ol
 Sweet spices; vanilla; vanillin
 Sweet spices; warm; myristicin|safrole
 Tropical; banana; isoamyl acetate|hexenyl acetate|pentyl butanoate
-Tropical; coconut; _-octalactone|_-nonalactone|tetradecanol|methyl nonanoate|wine lactone|(E)-oak lactone|_-decalactone|(Z)-whiskey lactone
+Tropical; coconut; γ-octalactone|γ-nonalactone|tetradecanol|methyl nonanoate|wine lactone|(E)-oak lactone|δ-decalactone|(Z)-whiskey lactone
 Tropical; ether; pentanone|hexanone
 Tropical; flower; (E)-oak lactone
 Tropical; fruit; pentanone|4-methylthio-2-butanone|pentanol|butyl hexanoate
 Tropical; grapefruit; (+)-nootkatone|p-menthenethiol
 Tropical; green; hexenyl acetate
-Tropical; peach; _-nonalactone
+Tropical; peach; γ-nonalactone
 Tropical; pineapple; propyl butyrate|propyl propanoate|ethyl acetate
 Tropical; solvent; propyl butyrate
 Tropical; spice; wine lactone
-Vegetable; balsamic; trans-sabinene hydrate|bornyl benzoate|_-guaiene|_-gurjunene|guaiol|hydrocinnamic acid
+Vegetable; balsamic; trans-sabinene hydrate|bornyl benzoate|α-guaiene|α-gurjunene|guaiol|hydrocinnamic acid
 Vegetable; beet; geosmin
 Vegetable; boiled vegetable; benzyl acetate
 Vegetable; box tree; 3-mercaptohexyl-acetate|4-mercapto-4-methyl-2-pentanone
@@ -420,52 +420,52 @@ Vegetable; broccoli; 5-(methylthio)-valeronitrile
 Vegetable; butter; pentylfuran
 Vegetable; cabbage; thiophane|methyldihydrothiophenone|mercaptoacetaldehyde|erucin|berteroin|dimethyl tetrasulfide|5-(methylthio)-valeronitrile|dimethyl sulfide
 Vegetable; carrot; butylmethoxypyrazine
-Vegetable; citrus; _-farnesene
+Vegetable; citrus; β-farnesene
 Vegetable; cooked potato; methyl-2-(methylthio)acetate|methional
 Vegetable; cooked vegetable; hexenone
 Vegetable; cucumber; 6-decenal|(E)-2-nonenal|nonadienol|2,4-octadienal|3-nonenal|2,6-nonadienal|2-nonenal|2-nonanol|2,6-nonadienol
-Vegetable; earth; germacrene B|geosmin|butylmethoxypyrazine|isobutylmethoxypyrazine|isopropylmethoxypyrazine|_-caryophyllene alcohol|caryophyllene alcohol|hydroxypentanone|bornyl isovalerate|1,5-octadien-3-ol
+Vegetable; earth; germacrene B|geosmin|butylmethoxypyrazine|isobutylmethoxypyrazine|isopropylmethoxypyrazine|β-caryophyllene alcohol|caryophyllene alcohol|hydroxypentanone|bornyl isovalerate|1,5-octadien-3-ol
 Vegetable; fat; nonanoic acid|2-octanol|(E)-2-nonenal|2-dodecenal|2-nonenal
 Vegetable; flower; hexanol|nerolidol
 Vegetable; fresh; benzyl acetate|menthone|(E)-3-hexenol
 Vegetable; fruit; dimethylheptenal|ethoxypropanol|methyl-2-butenal|2-hexenol
 Vegetable; gasoline; dimethyl sulfide
 Vegetable; grass; 2,6-dimethylnaphthalene
-Vegetable; green; dimethylheptenal|hexanol|methyl-2-butenal|hexyl octanoate|nonanoic acid|(Z)-2-penten-1-ol|isobutyl thiazole|(E)-2-nonenal|2-dodecenal|(Z)-4-decenal|2-octenal|2-hepten-1-al|bicyclogermacrene|_-thujene|(-)-_-elemene|2,4-octadienal|fucoserratene|valencene|_-eudesmol|1-hexenol|viridiflorol|2,6-nonadienal|elemol|3-hexenal|(+)-(E)-limonene oxide|cis-isocitral|dimethyloctadienal|bornyl formate|bornyl isovalerate|2,4-hexadienal|(E)-2-hexenal|menthone|coumarin|2-hexenol|(E)-2-hexenol
+Vegetable; green; dimethylheptenal|hexanol|methyl-2-butenal|hexyl octanoate|nonanoic acid|(Z)-2-penten-1-ol|isobutyl thiazole|(E)-2-nonenal|2-dodecenal|(Z)-4-decenal|2-octenal|2-hepten-1-al|bicyclogermacrene|α-thujene|(-)-γ-elemene|2,4-octadienal|fucoserratene|valencene|β-eudesmol|1-hexenol|viridiflorol|2,6-nonadienal|elemol|3-hexenal|(+)-(E)-limonene oxide|cis-isocitral|dimethyloctadienal|bornyl formate|bornyl isovalerate|2,4-hexadienal|(E)-2-hexenal|menthone|coumarin|2-hexenol|(E)-2-hexenol
 Vegetable; green bean; pentylfuran
 Vegetable; green leaf; 2-octenal
 Vegetable; green pepper; isobutylmethoxypyrazine
-Vegetable; herb; hexyl octanoate|_-thujene|_-cadinol|cuminic alcohol|bornyl isovalerate|1,5-octadien-3-ol
+Vegetable; herb; hexyl octanoate|α-thujene|α-cadinol|cuminic alcohol|bornyl isovalerate|1,5-octadien-3-ol
 Vegetable; leaf; 3-hexenal|(E)-2-hexenal|2-hexenol|(E)-2-hexenol
 Vegetable; meat; diethylmethyl pyrazine
 Vegetable; melon; dimethylheptenal
 Vegetable; metal; hexenone
-Vegetable; moss; _-caryophyllene alcohol|caryophyllene alcohol|octanol|(E)-3-hexenol
+Vegetable; moss; β-caryophyllene alcohol|caryophyllene alcohol|octanol|(E)-3-hexenol
 Vegetable; mushroom; 2-octanol|(E)-2-penten-1-ol|heptanol|octanol
 Vegetable; must; methyldihydrothiophenone|(Z)-4-decenal
 Vegetable; nut; hydroxypentanone|octanol
-Vegetable; oil; hexyl octanoate|(-)-_-elemene|valencene
+Vegetable; oil; hexyl octanoate|(-)-γ-elemene|valencene
 Vegetable; onion; methyldihydrothiophenone|methyltetrahydrofuranthiol|mercaptobutanone
 Vegetable; orris; 2-nonenal
 Vegetable; pea; isopropylmethoxypyrazine
 Vegetable; phenol; o-cresol
-Vegetable; pine; _-pinene|bornyl benzoate|_-pinene
+Vegetable; pine; β-pinene|bornyl benzoate|α-pinene
 Vegetable; plastic; (Z)-2-penten-1-ol|fucoserratene
 Vegetable; potato; 2,5-dimethyl-3-ethylpyrazine|ethyldimethylpyrazine|diethylmethyl pyrazine|methionol
 Vegetable; pungent; methylpentanol
-Vegetable; resin; hexanol|_-pinene
+Vegetable; resin; hexanol|β-pinene
 Vegetable; roast; 2,5-dimethyl-3-ethylpyrazine|dimethylethyl pyrazine|methylethyl pyrazine|diethylmethyl pyrazine
 Vegetable; roasted nut; methyl-2-(methylthio)acetate
 Vegetable; rubber; (Z)-2-penten-1-ol
 Vegetable; seaweed; 2,4-octadienal|2,4-decadienal
-Vegetable; spice; cadina-1,4-dien-3-ol|germacrene B|isodihydrocarveol|germacrene D|isobutylmethoxypyrazine|_-copaene|dill apiol|caryophyllene alcohol|_-caryophyllene|_-guaiene
+Vegetable; spice; cadina-1,4-dien-3-ol|germacrene B|isodihydrocarveol|germacrene D|isobutylmethoxypyrazine|α-copaene|dill apiol|caryophyllene alcohol|β-caryophyllene|β-guaiene
 Vegetable; sulfur; dimethyl tetrasulfide|dimethyl sulfide
-Vegetable; sweet; _-farnesene|2-dodecenal|_-farnesene|methionol|viridiflorol|coumarin
+Vegetable; sweet; β-farnesene|2-dodecenal|α-farnesene|methionol|viridiflorol|coumarin
 Vegetable; tomato leaf; isobutyl thiazole
 Vegetable; truffle; hydroxypentanone
-Vegetable; turpentine; _-pinene|_-pinene
-Vegetable; violet; _-ionone
+Vegetable; turpentine; β-pinene|α-pinene
+Vegetable; violet; α-ionone
 Vegetable; walnut; 2-octenal|(E)-2-hexenol
 Vegetable; wax; nerolidol|2,6-nonadienal
 Vegetable; wine; 2-hexenol
-Vegetable; wood; _-muurolene|cadina-1,4-dien-3-ol|isocaryophyllene|_-ionone|germacrene B|trans-sabinene hydrate|isodihydrocarveol|_-farnesene|_-sesquiphellandrene|_-elemene|_-calacorene|germacrene D|bicyclogermacrene|alloaromadendrene|_-thujene|oxo-_-ionone|(-)-_-elemene|_-guaiene|_-copaene|_-cadinene|nerolidol|_-eudesmol|_-cadinol|dill apiol|aromadendrene|_-gurjunene|guaiol|_-farnesene|_-selinene|cuminic alcohol|perillen|elemol|_-humulene|_-caryophyllene|_-guaiene
+Vegetable; wood; α-muurolene|cadina-1,4-dien-3-ol|isocaryophyllene|α-ionone|germacrene B|trans-sabinene hydrate|isodihydrocarveol|β-farnesene|β-sesquiphellandrene|δ-elemene|α-calacorene|germacrene D|bicyclogermacrene|alloaromadendrene|α-thujene|oxo-β-ionone|(-)-γ-elemene|α-guaiene|α-copaene|γ-cadinene|nerolidol|β-eudesmol|α-cadinol|dill apiol|aromadendrene|α-gurjunene|guaiol|α-farnesene|γ-selinene|cuminic alcohol|perillen|elemol|α-humulene|β-caryophyllene|β-guaiene

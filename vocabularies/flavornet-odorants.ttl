@@ -1206,8 +1206,11 @@ odor:252 a skos:Concept ;
     wdt:P231 "501-98-4" .
 
 odor:253 a skos:Concept ;
+    skos:altLabel "(E,E)-3,7,11-trimethyl-1,3,6,10-dodecatetraene"@en,
+        "(E,E)-α-farnesene"@en,
+        "2,6,10-trimethyl-2,6,9,10-dodecatetrene"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "α-farnesene;(E,E)-3,7,11-trimethyl-1,3,6,10-dodecatetraene; 2,6,10-trimethyl-2,6,9,10-dodecatetrene, (E,E)-α-farnesene"@en ;
+    skos:prefLabel "α-farnesene"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "502-61-4" .
 
@@ -1334,8 +1337,9 @@ odor:269 a skos:Concept ;
     wdt:P231 "540-18-1" .
 
 odor:27 a skos:Concept ;
+    skos:altLabel "2,2-dimethyl-3-methylene-bicyclo[2.2.1]heptane"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "camphene;2,2-dimethyl-3-methylene-bicyclo[2.2.1]heptane; 2,2-dimethyl-3-methylene norborane"@en ;
+    skos:prefLabel "camphene"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "79-92-5" .
 
@@ -1493,14 +1497,19 @@ odor:289 a skos:Concept ;
     wdt:P231 "584-02-1" .
 
 odor:29 a skos:Concept ;
+    skos:altLabel "2,6,6-trimethylbicyclo[3.1.1]hept-2-ene"@en,
+        "cyclic dexadiene"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "α-pinene;2,6,6-trimethylbicyclo[3.1.1]hept-2-ene; cyclic dexadiene"@en ;
+    skos:prefLabel "α-pinene"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "80-56-8" .
 
 odor:290 a skos:Concept ;
+    skos:altLabel "1,4(8)-p-menthadiene"@en,
+        "1-methyl-4-(1-methylehtylidene)cyclohexene"@en,
+        "terpinolene"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "δ-terpinene;1-methyl-4-(1-methylehtylidene)cyclohexene; 1,4(8)-p-menthadiene, terpinolene"@en ;
+    skos:prefLabel "δ-terpinene"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "586-62-9" .
 
@@ -1833,8 +1842,9 @@ odor:333 a skos:Concept ;
     wdt:P231 "693-95-8" .
 
 odor:334 a skos:Concept ;
+    skos:altLabel "γ-ethyl-γ-butyrolactone"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "4-hexanolide;γ-ethyl-γ-butyrolactone; γ-caproalctone, γ-hexalactone"@en ;
+    skos:prefLabel "4-hexanolide"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "695-06-7" .
 
@@ -1856,8 +1866,10 @@ odor:336 a skos:Concept ;
     wdt:P231 "698-76-0" .
 
 odor:337 a skos:Concept ;
+    skos:altLabel "5-decanolide"@en,
+        "δ-lactone 5-hydroxydecanoic acid"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "δ-decalactone;5-decanolide; δ-lactone 5-hydroxydecanoic acid"@en ;
+    skos:prefLabel "δ-decalactone"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "705-86-2" .
 
@@ -2292,8 +2304,10 @@ odor:390 a skos:Concept ;
     wdt:P231 "2111-75-3" .
 
 odor:391 a skos:Concept ;
+    skos:altLabel "L-p-menthan-3-ol"@en,
+        "[R-(1alpha,2beta,5beta)]-5-methyl-2-(1-methylethyl)-cyclohexanol"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "l-menthol;[R-(1alpha,2beta,5beta)]-5-methyl-2-(1-methylethyl)-cyclohexanol; L-p-menthan-3-ol"@en ;
+    skos:prefLabel "l-menthol"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "2216-51-5" .
 
@@ -2579,7 +2593,7 @@ odor:426 a skos:Concept ;
 odor:427 a skos:Concept ;
     skos:altLabel "2,5-dimethyl-4-hydroxy-3[2H]-furanone"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "furaneol™"@en ;
+    skos:prefLabel "furaneol"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "3658-77-3" .
 
@@ -2962,8 +2976,9 @@ odor:475 a skos:Concept ;
     wdt:P231 "5948-04-9" .
 
 odor:476 a skos:Concept ;
+    skos:altLabel "(+)-(4R)-1-methyl-4-(1-methylethenyl)cyclohexene"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "(+)-limonene,;(+)-(4R)-1-methyl-4-(1-methylethenyl)cyclohexene; (+)-carvene; D-1,8-p-menthadiene, D-limonene"@en ;
+    skos:prefLabel "(+)-limonene"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "5989-27-5" .
 
@@ -3011,8 +3026,11 @@ odor:481 a skos:Concept ;
     wdt:P231 "6378-65-0" .
 
 odor:482 a skos:Concept ;
+    skos:altLabel "1-methyl-4-isopropenyl-6-cycloxen-2-one"@en,
+        "l-carvone"@en,
+        "l-p-mentha-6,8(9)-dien-2-one"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "(-)-carvone;l-p-mentha-6,8(9)-dien-2-one; 1-methyl-4-isopropenyl-6-cycloxen-2-one, l-carvone"@en ;
+    skos:prefLabel "(-)-carvone"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "6485-40-1" .
 
@@ -3054,8 +3072,10 @@ odor:487 a skos:Concept ;
     wdt:P231 "6750-60-3" .
 
 odor:488 a skos:Concept ;
+    skos:altLabel "(E,E,E)-2,6,6-(9-tetrametyl)-1,4,8-cycloundecatriene"@en,
+        "α-caryphyllene"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "α-humulene;(E,E,E)-2,6,6-(9-tetrametyl)-1,4,8-cycloundecatriene; α-caryphyllene"@en ;
+    skos:prefLabel "α-humulene"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "6753-98-6" .
 
@@ -3396,8 +3416,10 @@ odor:529 a skos:Concept ;
     wdt:P231 "14575-74-7" .
 
 odor:53 a skos:Concept ;
+    skos:altLabel "4-hydroxybutyric acid lactone"@en,
+        "tetrahydro-2-furanone"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "γ-butyrolactone;4-hydroxybutyric acid lactone; tetrahydro-2-furanone"@en ;
+    skos:prefLabel "γ-butyrolactone"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "96-48-0" .
 
@@ -4067,10 +4089,9 @@ odor:613 a skos:Concept ;
 
 odor:614 a skos:Concept ;
     skos:altLabel "2-p-tolyl propene"@en,
-        "4-methyl-α-methylstyrene"@en,
-        "a -dimethylstyrol"@en ;
+        "4-methyl-α-methylstyrene"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "p"@en ;
+    skos:prefLabel "p, a -dimethylstyrol"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "27576-03-0" .
 
@@ -4899,8 +4920,10 @@ odor:719 a skos:Concept ;
     wdt:P231 "113486-29-6" .
 
 odor:72 a skos:Concept ;
+    skos:altLabel "4-isopropyltoluene"@en,
+        "p-methyl cumene"@en ;
     skos:inScheme odor: ;
-    skos:prefLabel "p-cymene;4-isopropyltoluene; p-methyl cumene"@en ;
+    skos:prefLabel "p-cymene"@en ;
     skos:topConceptOf odor: ;
     wdt:P231 "99-87-6" .
 

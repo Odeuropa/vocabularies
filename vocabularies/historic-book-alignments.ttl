@@ -1,0 +1,473 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/almonds> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/25>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/edible_oil_almond> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/ash> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/empyreumatic__smoky_ash> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/biscuits> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/maillard_biscuit> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/body_odour> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/body_odour> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/burning> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/empyreumatic__smoky_animal_burning> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/caramel> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/49>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/maillard_caramel> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/chemical> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/103>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/mineral_chemical>,
+        <http://data.odeuropa.eu/vocabulary/historical-scent/chemical> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/chocolate> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/45> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/citrus> skos:exactMatch <http://data.odeuropa.eu/vocabulary/drom/citrus>,
+        <http://data.odeuropa.eu/vocabulary/edwards/citrus>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_citrus> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/coal> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/industrial_coal> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/earthly> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/earthy__mineral_earth> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/fish> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/fishy_fish>,
+        <http://data.odeuropa.eu/vocabulary/historical-scent/fishy_fish> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/fishy_rancid> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/127>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/animal_rancid> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/fragrant> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/21>,
+        <http://data.odeuropa.eu/vocabulary/zwaardemaker/fragrant> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/fresh_fruit> skos:exactMatch <http://data.odeuropa.eu/vocabulary/edwards/fresh>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/citrus_fresh> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/gasoline_like> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/58>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_gasoline>,
+        <http://data.odeuropa.eu/vocabulary/historical-scent/industrial_gasoline> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/green> skos:exactMatch <http://data.odeuropa.eu/vocabulary/drom/green>,
+        <http://data.odeuropa.eu/vocabulary/edwards/green>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/animal_green> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/incense> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/93> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/industrial> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/industrial> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/medicinal> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/102>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_medicine> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/mothballs> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/41>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/mineral_mothball> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/musty> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/82> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/old_seasoning> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/33> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/smoke> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/animal_smoke> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/sweet> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/47>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_sweet>,
+        <http://data.odeuropa.eu/vocabulary/historical-scent/sweet> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/sweet_pungent> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_pungent> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/sweet_spicy> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/28>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/sweet_spices_spice>,
+        <http://data.odeuropa.eu/vocabulary/historical-scent/spicy> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/vanilla> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/46>,
+        <http://data.odeuropa.eu/vocabulary/drom/vanilla_absolute>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_vanilla>,
+        <http://data.odeuropa.eu/vocabulary/historical-scent/empyreumatic__smoky_vanilla> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/vinegar> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/sour__acidic_vinegar> .
+
+<http://data.odeuropa.eu/vocabulary/historic-book/wood> skos:exactMatch <http://data.odeuropa.eu/vocabulary/edwards/woods>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/edible_oil_wood> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/almonds> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/25> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/e8e699f3-af62-55cd-9e63-d95be2675188> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/almonds> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/edible_oil_almond> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/88e8cf79-db15-59d5-bc76-cbb21acc1f85> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/ash> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/empyreumatic__smoky_ash> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/7d03a932-6f51-5197-ad70-0576c06e0817> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/biscuits> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/maillard_biscuit> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/1c565bef-8f5e-506e-aef2-f90e611f0511> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/body_odour> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/body_odour> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/60486a25-1f89-53fe-9ebc-411dc5d93c31> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/burning> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/empyreumatic__smoky_animal_burning> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/a5b44cd0-07a6-5102-9a05-0bde8bbbb255> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/caramel> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/49> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/2b111a43-6870-5054-b35b-818c03cffac3> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/caramel> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/maillard_caramel> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/373b0b3c-7f67-5f61-b37f-bb8074a56c7a> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/chemical> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/103> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/20011418-3fc9-5d2a-823f-e9191fb799d6> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/chemical> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/mineral_chemical> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/b50b9f53-70e8-5cc0-aa89-40cdcc6a1790> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/chemical> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/chemical> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/18e31a78-aab8-5d78-9dfe-5113be6e25d0> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/chocolate> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/45> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/60770675-f359-5420-9210-093629688fe5> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/citrus> skos:exactMatch <http://data.odeuropa.eu/vocabulary/drom/citrus> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/30e47d3b-dbfe-5478-a245-b7edb3857c06> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/citrus> skos:exactMatch <http://data.odeuropa.eu/vocabulary/edwards/citrus> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/6569d367-03d6-5501-ab80-f4afb6bf7971> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/citrus> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_citrus> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/65c3c3a9-850f-5a4f-ae74-39b804c8f40d> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/coal> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/industrial_coal> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/f2c694a4-93e8-58a4-aaeb-f5b3b1e8cb80> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/earthly> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/earthy__mineral_earth> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/23efe7ac-49b1-51bb-90ef-389ef00a2169> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/fish> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/fishy_fish> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/0b4562c5-9299-5211-90e3-5bedc5e8c3b4> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/fish> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/fishy_fish> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/b2a6bb40-8439-58e8-a027-91e2e6bf42b8> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/fishy_rancid> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/127> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/2a1953e7-2846-537d-9627-57027360faa5> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/fishy_rancid> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/animal_rancid> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/03dd3b2c-d53e-5b07-b1cc-7fd5a7de81f4> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/fragrant> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/21> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/fae01fbf-9b7a-570e-bf5a-434d55e242aa> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/fragrant> skos:exactMatch <http://data.odeuropa.eu/vocabulary/zwaardemaker/fragrant> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/34d579d7-ba5f-5813-a044-28431863a6b4> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/fresh_fruit> skos:exactMatch <http://data.odeuropa.eu/vocabulary/edwards/fresh> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/2f59cbfb-4699-5928-8beb-8da449c38f4a> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/fresh_fruit> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/citrus_fresh> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/7fe594b4-4570-5a78-a5d4-5040d16946ed> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/gasoline_like> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/58> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/168c32cb-ea84-5e4f-a632-d6205a461a08> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/gasoline_like> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_gasoline> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/148cef6c-46f8-5287-b037-b8fb1f74d6a2> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/gasoline_like> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/industrial_gasoline> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/e780a3e9-4dfc-5ce0-8a00-86246f64b641> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/green> skos:exactMatch <http://data.odeuropa.eu/vocabulary/drom/green> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/842c458d-d258-57d6-a170-515bb1043d18> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/green> skos:exactMatch <http://data.odeuropa.eu/vocabulary/edwards/green> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/ecea97d7-8753-53b2-a4f7-f216f260c6fb> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/green> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/animal_green> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/3fb64052-b30c-54d1-9b6d-a1181048f0ad> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/incense> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/93> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/5cc1671f-0b12-5aff-a568-48d310cf6930> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/industrial> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/industrial> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/9e42bc9d-6a71-5947-b6c9-4fd3c3b00617> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/medicinal> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/102> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/21a104dd-b265-5d7e-8809-aae3d7492095> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/medicinal> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_medicine> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/67671400-d649-517f-adb9-38cd5542248e> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/mothballs> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/41> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/78e9aecb-3733-56c9-bd14-f59443597542> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/mothballs> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/mineral_mothball> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/5648b4eb-1647-500a-8082-7638114c83d7> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/musty> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/82> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/0a1a2c7e-5829-599b-9326-ab3a0ae4c242> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/old_seasoning> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/33> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/a39f6ecb-56e8-5286-a60d-8bd388373340> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/smoke> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/animal_smoke> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d2b5660c-4c28-5767-9c0d-f6521cd6f209> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/sweet> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/47> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/54bdd1ff-78d5-5aa4-8e56-e8c7b523c528> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/sweet> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_sweet> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/4e6d8223-20a2-57eb-8001-8cfdd4fd2181> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/sweet> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/sweet> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/3d647ba2-fa21-575b-93c7-a4cff860fa63> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/sweet_pungent> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_pungent> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/199f813b-a76d-59fd-8ed5-6da41b625aa8> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/sweet_spicy> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/28> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/bc32f3d2-98e2-5090-b328-2777492d3359> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/sweet_spicy> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/sweet_spices_spice> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/e336b75d-c7a2-5ad3-a6e9-ffa3caf0417b> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/sweet_spicy> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/spicy> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/44790f79-7970-5265-9a04-511c1f24ca11> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/vanilla> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/46> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/ee5f5b0b-96f4-5249-9929-34a38cbe30ea> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/vanilla> skos:exactMatch <http://data.odeuropa.eu/vocabulary/drom/vanilla_absolute> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/bba51393-2403-54a4-9f72-700f1d585f2c> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/vanilla> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic_vanilla> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/c4c9a561-8f26-53f4-bf07-312e64335a7c> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/vanilla> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/empyreumatic__smoky_vanilla> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/f5a22a91-e60c-5229-befd-6831ae552421> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/vinegar> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historical-scent/sour__acidic_vinegar> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/82f78ca4-dae8-5908-a98f-cde3b6b913ef> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/wood> skos:exactMatch <http://data.odeuropa.eu/vocabulary/edwards/woods> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/5c91ee23-4d97-50a2-9b6e-e2ef3400729a> .
+
+<< <http://data.odeuropa.eu/vocabulary/historic-book/wood> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/edible_oil_wood> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/bbb98096-2622-5a79-89a1-79d39c1b5a19> .
+
+<http://data.odeuropa.eu/provenance/03dd3b2c-d53e-5b07-b1cc-7fd5a7de81f4> a prov:Activity ;
+    rdf:value 0.764426115654181 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/0a1a2c7e-5829-599b-9326-ab3a0ae4c242> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/0b4562c5-9299-5211-90e3-5bedc5e8c3b4> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/148cef6c-46f8-5287-b037-b8fb1f74d6a2> a prov:Activity ;
+    rdf:value 0.943707278535887 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/168c32cb-ea84-5e4f-a632-d6205a461a08> a prov:Activity ;
+    rdf:value 0.9258059164209824 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/18e31a78-aab8-5d78-9dfe-5113be6e25d0> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/199f813b-a76d-59fd-8ed5-6da41b625aa8> a prov:Activity ;
+    rdf:value 0.7641889254314639 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/1c565bef-8f5e-506e-aef2-f90e611f0511> a prov:Activity ;
+    rdf:value 0.8681286187421069 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/20011418-3fc9-5d2a-823f-e9191fb799d6> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/21a104dd-b265-5d7e-8809-aae3d7492095> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/23efe7ac-49b1-51bb-90ef-389ef00a2169> a prov:Activity ;
+    rdf:value 0.7094795685564114 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/2a1953e7-2846-537d-9627-57027360faa5> a prov:Activity ;
+    rdf:value 0.798013929932495 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/2b111a43-6870-5054-b35b-818c03cffac3> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/2f59cbfb-4699-5928-8beb-8da449c38f4a> a prov:Activity ;
+    rdf:value 0.7695537045913942 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/30e47d3b-dbfe-5478-a245-b7edb3857c06> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/34d579d7-ba5f-5813-a044-28431863a6b4> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/373b0b3c-7f67-5f61-b37f-bb8074a56c7a> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/3d647ba2-fa21-575b-93c7-a4cff860fa63> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/3fb64052-b30c-54d1-9b6d-a1181048f0ad> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/44790f79-7970-5265-9a04-511c1f24ca11> a prov:Activity ;
+    rdf:value 0.7840133282728625 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/4e6d8223-20a2-57eb-8001-8cfdd4fd2181> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/54bdd1ff-78d5-5aa4-8e56-e8c7b523c528> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/5648b4eb-1647-500a-8082-7638114c83d7> a prov:Activity ;
+    rdf:value 0.8827810014242254 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/5c91ee23-4d97-50a2-9b6e-e2ef3400729a> a prov:Activity ;
+    rdf:value 0.7680216863490332 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/5cc1671f-0b12-5aff-a568-48d310cf6930> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/60486a25-1f89-53fe-9ebc-411dc5d93c31> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/60770675-f359-5420-9210-093629688fe5> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/6569d367-03d6-5501-ab80-f4afb6bf7971> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/65c3c3a9-850f-5a4f-ae74-39b804c8f40d> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/67671400-d649-517f-adb9-38cd5542248e> a prov:Activity ;
+    rdf:value 0.7655620028484507 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/78e9aecb-3733-56c9-bd14-f59443597542> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/7d03a932-6f51-5197-ad70-0576c06e0817> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/7fe594b4-4570-5a78-a5d4-5040d16946ed> a prov:Activity ;
+    rdf:value 0.7553133671385609 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/82f78ca4-dae8-5908-a98f-cde3b6b913ef> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/842c458d-d258-57d6-a170-515bb1043d18> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/88e8cf79-db15-59d5-bc76-cbb21acc1f85> a prov:Activity ;
+    rdf:value 0.8492898589740041 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/9e42bc9d-6a71-5947-b6c9-4fd3c3b00617> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/a39f6ecb-56e8-5286-a60d-8bd388373340> a prov:Activity ;
+    rdf:value 0.7304149409579046 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/a5b44cd0-07a6-5102-9a05-0bde8bbbb255> a prov:Activity ;
+    rdf:value 0.8284635786548653 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/b2a6bb40-8439-58e8-a027-91e2e6bf42b8> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/b50b9f53-70e8-5cc0-aa89-40cdcc6a1790> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/bba51393-2403-54a4-9f72-700f1d585f2c> a prov:Activity ;
+    rdf:value 0.7074572043116136 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/bbb98096-2622-5a79-89a1-79d39c1b5a19> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/bc32f3d2-98e2-5090-b328-2777492d3359> a prov:Activity ;
+    rdf:value 0.8069632732802087 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/c4c9a561-8f26-53f4-bf07-312e64335a7c> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/d2b5660c-4c28-5767-9c0d-f6521cd6f209> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/e336b75d-c7a2-5ad3-a6e9-ffa3caf0417b> a prov:Activity ;
+    rdf:value 0.9163374584701036 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/e780a3e9-4dfc-5ce0-8a00-86246f64b641> a prov:Activity ;
+    rdf:value 0.9365341931766162 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/e8e699f3-af62-55cd-9e63-d95be2675188> a prov:Activity ;
+    rdf:value 0.8522085562555914 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/ecea97d7-8753-53b2-a4f7-f216f260c6fb> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/ee5f5b0b-96f4-5249-9929-34a38cbe30ea> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/f2c694a4-93e8-58a4-aaeb-f5b3b1e8cb80> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/f5a22a91-e60c-5229-befd-6831ae552421> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/fae01fbf-9b7a-570e-bf5a-434d55e242aa> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> a prov:SoftwareAgent ;
+    rdfs:label "Yam++ Large Scale Ontology Matcher" ;
+    schema:url <https://gite.lirmm.fr/opendata/yampp-ls> .
+

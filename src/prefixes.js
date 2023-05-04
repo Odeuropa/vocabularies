@@ -9,6 +9,7 @@ export const DC = $rdf.Namespace('http://purl.org/dc/terms/');
 export const XSD = $rdf.Namespace('http://www.w3.org/2001/XMLSchema#');
 export const FOAF = $rdf.Namespace('http://xmlns.com/foaf/0.1/');
 export const PAV = $rdf.Namespace('http://purl.org/pav/');
+export const PROV = $rdf.Namespace('http://www.w3.org/ns/prov#/');
 export const WD = $rdf.Namespace('http://www.wikidata.org/entity/');
 export const WDT = $rdf.Namespace('http://www.wikidata.org/prop/direct/');
 export const DBP = $rdf.Namespace('http://dbpedia.org/property/');
@@ -30,6 +31,7 @@ export const nsValues = {
     rdfs: RDFS().value,
     foaf: FOAF().value,
     pav: PAV().value,
+    prov: PROV().value,
     wd: WD().value,
     wdt: WDT().value,
     dbp: DBP().value,

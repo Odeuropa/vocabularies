@@ -1,0 +1,53 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.odeuropa.eu/vocabulary/zwaardemaker/aromatic> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/22>,
+        <http://data.odeuropa.eu/vocabulary/edwards/aromatic>,
+        <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic> .
+
+<http://data.odeuropa.eu/vocabulary/zwaardemaker/fragrant> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/21>,
+        <http://data.odeuropa.eu/vocabulary/historic-book/fragrant> .
+
+<< <http://data.odeuropa.eu/vocabulary/zwaardemaker/aromatic> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/22> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/792c2b81-2bc5-5fab-9592-ce9ba01e8d07> .
+
+<< <http://data.odeuropa.eu/vocabulary/zwaardemaker/aromatic> skos:exactMatch <http://data.odeuropa.eu/vocabulary/edwards/aromatic> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/e581f387-ee8c-5e01-aee8-7f0b41e192a8> .
+
+<< <http://data.odeuropa.eu/vocabulary/zwaardemaker/aromatic> skos:exactMatch <http://data.odeuropa.eu/vocabulary/flavornet/odors/aromatic> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d1dbc62a-72d2-590f-b012-26f6894732f0> .
+
+<< <http://data.odeuropa.eu/vocabulary/zwaardemaker/fragrant> skos:exactMatch <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/21> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/a8c4a710-051a-5052-abb4-af90e778ac00> .
+
+<< <http://data.odeuropa.eu/vocabulary/zwaardemaker/fragrant> skos:exactMatch <http://data.odeuropa.eu/vocabulary/historic-book/fragrant> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/856f5fef-490d-5b74-aa2f-03aad76b6c21> .
+
+<http://data.odeuropa.eu/provenance/792c2b81-2bc5-5fab-9592-ce9ba01e8d07> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/856f5fef-490d-5b74-aa2f-03aad76b6c21> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/a8c4a710-051a-5052-abb4-af90e778ac00> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/d1dbc62a-72d2-590f-b012-26f6894732f0> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/provenance/e581f387-ee8c-5e01-aee8-7f0b41e192a8> a prov:Activity ;
+    rdf:value 1.0 ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> .
+
+<http://data.odeuropa.eu/software/1899f26a-5bdd-51cc-9b2f-c511c2000650> a prov:SoftwareAgent ;
+    rdfs:label "Yam++ Large Scale Ontology Matcher" ;
+    schema:url <https://gite.lirmm.fr/opendata/yampp-ls> .
+

@@ -3,11 +3,13 @@
 @prefix his: <http://data.odeuropa.eu/vocabulary/historical-scent/> .
 @prefix olf: <http://data.odeuropa.eu/vocabulary/olfactory-objects/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema1: <http://schema.org/> .
+@prefix schem: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 fr:105 skos:related his:gourmand__food_bread .
+
+fr:11 skos:related his:sulphurous__rotten__fecal_sulphur .
 
 fr:26 skos:related his:fishy_fish .
 
@@ -59,10 +61,10 @@ his:body_odour_hair a skos:Concept ;
     skos:prefLabel "Hair"@en .
 
 his:body_odour_odor_di_femmina a skos:Concept ;
-    schema1:subjectOf "Courbet: L’origine du monde, 1866" ;
     skos:broader his:body_odour ;
     skos:inScheme his: ;
-    skos:prefLabel "Odor di femmina"@en .
+    skos:prefLabel "Odor di femmina"@en ;
+    schem:subjectOf "Courbet: L’origine du monde, 1866" .
 
 his:body_odour_sweat a skos:Concept ;
     skos:broader his:body_odour ;
@@ -85,10 +87,10 @@ his:earthy__mineral_geosmin a skos:Concept ;
     skos:prefLabel "Geosmin"@en .
 
 his:earthy__mineral_patchouli a skos:Concept ;
-    schema1:subjectOf "Cashmere shawls in 19th century portraits (smelled of patchouli in the 19th century)" ;
     skos:broader his:earthy__mineral ;
     skos:inScheme his: ;
-    skos:prefLabel "Patchouli"@en .
+    skos:prefLabel "Patchouli"@en ;
+    schem:subjectOf "Cashmere shawls in 19th century portraits (smelled of patchouli in the 19th century)" .
 
 his:earthy__mineral_spikenard a skos:Concept ;
     skos:broader his:earthy__mineral ;
@@ -126,10 +128,10 @@ his:floral_carnation a skos:Concept ;
     skos:prefLabel "Carnation"@en .
 
 his:floral_columbine a skos:Concept ;
-    schema1:subjectOf "The Madonna and Child with Saint Nicholas of Tolentino and Saint Anthony of Padua" ;
     skos:broader his:floral ;
     skos:inScheme his: ;
-    skos:prefLabel "Columbine"@en .
+    skos:prefLabel "Columbine"@en ;
+    schem:subjectOf "The Madonna and Child with Saint Nicholas of Tolentino and Saint Anthony of Padua" .
 
 his:floral_flowers_garlands a skos:Concept ;
     skos:broader his:floral ;
@@ -362,10 +364,10 @@ his:ozonic__aquatic_petrichor a skos:Concept ;
     skos:prefLabel "Petrichor"@en .
 
 his:ozonic__aquatic_rain a skos:Concept ;
-    schema1:subjectOf "Giorgione: La tempesta" ;
     skos:broader his:ozonic__aquatic ;
     skos:inScheme his: ;
-    skos:prefLabel "Rain"@en .
+    skos:prefLabel "Rain"@en ;
+    schem:subjectOf "Giorgione: La tempesta" .
 
 his:ozonic__aquatic_sea a skos:Concept ;
     skos:broader his:ozonic__aquatic ;
@@ -388,17 +390,17 @@ his:radical__root_calamus a skos:Concept ;
     skos:prefLabel "Calamus"@en .
 
 his:radical__root_orris_root a skos:Concept ;
-    schema1:subjectOf "Botticelli: Primavera",
-        "Van Eyck: The adoration of the Lamb" ;
     skos:broader his:radical__root ;
     skos:inScheme his: ;
-    skos:prefLabel "Orris root"@en .
+    skos:prefLabel "Orris root"@en ;
+    schem:subjectOf "Botticelli: Primavera",
+        "Van Eyck: The adoration of the Lamb" .
 
 his:radical__root_spikenard a skos:Concept ;
-    schema1:subjectOf "Jan van Scorel: Mary of Magdalen" ;
     skos:broader his:radical__root ;
     skos:inScheme his: ;
-    skos:prefLabel "Spikenard"@en .
+    skos:prefLabel "Spikenard"@en ;
+    schem:subjectOf "Jan van Scorel: Mary of Magdalen" .
 
 his:resinous_elemi a skos:Concept ;
     skos:broader his:resinous ;
@@ -411,10 +413,10 @@ his:resinous_galbanum a skos:Concept ;
     skos:prefLabel "Galbanum"@en .
 
 his:resinous_myrrh a skos:Concept ;
-    schema1:subjectOf "The myth of Adonis from Myrrha" ;
     skos:broader his:resinous ;
     skos:inScheme his: ;
-    skos:prefLabel "Myrrh"@en .
+    skos:prefLabel "Myrrh"@en ;
+    schem:subjectOf "The myth of Adonis from Myrrha" .
 
 his:resinous_peru_balsam a skos:Concept ;
     skos:broader his:resinous ;
@@ -532,10 +534,10 @@ his:sweet_frankincense a skos:Concept ;
     skos:prefLabel "Frankincense"@en .
 
 his:sweet_odour_of_sanctity a skos:Concept ;
-    schema1:subjectOf "Bernini: Teresa in Ecstasy" ;
     skos:broader his:sweet ;
     skos:inScheme his: ;
-    skos:prefLabel "Odour of sanctity"@en .
+    skos:prefLabel "Odour of sanctity"@en ;
+    schem:subjectOf "Bernini: Teresa in Ecstasy" .
 
 his:sweet_rose a skos:Concept ;
     skos:broader his:sweet ;
@@ -609,13 +611,13 @@ olf:188 skos:related his:animalistic_pig .
 
 olf:189 skos:related his:animalistic_horse .
 
+olf:192 skos:related his:animalistic_goat .
+
 olf:199 skos:related his:ozonic__aquatic_puddle .
 
 olf:241 skos:related his:sulphurous__rotten__fecal_rotten .
 
 olf:258 skos:related his:sulphurous__rotten__fecal_indolic .
-
-olf:26 skos:related his:sulphurous__rotten__fecal_sulphur .
 
 olf:29 skos:related his:resinous_frankincense .
 
@@ -624,8 +626,6 @@ olf:389 skos:related his:animalistic_musk .
 olf:39 skos:related his:empyreumatic__smoky_tobacco .
 
 olf:392 skos:related his:sulphurous__rotten__fecal_rotten .
-
-olf:411 skos:related his:animalistic_goat .
 
 olf:43 skos:related his:empyreumatic__smoky_tobacco .
 
@@ -660,7 +660,7 @@ his:animalistic_goat a skos:Concept ;
     skos:broader his:animalistic ;
     skos:inScheme his: ;
     skos:prefLabel "Goat"@en ;
-    skos:related olf:411 .
+    skos:related olf:192 .
 
 his:animalistic_horse a skos:Concept ;
     skos:broader his:animalistic ;
@@ -723,11 +723,11 @@ his:empyreumatic__smoky_coffee a skos:Concept ;
     skos:related olf:457 .
 
 his:empyreumatic__smoky_frankincense a skos:Concept ;
-    schema1:subjectOf "Noah performing a burnt offering after reaching land" ;
     skos:broader his:empyreumatic__smoky ;
     skos:inScheme his: ;
     skos:prefLabel "Frankincense"@en ;
-    skos:related olf:9 .
+    skos:related olf:9 ;
+    schem:subjectOf "Noah performing a burnt offering after reaching land" .
 
 his:empyreumatic__smoky_myrrh a skos:Concept ;
     skos:broader his:empyreumatic__smoky ;
@@ -838,11 +838,11 @@ his:radical__root_tree_roots a skos:Concept ;
     skos:related fr:19 .
 
 his:resinous_frankincense a skos:Concept ;
-    schema1:subjectOf "Geertgen tot Sint Jans: Three Magi" ;
     skos:broader his:resinous ;
     skos:inScheme his: ;
     skos:prefLabel "Frankincense"@en ;
-    skos:related olf:29 .
+    skos:related olf:29 ;
+    schem:subjectOf "Geertgen tot Sint Jans: Three Magi" .
 
 his:resinous_labdanum a skos:Concept ;
     skos:broader his:resinous ;
@@ -851,11 +851,11 @@ his:resinous_labdanum a skos:Concept ;
     skos:related olf:125 .
 
 his:sour__acidic_ammonia a skos:Concept ;
-    schema1:subjectOf "Rembrandt: Allegory of Smell" ;
     skos:broader his:sour__acidic ;
     skos:inScheme his: ;
     skos:prefLabel "Ammonia"@en ;
-    skos:related olf:150 .
+    skos:related olf:150 ;
+    schem:subjectOf "Rembrandt: Allegory of Smell" .
 
 his:spicy_cinnamon a skos:Concept ;
     skos:broader his:spicy ;
@@ -911,12 +911,12 @@ his:chemical a skos:Concept ;
     skos:topConceptOf his: .
 
 his:empyreumatic__smoky_smoke a skos:Concept ;
-    schema1:subjectOf "Cityscape with factories and chimneys" ;
     skos:broader his:empyreumatic__smoky ;
     skos:inScheme his: ;
     skos:prefLabel "Smoke (cloud)"@en ;
     skos:related olf:34,
-        olf:56 .
+        olf:56 ;
+    schem:subjectOf "Cityscape with factories and chimneys" .
 
 his:fishy a skos:Concept ;
     skos:inScheme his: ;
@@ -948,23 +948,23 @@ olf:9 skos:related his:empyreumatic__smoky_animal_burning,
         his:empyreumatic__smoky_myrrh .
 
 his:empyreumatic__smoky_tobacco a skos:Concept ;
-    schema1:subjectOf "Someone smoking a pipe or cigar" ;
     skos:broader his:empyreumatic__smoky ;
     skos:inScheme his: ;
     skos:prefLabel "Tobacco"@en ;
     skos:related olf:34,
         olf:39,
-        olf:43 .
+        olf:43 ;
+    schem:subjectOf "Someone smoking a pipe or cigar" .
 
 his:perfume_perfume a skos:Concept ;
-    schema1:subjectOf "Giacomo Balla: Espansione di profumo, 1916",
-        "any Portrait of Napoleon" ;
     skos:broader his:perfume ;
     skos:inScheme his: ;
     skos:prefLabel "Perfume"@en ;
     skos:related olf:116,
         olf:58,
-        olf:60 .
+        olf:60 ;
+    schem:subjectOf "Giacomo Balla: Espansione di profumo, 1916",
+        "any Portrait of Napoleon" .
 
 his:sulphurous__rotten__fecal_rotten a skos:Concept ;
     skos:broader his:sulphurous__rotten__fecal ;
@@ -978,8 +978,8 @@ his:sulphurous__rotten__fecal_sulphur a skos:Concept ;
     skos:broader his:sulphurous__rotten__fecal ;
     skos:inScheme his: ;
     skos:prefLabel "Sulphur"@en ;
-    skos:related fr:98,
-        olf:26,
+    skos:related fr:11,
+        fr:98,
         olf:56 .
 
 his:animalistic_musk a skos:Concept ;
@@ -1221,7 +1221,6 @@ his:empyreumatic__smoky a skos:Concept ;
     skos:topConceptOf his: .
 
 his:floral a skos:Concept ;
-    schema1:subjectOf "Dirck de Bray: Still Life with Symbols of the Virgin Mary, 1672" ;
     skos:inScheme his: ;
     skos:narrower his:floral_carnation,
         his:floral_columbine,
@@ -1239,7 +1238,8 @@ his:floral a skos:Concept ;
         his:floral_tulip,
         his:floral_violet ;
     skos:prefLabel "Floral"@en ;
-    skos:topConceptOf his: .
+    skos:topConceptOf his: ;
+    schem:subjectOf "Dirck de Bray: Still Life with Symbols of the Virgin Mary, 1672" .
 
 his: a skos:ConceptScheme ;
     rdfs:label "A nose first classification system of iconographies, allegories and artefacts"@en ;

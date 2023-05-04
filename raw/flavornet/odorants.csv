@@ -26,9 +26,9 @@ id;cas;mol. wt.;level1;synonym;wikidata
 24;79-09-4;74;propanoic acid;propionic acid;http://www.wikidata.org/entity/Q27136415
 25;79-31-2;88;isobutyric acid;2-methylpropanoic acid;http://www.wikidata.org/entity/Q27136415
 26;79-77-6;192;β-ionone;4-(2,6,6-trimethyl-1-cyclohexen-1-yl)-3(E)-buten-2-one;http://www.wikidata.org/entity/Q27136415
-27;79-92-5;136;"camphene;2,2-dimethyl-3-methylene-bicyclo[2.2.1]heptane; 2,2-dimethyl-3-methylene norborane";;http://www.wikidata.org/entity/Q27136415
+27;79-92-5;136;camphene;2,2-dimethyl-3-methylene-bicyclo[2.2.1]heptane; 2,2-dimethyl-3-methylene norborane";;http://www.wikidata.org/entity/Q27136415
 28;80-26-2;196;terpinyl acetate;α-terpineol acetate;http://www.wikidata.org/entity/Q27136415
-29;80-56-8;136;"α-pinene;2,6,6-trimethylbicyclo[3.1.1]hept-2-ene; cyclic dexadiene";;http://www.wikidata.org/entity/Q27136415
+29;80-56-8;136;α-pinene;2,6,6-trimethylbicyclo[3.1.1]hept-2-ene, cyclic dexadiene;http://www.wikidata.org/entity/Q27136415
 30;83-34-1;131;skatole;3-methyl-1H-indole;http://www.wikidata.org/entity/Q27136415
 31;87-44-5;204;β-caryophyllene;[1R-(1R,4E,9S)]-4,11,11-trimethyl-8-methylene-bicyclo[7.2.0]undec-4-ene, (E)-caryophyllene;http://www.wikidata.org/entity/Q27136415
 32;87-91-2;206;diethyl tartrate;2,3-dihydroxy-butanedioic acid;http://www.wikidata.org/entity/Q27136415
@@ -52,7 +52,7 @@ id;cas;mol. wt.;level1;synonym;wikidata
 50;95-93-2;134;durene;1,2,4,5-tetramethylbenzene, durol;http://www.wikidata.org/entity/Q27136415
 51;96-17-3;86;methylbutanal;2-methylbutanal;http://www.wikidata.org/entity/Q27136415
 52;96-22-0;86;pentanone;3-pentanone;http://www.wikidata.org/entity/Q27136415
-53;96-48-0;86;"γ-butyrolactone;4-hydroxybutyric acid lactone; tetrahydro-2-furanone";;http://www.wikidata.org/entity/Q27136415
+53;96-48-0;86;γ-butyrolactone;4-hydroxybutyric acid lactone, tetrahydro-2-furanone;http://www.wikidata.org/entity/Q27136415
 54;97-42-7;194;carvyl acetate;trans-p-mentha-6,8-dien-2-ol;http://www.wikidata.org/entity/Q27136415
 55;97-47-3;226;phenylethyl benzoate;2-phenylethyl ester benzoic acid, 2-β-phenylethyl benzoate;http://www.wikidata.org/entity/Q27136415
 56;97-53-0;164;eugenol;4-allyl-2-methoxyphenol;http://www.wikidata.org/entity/Q27136415
@@ -71,7 +71,7 @@ id;cas;mol. wt.;level1;synonym;wikidata
 69;99-83-2;136;α-phellandrene;R-(-)-1,5-menthadiene, 2-methyl-5-isopropyl-1,3-cyclohexadiene, α-phellandrene;http://www.wikidata.org/entity/Q27136415
 70;99-85-4;136;γ-terpinene;1-methyl-4-(1-methylethyl)-1,4-cyclohexadiene;http://www.wikidata.org/entity/Q27136415
 71;99-86-5;136;α-terpinene;1-methyl-4-(1-methylethyl)-1,3-cyclohexadiene;http://www.wikidata.org/entity/Q27136415
-72;99-87-6;134;"p-cymene;4-isopropyltoluene; p-methyl cumene";;http://www.wikidata.org/entity/Q27136415
+72;99-87-6;134;p-cymene;4-isopropyltoluene, p-methyl cumene;http://www.wikidata.org/entity/Q27136415
 73;100-42-5;104;styrene;ethenylbenzene, phenylethylene;http://www.wikidata.org/entity/Q27136415
 74;100-47-0;103;phenyl cyanide;benzonitrile, cyanobenzene;http://www.wikidata.org/entity/Q27136415
 75;100-51-6;108;benzyl alcohol;benzyl alcohol, benzenemethanol;http://www.wikidata.org/entity/Q27136415
@@ -252,7 +252,7 @@ id;cas;mol. wt.;level1;synonym;wikidata
 250;501-52-0;150;hydrocinnamic acid;benzenepropanoic acid, 3-phenyl-n-propionic acid, benzylacetic acid;http://www.wikidata.org/entity/Q27136415
 251;501-92-8;134;chavicol;4-(2-propenyl)-phenol, p-hydroxyallybenzene;http://www.wikidata.org/entity/Q27136415
 252;501-98-4;164;p-coumaric acid;(E)-3-(4-hydroxyphenyl)-2-propenoic acid, 4-hydroxycinnamic acid;http://www.wikidata.org/entity/Q27136415
-253;502-61-4;204;"α-farnesene;(E,E)-3,7,11-trimethyl-1,3,6,10-dodecatetraene; 2,6,10-trimethyl-2,6,9,10-dodecatetrene, (E,E)-α-farnesene";;http://www.wikidata.org/entity/Q27136415
+253;502-61-4;204;α-farnesene;(E,E)-3,7,11-trimethyl-1,3,6,10-dodecatetraene, 2,6,10-trimethyl-2,6,9,10-dodecatetrene, (E,E)-α-farnesene;;http://www.wikidata.org/entity/Q27136415
 254;502-69-2;268;perhydrofarnesylacetone;6,10,14-trimethyl-2-pentadecanone;http://www.wikidata.org/entity/Q27136415
 255;502-99-8;136;α-ocimene;3,7-dimethyl-1,3,7-octatriene, 2,6-dimethyl-1,5,7-octatriene, α-ocimene, ocimene;http://www.wikidata.org/entity/Q27136415
 256;503-74-2;102;isovaleric acid;3-methylbutanoic acid, methylbutyric acid;http://www.wikidata.org/entity/Q27136415
@@ -289,7 +289,7 @@ id;cas;mol. wt.;level1;synonym;wikidata
 287;578-58-5;122;2-methyl anisole;1-methoxy-3-methyl-benzene, o-methylanisole, o-methoxytoluene;http://www.wikidata.org/entity/Q27136415
 288;581-42-0;156;2,6-dimethylnaphthalene;;http://www.wikidata.org/entity/Q27136415
 289;584-02-1;96;pentanol;3-pentanol;http://www.wikidata.org/entity/Q27136415
-290;586-62-9;136;"δ-terpinene;1-methyl-4-(1-methylehtylidene)cyclohexene; 1,4(8)-p-menthadiene, terpinolene";;http://www.wikidata.org/entity/Q27136415
+290;586-62-9;136;δ-terpinene;1-methyl-4-(1-methylehtylidene)cyclohexene, 1,4(8)-p-menthadiene, terpinolene;http://www.wikidata.org/entity/Q27136415
 291;586-82-3;154;3-terpinen-1-ol;1-methyl-4-(1-methylethyl)-3-cyclohexen-1-ol, p-menth-3-en-1-ol, 1-terpinenol, 1-terpineol;http://www.wikidata.org/entity/Q27136415
 292;589-38-8;100;hexanone;3-hexanone;http://www.wikidata.org/entity/Q27136415
 293;589-75-3;200;butyl octanoate;;http://www.wikidata.org/entity/Q27136415
@@ -333,10 +333,10 @@ id;cas;mol. wt.;level1;synonym;wikidata
 331;639-99-6;222;elemol;α-elemol;http://www.wikidata.org/entity/Q27136415
 332;644-30-4;202;α-curcumene;;http://www.wikidata.org/entity/Q27136415
 333;693-95-8;99;4-methylthiazole;4-methyl-1,3-thiazole;http://www.wikidata.org/entity/Q27136415
-334;695-06-7;114;"4-hexanolide;γ-ethyl-γ-butyrolactone; γ-caproalctone, γ-hexalactone";;http://www.wikidata.org/entity/Q27136415
+334;695-06-7;114;4-hexanolide;γ-ethyl-γ-butyrolactone; γ-caproalctone, γ-hexalactone;http://www.wikidata.org/entity/Q27136415
 335;698-10-2;142;abhexone;5-ethyl-3-hydroxy-4-methyl-2(5H)-furanone;http://www.wikidata.org/entity/Q27136415
 336;698-76-0;142;5-octanolide;5-hydroxyoctanoic acid lactone, δ-octalactone, R-δ-octalactone, δ-propyl-δ-valerolactone;http://www.wikidata.org/entity/Q27136415
-337;705-86-2;170;"δ-decalactone;5-decanolide; δ-lactone 5-hydroxydecanoic acid";;http://www.wikidata.org/entity/Q27136415
+337;705-86-2;170;δ-decalactone;5-decanolide, δ-lactone 5-hydroxydecanoic acid;http://www.wikidata.org/entity/Q27136415
 338;706-14-9;170;γ-decalactone;5-hexyldihydro-2(3H)-furanone,4-decanolide;http://www.wikidata.org/entity/Q27136415
 339;710-04-3;184;δ-undecalactone;δ-undecalactone, 5-undecanolide;http://www.wikidata.org/entity/Q27136415
 340;713-95-1;198;δ-dodecalactone;6-heptyltetrahydro-2H-pyran-2-one, 5-dodecanolide;http://www.wikidata.org/entity/Q27136415
@@ -390,7 +390,7 @@ id;cas;mol. wt.;level1;synonym;wikidata
 388;2021-28-5;178;ethyl dihydrocinnamate;ethyl 3-phenylpropanoate;http://www.wikidata.org/entity/Q27136415
 389;2051-50-5;172;octyl acetate;2-octyl acetate;http://www.wikidata.org/entity/Q27136415
 390;2111-75-3;150;perilla aldehyde;4-(1-methylethenyl)-1-cyclohexene-1-carboxaldehyde;http://www.wikidata.org/entity/Q27136415
-391;2216-51-5;156;"l-menthol;[R-(1alpha,2beta,5beta)]-5-methyl-2-(1-methylethyl)-cyclohexanol; L-p-menthan-3-ol";;http://www.wikidata.org/entity/Q27136415
+391;2216-51-5;156;l-menthol;[R-(1alpha,2beta,5beta)]-5-methyl-2-(1-methylethyl)-cyclohexanol, L-p-menthan-3-ol;http://www.wikidata.org/entity/Q27136415
 392;2243-33-6;136;(+)-α-phellandrene;(+)-(4S)-α-phellandrene;http://www.wikidata.org/entity/Q27136415
 393;2244-16-8;150;(+)-carvone;(+)-(4S)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-one, (+)-(4S)-carvol, D-carvone;http://www.wikidata.org/entity/Q27136415
 394;2294-76-0;149;pentylpyridine;2-pentylpyridine;http://www.wikidata.org/entity/Q27136415
@@ -426,7 +426,7 @@ id;cas;mol. wt.;level1;synonym;wikidata
 424;3387-41-5;136;sabinene;1-isopropyl-4-methylenebicyclo[3.1.0]hexane;http://www.wikidata.org/entity/Q27136415
 425;3391-86-4;128;octenol;1-octen-3-ol;http://www.wikidata.org/entity/Q27136415
 426;3581-91-7;113;dimethylthiazole;4,5-dimethyl thiazole;http://www.wikidata.org/entity/Q27136415
-427;3658-77-3;112;furaneol™;2,5-dimethyl-4-hydroxy-3[2H]-furanone;http://www.wikidata.org/entity/Q27136415
+427;3658-77-3;112;furaneol;2,5-dimethyl-4-hydroxy-3[2H]-furanone;http://www.wikidata.org/entity/Q27136415
 428;3658-80-8;126;dimethyl trisulfide;;http://www.wikidata.org/entity/Q27136415
 429;3681-71-8;142;hexenyl acetate;(Z)-3-hexenyl acetate;http://www.wikidata.org/entity/Q27136415
 430;3691-12-1;204;α-guaiene;guaia-1(5),11-diene, [1S-(1a,4a,7a)]-1,2,3,4,5,6,7,8-octahydro-1,4-dimethyl-7-(1-methylethenyl)-azulene;http://www.wikidata.org/entity/Q27136415
@@ -475,19 +475,19 @@ id;cas;mol. wt.;level1;synonym;wikidata
 473;5932-68-3;164;(E)-isoeugenol;trans-isoeugenol;http://www.wikidata.org/entity/Q27136415
 474;5944-20-7;154;isogeraniol;cis-isogeraniol;http://www.wikidata.org/entity/Q27136415
 475;5948-04-9;152;(E)-dihydrocarvone;trans-2-methyl-5-(1-methylethenyl)-cyclohexanone, trans-p-menth-8-en-2-one;http://www.wikidata.org/entity/Q27136415
-476;5989-27-5;136;"(+)-limonene,;(+)-(4R)-1-methyl-4-(1-methylethenyl)cyclohexene; (+)-carvene; D-1,8-p-menthadiene, D-limonene";;http://www.wikidata.org/entity/Q27136415
+476;5989-27-5;136;(+)-limonene;(+)-(4R)-1-methyl-4-(1-methylethenyl)cyclohexene; (+)-carvene; D-1,8-p-menthadiene, D-limonene;http://www.wikidata.org/entity/Q27136415
 477;5989-33-3;170;(Z)-linalool oxide;(Z)-2-methyl-2-vinyl-5-(2-hydroxy-2-proply)tetrahydrfuran, cis-linalool furan oxide;http://www.wikidata.org/entity/Q27136415
 478;6032-29-7;88;2-pentanol;;http://www.wikidata.org/entity/Q27136415
 479;6125-24-2;151;nitro-phenylethane;1-nitro-2-phenylethane;http://www.wikidata.org/entity/Q27136415
 480;6258-63-5;130;thenylthiol;2-Thiophenemethanethiol, Thenyl mercaptan;http://www.wikidata.org/entity/Q27136415
 481;6378-65-0;200;hexyl hexanoate;;http://www.wikidata.org/entity/Q27136415
-482;6485-40-1;150;"(-)-carvone;l-p-mentha-6,8(9)-dien-2-one; 1-methyl-4-isopropenyl-6-cycloxen-2-one, l-carvone";;http://www.wikidata.org/entity/Q27136415
+482;6485-40-1;150;(-)-carvone;l-p-mentha-6,8(9)-dien-2-one, 1-methyl-4-isopropenyl-6-cycloxen-2-one, l-carvone;http://www.wikidata.org/entity/Q27136415
 483;6627-88-9;194;6-Methoxyeugenol;4-allyl-2,6-dimethoxyphenol, 2,6-dimethoxy-4-(2-propenyl)- phenol, 4-Allylsyringol;http://www.wikidata.org/entity/Q27136415
 484;6728-26-3;98;2-hexenal;(E)-2-hexenal;http://www.wikidata.org/entity/Q27136415
 485;6728-31-0;112;4-heptenal;(Z)-4-heptenal;http://www.wikidata.org/entity/Q27136415
 486;6750-03-4;138;2,4-nonadienal;;http://www.wikidata.org/entity/Q27136415
 487;6750-60-3;220;spathulenol;(+)-spathulenol, espatulenol;http://www.wikidata.org/entity/Q27136415
-488;6753-98-6;204;"α-humulene;(E,E,E)-2,6,6-(9-tetrametyl)-1,4,8-cycloundecatriene; α-caryphyllene";;http://www.wikidata.org/entity/Q27136415
+488;6753-98-6;204;α-humulene;(E,E,E)-2,6,6-(9-tetrametyl)-1,4,8-cycloundecatriene, α-caryphyllene;http://www.wikidata.org/entity/Q27136415
 489;6789-80-6;98;3-hexenal;(Z)-3-hexenal;http://www.wikidata.org/entity/Q27136415
 490;6909-30-4;152;(+)-(E)-limonene oxide;(+)-trans-limonene-1,2-epoxide;http://www.wikidata.org/entity/Q27136415
 491;7212-40-0;152;(E)-p-mentha-2,8-dien-1-ol;;http://www.wikidata.org/entity/Q27136415
@@ -613,7 +613,7 @@ id;cas;mol. wt.;level1;synonym;wikidata
 611;27400-71-1;136;ocimene;(Z)-ocimene;http://www.wikidata.org/entity/Q27136415
 612;27538-09-6;142;methyl furaneol;5-ethyl-4-hydroxy-2-methyl-3(2H)-furanone;http://www.wikidata.org/entity/Q27136415
 613;27538-10-9;142;homofuraneol;2-ethyl-4-hydroxy-5-methyl-3(2H)-furanone, homofuraneol, ethyl-furaneol;http://www.wikidata.org/entity/Q27136415
-614;27576-03-0;132;p;a -dimethylstyrol, 4-methyl-α-methylstyrene, 2-p-tolyl propene;http://www.wikidata.org/entity/Q27136415
+614;27576-03-0;132;p, a -dimethylstyrol; 4-methyl-α-methylstyrene, 2-p-tolyl propene;http://www.wikidata.org/entity/Q27136415
 615;28069-72-9;140;nonadienol;(E,Z)-2,6-nonadien-1-ol;http://www.wikidata.org/entity/Q27136415
 616;28231-03-0;220;cedrenol;cedr-8(15)-en-9-ol;http://www.wikidata.org/entity/Q27136415
 617;28588-74-1;114;methylfuranthiol;2-methyl-3-furanthiol;http://www.wikidata.org/entity/Q27136415
