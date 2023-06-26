@@ -715,14 +715,14 @@ wordnet:04116429-n skos:exactMatch olf:136 .
 wordnet:07828160-n skos:exactMatch olf:177 .
 
 olf:119 a skos:Concept ;
+    skos:broader olf:554 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Perfume Equipment"@en,
         "Équipement de parfum"@fr,
         "Attrezzatura per profumi"@it,
         "Parfumbenodigheden"@nl,
         "Parfumska oprema"@sl ;
-    skos:related olf:65 ;
-    skos:topConceptOf voc:olfactory-objects .
+    skos:related olf:65 .
 
 olf:12 a skos:Concept ;
     dct:bibliographicCitation "https://en.wikipedia.org/wiki/The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp#cite_note-Rachlin-1"@en ;
@@ -1290,27 +1290,12 @@ olf:425 a skos:Concept ;
 
 olf:426 a skos:Concept ;
     skos:altLabel "Agarwood"@sl ;
+    skos:broader olf:476 ;
     skos:definition "Tropische houtsoort. Arendshout. Is een vast, hard, zwaer, graeuw, bruin of zwart, en harstachtig hout, dat een' lieflyken … reuk van zich geeft, als men het by 't vuur houd of brand,   lemery-v. putten, Wdb. d. Droogeryen 397 b [1743]."@nl ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Lignum Aquilae"@en,
         "Arendshout"@nl,
-        "Agarski les"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
-olf:434 a skos:Concept ;
-    dct:bibliographicCitation "Petun, Tabak, Nicotiana, oft Bilsencruyt van Peru, soo men dat mach noemen,   dodon. 804 b [ed. 1608]."@nl ;
-    owl:sameAs wd:Q161058 ;
-    skos:definition "Hyoscyamus niger"@en,
-        "Een geslacht van vergiftige planten, behoorende tot de familie der Solanaceae, en geheeten Hyoscyamus; verschillende soorten komen voor, hier te lande het zwart bilzenkruid. De reuk is zeer onaangenaam, het sap heeft eene verdoovende werking (vandaar de namen malkruid, dolkruid, malwillempjeskruid), en wordt in de geneeskunde gebruikt (verg. oudemans, Flora² 2, 382 en 388 )"@nl ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Schwarze Bilsenkraut"@de,
-        "Henbane"@en,
-        "Jusquiame"@fr,
-        "Giusquiamo"@it,
-        "Bilzenkruid"@nl,
-        "Črni zobnik"@sl ;
-    skos:topConceptOf voc:olfactory-objects ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Henbane1.JPG> .
+        "Agarski les"@sl .
 
 olf:435 a skos:Concept ;
     owl:sameAs wd:Q161232 ;
@@ -1591,7 +1576,8 @@ olf:504 a skos:Concept ;
         "Sauterelle"@fr,
         "Cavalletta"@it,
         "Sprinkhaan"@nl,
-        "Kobilica"@sl .
+        "Kobilica"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Oxya%20yezoensis%20November%202007%20WUXGA.jpg> .
 
 olf:506 a skos:Concept ;
     owl:sameAs wd:Q15629245 ;
@@ -2072,6 +2058,20 @@ olf:577 a skos:Concept ;
         "Odpadne vode"@sl ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Discharge%20pipe.jpg> .
 
+olf:578 a skos:Concept ;
+    owl:sameAs wd:Q3736439 ;
+    skos:altLabel "Anatinae"@de,
+        "Teal"@en ;
+    skos:broader olf:461,
+        olf:555 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Enten"@de,
+        "Duck"@en,
+        "Canard"@fr,
+        "Anatra"@it,
+        "Eenden"@nl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bucephala-albeola-010.jpg> .
+
 olf:62 a skos:Concept ;
     owl:sameAs wd:Q170885 ;
     skos:altLabel "Eterično olje"@sl ;
@@ -2348,20 +2348,6 @@ olf:164 a skos:Concept ;
         "Srebrna embalaža za parfum"@sl ;
     skos:related olf:20 ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Raspberry%20vinaigrette.jpg> .
-
-olf:174 a skos:Concept ;
-    owl:sameAs wd:Q845242 ;
-    skos:altLabel "Still"@en,
-        "Hruškasta posoda"@sl ;
-    skos:definition "Alchemic tool used for distilling"@en ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Alembic"@en,
-        "Alambic"@fr,
-        "Alambicco"@it,
-        "Alambiek"@nl,
-        "Retorta"@sl ;
-    skos:topConceptOf voc:olfactory-objects ;
-    schema:image <https://data.odeuropa.eu/image/ss/174.Alembic_Europeana%209200579_w8xhqhj6.png> .
 
 olf:19 a skos:Concept ;
     owl:sameAs wd:Q3398846 ;
@@ -3621,6 +3607,22 @@ olf:433 a skos:Concept ;
         "Asfalt"@sl ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/McKittrick%20Tar%20Seep%20North%20of%20Highway%2058.jpg> .
 
+olf:434 a skos:Concept ;
+    dct:bibliographicCitation "Petun, Tabak, Nicotiana, oft Bilsencruyt van Peru, soo men dat mach noemen,   dodon. 804 b [ed. 1608]."@nl ;
+    owl:sameAs wd:Q161058 ;
+    skos:broader olf:560,
+        olf:72 ;
+    skos:definition "Hyoscyamus niger"@en,
+        "Een geslacht van vergiftige planten, behoorende tot de familie der Solanaceae, en geheeten Hyoscyamus; verschillende soorten komen voor, hier te lande het zwart bilzenkruid. De reuk is zeer onaangenaam, het sap heeft eene verdoovende werking (vandaar de namen malkruid, dolkruid, malwillempjeskruid), en wordt in de geneeskunde gebruikt (verg. oudemans, Flora² 2, 382 en 388 )"@nl ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Schwarze Bilsenkraut"@de,
+        "Henbane"@en,
+        "Jusquiame"@fr,
+        "Giusquiamo"@it,
+        "Bilzenkruid"@nl,
+        "Črni zobnik"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Henbane1.JPG> .
+
 olf:436 a skos:Concept ;
     owl:sameAs wd:Q156267 ;
     skos:broader olf:47,
@@ -4363,6 +4365,21 @@ olf:172 a skos:Concept ;
         "Patchoeli"@nl,
         "Pačuli"@sl ;
     skos:related olf:260 .
+
+olf:174 a skos:Concept ;
+    owl:sameAs wd:Q845242 ;
+    skos:altLabel "Still"@en,
+        "Hruškasta posoda"@sl ;
+    skos:broader olf:554 ;
+    skos:definition "Alchemic tool used for distilling"@en ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Alembic"@en,
+        "Alambic"@fr,
+        "Alambicco"@it,
+        "Alambiek"@nl,
+        "Retorta"@sl ;
+    skos:related olf:10 ;
+    schema:image <https://data.odeuropa.eu/image/ss/174.Alembic_Europeana%209200579_w8xhqhj6.png> .
 
 olf:175 a skos:Concept ;
     owl:sameAs wd:Q101711 ;
@@ -5362,24 +5379,6 @@ olf:472 a skos:Concept ;
         "Zapestnica"@sl ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bracelet%20Amrit%20Louvre%20Bj2238b.jpg> .
 
-olf:476 a skos:Concept ;
-    owl:sameAs wd:Q287 ;
-    skos:altLabel "Rinde"@de,
-        "Corteccia"@it,
-        "Legna"@it ;
-    skos:broader olf:200,
-        olf:560 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:narrower olf:202,
-        olf:396 ;
-    skos:prefLabel "Holz"@de,
-        "Wood"@en,
-        "Bois"@fr,
-        "Legno"@it,
-        "Hout"@nl,
-        "Lés"@sl ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Arquitectura%20en%20madera.jpg> .
-
 olf:477 a skos:Concept ;
     skos:broader olf:459,
         olf:555 ;
@@ -5769,6 +5768,25 @@ olf:458 a skos:Concept ;
     skos:related olf:161 ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Teapot%202010%20G1.jpg> .
 
+olf:476 a skos:Concept ;
+    owl:sameAs wd:Q287 ;
+    skos:altLabel "Rinde"@de,
+        "Corteccia"@it,
+        "Legna"@it ;
+    skos:broader olf:200,
+        olf:560 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olf:202,
+        olf:396,
+        olf:426 ;
+    skos:prefLabel "Holz"@de,
+        "Wood"@en,
+        "Bois"@fr,
+        "Legno"@it,
+        "Hout"@nl,
+        "Lés"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Arquitectura%20en%20madera.jpg> .
+
 olf:478 a skos:Concept ;
     owl:sameAs wd:Q10811 ;
     skos:broader olf:459,
@@ -5876,22 +5894,6 @@ olf:77 a skos:Concept ;
         "Smeti"@sl ;
     schema:image <https://data.odeuropa.eu/image/ss/77.waste.rijksmuseum_RP-P-1939-1079.jpg> .
 
-olf:10 a skos:Concept ;
-    dct:bibliographicCitation "https://www.britannica.com/topic/alchemy"@en ;
-    skos:altLabel "Alchemistische apparatuur"@nl ;
-    skos:broader olf:554 ;
-    skos:closeMatch iconclass:3,
-        iconclass:4,
-        iconclass:9,
-        iconclass:E ;
-    skos:definition "Tools used in the process of alchemy"@en ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Alchemy Equipment"@en,
-        "Équipement d'alchimie"@fr,
-        "Attrezzatura alchemica"@it,
-        "Alchemiebenodigdheden"@nl,
-        "Alkimistična oprema"@sl .
-
 olf:15 a skos:Concept ;
     owl:sameAs wd:Q44 ;
     skos:broader olf:405,
@@ -5909,6 +5911,25 @@ olf:15 a skos:Concept ;
         "Pivo"@sl ;
     skos:related olf:364 ;
     schema:image <https://data.odeuropa.eu/image/ss/15.Beer_Louvre_0000599120_OG.JPG> .
+
+olf:178 a skos:Concept ;
+    owl:sameAs wd:Q192935 ;
+    skos:altLabel "Marée"@fr,
+        "Produit de la mer"@fr ;
+    skos:broader olf:405 ;
+    skos:closeMatch iconclass:1,
+        iconclass:4,
+        iconclass:6,
+        iconclass:8,
+        iconclass:C ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Meeresfrüchte"@de,
+        "Seafood"@en,
+        "Fruit de mer"@fr,
+        "Frutto di mare"@it,
+        "Zeevruchten"@nl,
+        "Morska hrana"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/178.Sea%20food_Rijksmuseum_SK-A-2111.jpg> .
 
 olf:180 a skos:Concept ;
     owl:sameAs wd:Q10990 ;
@@ -6302,23 +6323,6 @@ olf:452 a skos:Concept ;
     skos:related olf:456 ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Voller%20grüner%20Weinkranz%20Krug%200,8l.jpg> .
 
-olf:461 a skos:Concept ;
-    owl:sameAs wd:Q5113 ;
-    skos:broader olf:459,
-        olf:555 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:narrower olf:194,
-        olf:195,
-        olf:387,
-        olf:428 ;
-    skos:prefLabel "Vogel"@de,
-        "Bird"@en,
-        "Oiseau"@fr,
-        "Uccello"@it,
-        "Vogel"@nl,
-        "Ptica"@sl ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Female%20house%20sparrow%20at%20Kodai.jpg> .
-
 olf:473 a skos:Concept ;
     owl:sameAs wd:Q46847 ;
     skos:broader olf:4,
@@ -6498,6 +6502,23 @@ olf:9 a skos:Concept ;
         "Žgalna daritev"@sl ;
     skos:related olf:264 ;
     schema:image <https://data.odeuropa.eu/image/ss/9.Burnt%20offering_Louvre_AGO213105-000_PE.jpg> .
+
+olf:10 a skos:Concept ;
+    dct:bibliographicCitation "https://www.britannica.com/topic/alchemy"@en ;
+    skos:altLabel "Alchemistische apparatuur"@nl ;
+    skos:broader olf:554 ;
+    skos:closeMatch iconclass:3,
+        iconclass:4,
+        iconclass:9,
+        iconclass:E ;
+    skos:definition "Tools used in the process of alchemy"@en ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Alchemy Equipment"@en,
+        "Équipement d'alchimie"@fr,
+        "Attrezzatura alchemica"@it,
+        "Alchemiebenodigdheden"@nl,
+        "Alkimistična oprema"@sl ;
+    skos:related olf:174 .
 
 olf:11 a skos:Concept ;
     skos:altLabel "Attrezzatura da speziale"@it ;
@@ -6687,26 +6708,6 @@ olf:176 a skos:Concept ;
         "Was, wasgoed"@nl,
         "Perilo"@sl ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Madagascar%2006%20545%20-%20Flickr%20-%20gailhampshire.jpg> .
-
-olf:178 a skos:Concept ;
-    owl:sameAs wd:Q192935 ;
-    skos:altLabel "Marée"@fr,
-        "Produit de la mer"@fr ;
-    skos:broader olf:177,
-        olf:405 ;
-    skos:closeMatch iconclass:1,
-        iconclass:4,
-        iconclass:6,
-        iconclass:8,
-        iconclass:C ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Meeresfrüchte"@de,
-        "Seafood"@en,
-        "Fruit de mer"@fr,
-        "Frutto di mare"@it,
-        "Zeevruchten"@nl,
-        "Morska hrana"@sl ;
-    schema:image <https://data.odeuropa.eu/image/ss/178.Sea%20food_Rijksmuseum_SK-A-2111.jpg> .
 
 olf:181 a skos:Concept ;
     owl:sameAs wd:Q131419 ;
@@ -7071,6 +7072,24 @@ olf:377 a skos:Concept ;
         "Vervuiling"@nl,
         "Onesnaževanje"@sl ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Factory.gif> .
+
+olf:461 a skos:Concept ;
+    owl:sameAs wd:Q5113 ;
+    skos:broader olf:459,
+        olf:555 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olf:194,
+        olf:195,
+        olf:387,
+        olf:428,
+        olf:578 ;
+    skos:prefLabel "Vogel"@de,
+        "Bird"@en,
+        "Oiseau"@fr,
+        "Uccello"@it,
+        "Vogel"@nl,
+        "Ptica"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Female%20house%20sparrow%20at%20Kodai.jpg> .
 
 olf:47 a skos:Concept ;
     owl:sameAs wd:Q24489 ;
@@ -9798,6 +9817,43 @@ olf:533 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Da%20Vinci%20Vitruve%20Luc%20Viatour.jpg> .
 
+olf:177 a skos:Concept ;
+    owl:sameAs wd:Q42527 ;
+    skos:broader olf:405 ;
+    skos:closeMatch iconclass:1,
+        iconclass:3,
+        iconclass:4,
+        iconclass:C ;
+    skos:exactMatch wordnet:07828160-n ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olf:156,
+        olf:206,
+        olf:212,
+        olf:213,
+        olf:214,
+        olf:215,
+        olf:320,
+        olf:321,
+        olf:323,
+        olf:324,
+        olf:325,
+        olf:326,
+        olf:330,
+        olf:331,
+        olf:386,
+        olf:395,
+        olf:406,
+        olf:411,
+        olf:414,
+        olf:427 ;
+    skos:prefLabel "Gewürze"@de,
+        "Spice"@en,
+        "Épices"@fr,
+        "Spezie"@it,
+        "Specerijen"@nl,
+        "Začimba"@sl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Spices1.jpg> .
+
 iconclass:A skos:closeMatch olf:111,
         olf:116,
         olf:125,
@@ -9825,44 +9881,6 @@ iconclass:A skos:closeMatch olf:111,
         olf:69,
         olf:70,
         olf:9 .
-
-olf:177 a skos:Concept ;
-    owl:sameAs wd:Q42527 ;
-    skos:broader olf:405 ;
-    skos:closeMatch iconclass:1,
-        iconclass:3,
-        iconclass:4,
-        iconclass:C ;
-    skos:exactMatch wordnet:07828160-n ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:narrower olf:156,
-        olf:178,
-        olf:206,
-        olf:212,
-        olf:213,
-        olf:214,
-        olf:215,
-        olf:320,
-        olf:321,
-        olf:323,
-        olf:324,
-        olf:325,
-        olf:326,
-        olf:330,
-        olf:331,
-        olf:386,
-        olf:395,
-        olf:406,
-        olf:411,
-        olf:414,
-        olf:427 ;
-    skos:prefLabel "Gewürze"@de,
-        "Spice"@en,
-        "Épices"@fr,
-        "Spezie"@it,
-        "Specerijen"@nl,
-        "Začimba"@sl ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Spices1.jpg> .
 
 olf:480 a skos:Concept ;
     owl:sameAs wd:Q7377 ;
@@ -10141,70 +10159,6 @@ iconclass:C skos:closeMatch olf:112,
         olf:50,
         olf:89 .
 
-olf:72 a skos:Concept ;
-    owl:sameAs wd:Q506 ;
-    skos:altLabel "Cvetlice"@sl ;
-    skos:broader olf:560,
-        olf:78 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:4,
-        iconclass:5,
-        iconclass:G ;
-    skos:definition "Symbol of spring and the sense of smell"@en ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:narrower olf:104,
-        olf:138,
-        olf:162,
-        olf:170,
-        olf:171,
-        olf:175,
-        olf:219,
-        olf:221,
-        olf:223,
-        olf:226,
-        olf:236,
-        olf:237,
-        olf:250,
-        olf:255,
-        olf:257,
-        olf:258,
-        olf:27,
-        olf:329,
-        olf:350,
-        olf:361,
-        olf:384,
-        olf:389,
-        olf:391,
-        olf:415,
-        olf:437,
-        olf:438,
-        olf:439,
-        olf:440,
-        olf:482,
-        olf:486,
-        olf:487,
-        olf:497,
-        olf:529,
-        olf:545,
-        olf:567,
-        olf:568,
-        olf:569,
-        olf:570,
-        olf:573,
-        olf:575,
-        olf:73,
-        olf:82,
-        olf:91,
-        olf:92 ;
-    skos:prefLabel "Blumen"@de,
-        "Flower"@en,
-        "Fleur"@fr,
-        "Fiore"@it,
-        "Bloemen"@nl,
-        "Rože"@sl ;
-    schema:image <https://data.odeuropa.eu/image/ss/72.Flower_640px-Giulio_Carpioni_and_Francesco_Caldei_-_Smell%20copy.jpg> .
-
 <http://iconclass.org/.> skos:closeMatch olf:101,
         olf:102,
         olf:103,
@@ -10257,6 +10211,71 @@ olf:72 a skos:Concept ;
         olf:61,
         olf:79,
         olf:92 .
+
+olf:72 a skos:Concept ;
+    owl:sameAs wd:Q506 ;
+    skos:altLabel "Cvetlice"@sl ;
+    skos:broader olf:560,
+        olf:78 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:4,
+        iconclass:5,
+        iconclass:G ;
+    skos:definition "Symbol of spring and the sense of smell"@en ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olf:104,
+        olf:138,
+        olf:162,
+        olf:170,
+        olf:171,
+        olf:175,
+        olf:219,
+        olf:221,
+        olf:223,
+        olf:226,
+        olf:236,
+        olf:237,
+        olf:250,
+        olf:255,
+        olf:257,
+        olf:258,
+        olf:27,
+        olf:329,
+        olf:350,
+        olf:361,
+        olf:384,
+        olf:389,
+        olf:391,
+        olf:415,
+        olf:434,
+        olf:437,
+        olf:438,
+        olf:439,
+        olf:440,
+        olf:482,
+        olf:486,
+        olf:487,
+        olf:497,
+        olf:529,
+        olf:545,
+        olf:567,
+        olf:568,
+        olf:569,
+        olf:570,
+        olf:573,
+        olf:575,
+        olf:73,
+        olf:82,
+        olf:91,
+        olf:92 ;
+    skos:prefLabel "Blumen"@de,
+        "Flower"@en,
+        "Fleur"@fr,
+        "Fiore"@it,
+        "Bloemen"@nl,
+        "Rože"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/72.Flower_640px-Giulio_Carpioni_and_Francesco_Caldei_-_Smell%20copy.jpg> .
 
 iconclass:G skos:closeMatch olf:103,
         olf:11,
@@ -10616,6 +10635,7 @@ olf:555 a skos:Concept ;
         olf:55,
         olf:56,
         olf:571,
+        olf:578,
         olf:68 ;
     skos:prefLabel "Being"@en,
         "Créature"@fr,
@@ -10789,6 +10809,7 @@ olf:560 a skos:Concept ;
         olf:422,
         olf:425,
         olf:429,
+        olf:434,
         olf:435,
         olf:437,
         olf:438,
@@ -11237,6 +11258,7 @@ olf:554 a skos:Concept ;
         olf:116,
         olf:117,
         olf:118,
+        olf:119,
         olf:120,
         olf:121,
         olf:122,
@@ -11267,6 +11289,7 @@ olf:554 a skos:Concept ;
         olf:159,
         olf:163,
         olf:168,
+        olf:174,
         olf:176,
         olf:179,
         olf:19,
@@ -11521,14 +11544,10 @@ olf:405 a skos:Concept ;
 voc:olfactory-objects a skos:ConceptScheme ;
     rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2023-05-04"^^xsd:date ;
-    pav:createdOn "2023-05-04"^^xsd:date ;
+    dct:modified "2023-06-26"^^xsd:date ;
+    pav:createdOn "2023-06-26"^^xsd:date ;
     pav:version "0.1" ;
-    skos:hasTopConcept olf:119,
-        olf:174,
-        olf:405,
-        olf:426,
-        olf:434,
+    skos:hasTopConcept olf:405,
         olf:475,
         olf:533,
         olf:554,

@@ -17,7 +17,7 @@ odor:1 a skos:Concept ;
     wdt:P274 "C7 H10 O3" .
 
 odor:10 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q419484 ;
     skos:altLabel "Butanoic Acid, Pentyl Ester"@en,
         "Butyric Acid, Amyl Ester"@en,
         "Butyric Acid:Pentyl  Ester"@en,
@@ -29,7 +29,7 @@ odor:10 a skos:Concept ;
     wdt:P274 "C9 H18 O2" .
 
 odor:100 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q6527408 ;
     skos:altLabel "6-Methyl Quinoline"@en,
         "Lepidine"@en,
         "Quinoline, 4-Methyl"@en ;
@@ -40,7 +40,7 @@ odor:100 a skos:Concept ;
     wdt:P274 "C10 H9 N1" .
 
 odor:101 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q63398365 ;
     skos:altLabel "4-Pyridinecarboxylic Acid: Methyl Ester"@en,
         "Isonicotinic Acid: Methyl Ester"@en ;
     skos:inScheme odor: ;
@@ -50,7 +50,7 @@ odor:101 a skos:Concept ;
     wdt:P274 "C7 H7 N1 O2" .
 
 odor:102 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q407669 ;
     skos:altLabel "Benzoic Acid,  2-Hydroxy:  Methyl Ester"@en,
         "Salicylate, Methyl"@en,
         "Salicylic Acid: Methyl Ester"@en ;
@@ -61,7 +61,7 @@ odor:102 a skos:Concept ;
     wdt:P274 "C8 H8 O3" .
 
 odor:103 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27161441 ;
     skos:altLabel "Butanethioic Acid:  S-Methyl Ester"@en,
         "Butyric Acid,  Thio-:  S-Methyl Ester"@en ;
     skos:inScheme odor: ;
@@ -71,7 +71,7 @@ odor:103 a skos:Concept ;
     wdt:P274 "C5 H10 O1 S1" .
 
 odor:104 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q2268349 ;
     skos:altLabel "Cyclopenta(G)-2-Benzopyran, 1,3,4,6,7,8-Hexahydro-4,6,6,7,8,8-Hexamethyl Galaxolide"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Musk Galaxolide"@en ;
@@ -80,7 +80,6 @@ odor:104 a skos:Concept ;
     wdt:P274 "C18 H26 O1" .
 
 odor:105 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "Ethanone L-(1,2,3,4-Tetrahydro-L,1,2,4,4,7-Hexamethyl Napkthalen-6-Yl) 2'-Acetonaphthone,5' 6',7' 8'-Tetrahydro-3',5',5' 6',8',8'-Hexamethyl Naphthalene, 6-Acetyl-L,2,3,4-Tetrahydro-L,1,2,4,4,7-Hexamethyl Ethanone, L-(5,6,7,8-Tetrahydro-3,5,5,6,8.8-Hexamethyl-2-Naphthalenyl)-"@en,
         "Fixalide  C"@en,
         "Musk  200"@en,
@@ -93,7 +92,7 @@ odor:105 a skos:Concept ;
     wdt:P274 "C18 H26 O1" .
 
 odor:106 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q72494457 ;
     skos:altLabel "3-Cyclohexene-L-Carboxaldehyde, 4-(4-Methyl-3-Pentenyl)"@en,
         "Empetal"@en ;
     skos:inScheme odor: ;
@@ -103,7 +102,7 @@ odor:106 a skos:Concept ;
     wdt:P274 "C13 H20 O1" .
 
 odor:107 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q9579862 ;
     skos:altLabel "1-Nonalol:  Acetate"@en,
         "Nonanyl Acetate"@en,
         "Nonyl Alcohol: Acetate"@en ;
@@ -114,7 +113,7 @@ odor:107 a skos:Concept ;
     wdt:P274 "C11 H22 O2" .
 
 odor:108 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q417896 ;
     skos:altLabel "2(3H)-Naphthalenone,  4,4A,5,6,7,8-Hexahydro-6-Isopropenyl-4,4A-Dimethyl"@en,
         "2(3H)-Naphthalenone,  4,4A,5,6,7.8-Hexahydro-4,4A-Dimethyl-6-(1-Methyl Ethenyl)"@en ;
     skos:inScheme odor: ;
@@ -124,7 +123,7 @@ odor:108 a skos:Concept ;
     wdt:P274 "C15 H22 O1" .
 
 odor:109 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q161666 ;
     skos:altLabel "Capryl Alcohol"@en,
         "Octyl Alcohol"@en ;
     skos:inScheme odor: ;
@@ -134,7 +133,7 @@ odor:109 a skos:Concept ;
     wdt:P274 "C8 H18 O1" .
 
 odor:11 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q81996311 ;
     skos:altLabel "Benzene, (2-(Diethoxymethyl)-1-Heptenyl) Cinnamaldehyde, Alpha-Pentyl: Diethyl Acetal"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Amyl Cinnamic Aldehyde Diethyl Acetal"@en ;
@@ -143,7 +142,7 @@ odor:11 a skos:Concept ;
     wdt:P274 "C18 H28 O2" .
 
 odor:110 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q161667 ;
     skos:altLabel "Amyl Vinyl Carbinol"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Octenol: 1-Octen-3-OL"@en ;
@@ -152,7 +151,7 @@ odor:110 a skos:Concept ;
     wdt:P274 "C8 H16 O1" .
 
 odor:111 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q407796 ;
     skos:altLabel "N-Valeric Acid"@en,
         "Valeric Acid"@en ;
     skos:inScheme odor: ;
@@ -162,7 +161,7 @@ odor:111 a skos:Concept ;
     wdt:P274 "C5 H10 O2" .
 
 odor:112 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27116641 ;
     skos:inScheme odor: ;
     skos:prefLabel "Pentenoic Acid: 4-Pentenoic Acid"@en ;
     skos:topConceptOf odor: ;
@@ -170,7 +169,7 @@ odor:112 a skos:Concept ;
     wdt:P274 "C5 H8 O2" .
 
 odor:113 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q410842 ;
     skos:altLabel "Acetic Acid, Phenyl-"@en,
         "Benzeneacetic Acid"@en ;
     skos:inScheme odor: ;
@@ -180,7 +179,7 @@ odor:113 a skos:Concept ;
     wdt:P274 "C8 H8 O2" .
 
 odor:114 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q417321 ;
     skos:altLabel "Ethynyl Benzene"@en,
         "Phenyl Ethyne"@en ;
     skos:inScheme odor: ;
@@ -190,7 +189,7 @@ odor:114 a skos:Concept ;
     wdt:P274 "C8 H6" .
 
 odor:115 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q209463 ;
     skos:altLabel "Benzeneethanol"@en,
         "Beta-Phenylethyl Alcohol"@en,
         "P.E.A."@en,
@@ -204,7 +203,7 @@ odor:115 a skos:Concept ;
     wdt:P274 "C8 H10 O1" .
 
 odor:116 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q209463 ;
     skos:altLabel "Benzeneethanol"@en,
         "Beta-Phenylethyl Alcohol"@en,
         "P.E.A."@en,
@@ -218,7 +217,7 @@ odor:116 a skos:Concept ;
     wdt:P274 "C8 H10 O1" .
 
 odor:117 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q415519 ;
     skos:altLabel "2-Cyclohexen-1-One, 3,5,5-Trimethyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Phorone: iso-Phorone"@en ;
@@ -227,7 +226,7 @@ odor:117 a skos:Concept ;
     wdt:P274 "C9 H14 O1" .
 
 odor:118 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27104380 ;
     skos:altLabel "2-Pinene"@en,
         "Bicycloc3.1.1)Hept-2-Ene, 2,6,6-Trimethyl"@en ;
     skos:inScheme odor: ;
@@ -237,7 +236,7 @@ odor:118 a skos:Concept ;
     wdt:P274 "C10 H16" .
 
 odor:119 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q408216 ;
     skos:altLabel "Butanoic Acid: Propyl Ester"@en,
         "Butyrate, Propyl"@en,
         "Butyric Acid: Propyl Ester"@en ;
@@ -248,7 +247,7 @@ odor:119 a skos:Concept ;
     wdt:P274 "C7 H14 O2" .
 
 odor:12 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27276901 ;
     skos:altLabel "Acetic Acid, Phenyl, 3-Methyl Butyl Ester Acetic Acid, Phenyl, Isopentyl Ester Iso-Pentyl Phenyl Acetate Iso-Amyl-Alpha-Toluate"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Amyl Phenyl Acetate"@en ;
@@ -257,7 +256,7 @@ odor:12 a skos:Concept ;
     wdt:P274 "C13 H18 O2" .
 
 odor:120 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q81984436 ;
     skos:altLabel "6-Isopropyl Quinoline"@en,
         "Quinoline, 6-Isopropyl"@en,
         "Quinoline, 6-O-Methyl Ethyl)"@en ;
@@ -268,7 +267,7 @@ odor:120 a skos:Concept ;
     wdt:P274 "C12 H13 N1" .
 
 odor:121 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27287061 ;
     skos:altLabel "1,L'-Thiobispropane"@en,
         "Dipropyl Sulfide"@en ;
     skos:inScheme odor: ;
@@ -278,7 +277,7 @@ odor:121 a skos:Concept ;
     wdt:P274 "C6 H14 S1" .
 
 odor:122 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q210385 ;
     skos:inScheme odor: ;
     skos:prefLabel "Pyridine"@en ;
     skos:topConceptOf odor: ;
@@ -286,7 +285,7 @@ odor:122 a skos:Concept ;
     wdt:P274 "C5 H5 N1" .
 
 odor:123 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q412424 ;
     skos:altLabel "Benzene,  4-Allyl-L,2-(Methylenedioxy)"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Safrole"@en ;
@@ -295,7 +294,6 @@ odor:123 a skos:Concept ;
     wdt:P274 "C10 H10 O2" .
 
 odor:124 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "(Mixture Of Isomers)"@en,
         "Cyclohexanol,  2-(2~Isocamphenyl)"@en,
         "Cyclohexanol, 2~(5,5,6-Trimethyl-2-Norbornyl)"@en ;
@@ -306,7 +304,7 @@ odor:124 a skos:Concept ;
     wdt:P274 "C16 H28 O1" .
 
 odor:125 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q10859742 ;
     skos:altLabel "2-Penten-L-Ol, 5-(2,3-Dimethyltricyclo(2.2.1.0(2,6)Hept-3-Yl)-2-Methyl Trans-Santalols, Mixture Of Alpha, Epi, Beta And Beta"@en,
         "Argeol"@en ;
     skos:inScheme odor: ;
@@ -316,7 +314,7 @@ odor:125 a skos:Concept ;
     wdt:P274 "C15 H24 O1" .
 
 odor:126 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q412281 ;
     skos:altLabel "1H-Indole, 3-Methyl"@en,
         "3-Methyl Indole"@en,
         "Beta-Methyl Indole"@en,
@@ -328,7 +326,7 @@ odor:126 a skos:Concept ;
     wdt:P274 "C9 H9 N1" .
 
 odor:127 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27105253 ;
     skos:altLabel "Alpha,Alpha,4-Trimethyl-3-Cyclohexene-1-Methanol P-Menth-3-En-8-Ol"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Terpineol, mostly alpha-Terpineol"@en ;
@@ -337,7 +335,7 @@ odor:127 a skos:Concept ;
     wdt:P274 "C10 H18 O1" .
 
 odor:128 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q412118 ;
     skos:altLabel "Thiophene, Tetrahydro"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Tetrahydro Thiophene"@en ;
@@ -346,7 +344,7 @@ odor:128 a skos:Concept ;
     wdt:P274 "C4 H8 S1" .
 
 odor:129 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27236809 ;
     skos:altLabel "1,2,3,4-Tetrahydro-6-Methylquinoline"@en,
         "Civettal"@en,
         "Quinoline,  1,2,3.4-Tetrahydro-6-Methyl"@en,
@@ -360,7 +358,7 @@ odor:129 a skos:Concept ;
     wdt:P274 "C10 H13 N1" .
 
 odor:13 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q3374901 ;
     skos:altLabel "Pentanoic Acid:  Pentyl Ester"@en,
         "Pentyl Pentanoate"@en,
         "Valeric Acid:  Pentyl Ester"@en ;
@@ -371,7 +369,7 @@ odor:13 a skos:Concept ;
     wdt:P274 "C10 H20 O2" .
 
 odor:130 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27261438 ;
     skos:altLabel "Thieno~(3,4-D)-Pyrimidine, 5.7-Dihydro-2-Methyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Thienopyrimidine"@en ;
@@ -380,7 +378,7 @@ odor:130 a skos:Concept ;
     wdt:P274 "C7 H8 N2 S1" .
 
 odor:131 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q15632885 ;
     skos:altLabel "Mercaptoacetic Acid"@en,
         "Thiodiacetic  Acid"@en ;
     skos:inScheme odor: ;
@@ -390,7 +388,7 @@ odor:131 a skos:Concept ;
     wdt:P274 "C4 H6 O4 S1" .
 
 odor:132 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q305364 ;
     skos:inScheme odor: ;
     skos:prefLabel "Thiophene"@en ;
     skos:topConceptOf odor: ;
@@ -398,7 +396,7 @@ odor:132 a skos:Concept ;
     wdt:P274 "C4 H4 S1" .
 
 odor:133 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q408883 ;
     skos:altLabel "P-Cymen-3-Ol"@en,
         "Phenol, 3-Methyl-2-(1-Methyl Ethyl)"@en ;
     skos:inScheme odor: ;
@@ -408,7 +406,7 @@ odor:133 a skos:Concept ;
     wdt:P274 "C10 H14 O1" .
 
 odor:134 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q26828655 ;
     skos:altLabel "O-Methyl Benzaldehyde"@en,
         "O-Toluyl-Aldehyde"@en ;
     skos:inScheme odor: ;
@@ -418,7 +416,7 @@ odor:134 a skos:Concept ;
     wdt:P274 "C8 H8 O1" .
 
 odor:135 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q15779 ;
     skos:altLabel "Methyl Benzene"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Toluene (Lower Concentration)"@en ;
@@ -427,7 +425,7 @@ odor:135 a skos:Concept ;
     wdt:P274 "C7 H8" .
 
 odor:136 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q15779 ;
     skos:altLabel "Methyl Benzene"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Toluene (Higher Concentration)"@en ;
@@ -436,7 +434,7 @@ odor:136 a skos:Concept ;
     wdt:P274 "C7 H8" .
 
 odor:137 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q423953 ;
     skos:inScheme odor: ;
     skos:prefLabel "Trimethyl Amine"@en ;
     skos:topConceptOf odor: ;
@@ -444,7 +442,7 @@ odor:137 a skos:Concept ;
     wdt:P274 "C3 H9 N1" .
 
 odor:138 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q24734376 ;
     skos:altLabel "2(3H)-Furanone,  5-Heptylhydro"@en,
         "Gamma-N-Heptyl-Gamma-Butyrolactone"@en,
         "Peach Aldehyde"@en,
@@ -456,7 +454,7 @@ odor:138 a skos:Concept ;
     wdt:P274 "C11 H20 O2" .
 
 odor:139 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q420346 ;
     skos:altLabel "10-Undecenoic Acid"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Undecylenic Acid"@en ;
@@ -465,7 +463,7 @@ odor:139 a skos:Concept ;
     wdt:P274 "C11 H20 O2" .
 
 odor:14 a skos:Concept ;
-    owl:sameAs "http://www.wikidata.org/entity/Q27136415|http://www.wikidata.org/entity/Q27136415" ;
+    owl:sameAs "http://www.wikidata.org/entity/Q67879665|http://www.wikidata.org/entity/Q72470934" ;
     skos:altLabel "Alpha Cedrene Epoxide"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Andrane"@en ;
@@ -474,7 +472,7 @@ odor:14 a skos:Concept ;
     wdt:P274 "C15 H24 O1" .
 
 odor:140 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q409554 ;
     skos:altLabel "Butanal,  3-Methyl"@en,
         "Isovaleric Aldehyde"@en ;
     skos:inScheme odor: ;
@@ -484,7 +482,7 @@ odor:140 a skos:Concept ;
     wdt:P274 "C5 H10 O1" .
 
 odor:141 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q415536 ;
     skos:altLabel "Butanoic Acid, 3-Methyl-"@en,
         "Isopentanoic Acid"@en ;
     skos:inScheme odor: ;
@@ -494,7 +492,7 @@ odor:141 a skos:Concept ;
     wdt:P274 "C5 H10 O2" .
 
 odor:142 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q845530 ;
     skos:altLabel "2(3H)~Furanone,  Dihydro-5-Methyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Valerolactone: gamma-Valerolactone"@en ;
@@ -503,7 +501,7 @@ odor:142 a skos:Concept ;
     wdt:P274 "C5 H8 O2" .
 
 odor:143 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q33495 ;
     skos:altLabel "Benzaldehyde, 4-Hydroxy-3-Methoxy"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Vanillin"@en ;
@@ -512,7 +510,7 @@ odor:143 a skos:Concept ;
     wdt:P274 "C8 H8 O3" .
 
 odor:144 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q1064625 ;
     skos:altLabel "2-Butanone, 4-(4~Hydroxy~3~Methoxyphenyl)"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Zingerone"@en ;
@@ -555,7 +553,7 @@ odor:149 a skos:Concept ;
     skos:topConceptOf odor: .
 
 odor:15 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27105777 ;
     skos:altLabel "Anise  Camphor"@en,
         "Anisole, 4-Propenyl"@en,
         "Benzene,  1-Methoxy-4-(Isopropenyl)"@en,
@@ -619,7 +617,7 @@ odor:157 a skos:Concept ;
     skos:topConceptOf odor: .
 
 odor:158 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q300928 ;
     skos:altLabel "2(10)-Pinene"@en,
         "Bicyclo(3.3.1)Heptane,6,6-Dimethyl~2~Methylene"@en,
         "Compound A:  Beta-Pinene Epoxide"@en,
@@ -637,7 +635,7 @@ odor:159 a skos:Concept ;
     skos:topConceptOf odor: .
 
 odor:16 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q312244 ;
     skos:altLabel "Benzene, Methoxy"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Anisole"@en ;
@@ -655,7 +653,7 @@ odor:160 a skos:Concept ;
     skos:topConceptOf odor: .
 
 odor:17 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q72444077 ;
     skos:altLabel "Aurantiol"@en,
         "Auriol"@en,
         "Benzoic Acid,2-(7-Hydroxy-3-7-(Dimethyloctylidene)Amino)-, Methyl Ester Anthranilic Acid, N-(7-Hydroxy-3-7-Dimethyloctylidene): Methyl Ester Anthranilate, Methyl N-(3.7-Dimethyl-7-Hydroxyoctylidene)"@en ;
@@ -666,7 +664,7 @@ odor:17 a skos:Concept ;
     wdt:P274 "C18 H27 N1 O3" .
 
 odor:18 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q372524 ;
     skos:inScheme odor: ;
     skos:prefLabel "Benzaldehyde"@en ;
     skos:topConceptOf odor: ;
@@ -674,7 +672,6 @@ odor:18 a skos:Concept ;
     wdt:P274 "C7 H6 O1" .
 
 odor:19 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "2H-1-Benzopyran-2-One,  3,4-Dihydro"@en,
         "3,4-Dihydro Coumarin"@en,
         "Coumarin,  3,4-Dihydro"@en,
@@ -686,7 +683,7 @@ odor:19 a skos:Concept ;
     wdt:P274 "C9 H8 O2" .
 
 odor:2 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q375112 ;
     skos:altLabel "Ethanone, 1-Phenyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Acetophenone"@en ;
@@ -695,7 +692,7 @@ odor:2 a skos:Concept ;
     wdt:P274 "C8 H8 O1" .
 
 odor:20 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27105264 ;
     skos:altLabel "2-Bornalol: Acetate"@en,
         "Acedesa"@en,
         "Bicyclo(22.1)Heptan-2-Ol,  1,7,7-Trimethyl: Acetate"@en,
@@ -708,7 +705,7 @@ odor:20 a skos:Concept ;
     wdt:P274 "C12 H20 O2" .
 
 odor:21 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q193213 ;
     skos:altLabel "Butyric Acid"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Butanoic Acid"@en ;
@@ -717,7 +714,6 @@ odor:21 a skos:Concept ;
     wdt:P274 "C4 H8 O2" .
 
 odor:22 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "Butylalcohol"@en,
         "N-Butanol"@en ;
     skos:inScheme odor: ;
@@ -727,7 +723,7 @@ odor:22 a skos:Concept ;
     wdt:P274 "C4 H10 O1" .
 
 odor:23 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q11309564 ;
     skos:altLabel "Butane,  1.1'-Thiobis-"@en,
         "Dibutyl Sulfide"@en,
         "N-Butyl Sulfide"@en ;
@@ -738,7 +734,7 @@ odor:23 a skos:Concept ;
     wdt:P274 "C8 H18 S1" .
 
 odor:24 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27253531 ;
     skos:altLabel "Quinoline,  8-Isobutyl"@en,
         "Quinoline,  8-O-Methyl Propyl)"@en ;
     skos:inScheme odor: ;
@@ -748,7 +744,6 @@ odor:24 a skos:Concept ;
     wdt:P274 "C13 H15 N1" .
 
 odor:25 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "Dl-2-Bornanone"@en,
         "Dl-2-Norbornanone,  1,7,7-Trimethyl"@en,
         "Dl-Bicyclo(2.2.1)Heptan-2-One,  1,7,7-Trimethyl"@en,
@@ -760,7 +755,7 @@ odor:25 a skos:Concept ;
     wdt:P274 "C10 H16 O1" .
 
 odor:26 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q416800 ;
     skos:altLabel "L-2-Cyclohexen-1-One,  2-Methyl-5-(1-Methyl  Ethenyl)"@en,
         "L-P-Mentha-6,8-Dien-2-One"@en ;
     skos:inScheme odor: ;
@@ -770,7 +765,7 @@ odor:26 a skos:Concept ;
     wdt:P274 "C10 H14 O1" .
 
 odor:27 a skos:Concept ;
-    owl:sameAs "http://www.wikidata.org/entity/Q27136415|http://www.wikidata.org/entity/Q27136415" ;
+    owl:sameAs "http://www.wikidata.org/entity/Q421614|http://www.wikidata.org/entity/Q27106968" ;
     skos:altLabel "Beta:  Bicyclo(7.2.0)Undec-4-Ene,4,11,1L-Trimethyl-8-Methylene"@en,
         "Beta: Bicyclo(7.2.0)Undec-3(E)-Ene,7-Methylene-3,9,9-Trimethyl"@en,
         "Gamma:  Bicyclo(7.2.0)Undec-4-Ene,4,Ll-Trimethyl-8-Methylene, Z"@en,
@@ -782,7 +777,7 @@ odor:27 a skos:Concept ;
     wdt:P274 "C15 H24" .
 
 odor:28 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q1047397 ;
     skos:altLabel "1H-Inden-4(5H)-One,2,3,6,7-Tetrahydro-1,1,2,3,3-Pentamethyl"@en,
         "4(5H)-Indanone,6,7-Dihydro-L,1,2,3,3-Pentamethyl"@en,
         "Tetrahydro Pentamethyl Indane Ketone"@en ;
@@ -793,7 +788,7 @@ odor:28 a skos:Concept ;
     wdt:P274 "C14 H22 O1" .
 
 odor:29 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q106653652 ;
     skos:altLabel "1(3H)-Isobenzofuranone,3-Propylidene"@en,
         "3-Propylidene Phthalide"@en,
         "Phthalide.3-Propylidene"@en ;
@@ -804,7 +799,7 @@ odor:29 a skos:Concept ;
     wdt:P274 "C11 H10 O2" .
 
 odor:3 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q4596853 ;
     skos:inScheme odor: ;
     skos:prefLabel "Acetyl Pyridine: ortho-Acetyl Pyridine"@en ;
     skos:topConceptOf odor: ;
@@ -812,7 +807,7 @@ odor:3 a skos:Concept ;
     wdt:P274 "C7 H7 O1 N1" .
 
 odor:30 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q3680956 ;
     skos:altLabel "6-Chloro-3-Oxy-1-Methyl-4-Isopropyl Benzene"@en,
         "P-Cymene-2-Chloro-5-Hydroxy"@en,
         "P-Cymene-3-Ol,  6-Chloro"@en,
@@ -825,7 +820,7 @@ odor:30 a skos:Concept ;
     wdt:P274 "C10 H13 O1 CL1" .
 
 odor:31 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q60041699 ;
     skos:altLabel "2-Propenal, 3-Phenyl"@en,
         "Cinnamaldehyde"@en ;
     skos:inScheme odor: ;
@@ -835,7 +830,7 @@ odor:31 a skos:Concept ;
     wdt:P274 "C9 H8 O1" .
 
 odor:32 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q410888 ;
     skos:altLabel "2,6-Octadienal,3,7-Dimethyl,E"@en,
         "3.7-Dimethyl-Octadien-2,6-Al"@en,
         "Octa-2(E),6-Dienal,3,7-Dimethyl"@en ;
@@ -846,7 +841,7 @@ odor:32 a skos:Concept ;
     wdt:P274 "C10 H16 O1" .
 
 odor:33 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27292453 ;
     skos:altLabel "2,6-Octadienennitrile,3.7-Dimethyl,E"@en,
         "Cetrano Nitrile"@en,
         "Gerano Nitrile"@en ;
@@ -857,7 +852,7 @@ odor:33 a skos:Concept ;
     wdt:P274 "C10 H15 N1" .
 
 odor:34 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q111812 ;
     skos:altLabel "2H-1-Benzopyran-2-One"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Coumarin"@en ;
@@ -866,7 +861,7 @@ odor:34 a skos:Concept ;
     wdt:P274 "C9 H6 O2" .
 
 odor:35 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q312240 ;
     skos:altLabel "3-Methyl Phenol"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Cresol: m-Cresol"@en ;
@@ -875,7 +870,7 @@ odor:35 a skos:Concept ;
     wdt:P274 "C7 H8 O1" .
 
 odor:36 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q312251 ;
     skos:altLabel "4-Methyl Phenol"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Cresol: p-Cresol"@en ;
@@ -884,7 +879,7 @@ odor:36 a skos:Concept ;
     wdt:P274 "C7 H8 O1" .
 
 odor:37 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27108451 ;
     skos:altLabel "4-Methyl Phenol Acetate"@en,
         "Acetic Acid, P-Tolyl Ester"@en,
         "Phenol, 4-Methyl, Acetate"@en ;
@@ -895,7 +890,7 @@ odor:37 a skos:Concept ;
     wdt:P274 "C9 H10 O2" .
 
 odor:38 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27270484 ;
     skos:altLabel "Iso-Butyric Acid.P-Tolyl Ester"@en,
         "Propanoic Acid, 4-Methylphenyl Ester"@en ;
     skos:inScheme odor: ;
@@ -905,7 +900,7 @@ odor:38 a skos:Concept ;
     wdt:P274 "C11 H14 O2" .
 
 odor:39 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q15726084 ;
     skos:altLabel "4-Methyl Anisole"@en,
         "Och,"@en,
         "P-Methyl Anisole"@en ;
@@ -916,7 +911,7 @@ odor:39 a skos:Concept ;
     wdt:P274 "C8 H10 O1" .
 
 odor:4 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q2166066 ;
     skos:altLabel "9-Undecenal,  2,6,1O-Trimethyl"@en,
         "Veronal"@en ;
     skos:inScheme odor: ;
@@ -926,7 +921,7 @@ odor:4 a skos:Concept ;
     wdt:P274 "C14 H26 O1" .
 
 odor:40 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q419952 ;
     skos:altLabel "Benzaldehyde,  4-(L-Methyl  Ethyl)"@en,
         "Benzaldehyde, P-Isopropyl"@en,
         "Cuminaldehyde"@en,
@@ -938,7 +933,7 @@ odor:40 a skos:Concept ;
     wdt:P274 "C10 H12 O1" .
 
 odor:41 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27257954 ;
     skos:altLabel "3-Cyclohexene-1-Carboxaldehyde, 2,4,6-Trimethyl Cyclocitral, Iso"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Cyclocitral: iso-Cyclocitral"@en ;
@@ -947,7 +942,7 @@ odor:41 a skos:Concept ;
     wdt:P274 "C10 H16 O1" .
 
 odor:42 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27284732 ;
     skos:altLabel "1,4-Dithiane, 2.5-Dihydroxy-2,5-Dimethyl"@en,
         "1.4-Dithiane-2,5-Diol,  2,5-Dimethyl"@en,
         "P-Dithiane-2.5-Diol,  2,5-Dimethyl"@en ;
@@ -958,7 +953,7 @@ odor:42 a skos:Concept ;
     wdt:P274 "C6 H12 O2 S2" .
 
 odor:43 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27104480 ;
     skos:inScheme odor: ;
     skos:prefLabel "Cyclohexanedione: 1,2-Cyclohexanedione"@en ;
     skos:topConceptOf odor: ;
@@ -966,7 +961,7 @@ odor:43 a skos:Concept ;
     wdt:P274 "C6 H8 O2" .
 
 odor:44 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q423282 ;
     skos:altLabel "Cyclohexyl Alcohol"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Cyclohexanol"@en ;
@@ -975,7 +970,7 @@ odor:44 a skos:Concept ;
     wdt:P274 "C6 H12 O1" .
 
 odor:45 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q25101336 ;
     skos:altLabel "2-Cyclopenten-1-One, 2-Hydroxy-3-Methyl"@en,
         "2-Ethyl Hexanoic Acid"@en ;
     skos:inScheme odor: ;
@@ -985,7 +980,7 @@ odor:45 a skos:Concept ;
     wdt:P274 "C6 H8 O2" .
 
 odor:46 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27253344 ;
     skos:altLabel "1.3-Dioxolane, 4-Methyl-2-(1-Phenyl Ethyl)-"@en,
         "1.3-Dioxolane, 4-Methyl-2-(Alpha-Methyl Benzyl)-"@en,
         "Hydratropal"@en ;
@@ -996,7 +991,7 @@ odor:46 a skos:Concept ;
     wdt:P274 "C12 H16 O2" .
 
 odor:47 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q4544759 ;
     skos:inScheme odor: ;
     skos:prefLabel "Decadienal: 2,4-trans-trans-Decadienal"@en ;
     skos:topConceptOf odor: ;
@@ -1004,7 +999,7 @@ odor:47 a skos:Concept ;
     wdt:P274 "C10 H16 O1" .
 
 odor:48 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q415454 ;
     skos:altLabel "Bicyclo(4.4.0)Decane"@en,
         "Decalin"@en,
         "Naphthalane"@en,
@@ -1017,7 +1012,7 @@ odor:48 a skos:Concept ;
     wdt:P274 "C10 H18" .
 
 odor:49 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q1209336 ;
     skos:altLabel "Di-N-Butylamine"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Dibutyl Amine"@en ;
@@ -1026,7 +1021,7 @@ odor:49 a skos:Concept ;
     wdt:P274 "C8 H19 N1" .
 
 odor:5 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q411450 ;
     skos:altLabel "\"Strawberry  Aldehyde  C-16\""@en,
         "Ethyl Methyl Phenyl Glycidate"@en,
         "Glycidate,  Ethyl 3-Methyl-3-Phenyl"@en,
@@ -1038,7 +1033,7 @@ odor:5 a skos:Concept ;
     wdt:P274 "C12 H14 O3" .
 
 odor:50 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q420998 ;
     skos:altLabel "Ethyl Sulfide"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Diethyl Sulfide"@en ;
@@ -1047,7 +1042,7 @@ odor:50 a skos:Concept ;
     wdt:P274 "C4 H10 S1" .
 
 odor:51 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27257883 ;
     skos:altLabel "Butanoic Acid:  1,L-Dimethyl-2-Phenyl Ester"@en,
         "Butyric Acid, Alpha, Alpha-Dimethyl Phenyl Ethyl Ester"@en,
         "Prunellis"@en,
@@ -1059,7 +1054,7 @@ odor:51 a skos:Concept ;
     wdt:P274 "C14 H20 O2" .
 
 odor:52 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27273379 ;
     skos:altLabel "2-Butanol, 2-Methyl-4-Phenyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Dimethyl Phenyl Ethyl Carbinol"@en ;
@@ -1068,7 +1063,7 @@ odor:52 a skos:Concept ;
     wdt:P274 "C11 H16 O1" .
 
 odor:53 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27292638 ;
     skos:altLabel "Pyrazine, 2,3-Dimethyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Dimethyl Pyrazine: 2,3-Dimethyl Pyrazine"@en ;
@@ -1077,7 +1072,7 @@ odor:53 a skos:Concept ;
     wdt:P274 "C6 H8 N2" .
 
 odor:54 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27161950 ;
     skos:altLabel "Pyrazine, 2,5-Dimethyl-"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Dimethyl Pyrazine: 2,5-Dimethyl Pyrazine"@en ;
@@ -1086,7 +1081,7 @@ odor:54 a skos:Concept ;
     wdt:P274 "C6 H8 N2" .
 
 odor:55 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27284301 ;
     skos:altLabel "Pyrrole, 2,5-Dimethyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Dimethyl Pyrrole: 2,5-Dimethyl Pyrrole"@en ;
@@ -1095,7 +1090,7 @@ odor:55 a skos:Concept ;
     wdt:P274 "C6 H9 N1" .
 
 odor:56 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q5277321 ;
     skos:altLabel "Methyl Trisulfide"@en,
         "Trisulfide, Methyl"@en ;
     skos:inScheme odor: ;
@@ -1105,7 +1100,7 @@ odor:56 a skos:Concept ;
     wdt:P274 "C2 H6 S3" .
 
 odor:57 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q3333699 ;
     skos:altLabel "2-Methoxy Hexane"@en,
         "Ether, Hexyl Methyl"@en,
         "Hexane, 2-Methoxy"@en,
@@ -1117,7 +1112,7 @@ odor:57 a skos:Concept ;
     wdt:P274 "C7 H16 O1" .
 
 odor:58 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q419453 ;
     skos:altLabel "Benzene,1,1'-Oxybis-"@en,
         "Ether, Diphenyl"@en,
         "Phenyl Ether"@en ;
@@ -1128,7 +1123,7 @@ odor:58 a skos:Concept ;
     wdt:P274 "C12 H10 O1" .
 
 odor:59 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q412270 ;
     skos:altLabel "Butyric Acid Ethyl Ester"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Ethyl Butyrate"@en ;
@@ -1137,7 +1132,7 @@ odor:59 a skos:Concept ;
     wdt:P274 "C6 H12 O2" .
 
 odor:6 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q411450 ;
     skos:altLabel "\"Strawberry Aldehyde  C-16\""@en,
         "Glycidate,  Ethyl 3-Methyl-3-Phenyl"@en,
         "Oxiranecarboxylic Acid, 2-Methyl-2-Phenyl: Ethyl Ester Ethyl Methyl Phenyl Glycidate"@en ;
@@ -1148,7 +1143,7 @@ odor:6 a skos:Concept ;
     wdt:P274 "C12 H14 O3" .
 
 odor:60 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q2740687 ;
     skos:altLabel "Propanoic Acid:  Ethyl Ester"@en,
         "Propionate, Ethyl"@en,
         "Propionic Acid:  Ethyl Ester"@en ;
@@ -1159,7 +1154,7 @@ odor:60 a skos:Concept ;
     wdt:P274 "C5 H10 O2" .
 
 odor:61 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27140387 ;
     skos:altLabel "Pyrazine, 2-Ethyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "2-Ethyl Pyrazine (Lower Concentration)"@en ;
@@ -1168,7 +1163,7 @@ odor:61 a skos:Concept ;
     wdt:P274 "C6 H8 N2" .
 
 odor:62 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27140387 ;
     skos:altLabel "Pyrazine, 2-Ethyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "2-Ethyl Pyrazine (Higher Concentration)"@en ;
@@ -1177,7 +1172,7 @@ odor:62 a skos:Concept ;
     wdt:P274 "C6 H8 N2" .
 
 odor:63 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q161572 ;
     skos:altLabel "1,8-Cineol"@en,
         "1,8-Oxido-P-Menthane"@en,
         "2-Oxabicyclo(2.2.2)Octane,  1,3,3-Trimethyl"@en,
@@ -1192,7 +1187,7 @@ odor:63 a skos:Concept ;
     wdt:P274 "C10 H18 O1" .
 
 odor:64 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q423357 ;
     skos:altLabel "Phenol,  4-Allyl-2-Methoxy"@en,
         "Phenol, 2-Methoxy-4-(2-Propenyl)"@en ;
     skos:inScheme odor: ;
@@ -1202,7 +1197,7 @@ odor:64 a skos:Concept ;
     wdt:P274 "C10 H12 O2" .
 
 odor:65 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27262908 ;
     skos:altLabel "Benzenepropanal, 4-Ethyl-Alpha,Alpha-Dimethyl"@en,
         "Florozone"@en,
         "Florozone Isomers   Ch2Ch3"@en,
@@ -1214,7 +1209,7 @@ odor:65 a skos:Concept ;
     wdt:P274 "C13 H18 O1" .
 
 odor:66 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q1879409 ;
     skos:altLabel "1.3-Dioxolane-2-Acetic Acid, 2-Methyl: Ethyl Ester"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Fructone"@en ;
@@ -1223,7 +1218,7 @@ odor:66 a skos:Concept ;
     wdt:P274 "C8 H14 O4" .
 
 odor:67 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q412429 ;
     skos:altLabel "2-Furaldehyde"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Furfural"@en ;
@@ -1232,7 +1227,7 @@ odor:67 a skos:Concept ;
     wdt:P274 "C5 H4 O2" .
 
 odor:68 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q5509474 ;
     skos:altLabel "2-Furanmethanethiol"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Furfuryl Mercaptan"@en ;
@@ -1241,7 +1236,7 @@ odor:68 a skos:Concept ;
     wdt:P274 "C5 H6 O1 S1" .
 
 odor:69 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q82522945 ;
     skos:altLabel "Naphto(2,1-B)Furan, 3A-Ethyl Decahydro-6,6.9A-Trimethyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Grisalva"@en ;
@@ -1250,7 +1245,7 @@ odor:69 a skos:Concept ;
     wdt:P274 "C17 H30 O1" .
 
 odor:7 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q11255995 ;
     skos:altLabel "\"Coconut Aldehyde C-18\""@en,
         "2(3H)-Furanone,  Dihydro-5-Pentyl"@en,
         "4-Amyl-Butanolide"@en,
@@ -1263,7 +1258,7 @@ odor:7 a skos:Concept ;
     wdt:P274 "C9 H16 O2" .
 
 odor:70 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q412403 ;
     skos:altLabel "O-Methoxy Phenol"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Guaiacol"@en ;
@@ -1272,7 +1267,7 @@ odor:70 a skos:Concept ;
     wdt:P274 "C9 H8 O2" .
 
 odor:71 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q425827 ;
     skos:altLabel "Aldehyde C-7"@en,
         "Heptaldehyde"@en ;
     skos:inScheme odor: ;
@@ -1282,7 +1277,7 @@ odor:71 a skos:Concept ;
     wdt:P274 "C7 H14 O1" .
 
 odor:72 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q113820 ;
     skos:altLabel "N-Heptanol"@en,
         "N-Hexyl Alcohol"@en ;
     skos:inScheme odor: ;
@@ -1292,7 +1287,6 @@ odor:72 a skos:Concept ;
     wdt:P274 "C7 H16 O1" .
 
 odor:73 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "Caproaldehyde"@en,
         "Caproic Aldehyde"@en,
         "N-Hexanal"@en ;
@@ -1303,7 +1297,7 @@ odor:73 a skos:Concept ;
     wdt:P274 "C6 H12 O1" .
 
 odor:74 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q422597 ;
     skos:altLabel "Caproic Acid"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Hexanoic acid"@en ;
@@ -1312,7 +1306,7 @@ odor:74 a skos:Concept ;
     wdt:P274 "C6 H12 O2" .
 
 odor:75 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q76933 ;
     skos:altLabel "Hexyl Alcohol"@en,
         "N-Hexyl Alcohol"@en ;
     skos:inScheme odor: ;
@@ -1322,7 +1316,7 @@ odor:75 a skos:Concept ;
     wdt:P274 "C6 H14 O1" .
 
 odor:76 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q83763 ;
     skos:inScheme odor: ;
     skos:prefLabel "Hexanol: 3-Hexanol"@en ;
     skos:topConceptOf odor: ;
@@ -1330,7 +1324,7 @@ odor:76 a skos:Concept ;
     wdt:P274 "C6 H14 O1" .
 
 odor:77 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q209405 ;
     skos:altLabel "2-Hexenal, E"@en,
         "2-Hexenal, Trans"@en ;
     skos:inScheme odor: ;
@@ -1340,7 +1334,7 @@ odor:77 a skos:Concept ;
     wdt:P274 "C6 H10 O1" .
 
 odor:78 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q426238 ;
     skos:altLabel "Hexane, 1-Amino"@en,
         "N-Hexyl Amine"@en ;
     skos:inScheme odor: ;
@@ -1350,7 +1344,7 @@ odor:78 a skos:Concept ;
     wdt:P274 "C6 H15 N1" .
 
 odor:79 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q426238 ;
     skos:altLabel "Hexane, 1-Amino"@en,
         "N-Hexyl Amine"@en ;
     skos:inScheme odor: ;
@@ -1360,7 +1354,7 @@ odor:79 a skos:Concept ;
     wdt:P274 "C6 H15 N1" .
 
 odor:8 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q3270746 ;
     skos:altLabel "Allyl Hexanoate Allyl Ester"@en,
         "Hexanoate,  Allyl"@en,
         "Hexanoic  Acid:  2-Propenyl Ester"@en,
@@ -1372,7 +1366,7 @@ odor:8 a skos:Concept ;
     wdt:P274 "C9 H16 O2" .
 
 odor:80 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q60178917 ;
     skos:altLabel "2-Benzylidene-Octanal"@en,
         "Cinnamaldehyde, Alpha-Hexyl"@en,
         "Octanal,  2-(Phenylmethylene)"@en ;
@@ -1383,7 +1377,7 @@ odor:80 a skos:Concept ;
     wdt:P274 "C15 H20 O1" .
 
 odor:81 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27279617 ;
     skos:altLabel "1.1-Dimethoxy-2-Phenylpropane"@en,
         "2-Phenylpropanal Dimethyl Acetal"@en,
         "Benzene,  '2,2-Dimethoxy-1-Methyl Ethyl)-"@en,
@@ -1397,7 +1391,7 @@ odor:81 a skos:Concept ;
     wdt:P274 "C11 H16 O2" .
 
 odor:82 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q25100775 ;
     skos:altLabel "Laevo-Hydroxy Citronellal"@en,
         "Laurine"@en,
         "Octanal,  7-Hy Droxy-3,7-Dimethyl-"@en ;
@@ -1408,7 +1402,7 @@ odor:82 a skos:Concept ;
     wdt:P274 "C10 H20 O2" .
 
 odor:83 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q319541 ;
     skos:inScheme odor: ;
     skos:prefLabel "Indole"@en ;
     skos:topConceptOf odor: ;
@@ -1416,7 +1410,7 @@ odor:83 a skos:Concept ;
     wdt:P274 "C8 H7 N1" .
 
 odor:84 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q82854839 ;
     skos:altLabel "1H-Indol-1-Heptanol, N-1H-Indol-1-Yl-Aloha, Alpha, Epsilon-Trimethyl"@en,
         "2-Octanol, 8,8'-Bis(Lh)-Indol-L-Yl)-2,6-Dimethyl"@en ;
     skos:inScheme odor: ;
@@ -1426,7 +1420,7 @@ odor:84 a skos:Concept ;
     wdt:P274 "C26 H32 N2 O1" .
 
 odor:85 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q412393 ;
     skos:altLabel "Triiodo Methane"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "lodoform"@en ;
@@ -1435,7 +1429,7 @@ odor:85 a skos:Concept ;
     wdt:P274 "C1 H1 O13" .
 
 odor:86 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27190018 ;
     skos:altLabel "3-Buten-2-One, 4-(2,6,6-Trimethyl-L-Cyclohexen-L-Yl), E"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "lonone: beta-lonone (Lower Concentration)"@en ;
@@ -1444,7 +1438,7 @@ odor:86 a skos:Concept ;
     wdt:P274 "C13 H20 O1" .
 
 odor:87 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27190018 ;
     skos:altLabel "3-Buten-2-One,  4-(2,6,6-Trimethyl-L-Cyclohexen-L-Yl), E"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "lonone: beta-lonone (Higher Concentration)"@en ;
@@ -1453,7 +1447,7 @@ odor:87 a skos:Concept ;
     wdt:P274 "C13 H20 O1" .
 
 odor:88 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27108610 ;
     skos:altLabel "3-Buten-2-One, 4-(2,5,6,6-Tetramethyl-2-Cyclohexen-L-Yl),  E"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Irone: alpha-lrone"@en ;
@@ -1462,7 +1456,7 @@ odor:88 a skos:Concept ;
     wdt:P274 "C14 H22 O1" .
 
 odor:89 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27105200 ;
     skos:altLabel "1.6-Octadien-3-Ol,  3,7-Dimethyl (-)"@en,
         "1.6-Octadien-3-Ol,  3,7-Dimethyl,  (R)"@en,
         "Linalool (-)"@en,
@@ -1474,7 +1468,6 @@ odor:89 a skos:Concept ;
     wdt:P274 "C10 H18 O1" .
 
 odor:9 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "1-Butanol,3-Methyl:Acetate"@en,
         "Isopentyl Acetate"@en,
         "Isopentyl Alcohol:Acetate"@en ;
@@ -1485,7 +1478,7 @@ odor:9 a skos:Concept ;
     wdt:P274 "C7 H14 O2" .
 
 odor:90 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q278809 ;
     skos:altLabel "Cyclohexene,  L-Methyl-4-(1-Methyl Ethenyl)"@en,
         "Dipentene"@en,
         "Limonene"@en,
@@ -1497,7 +1490,7 @@ odor:90 a skos:Concept ;
     wdt:P274 "C10 H16" .
 
 odor:91 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q5955634 ;
     skos:altLabel "3-Cyclohexene-L-Carboxaldehyde,  4-(4-Hydroxy-4-Methyl Pentyl)"@en,
         "Hydroxy Empetal"@en ;
     skos:inScheme odor: ;
@@ -1507,7 +1500,6 @@ odor:91 a skos:Concept ;
     wdt:P274 "C13 H22 O2" .
 
 odor:92 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "Pyridine, 4-(4,8-Dimethyl-3,7-Nonadienyl)"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Maritima"@en ;
@@ -1516,7 +1508,7 @@ odor:92 a skos:Concept ;
     wdt:P274 "C16 H23 N1" .
 
 odor:93 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q27294928 ;
     skos:altLabel "5-Heptenal,  2,6-Dimethyl"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Melonal"@en ;
@@ -1525,7 +1517,7 @@ odor:93 a skos:Concept ;
     wdt:P274 "C9 H16 O1" .
 
 odor:94 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q407418 ;
     skos:altLabel "3-P-Menthanol"@en,
         "Cyclohexanol,  5-Methyl-2-(1-Methyl Ethyl)"@en,
         "Hexahydro Thymol"@en,
@@ -1538,7 +1530,7 @@ odor:94 a skos:Concept ;
     wdt:P274 "C10 H20 O1" .
 
 odor:95 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q2240068 ;
     skos:altLabel "Beta-Naphthyl Methyl Ether"@en,
         "Methyl Beta-Naphthyl Ether"@en,
         "Methyl-2-Naphthyl Ether"@en,
@@ -1551,7 +1543,7 @@ odor:95 a skos:Concept ;
     wdt:P274 "C11 H10 O1" .
 
 odor:96 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q420894 ;
     skos:altLabel "Anthranilic Acid, Methyl Ester"@en,
         "Benzoic Acid, 2-Amino: Methyl Ester"@en ;
     skos:inScheme odor: ;
@@ -1561,7 +1553,7 @@ odor:96 a skos:Concept ;
     wdt:P274 "C8 H9 N1 O2" .
 
 odor:97 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q10426203 ;
     skos:altLabel "Propane, 1,1-Dimethoxy"@en,
         "Propionaldehyde,  Dimethyl Acetal"@en ;
     skos:inScheme odor: ;
@@ -1571,7 +1563,7 @@ odor:97 a skos:Concept ;
     wdt:P274 "C5 H12 O2" .
 
 odor:98 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
+    owl:sameAs wd:Q72491026 ;
     skos:inScheme odor: ;
     skos:prefLabel "Methyl Furoate"@en ;
     skos:topConceptOf odor: ;
@@ -1579,7 +1571,6 @@ odor:98 a skos:Concept ;
     wdt:P274 "C6 H6 O2" .
 
 odor:99 a skos:Concept ;
-    owl:sameAs wd:Q27136415 ;
     skos:altLabel "1,2,7,7-Tetramethyl-Norborneol"@en ;
     skos:inScheme odor: ;
     skos:prefLabel "Methyl-iso-Borneol: 2-Methyl-iso-Borneol"@en ;
