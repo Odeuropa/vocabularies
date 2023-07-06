@@ -735,7 +735,8 @@ olf:12 a skos:Concept ;
         "Lezioni di Anatomia"@it,
         "Anatomische lessen"@nl,
         "Lekcije anatomije"@sl ;
-    skos:related olf:23 .
+    skos:related olf:23 ;
+    schema:image <https://data.odeuropa.eu/image/ss/12.Anatomical%20lesson.jpeg> .
 
 olf:126 a skos:Concept ;
     owl:sameAs wd:Q283 ;
@@ -917,7 +918,8 @@ olf:24 a skos:Concept ;
         "Camphrier"@fr,
         "Canforo"@it,
         "Kamfer (boom)"@nl,
-        "Kafrovec"@sl .
+        "Kafrovec"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/24.Camphor_welcome%20collection.jpeg> .
 
 olf:241 a skos:Concept ;
     owl:sameAs wd:Q168805 ;
@@ -1216,7 +1218,8 @@ olf:401 a skos:Concept ;
     skos:definition "A predecessor of classic eau de Cologne first produced for Catarina de Medici and still produced by the Farmacia Santa Maria Novella in Florence using the original recipe"@en ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Acqua della Regina"@en,
-        "Acqua della Regina"@it .
+        "Acqua della Regina"@it ;
+    schema:image <https://data.odeuropa.eu/image/ss/401.Acqua%20della%20Regina_Santa%20Maria%20Novella.jpeg> .
 
 olf:402 a skos:Concept ;
     skos:altLabel "Salpeterraffinaderij"@nl ;
@@ -1876,7 +1879,8 @@ olf:550 a skos:Concept ;
     skos:prefLabel "Reseda"@en,
         "Mignonette"@fr,
         "Reseda"@it,
-        "Reseda"@sl .
+        "Reseda"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/550.Reseda_Mignonette_Europeana_9200579_qgy44scv.jpeg> .
 
 olf:551 a skos:Concept ;
     owl:sameAs wd:Q3355040 ;
@@ -2097,7 +2101,8 @@ olf:1 a skos:Concept ;
         "Amulette"@fr,
         "Amuleto"@it,
         "Amulet"@nl,
-        "Amulet"@sl .
+        "Amulet"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/1.Amulet.png> .
 
 olf:104 a skos:Concept ;
     owl:sameAs wd:Q158286 ;
@@ -2680,7 +2685,8 @@ olf:254 a skos:Concept ;
         "Soffio pestifero"@it,
         "Contagium"@nl,
         "Okužba"@sl ;
-    skos:related olf:261 .
+    skos:related olf:261 ;
+    schema:image <https://data.odeuropa.eu/image/ss/254.Halitosis_Contagium_Rijksmuseum%20RP-P-OB-41.178.jpg> .
 
 olf:255 a skos:Concept ;
     owl:sameAs wd:Q161888 ;
@@ -3356,7 +3362,8 @@ olf:380 a skos:Concept ;
         "Vent marin"@fr,
         "Brezza marina"@it,
         "Zeewind"@nl,
-        "Morski veter"@sl .
+        "Morski veter"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/380.Sea%20wind_Rijksmuseum_RP-T-1950-595.jpg> .
 
 olf:384 a skos:Concept ;
     owl:sameAs wd:Q1327999 ;
@@ -3454,7 +3461,8 @@ olf:395 a skos:Concept ;
         "Quatre-épices"@fr,
         "Pepe della Giamaica"@it,
         "Piment"@nl,
-        "Začimbe"@sl .
+        "Začimbe"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/395.Allspice_https-_commons.wikimedia.org_wiki_File-Pimento-allspice.png> .
 
 olf:396 a skos:Concept ;
     owl:sameAs wd:Q191000 ;
@@ -3915,7 +3923,8 @@ olf:51 a skos:Concept ;
         "Cône (parfumé)"@fr,
         "Cono (profumato)"@it,
         "Kegel (geparfumeerd)"@nl,
-        "Kadilo v obliki stožca"@sl .
+        "Kadilo v obliki stožca"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/51.Head%20cone.jpg> .
 
 olf:53 a skos:Concept ;
     owl:sameAs wd:Q187359 ;
@@ -4008,19 +4017,22 @@ olf:547 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Ammonia soap"@en,
         "Sapone all'ammoniaca"@it,
-        "Milo z amonijakom"@sl .
+        "Milo z amonijakom"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/547.Ammonia%20soap_Europeana_2021659_resource_document_musea_deventer_B2008_1894.jpeg> .
 
 olf:548 a skos:Concept ;
     skos:broader olf:554 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Incense ship"@en,
-        "Navette à incense"@fr .
+        "Navette à incense"@fr ;
+    schema:image <https://data.odeuropa.eu/image/ss/548.Navette%20a%20incense_Louvre_0000234373_OG.JPG> .
 
 olf:549 a skos:Concept ;
     skos:broader olf:554 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Tobacco grater"@en,
-        "Râpe à tabac"@fr .
+        "Râpe à tabac"@fr ;
+    schema:image <https://data.odeuropa.eu/image/ss/549.Tobacco%20grater_Râpe%20à%20tabac%20_0000785171_OG.JPG> .
 
 olf:553 a skos:Concept ;
     owl:sameAs wd:Q369682 ;
@@ -4082,7 +4094,8 @@ olf:6 a skos:Concept ;
     skos:definition "A cart that was used in the Netherlands until the 1950s to collect excrements going from neighbourhood to neighbourhood, and ironically referred to as 'Boldootwagen' (boldootcart) because 'Boldoot' was a very fresh smelling perfume/ scented water."@en ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Boldootwagen"@nl,
-        "Boldootov voziček"@sl .
+        "Boldootov voziček"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/6.Boldootwagen_ARchiefAmsterdam_OSIM00002000012.jpg> .
 
 olf:60 a skos:Concept ;
     owl:sameAs wd:Q30748525 ;
@@ -4114,7 +4127,8 @@ olf:71 a skos:Concept ;
         "Eau aromatique"@fr,
         "Acqua floreale"@it,
         "Bloemenwater"@nl,
-        "Rožna voda"@sl .
+        "Rožna voda"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/71.Floral%20water_2064107_Museu_ProvidedCHO_Museum_of_English_Rural_Life__University_of_Reading_4766.jpeg> .
 
 olf:81 a skos:Concept ;
     owl:sameAs wd:Q643352 ;
@@ -4204,7 +4218,8 @@ olf:117 a skos:Concept ;
         "Scatola di profumo"@it,
         "Parfumdoos"@nl,
         "Škatlica za parfum"@sl ;
-    skos:related olf:65 .
+    skos:related olf:65 ;
+    schema:image <https://data.odeuropa.eu/image/ss/117.Perfume%20Box_doosje%20voor%20H.%20Oliesel%20of%20parfum%20met%20inlegwerk,%2019de%20_2023010_71022A51_priref_268.jpeg> .
 
 olf:129 a skos:Concept ;
     owl:sameAs wd:Q3398846 ;
@@ -4226,7 +4241,8 @@ olf:130 a skos:Concept ;
         "Bol de pot-pourri"@fr,
         "Ciotola di potpourri"@it,
         "Potpourrischaal"@nl,
-        "Skleda za potpuri"@sl .
+        "Skleda za potpuri"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/130.Potpourri_Louvre_0000951846_OG.JPG> .
 
 olf:131 a skos:Concept ;
     owl:sameAs wd:Q111259524 ;
@@ -4441,7 +4457,8 @@ olf:23 a skos:Concept ;
         "Truplo"@sl ;
     skos:related olf:12,
         olf:460,
-        olf:533 .
+        olf:533 ;
+    schema:image <https://data.odeuropa.eu/image/ss/23.Cadaver_An%20anatomical%20dissection%20of%20the%20abdomen%20of%20a%20cadaver,%20seen%20in%20a%20foreshortened%20view_1904_9200579_xb8kuwbc.jpeg> .
 
 olf:247 a skos:Concept ;
     owl:sameAs wd:Q36933 ;
@@ -4521,7 +4538,8 @@ olf:28 a skos:Concept ;
         "Cassolette"@fr,
         "Cassolette"@nl,
         "Narastek"@sl ;
-    skos:related olf:536 .
+    skos:related olf:536 ;
+    schema:image <https://data.odeuropa.eu/image/ss/28.Cassolette%20www.europeana.eu_item_15508_It_II_12_81.jpeg> .
 
 olf:291 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
@@ -4548,7 +4566,8 @@ olf:30 a skos:Concept ;
     skos:prefLabel "Chatelaine (chain)"@en,
         "Châtelaine"@fr,
         "Chatelaine"@nl,
-        "Dolg srebrni pas za ženske"@sl .
+        "Dolg srebrni pas za ženske"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/30.Chatelaine_louvre%20OA%208393.JPG> .
 
 olf:302 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
@@ -4698,7 +4717,8 @@ olf:374 a skos:Concept ;
         "Boîte à priser musicale"@fr,
         "Tabacchiera musicale"@it,
         "Muzieksnuifdoos"@nl,
-        "Glasbena škatla z njuhancem"@sl .
+        "Glasbena škatla z njuhancem"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/374.Musical%20snuffbox_Mimo%20Musical%20Instrument%20Museum.jpeg> .
 
 olf:392 a skos:Concept ;
     owl:sameAs wd:Q1450533 ;
@@ -4997,7 +5017,8 @@ olf:59 a skos:Concept ;
         "Eau de la Reine de Hongrie"@fr,
         "Eau de Hungary"@nl,
         "Madžarska voda"@sl ;
-    skos:related olf:228 .
+    skos:related olf:228 ;
+    schema:image <https://data.odeuropa.eu/image/ss/59.Eau%20de%20la%20reinde%20d_hongrie.png> .
 
 olf:7 a skos:Concept ;
     skos:altLabel "Bague de fiançailles"@fr ;
@@ -5009,7 +5030,8 @@ olf:7 a skos:Concept ;
         "Anneau de fiançailles"@fr,
         "Anello di fidanzamento"@it,
         "Trouwring (met geurvakje)"@nl,
-        "Zaročni prstan"@sl .
+        "Zaročni prstan"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/7.Bethrotel%20ring_http-_data.jck.nl_resource_aggregation_jhm-museum_MB00149.jpeg> .
 
 olf:84 a skos:Concept ;
     skos:broader olf:125,
@@ -5151,7 +5173,8 @@ olf:20 a skos:Concept ;
         "Braccialetto vinaigrette"@it,
         "Vinaigrette armband"@nl,
         "Dišavna zapestnica"@sl ;
-    skos:related olf:164 .
+    skos:related olf:164 ;
+    schema:image <https://data.odeuropa.eu/image/ss/20.Bracelet%20vinaigrette_Etsy.webp> .
 
 olf:207 a skos:Concept ;
     owl:sameAs wd:Q162724 ;
@@ -5237,7 +5260,8 @@ olf:252 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Boldoot"@nl,
         "Nizozemski parfumer Boldoot"@sl ;
-    skos:related olf:228 .
+    skos:related olf:228 ;
+    schema:image <https://data.odeuropa.eu/image/ss/252.Boldoot_Rijksmuseum_46627_1.jpeg> .
 
 olf:260 a skos:Concept ;
     owl:sameAs wd:Q333631 ;
@@ -5263,7 +5287,8 @@ olf:31 a skos:Concept ;
         "Flacon Chatelaine"@fr,
         "Bottiglia Chatelaine"@it,
         "Chatelaine-fles"@nl,
-        "Bučka na dolgem srebrnem pasu za ženske"@sl .
+        "Bučka na dolgem srebrnem pasu za ženske"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/31.Chatelaine%20flask.%20Ebay.jpeg> .
 
 olf:331 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
@@ -5472,7 +5497,8 @@ olf:73 a skos:Concept ;
         "Fleur dans les cheveux"@fr,
         "Fiore tra i capelli"@it,
         "Bloemen in haar"@nl,
-        "Rože v laseh"@sl .
+        "Rože v laseh"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/73.Flower%20in%20hair_Extrait%20d_Odeur%20aux%20Fleurs_2048128_684971.jpeg> .
 
 olf:83 a skos:Concept ;
     owl:sameAs wd:Q12796 ;
@@ -6030,7 +6056,8 @@ olf:25 a skos:Concept ;
         "Candela"@it,
         "Kaarsen"@nl,
         "Sveče"@sl ;
-    skos:related olf:166 .
+    skos:related olf:166 ;
+    schema:image <https://data.odeuropa.eu/image/ss/25.Candle_welcome%20collection.jpeg> .
 
 olf:312 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
@@ -6518,7 +6545,8 @@ olf:10 a skos:Concept ;
         "Attrezzatura alchemica"@it,
         "Alchemiebenodigdheden"@nl,
         "Alkimistična oprema"@sl ;
-    skos:related olf:174 .
+    skos:related olf:174 ;
+    schema:image <https://data.odeuropa.eu/image/ss/10.Alchemical%20LEquipment_Europeana_9200579_mnnxvsd5.jpeg> .
 
 olf:11 a skos:Concept ;
     skos:altLabel "Attrezzatura da speziale"@it ;
@@ -6534,7 +6562,8 @@ olf:11 a skos:Concept ;
         "Matériel d'apothicaire"@fr,
         "Attrezzatura da farmacia"@it,
         "Apothekersbenodigdheden"@nl,
-        "Lekarniška oprema"@sl .
+        "Lekarniška oprema"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/11.Appothecary%20equipment.jpeg> .
 
 olf:132 a skos:Concept ;
     owl:sameAs wd:Q1435003 ;
@@ -7026,7 +7055,8 @@ olf:35 a skos:Concept ;
         "Chocolat (solid)"@fr,
         "Cioccolato (tavoletta)"@it,
         "Chocola (vast)"@nl,
-        "Polna čokolada"@sl .
+        "Polna čokolada"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/35.chocolate_rijksmuseum_NG-2015-4-1-60.jpg> .
 
 olf:366 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
@@ -7127,7 +7157,8 @@ olf:5 a skos:Concept ;
         "Balena"@it,
         "(Gestrande) walvis"@nl,
         "Nasedli kit"@sl ;
-    skos:related olf:153 .
+    skos:related olf:153 ;
+    schema:image <https://data.odeuropa.eu/image/ss/5.Whale.jpeg> .
 
 olf:55 a skos:Concept ;
     owl:sameAs wd:Q144 ;
@@ -7336,7 +7367,8 @@ olf:151 a skos:Concept ;
         "Tabacchiera"@it,
         "Snuifdoosje"@nl,
         "Tobačnice za njuhanec"@sl ;
-    skos:related olf:227 .
+    skos:related olf:227 ;
+    schema:image <https://data.odeuropa.eu/image/ss/151.Snuff%20Box_nederlandsopenluchtmuseum_NOM.6140-46.jpg> .
 
 olf:155 a skos:Concept ;
     owl:sameAs wd:Q153 ;
@@ -7720,7 +7752,8 @@ olf:70 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Flacon ring"@en,
         "Flaconring"@nl,
-        "Obročasta steklenica"@sl .
+        "Obročasta steklenica"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/70.Flacon%20ring.jpeg> .
 
 olf:86 a skos:Concept ;
     skos:broader olf:554,
@@ -7737,7 +7770,8 @@ olf:86 a skos:Concept ;
         "Mouchoir"@fr,
         "Fazzoletto"@it,
         "Zakdoek"@nl,
-        "Robec"@sl .
+        "Robec"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/86.Handkerchief.jpg> .
 
 iconclass:D skos:closeMatch olf:176,
         olf:249,
@@ -8522,7 +8556,8 @@ olf:49 a skos:Concept ;
         "Broche"@fr,
         "Spilla"@it,
         "Cocktail broche (met parfum)"@nl,
-        "Broška za koktejl"@sl .
+        "Broška za koktejl"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/49.Brooch%20-%20The%20Jewish%20Museum%20of%20Greece,%20Greece%20-%20In%20Copyright%20-%20Educational%20Use%20Permitted.%20https_www.europeana.eu_item_317_280ab992_83f9_4706_a1f8_0cab0a953bd6_317_280ab992_83f9_4706_a1f8_0cab0a953bd6.jpeg> .
 
 olf:563 a skos:Concept ;
     skos:altLabel "Abstrakcija"@sl,
@@ -9471,7 +9506,7 @@ olf:227 a skos:Concept ;
         olf:43,
         olf:481,
         olf:519 ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Tabak%209290019.JPG> .
+    schema:image <https://data.odeuropa.eu/image/ss/227.tobacco.jpg> .
 
 olf:562 a skos:Concept ;
     skos:altLabel "Sestavina"@sl ;
@@ -9653,7 +9688,8 @@ olf:54 a skos:Concept ;
         "Équipement de distillation"@fr,
         "Attrezzatura di distillazione"@it,
         "Distillatiebenodigdheden"@nl,
-        "Destilacijska oprema"@sl .
+        "Destilacijska oprema"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/54.DIstillation%20equipment_9200579_xxfgwnfx.jpeg> .
 
 olf:13 a skos:Concept ;
     owl:sameAs wd:Q729 ;
@@ -11544,8 +11580,8 @@ olf:405 a skos:Concept ;
 voc:olfactory-objects a skos:ConceptScheme ;
     rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2023-06-26"^^xsd:date ;
-    pav:createdOn "2023-06-26"^^xsd:date ;
+    dct:modified "2023-07-06"^^xsd:date ;
+    pav:createdOn "2023-07-06"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olf:405,
         olf:475,

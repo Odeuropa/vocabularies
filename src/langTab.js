@@ -91,19 +91,23 @@ async function toConcept(s, lang, ns) {
     }
 
     let wdlink = false;
+
+    let imgLink = images.find(x => x.startsWith(id + '.'));
+    imgLink = imgLink && 'https://data.odeuropa.eu/image/ss/' + imgLink;
+
     if (s.INTERLINKS) {
         const iks = s.INTERLINKS.split(' ');
         iks.forEach((r) => add(concept, OWL('sameAs'), r));
         wdlink = iks.find((r) => r.includes('wikidata'));
-        let imgLink = images.find(x => x.startsWith(id + '.'));
-        imgLink = imgLink && 'https://data.odeuropa.eu/image/ss/' + imgLink;
+
         if (!imgLink && wdlink) {
             // add image link
             imgLink = await getWikidataImage(wdlink);
         }
-        if (imgLink)
-            add(concept, SCHEMA('image'), imgLink, null, { forceLink: true });
     }
+
+    if (imgLink)
+        add(concept, SCHEMA('image'), imgLink, null, { forceLink: true });
 
     if (lang === 'en' && !wdlink) {
         // search in wikidata
