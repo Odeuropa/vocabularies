@@ -2,7 +2,7 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 1,Alchemist's workshop,,,,,,,X,,,,,,,,,,,,
 2,Animal market,,,,,,,X,,Animalistic,,,13 Animal,45 Market,,,,,,market - indoor; market - outdoor; bazaar - indoor; bazaar - outdoor
 3,Ball,,,,Formal dance,,,43A23,,,,,,,http://www.wikidata.org/entity/Q478515,,,,,
-4,Bathroom,,,,,,,41A24,,,,,3 Bath,,http://www.wikidata.org/entity/Q190771,,,,,bathroom; lavatory
+4,Bathroom,,,,,,,41A24,,,,,3 Bath,117 Room,http://www.wikidata.org/entity/Q190771,,,,,bathroom; lavatory
 5,Beach,,,,,,,25H133,,,,,,,http://www.wikidata.org/entity/Q40080,,,,,beach
 6,Beer Brewery,Brewery,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q131734,,,,,
 7,Bleaching field,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q2169265 https://www.geonames.org/ontology#S.CSTL,,,,,
@@ -13,7 +13,7 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 12,Cave,Grotto,,,,,,25H119,,,,,,,http://www.wikidata.org/entity/Q35509,,,,,
 13,Chemical industry,,,,,,,47B27,,,,,,23 Factory,http://www.wikidata.org/entity/Q207652,,,,,
 14,City,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q515  https://www.geonames.org/ontology#P.PPLA,,,,,
-15,Dining-room,,,,,,,41A223,,,,,,,http://www.wikidata.org/entity/Q661199,,,,,dining hall; dining room
+15,Dining-room,,,,,,,41A223,,,,,,117 Room,http://www.wikidata.org/entity/Q661199,,,,,dining hall; dining room
 16,Canteen,,,,,,,X,,,,,,92 Restaurant,http://www.wikidata.org/entity/Q1127296,,,,2955921,
 17,Distillery,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q1251750,,,,,
 18,Dungheap,,,,,,,X,,,,,,,,,,,,
@@ -67,12 +67,12 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 66,Swamps and polders,,,,,,,25H19,,,,,,,,,,,,
 67,Swamp,"Inland marsh, Fens",,,,,,25H191,,,,,"262 Mildew, 263 Mould",66 Swamps and polders,http://www.wikidata.org/entity/Q166735,,,,,
 68,Tannery,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q3515239,,,,,
-69,House,,,,,,,41A,,,,,,,http://www.wikidata.org/entity/Q3947,,,,,
+69,House,Home,,,,,,41A,,,,,,,http://www.wikidata.org/entity/Q3947,,,,,
 70,Wig shop,,,,,,,,,,,,,,,,,,,
 71,Tobacco factory,,,,,,,X,,,,,227 Tobacco,23 Factory,http://www.wikidata.org/entity/Q55635949,,,,,
 72,Tea garden,Garden restaurant,,,,,,43B312,,,,,,27 Garden,http://www.wikidata.org/entity/Q1827414,,,,,
-73,Village,,,,,,,25I2,,,,,,32 Hospital,http://www.wikidata.org/entity/Q532,,,,,
-74,Hospital ward,Hospital room,,,,,,49G41,,,,,,,,,,,,
+73,Village,,,,,,,25I2,,,,,,,http://www.wikidata.org/entity/Q532,,,,,
+74,Hospital ward,Hospital room,,,,,,49G41,,,,,,32 Hospital,,,,,,
 75,Wash house,"Home laundry, Laundry room",,,,,,41D4281,,,,,,,http://www.wikidata.org/entity/Q1690211,,,,,
 76,War zone,Battle field,,,,,,45H3,,,"Empyreumatic/ smoke, earthy/ mineral, animalstic, body odour, sulphurous/ rotten/ fecal",,"248 Carbolic acid, 266 Idoform",,http://www.wikidata.org/entity/Q4895508 https://www.geonames.org/ontology#L.BTL,,,,,
 77,Graveyard,cemetery,,,,,,42E43,,,,,,,http://www.wikidata.org/entity/Q39614,,,,,
@@ -109,14 +109,14 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 108,Paradise,,,,,,,11S,,,,,,,http://www.wikidata.org/entity/Q3363340,,,,,
 109,Arabia,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q31945,,,,,
 110,Arcadia,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q168786,,,,,
-111,Bedroom,Room,,,,,,41A23,,,,,,,https://www.wikidata.org/wiki/Q180516,,,,,
-112,Living room,,,,,,,41A221,,,,,,,,,,,,
+111,Bedroom,Room,,,,,,41A23,,,,,,117 Room,https://www.wikidata.org/wiki/Q180516,,,,,
+112,Living room,,,,,,,41A221,,,,,,117 Room,,,,,,
 113,Coal Wagon,,,,,,,,,,,,,,,,,,,
 114,Dilligence,"Chariot, Postal Coach",,,,,,,,,,,,,,,,,,
 115,Haystack,,,,,,,,,,,,,,,,,,,
 116,Stable,,,,,,,47I227,,,"animalistic, rural",,189 Horse,63 Stall,http://www.wikidata.org/entity/Q214252,,,,,
-117,,,,,,,,,,,,,,,,,,,,
-118,,,,,,,,,,,,,,,,,,,,
+117,Room,,,,,,,,,,,,118 House,,,,,,,
+118,Apartment,,,,,,,,,,,,,69 House,,,,,,
 119,,,,,,,,,,,,,,,,,,,,
 120,,,,,,,,,,,,,,,,,,,,
 121,,,,,,,,,,,,,,,,,,,,

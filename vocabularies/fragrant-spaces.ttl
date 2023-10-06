@@ -15,6 +15,8 @@
 
 olf:112 skos:related fr:55 .
 
+olf:118 skos:related fr:117 .
+
 olf:165 skos:related fr:90 .
 
 olf:189 skos:related fr:116 .
@@ -138,6 +140,13 @@ fr:115 a skos:Concept ;
         "Kopica sena"@sl ;
     skos:topConceptOf voc:fragrant-spaces .
 
+fr:118 a skos:Concept ;
+    skos:broader fr:69 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Apartment"@en,
+        "Appartement"@fr,
+        "Appartamento"@it .
+
 fr:14 a skos:Concept ;
     dct:bibliographicCitation "WNT: De heele stad is met stank vervuld, v. daleᴣ"@nl,
         "Wat hadde dan die stadt anders gheweest dan eenen gruwelicken moortcuijl, dan eenen hoop greijs, viers, roocx, bloets, dooder lichamen ende stancx, v. vaernewijck, Ber. T. 2, 3 [1566]."@nl ;
@@ -146,7 +155,8 @@ fr:14 a skos:Concept ;
     skos:altLabel "Cité"@fr,
         "Ambiente urbano"@it ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "City"@en,
+    skos:prefLabel "Stadt"@de,
+        "City"@en,
         "Ville"@fr,
         "Città"@it,
         "Stad"@nl,
@@ -159,7 +169,8 @@ fr:17 a skos:Concept ;
     skos:altLabel "Destilleerderij"@nl,
         "Žganjarna"@sl ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Distillery"@en,
+    skos:prefLabel "Brennerei"@de,
+        "Distillery"@en,
         "Distillerie"@fr,
         "Distilleria"@it,
         "Distilleerderij"@nl,
@@ -171,7 +182,8 @@ fr:18 a skos:Concept ;
     skos:altLabel "Letamaio"@it,
         "Mestvaalt"@nl ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Dungheap"@en,
+    skos:prefLabel "Misthaufen"@de,
+        "Dungheap"@en,
         "Tas de fumier"@fr,
         "Mucchio di letame"@it,
         "Mesthoop"@nl,
@@ -182,7 +194,8 @@ fr:21 a skos:Concept ;
     owl:sameAs wd:Q448030 ;
     skos:altLabel "Valjarna sukna"@sl ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Fullery"@en,
+    skos:prefLabel "Walkmühle"@de,
+        "Fullery"@en,
         "Foulon"@fr,
         "Gualchiera"@it,
         "Vollerij"@nl,
@@ -230,7 +243,8 @@ fr:34 a skos:Concept ;
     owl:sameAs wd:Q36963 ;
     skos:altLabel "Stilleven met wild/ wildstilleven"@nl ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Hunting scene"@en,
+    skos:prefLabel "Jagdszene"@de,
+        "Hunting scene"@en,
         "Scène de chasse"@fr,
         "Scena di caccia"@it,
         "Jachttafereel"@nl,
@@ -270,7 +284,8 @@ fr:6 a skos:Concept ;
     owl:sameAs wd:Q131734 ;
     skos:altLabel "Brewery"@en ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Beer Brewery"@en,
+    skos:prefLabel "Brauerei"@de,
+        "Beer Brewery"@en,
         "Brasserie"@fr,
         "Birrificio"@it,
         "Bierbrouwerij"@nl,
@@ -468,14 +483,16 @@ fr:10 a skos:Concept ;
 
 fr:16 a skos:Concept ;
     owl:sameAs wd:Q1127296 ;
-    skos:altLabel "Gourde"@fr,
+    skos:altLabel "Mensa"@de,
+        "Gourde"@fr,
         "Réfectoire Cafétéria"@fr,
         "Refettorio"@it,
         "Kantina"@sl ;
     skos:broader fr:92 ;
     skos:exactMatch wordnet:2955921 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Canteen"@en,
+    skos:prefLabel "Kantine"@de,
+        "Canteen"@en,
         "Cantine"@fr,
         "Mensa"@it,
         "Kantine"@nl,
@@ -505,7 +522,8 @@ fr:26 a skos:Concept ;
         "Ribarnica"@sl ;
     skos:broader fr:45 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Fish market"@en,
+    skos:prefLabel "Fischmarkt"@de,
+        "Fish market"@en,
         "Marché aux poissons"@fr,
         "Mercato del pesce"@it,
         "Vismarkt"@nl,
@@ -639,7 +657,8 @@ fr:35 a skos:Concept ;
     skos:broader fr:53 ;
     skos:exactMatch wordnet:3031762 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Church"@en,
+    skos:prefLabel "Kirche"@de,
+        "Church"@en,
         "Eglise"@fr,
         "Chiesa"@it,
         "Kerk"@nl,
@@ -671,7 +690,6 @@ fr:11 a skos:Concept ;
 fr:73 a skos:Concept ;
     owl:sameAs wd:Q532 ;
     skos:altLabel "Villaggio"@it ;
-    skos:broader fr:32 ;
     skos:closeMatch iconclass:2,
         iconclass:5,
         iconclass:I ;
@@ -681,6 +699,7 @@ fr:73 a skos:Concept ;
         "Paese"@it,
         "Dorp"@nl,
         "Vas"@sl ;
+    skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Betley-%20The%20main%20road,%20looking%20north,%20the%20postmans%20bike%20at%20rest%20-%20geograph.org.uk%20-%20147874.jpg> .
 
 fr:79 a skos:Concept ;
@@ -709,6 +728,7 @@ iconclass:G skos:closeMatch fr:32,
 
 fr:112 a skos:Concept ;
     skos:altLabel "Salotto"@it ;
+    skos:broader fr:117 ;
     skos:closeMatch iconclass:1,
         iconclass:2,
         iconclass:4,
@@ -717,8 +737,7 @@ fr:112 a skos:Concept ;
     skos:prefLabel "Living room"@en,
         "Salon"@fr,
         "Salone"@it,
-        "Dnevna soba"@sl ;
-    skos:topConceptOf voc:fragrant-spaces .
+        "Dnevna soba"@sl .
 
 fr:13 a skos:Concept ;
     owl:sameAs wd:Q207652 ;
@@ -772,7 +791,8 @@ fr:3 a skos:Concept ;
         iconclass:A ;
     skos:definition "Formal dance"@en ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Ball"@en,
+    skos:prefLabel "Ball"@de,
+        "Ball"@en,
         "Bal"@fr,
         "Ballo"@it,
         "Balzaal"@nl,
@@ -792,7 +812,8 @@ fr:36 a skos:Concept ;
         iconclass:4,
         iconclass:B ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Coffee-house"@en,
+    skos:prefLabel "Kaffeehaus"@de,
+        "Coffee-house"@en,
         "Café"@fr,
         "Caffetteria"@it,
         "Koffiehuis"@nl,
@@ -861,29 +882,12 @@ fr:58 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bowl%20Of%20Hygieia%20by%20David.svg> .
 
-fr:69 a skos:Concept ;
-    dct:bibliographicCitation "WNT: Daar was een onverdraaglijke stank in huis, Halma."@nl ;
-    owl:sameAs wd:Q3947 ;
-    skos:altLabel "Demeure"@fr,
-        "Abitazione"@it ;
-    skos:closeMatch iconclass:1,
-        iconclass:4,
-        iconclass:A ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:narrower fr:86 ;
-    skos:prefLabel "House"@en,
-        "Maison"@fr,
-        "Casa"@it,
-        "Huis"@nl,
-        "Hiša"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
-    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ranch%20style%20home%20in%20Salinas,%20California.JPG> .
-
 fr:74 a skos:Concept ;
     skos:altLabel "Hospital room"@en,
         "Chambre d'hôpital"@fr,
         "Reparto"@it,
         "Stanza d'ospedale"@it ;
+    skos:broader fr:32 ;
     skos:closeMatch iconclass:1,
         iconclass:4,
         iconclass:9,
@@ -893,8 +897,7 @@ fr:74 a skos:Concept ;
         "Salle d'hôpital"@fr,
         "Corsia (ospedale)"@it,
         "Ziekenzaal"@nl,
-        "Bolniški oddelek"@sl ;
-    skos:topConceptOf voc:fragrant-spaces .
+        "Bolniški oddelek"@sl .
 
 fr:77 a skos:Concept ;
     owl:sameAs wd:Q39614 ;
@@ -924,7 +927,8 @@ fr:8 a skos:Concept ;
         iconclass:4,
         iconclass:A ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Castle"@en,
+    skos:prefLabel "Burg"@de,
+        "Castle"@en,
         "Chateau"@fr,
         "Castello"@it,
         "Kasteel"@nl,
@@ -1028,8 +1032,8 @@ fr:107 a skos:Concept ;
 
 fr:111 a skos:Concept ;
     owl:sameAs wiki:Q180516 ;
-    skos:altLabel "Room"@en,
-        "Camera"@it ;
+    skos:altLabel "Room"@en ;
+    skos:broader fr:117 ;
     skos:closeMatch iconclass:1,
         iconclass:2,
         iconclass:3,
@@ -1040,7 +1044,6 @@ fr:111 a skos:Concept ;
         "Chambre"@fr,
         "Camera da letto"@it,
         "Spalnica"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20youth%20hostel%20room.jpg> .
 
 fr:116 a skos:Concept ;
@@ -1062,6 +1065,19 @@ fr:116 a skos:Concept ;
     skos:related olf:189 ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Quadra%20%2826722518231%29.jpg> .
 
+fr:117 a skos:Concept ;
+    skos:altLabel "Camera"@it ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:narrower fr:111,
+        fr:112,
+        fr:15,
+        fr:4 ;
+    skos:prefLabel "Room"@en,
+        "Pièce"@fr,
+        "Stanza"@it ;
+    skos:related olf:118 ;
+    skos:topConceptOf voc:fragrant-spaces .
+
 fr:12 a skos:Concept ;
     owl:sameAs wd:Q35509 ;
     skos:altLabel "Grotto"@en,
@@ -1074,7 +1090,8 @@ fr:12 a skos:Concept ;
         iconclass:9,
         iconclass:H ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Cave"@en,
+    skos:prefLabel "Keller"@de,
+        "Cave"@en,
         "Grotte"@fr,
         "Caverna"@it,
         "Grot"@nl,
@@ -1084,18 +1101,19 @@ fr:12 a skos:Concept ;
 
 fr:15 a skos:Concept ;
     owl:sameAs wd:Q661199 ;
+    skos:broader fr:117 ;
     skos:closeMatch iconclass:1,
         iconclass:2,
         iconclass:3,
         iconclass:4,
         iconclass:A ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Dining-room"@en,
+    skos:prefLabel "Speisesaal"@de,
+        "Dining-room"@en,
         "Salle à manger"@fr,
         "Sala da pranzo"@it,
         "Eetkamer"@nl,
         "Jedilnica"@sl ;
-    skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Heiligengrabe,%20Kloster%20Stift%20zum%20Heiligengrabe,%20Abtei,%20Speiseraum%20--%202017%20--%207082-8.jpg> .
 
 fr:20 a skos:Concept ;
@@ -1109,7 +1127,8 @@ fr:20 a skos:Concept ;
         iconclass:9,
         iconclass:H ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Forest fire"@en,
+    skos:prefLabel "Waldbrand"@de,
+        "Forest fire"@en,
         "Feu de forêt"@fr,
         "Incendio boschivo"@it,
         "Bosbrand"@nl,
@@ -1119,13 +1138,15 @@ fr:20 a skos:Concept ;
 fr:25 a skos:Concept ;
     owl:sameAs wd:Q131596,
         <https://www.geonames.org/ontology#S.FRM> ;
+    skos:altLabel "Hof"@de ;
     skos:closeMatch iconclass:1,
         iconclass:4,
         iconclass:7,
         iconclass:A ;
     skos:inScheme voc:fragrant-spaces ;
     skos:narrower fr:57 ;
-    skos:prefLabel "Farm"@en,
+    skos:prefLabel "Bauernhof"@de,
+        "Farm"@en,
         "Ferme"@fr,
         "Fattoria"@it,
         "Boerderij"@nl,
@@ -1140,8 +1161,9 @@ fr:32 a skos:Concept ;
         iconclass:9,
         iconclass:G ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:narrower fr:73 ;
-    skos:prefLabel "Hospital"@en,
+    skos:narrower fr:74 ;
+    skos:prefLabel "Krankenhaus"@de,
+        "Hospital"@en,
         "Hôpital"@fr,
         "Ospedale"@it,
         "Ziekenhuis"@nl,
@@ -1186,18 +1208,19 @@ fr:4 a skos:Concept ;
     skos:altLabel "Salle d'eau"@fr,
         "Toilettes"@fr,
         "Stranišče"@sl ;
+    skos:broader fr:117 ;
     skos:closeMatch iconclass:1,
         iconclass:2,
         iconclass:4,
         iconclass:A ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Bathroom"@en,
+    skos:prefLabel "Badezimmer"@de,
+        "Bathroom"@en,
         "Salle de bain"@fr,
         "Bagno"@it,
         "Badkamer"@nl,
         "Kopalnica"@sl ;
     skos:related olf:3 ;
-    skos:topConceptOf voc:fragrant-spaces ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Restaurant%20bathroom%20with%20two-way%20mirror.jpg> .
 
 fr:40 a skos:Concept ;
@@ -1274,7 +1297,8 @@ fr:46 a skos:Concept ;
         iconclass:6,
         iconclass:B ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Market-hall"@en,
+    skos:prefLabel "Markthalle"@de,
+        "Market-hall"@en,
         "Halle"@fr,
         "Mercato coperto"@it,
         "Markthal"@nl,
@@ -1315,7 +1339,8 @@ fr:5 a skos:Concept ;
         iconclass:5,
         iconclass:H ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Beach"@en,
+    skos:prefLabel "Strand"@de,
+        "Beach"@en,
         "Spiaggia"@fr,
         "Spiaggia"@it,
         "Strand"@nl,
@@ -1411,6 +1436,26 @@ fr:57 a skos:Concept ;
         "Azienda avicola"@it,
         "Pluimveehouderij"@nl,
         "Reja perutnine"@sl .
+
+fr:69 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Daar was een onverdraaglijke stank in huis, Halma."@nl ;
+    owl:sameAs wd:Q3947 ;
+    skos:altLabel "Home"@en,
+        "Demeure"@fr,
+        "Abitazione"@it ;
+    skos:closeMatch iconclass:1,
+        iconclass:4,
+        iconclass:A ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:narrower fr:118,
+        fr:86 ;
+    skos:prefLabel "House"@en,
+        "Maison"@fr,
+        "Casa"@it,
+        "Huis"@nl,
+        "Hiša"@sl ;
+    skos:topConceptOf voc:fragrant-spaces ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ranch%20style%20home%20in%20Salinas,%20California.JPG> .
 
 fr:72 a skos:Concept ;
     owl:sameAs wd:Q1827414 ;
@@ -1826,7 +1871,8 @@ fr:29 a skos:Concept ;
     skos:inScheme voc:fragrant-spaces ;
     skos:narrower fr:43,
         fr:44 ;
-    skos:prefLabel "Greenhouse"@en,
+    skos:prefLabel "Gewächshaus"@de,
+        "Greenhouse"@en,
         "Serre"@fr,
         "Serra"@it,
         "Kas"@nl,
@@ -1844,7 +1890,8 @@ fr:45 a skos:Concept ;
     skos:narrower fr:2,
         fr:26,
         fr:46 ;
-    skos:prefLabel "Market"@en,
+    skos:prefLabel "Markt"@de,
+        "Market"@en,
         "Marché"@fr,
         "Mercato"@it,
         "Markt"@nl,
@@ -1978,7 +2025,8 @@ fr:23 a skos:Concept ;
         fr:65,
         fr:71,
         fr:90 ;
-    skos:prefLabel "Factory"@en,
+    skos:prefLabel "Fabrik"@de,
+        "Factory"@en,
         "Usine"@fr,
         "Fabbrica"@it,
         "Fabriek"@nl,
@@ -2259,8 +2307,8 @@ iconclass:4 skos:closeMatch fr:102,
 voc:fragrant-spaces a skos:ConceptScheme ;
     rdfs:label "Fragrant spaces" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2023-04-21"^^xsd:date ;
-    pav:createdOn "2023-04-21"^^xsd:date ;
+    dct:modified "2023-10-06"^^xsd:date ;
+    pav:createdOn "2023-10-06"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept fr:1,
         fr:100,
@@ -2274,14 +2322,12 @@ voc:fragrant-spaces a skos:ConceptScheme ;
         fr:109,
         fr:11,
         fr:110,
-        fr:111,
-        fr:112,
         fr:113,
         fr:114,
         fr:115,
+        fr:117,
         fr:12,
         fr:14,
-        fr:15,
         fr:17,
         fr:18,
         fr:19,
@@ -2300,7 +2346,6 @@ voc:fragrant-spaces a skos:ConceptScheme ;
         fr:34,
         fr:36,
         fr:37,
-        fr:4,
         fr:40,
         fr:41,
         fr:42,
@@ -2326,7 +2371,7 @@ voc:fragrant-spaces a skos:ConceptScheme ;
         fr:69,
         fr:7,
         fr:70,
-        fr:74,
+        fr:73,
         fr:75,
         fr:76,
         fr:77,
