@@ -112,6 +112,11 @@ olf:35 a skos:Concept ;
         "Voddenrapen"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
+olf:36 a skos:Concept ;
+    skos:inScheme voc:olfactory-gestures ;
+    skos:prefLabel "Washing"@en ;
+    skos:topConceptOf voc:olfactory-gestures .
+
 olf:5 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Hunting"@en,
@@ -132,13 +137,11 @@ iconclass:8 skos:closeMatch olf:20 .
 
 iconclass:9 skos:closeMatch olf:12 .
 
+iconclass:C skos:closeMatch olf:15 .
+
 iconclass:D skos:closeMatch olf:7 .
 
-iconclass:E skos:closeMatch olf:19 .
-
 iconclass:G skos:closeMatch olf:12 .
-
-iconclass:e skos:closeMatch olf:13 .
 
 ol:366 skos:related olf:11,
         olf:12 .
@@ -146,13 +149,15 @@ ol:366 skos:related olf:11,
 ol:405 skos:related olf:15,
         olf:16 .
 
-olf:10 a skos:Concept ;
+olf:16 a skos:Concept ;
+    skos:altLabel "Food trying"@en ;
     skos:inScheme voc:olfactory-gestures ;
-    skos:prefLabel "Embalming"@en,
-        "Embaumement"@fr,
-        "Imbalasamazione"@it,
-        "Balzamiranje"@sl ;
-    skos:related ol:211 ;
+    skos:prefLabel "Food tasting"@en,
+        "Dégustation"@fr,
+        "Assaggiare"@it,
+        "Proeven (bijv. door een kok)"@nl,
+        "Degustacija hrane"@sl ;
+    skos:related ol:405 ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olf:21 a skos:Concept ;
@@ -173,18 +178,6 @@ olf:23 a skos:Concept ;
         "Distribucija vonjav"@sl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olf:26 a skos:Concept ;
-    skos:altLabel "Raccogliere rifiuti"@it,
-        "Zbiranje smeti"@sl ;
-    skos:inScheme voc:olfactory-gestures ;
-    skos:prefLabel "Garbage collecting"@en,
-        "Ramassage des ordures"@fr,
-        "Raccogliere immondizia"@it,
-        "Vuilnis ophalen"@nl,
-        "Zbiranje odpadkov"@sl ;
-    skos:related ol:77 ;
-    skos:topConceptOf voc:olfactory-gestures .
-
 olf:30 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Harvesting civet from civet cat"@en,
@@ -197,9 +190,6 @@ olf:30 a skos:Concept ;
 iconclass:B skos:closeMatch olf:20,
         olf:3 .
 
-iconclass:C skos:closeMatch olf:15,
-        olf:16 .
-
 olf:19 a skos:Concept ;
     skos:closeMatch iconclass:1,
         iconclass:2,
@@ -211,12 +201,17 @@ olf:19 a skos:Concept ;
         "Gorenje"@sl ;
     skos:topConceptOf voc:olfactory-gestures .
 
+iconclass:E skos:closeMatch olf:10,
+        olf:13,
+        olf:19,
+        olf:26 .
+
 olf:13 a skos:Concept ;
     skos:altLabel "Pulizia delle strade"@it ;
     skos:closeMatch iconclass:3,
         iconclass:4,
         iconclass:5,
-        iconclass:e ;
+        iconclass:E ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Street sweeping"@en,
         "Balayage des rues"@fr,
@@ -263,12 +258,6 @@ olf:7 a skos:Concept ;
         "Beljenje"@sl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-iconclass:5 skos:closeMatch olf:13,
-        olf:2,
-        olf:24,
-        olf:25,
-        olf:28 .
-
 iconclass:6 skos:closeMatch olf:11,
         olf:3,
         olf:4,
@@ -291,7 +280,8 @@ olf:1 a skos:Concept ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olf:11 a skos:Concept ;
-    skos:altLabel "Zeiken"@nl,
+    skos:altLabel "Peeing"@en,
+        "Zeiken"@nl,
         "plassen"@nl,
         "Odvajanje vode"@sl ;
     skos:closeMatch iconclass:1,
@@ -305,21 +295,6 @@ olf:11 a skos:Concept ;
         "Urineren"@nl,
         "Uriniranje"@sl ;
     skos:related ol:366 ;
-    skos:topConceptOf voc:olfactory-gestures .
-
-olf:16 a skos:Concept ;
-    skos:altLabel "Food trying"@en ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:4,
-        iconclass:C ;
-    skos:inScheme voc:olfactory-gestures ;
-    skos:prefLabel "Food tasting"@en,
-        "Dégustation"@fr,
-        "Assaggiare"@it,
-        "Proeven (bijv. door een kok)"@nl,
-        "Degustacija hrane"@sl ;
-    skos:related ol:405 ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olf:2 a skos:Concept ;
@@ -364,19 +339,20 @@ olf:25 a skos:Concept ;
         "Na stranišču"@sl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olf:28 a skos:Concept ;
-    skos:altLabel "Using ointments"@en,
-        "Using perfumes"@en ;
-    skos:closeMatch iconclass:1,
-        iconclass:3,
+olf:26 a skos:Concept ;
+    skos:altLabel "Raccogliere rifiuti"@it,
+        "Zbiranje smeti"@sl ;
+    skos:closeMatch iconclass:3,
+        iconclass:4,
         iconclass:5,
-        iconclass:A ;
+        iconclass:E ;
     skos:inScheme voc:olfactory-gestures ;
-    skos:prefLabel "Using scents"@en,
-        "Utilisation des odeurs"@fr,
-        "Profumarsi"@it,
-        "Uporaba vonjav"@sl ;
-    skos:related ol:65 ;
+    skos:prefLabel "Garbage collecting"@en,
+        "Ramassage des ordures"@fr,
+        "Raccogliere immondizia"@it,
+        "Vuilnis ophalen"@nl,
+        "Zbiranje odpadkov"@sl ;
+    skos:related ol:77 ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olf:3 a skos:Concept ;
@@ -439,12 +415,19 @@ olf:6 a skos:Concept ;
     skos:related ol:166 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-iconclass:4 skos:closeMatch olf:12,
-        olf:13,
-        olf:15,
-        olf:16,
-        olf:25,
-        olf:7 .
+olf:10 a skos:Concept ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:4,
+        iconclass:5,
+        iconclass:E ;
+    skos:inScheme voc:olfactory-gestures ;
+    skos:prefLabel "Embalming"@en,
+        "Embaumement"@fr,
+        "Imbalasamazione"@it,
+        "Balzamiranje"@sl ;
+    skos:related ol:211 ;
+    skos:topConceptOf voc:olfactory-gestures .
 
 olf:12 a skos:Concept ;
     skos:altLabel "Piskijker"@nl ;
@@ -460,6 +443,22 @@ olf:12 a skos:Concept ;
         "Piskijken"@nl,
         "Pregled urina"@sl ;
     skos:related ol:366 ;
+    skos:topConceptOf voc:olfactory-gestures .
+
+olf:28 a skos:Concept ;
+    skos:altLabel "Using ointments"@en,
+        "Using perfumes"@en ;
+    skos:closeMatch iconclass:1,
+        iconclass:3,
+        iconclass:4,
+        iconclass:5,
+        iconclass:A ;
+    skos:inScheme voc:olfactory-gestures ;
+    skos:prefLabel "Using scents"@en,
+        "Utilisation des odeurs"@fr,
+        "Profumarsi"@it,
+        "Uporaba vonjav"@sl ;
+    skos:related ol:65 ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olf:8 a skos:Concept ;
@@ -483,8 +482,25 @@ olf:8 a skos:Concept ;
     skos:related ol:145 ;
     skos:topConceptOf voc:olfactory-gestures .
 
+iconclass:5 skos:closeMatch olf:10,
+        olf:13,
+        olf:2,
+        olf:24,
+        olf:25,
+        olf:26,
+        olf:28 .
+
+iconclass:4 skos:closeMatch olf:10,
+        olf:12,
+        olf:13,
+        olf:15,
+        olf:25,
+        olf:26,
+        olf:28,
+        olf:7 .
+
 iconclass:2 skos:closeMatch olf:1,
-        olf:16,
+        olf:10,
         olf:19,
         olf:2,
         olf:24,
@@ -511,6 +527,7 @@ iconclass:3 skos:closeMatch olf:1,
         olf:20,
         olf:24,
         olf:25,
+        olf:26,
         olf:28,
         olf:3,
         olf:4,
@@ -518,10 +535,10 @@ iconclass:3 skos:closeMatch olf:1,
         olf:8 .
 
 iconclass:1 skos:closeMatch olf:1,
+        olf:10,
         olf:11,
         olf:12,
         olf:15,
-        olf:16,
         olf:19,
         olf:2,
         olf:20,
@@ -537,8 +554,8 @@ iconclass:1 skos:closeMatch olf:1,
 voc:olfactory-gestures a skos:ConceptScheme ;
     rdfs:label "Olfactory gestures" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2023-04-21"^^xsd:date ;
-    pav:createdOn "2023-04-21"^^xsd:date ;
+    dct:modified "2023-10-13"^^xsd:date ;
+    pav:createdOn "2023-10-13"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olf:1,
         olf:10,
@@ -567,6 +584,7 @@ voc:olfactory-gestures a skos:ConceptScheme ;
         olf:33,
         olf:34,
         olf:35,
+        olf:36,
         olf:4,
         olf:5,
         olf:6,

@@ -747,13 +747,6 @@ olf:586 a skos:Concept ;
         "Chrysanthème"@fr,
         "Crisantemo"@it .
 
-olf:587 a skos:Concept ;
-    skos:broader olf:405 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Cocoa pot"@en,
-        "Pot de cacao"@fr,
-        "Pentola di cacao"@it .
-
 olf:588 a skos:Concept ;
     skos:broader olf:448 ;
     skos:inScheme voc:olfactory-objects ;
@@ -1282,11 +1275,11 @@ olf:680 a skos:Concept ;
         "Lime"@it .
 
 olf:681 a skos:Concept ;
+    skos:broader olf:33 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Carbon disulfide"@en,
         "Sulfure de carbone"@fr,
-        "Solfuro di carbonio"@it ;
-    skos:topConceptOf voc:olfactory-objects .
+        "Solfuro di carbonio"@it .
 
 olf:74 a skos:Concept ;
     owl:sameAs wd:Q904074 ;
@@ -2707,6 +2700,14 @@ olf:578 a skos:Concept ;
         "Eenden"@nl ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bucephala-albeola-010.jpg> .
 
+olf:587 a skos:Concept ;
+    skos:broader olf:405 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Cocoa pot"@en,
+        "Pot de cacao"@fr,
+        "Pentola di cacao"@it ;
+    skos:related olf:682 .
+
 olf:596 a skos:Concept ;
     skos:broader olf:554 ;
     skos:inScheme voc:olfactory-objects ;
@@ -2812,6 +2813,13 @@ olf:675 a skos:Concept ;
     skos:prefLabel "Berry"@en,
         "Baie"@fr,
         "Bacca"@it .
+
+olf:682 a skos:Concept ;
+    skos:broader olf:405 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Cocoa"@en,
+        "Cacao"@it ;
+    skos:related olf:587 .
 
 <http://iconclass.org/+> skos:closeMatch olf:145,
         olf:54 .
@@ -10180,33 +10188,6 @@ iconclass:9 skos:closeMatch olf:10,
         olf:54,
         olf:63 .
 
-olf:33 a skos:Concept ;
-    owl:sameAs wd:Q79529 ;
-    skos:altLabel "Chemical Substance"@en,
-        "Compound"@en ;
-    skos:broader olf:562 ;
-    skos:closeMatch iconclass:1,
-        iconclass:2,
-        iconclass:A ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:narrower olf:247,
-        olf:26,
-        olf:265,
-        olf:420,
-        olf:613,
-        olf:619,
-        olf:633,
-        olf:644,
-        olf:664,
-        olf:667 ;
-    skos:prefLabel "Chemikalien"@de,
-        "Chemical Element"@en,
-        "Substance chimique"@fr,
-        "Sostanza chimica"@it,
-        "Chemische substantie"@nl,
-        "Kemične snovi"@sl ;
-    schema:image <https://data.odeuropa.eu/image/ss/33.Chemical%20substance_Europeana_9200579_htbp4ea4.jpeg> .
-
 olf:78 a skos:Concept ;
     owl:sameAs wd:Q756 ;
     skos:broader olf:560 ;
@@ -10229,6 +10210,34 @@ olf:78 a skos:Concept ;
         "Tuin"@nl,
         "Rastlina"@sl ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Thanh%20Long%20ở%20Ninh%20Thuận.jpg> .
+
+olf:33 a skos:Concept ;
+    owl:sameAs wd:Q79529 ;
+    skos:altLabel "Chemical Substance"@en,
+        "Compound"@en ;
+    skos:broader olf:562 ;
+    skos:closeMatch iconclass:1,
+        iconclass:2,
+        iconclass:A ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olf:247,
+        olf:26,
+        olf:265,
+        olf:420,
+        olf:613,
+        olf:619,
+        olf:633,
+        olf:644,
+        olf:664,
+        olf:667,
+        olf:681 ;
+    skos:prefLabel "Chemikalien"@de,
+        "Chemical Element"@en,
+        "Substance chimique"@fr,
+        "Sostanza chimica"@it,
+        "Chemische substantie"@nl,
+        "Kemične snovi"@sl ;
+    schema:image <https://data.odeuropa.eu/image/ss/33.Chemical%20substance_Europeana_9200579_htbp4ea4.jpeg> .
 
 olf:412 a skos:Concept ;
     owl:sameAs wd:Q80228 ;
@@ -12414,6 +12423,7 @@ olf:405 a skos:Concept ;
         olf:544,
         olf:587,
         olf:640,
+        olf:682,
         olf:75,
         olf:88 ;
     skos:prefLabel "Food"@en,
@@ -12427,8 +12437,8 @@ olf:405 a skos:Concept ;
 voc:olfactory-objects a skos:ConceptScheme ;
     rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2023-10-06"^^xsd:date ;
-    pav:createdOn "2023-10-06"^^xsd:date ;
+    dct:modified "2023-10-13"^^xsd:date ;
+    pav:createdOn "2023-10-13"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olf:405,
         olf:533,
@@ -12442,6 +12452,5 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olf:564,
         olf:615,
         olf:616,
-        olf:631,
-        olf:681 .
+        olf:631 .
 

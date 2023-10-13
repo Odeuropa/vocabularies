@@ -8,13 +8,13 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 7,Bleaching,,,,,,,41D422,,,,,,,
 8,Defecation,Defecating,,,,,,31A62,,,145 Excrement,,,,defecating
 9,Per fumum,,,,,,,,,,,,,,
-10,Embalming,,,,,,,,,,211 Balm,,,,
-11,Urination,,,,,,,31A61,,,366 Urine,,,,peeing
+10,Embalming,,,,,,,42E15,,,211 Balm,,,,
+11,Urination,Peeing,,,,,,31A61,,,366 Urine,,,,peeing
 12,Examination of urine,,,,,,,49G311,,,366 Urine,,,,
-13,Street sweeping,,,,,,,44e53,,,,,,,
+13,Street sweeping,,,,,,,44E53,,,,,,,
 14,Holding something to the nose,,,,,,,X,,,,,,,sniffing
 15,Eating,,,,,,,41C11,,,405 Food,,,,
-16,Food tasting,Food trying,,,,,,41C112,,,405 Food,,,,
+16,Food tasting,Food trying,,,,,,,,,405 Food,,,,
 17,Changing diaper,Cleaning a baby,,,,,,X,,,,,,,cleaning a baby
 18,Smoking,,,,,,,X,,,,,,,indirect via 'smoking equipment'
 19,Burning,,,,,,,22E12,,,,,,,indirect via 'fire'
@@ -24,9 +24,9 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 23,Scent distributing,,,,e.g. incense,,,X,,,,,,,
 24,Hand towards the nose,,,,,,,31A2535,,,,,,,sniffing OR holding the nose
 25,Making toilet,,,,,,,31A5144,,,,,,,
-26,Garbage collecting,,,,,,,,,,77 Waste,,,,
+26,Garbage collecting,,,,,,,44E53,,,77 Waste,,,,
 27,Ash collecting,,,,,,,,,,,,,,
-28,Using scents,"Using perfumes, Using ointments",,,,,,31A513,,,65 Perfume,,,,
+28,Using scents,"Using perfumes, Using ointments",,,,,,31A514,,,65 Perfume,,,,
 29,Perfuming,,,,,,,X,,,,,,,
 30,Harvesting civet from civet cat,,,,,,,X,,,"44 Civet, 45 Civet (mammal)",,,,
 31,Burnt offering,,,,,,,X,,,,,,,
@@ -34,7 +34,7 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 33,Fumigating (health),,,,,,,X,,,,,,,
 34,Doctor sniffing cane,,,,,,,,,,,,,,
 35,Rag picking,,,,,,,,,,,,,,
-36,,,,,,,,,,,,,,,
+36,Washing,,,,,,,,,,,,,,
 37,,,,,,,,,,,,,,,
 38,,,,,,,,,,,,,,,
 39,,,,,,,,,,,,,,,
