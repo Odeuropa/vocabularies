@@ -1,5 +1,5 @@
 ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATION,ICONCLASS CODE,SMELL MENTIONED IN ICONCLASS,RELATED SCENT (see 'art historical scent wheel in google drive' for categories),NOSE-FIRST PARENT,RELATED,RELATED OBJECT,PARENT,INTERLINKS,,,VISUAL ALTERNATIVES,WordNet ID,Places dataset category (http://places2.csail.mit.edu/explore.html)
-1,Alchemist's workshop,,,,,,,X,,,,,,,,,,,,
+1,Alchemist's workshop,,,,,,,X,,,,,,136 Laboratory,,,,,,
 2,Animal market,,,,,,,X,,Animalistic,,,13 Animal,45 Market,,,,,,market - indoor; market - outdoor; bazaar - indoor; bazaar - outdoor
 3,Ball,,,,Formal dance,,,43A23,,,,,,,http://www.wikidata.org/entity/Q478515,,,,,
 4,Bathroom,,,,,,,41A24,,,,,3 Bath,117 Room,http://www.wikidata.org/entity/Q190771,,,,,bathroom; lavatory
@@ -7,7 +7,7 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 6,Beer Brewery,Brewery,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q131734,,,,,
 7,Bleaching field,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q2169265 https://www.geonames.org/ontology#S.CSTL,,,,,
 8,Castle,,,,,,,41A12,,,,,,,http://www.wikidata.org/entity/Q23413,,,,,castle
-9,Building or outbuilding where laundry is done,,,,,,,41D428,,,,,,,,,,,,
+9,Laundry place,,,,,,,41D428,,,,,,,,,,,,
 10,Cacao factory,,,,,,,X,,,,,36 Chocolate,23 Factory,,,,,,
 11,Canal,,,,,,,25H22,,,sulphurous/ rotten/ fecal,,,,http://www.wikidata.org/entity/Q12284,,,,,canal - natural; canal - urban
 12,Cave,Grotto,,,,,,25H119,,,,,,,http://www.wikidata.org/entity/Q35509,,,,,
@@ -21,20 +21,20 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 20,Forest fire,,,,,,,25H159,,,,,,19 Forest,http://www.wikidata.org/entity/Q107434304,,,,,
 21,Fullery,,,,,,,x,,,,,,,http://www.wikidata.org/entity/Q448030,,,,,
 22,Factories and mills in landscape,,,,,,,25I4,,,,,,,,,,,,windmill
-23,Factory,,,,,,,47A12,,,,,,,http://www.wikidata.org/entity/Q83405,,,,,
+23,Factory,"Industry, Industrial area, Industrial district",,,,,,47A12,,,,,,,http://www.wikidata.org/entity/Q83405,,,,,
 24,Factory-interior,,,,,,,47A22,,,,,,23 Factory,,,,,,
 25,Farm,,,,,,,41A17,,,,,,,http://www.wikidata.org/entity/Q131596 https://www.geonames.org/ontology#S.FRM,,,,,farm; field - cultivated
 26,Fish market,,,,,,,X,,Fish,,,68 Fish,45 Market,http://www.wikidata.org/entity/Q1188480,,,,,market - indoor; market - outdoor; bazaar - indoor; bazaar - outdoor
 27,Garden,,,,,,,41A6,,,,,78 Plant,,http://www.wikidata.org/entity/Q1107656,,,,,herb garden; japanese garden; roof garden; topiary garden; vegetable garden; zen garden; botanical garden; cottage garden; formal garden
 28,Grocery,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q1295201,,,,,
 29,Greenhouse,,,,,,,47I53,,"fruity, orange",,,,,http://www.wikidata.org/entity/Q165044,,,,,greenhouse - indoor; greenhouse - outdoor
-30,Hayfield,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q2485852,,,,,hayfield
+30,Hayfield,,,,,,,X,,,,,,128 Field,http://www.wikidata.org/entity/Q2485852,,,,,hayfield
 31,Handicraft place,,,,,,,X,,,,,,,,,,,,repair shop
-32,Hospital,,,,,,,49G4,,,,,"248 Carbolic acid, 266 Idoform",,http://www.wikidata.org/entity/Q16917,,,,,hospital; hospital room
+32,Hospital,Infirmary,,,,,,49G4,,,,,"248 Carbolic acid, 266 Idoform",,http://www.wikidata.org/entity/Q16917,,,,,hospital; hospital room
 33,hot-house,glass-house,,,,,,47I531,,,,,,,http://www.wikidata.org/entity/Q165044,,,,,
 34,Hunting scene,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q36963,,,,,
 35,Church,,,,,,,,,,,,454 Chalice,53 Place of worship,http://www.wikidata.org/entity/Q16970  https://www.geonames.org/ontology#S.CH,,,,3031762,church - indoor; church - outdoor; cathedral - indoor; cathedral - outdoor
-36,Coffee-house,"Inn, Public house",,,,,,43B31,,,,,,,http://www.wikidata.org/entity/Q30022,,,,,coffee shop
+36,Coffee-house,"Inn, Public house, Cafe",,,,,,43B31,,,,,,,http://www.wikidata.org/entity/Q30022,,,,,coffee shop
 37,Kitchen,,,,,,,41C21,,,,,,,http://www.wikidata.org/entity/Q43164,,,,,kitchen; kitchenette
 38,rich kitchen,,,,,,,41C231,,,,,,37 Kitchen,http://www.wikidata.org/entity/Q43275297,,,,,
 39,poor kitchen,,,,,,,41C232,,,,,,37 Kitchen,http://www.wikidata.org/entity/Q43275344,,,,,
@@ -67,7 +67,7 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 66,Swamps and polders,,,,,,,25H19,,,,,,,,,,,,
 67,Swamp,"Inland marsh, Fens",,,,,,25H191,,,,,"262 Mildew, 263 Mould",66 Swamps and polders,http://www.wikidata.org/entity/Q166735,,,,,
 68,Tannery,,,,,,,X,,,,,,,http://www.wikidata.org/entity/Q3515239,,,,,
-69,House,Home,,,,,,41A,,,,,,,http://www.wikidata.org/entity/Q3947,,,,,
+69,House,"Home, Mansion",,,,,,41A,,,,,,129 Building,http://www.wikidata.org/entity/Q3947,,,,,
 70,Wig shop,,,,,,,,,,,,,,,,,,,
 71,Tobacco factory,,,,,,,X,,,,,227 Tobacco,23 Factory,http://www.wikidata.org/entity/Q55635949,,,,,
 72,Tea garden,Garden restaurant,,,,,,43B312,,,,,,27 Garden,http://www.wikidata.org/entity/Q1827414,,,,,
@@ -96,47 +96,47 @@ ID,LABEL en,SYNONYMS,MAIN LANG,CATEGORY,DEFINITION,BIBLIOGRAPHY,VISUAL ASSOCIATI
 95,Library,,,,,,,49M9,,,,,"262 Mildew, 263 Mould, 417 Book",,http://www.wikidata.org/entity/Q7075,,,,,
 96,Polder,,,,,,,25H192,,,,,,66 Swamps and polders,http://www.wikidata.org/entity/Q106259,,,,,
 97,Run factory,,,,,,,,,,,,,,,,,,,
-98,Sewer,,,,,,,25I17,,,Sulphurous/ rotten/ fecal,,,,http://www.wikidata.org/entity/Q1805497,,,,,
+98,Sewer,"Drain, Sewage",,,,,,25I17,,,Sulphurous/ rotten/ fecal,,,,http://www.wikidata.org/entity/Q1805497,,,,,
 99,Limkiln,,,,,,,,,,,,,,,,,,,
 100,Pub,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q212198,,,,,
-101,Hell,,,,,,,11T,,,,,,,http://www.wikidata.org/entity/Q564,,,,,
+101,Hell,Tartarus,,,,,,11T,,,,,,,http://www.wikidata.org/entity/Q564,,,,,
 102,Theatre,Theater,,,,,,48A721,,,,,,,http://www.wikidata.org/entity/Q11635 https://www.geonames.org/ontology#S.THTR,,,,,
 103,Dirt road,,,,,,,,,,,,,64 Street,http://www.wikidata.org/entity/Q700143,,,,,
 104,School,,,,,,,"49B2, 49B3, 49B4",,,,,,,http://www.wikidata.org/entity/Q3914 https://www.geonames.org/ontology#S.SCH,,,,,
 105,Bakery,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q274393,,,,,
 106,Print shop,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q47003909,,,,,
 107,Shop,,,,,,,46B13,,,,,,,http://www.wikidata.org/entity/Q213441,,,,,
-108,Paradise,,,,,,,11S,,,,,,,http://www.wikidata.org/entity/Q3363340,,,,,
+108,Paradise,Eden,,,,,,11S,,,,,,,http://www.wikidata.org/entity/Q3363340,,,,,
 109,Arabia,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q31945,,,,,
 110,Arcadia,,,,,,,,,,,,,,http://www.wikidata.org/entity/Q168786,,,,,
-111,Bedroom,Room,,,,,,41A23,,,,,,117 Room,https://www.wikidata.org/wiki/Q180516,,,,,
+111,Bedroom,"Room, Chamber",,,,,,41A23,,,,,,117 Room,https://www.wikidata.org/wiki/Q180516,,,,,
 112,Living room,,,,,,,41A221,,,,,,117 Room,,,,,,
 113,Coal Wagon,,,,,,,,,,,,,,,,,,,
 114,Dilligence,"Chariot, Postal Coach",,,,,,,,,,,,,,,,,,
 115,Haystack,,,,,,,,,,,,,,,,,,,
 116,Stable,,,,,,,47I227,,,"animalistic, rural",,189 Horse,63 Stall,http://www.wikidata.org/entity/Q214252,,,,,
-117,Room,,,,,,,,,,,,118 House,,,,,,,
+117,Room,,,,,,,,,,,69 House,118 House,,,,,,,
 118,Apartment,,,,,,,,,,,,,69 House,,,,,,
-119,,,,,,,,,,,,,,,,,,,,
-120,,,,,,,,,,,,,,,,,,,,
-121,,,,,,,,,,,,,,,,,,,,
-122,,,,,,,,,,,,,,,,,,,,
-123,,,,,,,,,,,,,,,,,,,,
-124,,,,,,,,,,,,,,,,,,,,
-125,,,,,,,,,,,,,,,,,,,,
-126,,,,,,,,,,,,,,,,,,,,
-127,,,,,,,,,,,,,,,,,,,,
-128,,,,,,,,,,,,,,,,,,,,
-129,,,,,,,,,,,,,,,,,,,,
-130,,,,,,,,,,,,,,,,,,,,
-131,,,,,,,,,,,,,,,,,,,,
-132,,,,,,,,,,,,,,,,,,,,
-133,,,,,,,,,,,,,,,,,,,,
-134,,,,,,,,,,,,,,,,,,,,
-135,,,,,,,,,,,,,,,,,,,,
-136,,,,,,,,,,,,,,,,,,,,
-137,,,,,,,,,,,,,,,,,,,,
-138,,,,,,,,,,,,,,,,,,,,
+119,Toko,,,,Kind of retail shop in Indonesia and the Netherlands,,,,,,,,,107 Shop ,,,,,,
+120,Station,,,,,,,,,,,,,,,,,,,
+121,Place,,,,,,,,,,,,,,,,,,,
+122,Countryside,"Country, Province, Land",,,,,,,,,,,,,,,,,,
+123,Neighbourhood,District,,,,,,,,,,,,14 City,,,,,,
+124,Toilet,,,,,,,,,,,,,117 Room,,,,,,
+125,Shore,,,,,,,,,,,,,5 Beach,,,,,,
+126,Town,Village,,,,,,,,,,,,,,,,,,
+127,Tropic,,,,,,,,,,,,,,,,,,,
+128,Field,,,,,,,,,,,,,122 Countryside,,,,,,
+129,Building,,,,,,,,,,,,,,,,,,,
+130,Chimney,,,,,,,,,,,69 House,,,,,,,,
+131,Chapel,,,,,,,,,,,,,53 Place of worship,,,,,,
+132,Lake,,,,,,,,,,,,,,,,,,,
+133,Pond,,,,,,,,,,,132 Lake,,,,,,,,
+134,Monastery,Convent,,,,,,,,,,,,53 Place of worship,,,,,,
+135,Refectory,,,,,,,,,,,134 Monastery,,117 Room,,,,,,
+136,Laboratory,Workshop,,,,,,,,,,,,,,,,,,
+137,Jail,,,,,,,,,,,,,,,,,,,
+138,Hotel,,,,,,,,,,,,,,,,,,,
 139,,,,,,,,,,,,,,,,,,,,
 140,,,,,,,,,,,,,,,,,,,,
 141,,,,,,,,,,,,,,,,,,,,
