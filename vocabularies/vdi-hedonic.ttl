@@ -3,6 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd1: <http://www.w3.org/2001/MLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://data.odeuropa.eu/vocabulary/vdi-hedonic/01n> a skos:Concept ;
     gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/01p> ;
